@@ -195,7 +195,7 @@ function matches(c) {
   if (onlyNew && !c.is_new) return false;
   if (activeType && c.type !== activeType) return false;
   if (query) {
-    const hay = [c.name, c.type, c.what_to_eat, c.city, c.location, c.article_title].join(" ");
+    const hay = [c.name, c.type, c.what_to_eat, c.owner, c.city, c.location, c.article_title].join(" ");
     if (!hay.includes(query)) return false;
   }
   return true;
@@ -229,6 +229,7 @@ function render() {
         ${c.is_new ? '<span class="badge-new">✨ חדש</span>' : ""}
       </div>
       <span class="type-tag">${c.type === NOT_SPECIFIED ? "סוג: " + NOT_SPECIFIED : esc(c.type)}</span>
+      ${c.owner ? `<div class="field"><span class="ico">🧑‍🍳</span><span>${esc(c.owner)}</span></div>` : ""}
       ${field("🍴", c.what_to_eat, "מה לאכול")}
       ${field("🕐", c.hours, "שעות")}
       ${field("📍", loc, "מיקום")}

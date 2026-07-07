@@ -195,6 +195,31 @@ def extract_what_to_eat(text, dish_hint=None):
     return ", ".join(found) if found else NOT_SPECIFIED
 
 
+# "השף יוסי שטרית", "המסעדן טל רשבסקי", "הבעלים דוד טור" -> שם פרטי + משפחה
+OWNER_TRIGGER_RE = re.compile(
+    r"(?:השף(?:ית)?|המסעדן(?:ית)?|הבעלים(?:\s+של[א-ת]*)?|הקונדיטור(?:ית)?|האופה|הבריסטה)"
+    r"\s+([א-ת][א-ת'׳]+\s[א-ת][א-ת'׳\"״]+)")
+# מילים שמעידות שלא נתפס שם אדם אלא המשך המשפט
+NOT_A_NAME = {"המקום", "המסעדה", "הבר", "הקפה", "בית", "החדש", "החדשה", "הזה",
+              "הוותיק", "שלה", "שלו", "כבר", "עוד", "לא", "הוא", "היא", "אשר",
+              "צעיר", "מוכר", "ידוע", "לשעבר",
+              # פעלים ומילים כלליות שנתפסות בטעות כשם
+              "הביא", "הביאה", "ייבא", "ייבאה", "הגיע", "הגיעה", "פתח", "פתחה",
+              "מגיש", "מגישה", "החליט", "החליטה", "בחר", "בחרה", "הפך", "הפכה",
+              "עזב", "עזבה", "מכר", "מכרה", "כמה", "אשת", "איש", "חנות", "בעל",
+              "רוצה", "רצה", "חושב", "חושבת", "מספר", "מספרת"}
+
+
+def extract_owner(text):
+    for m in OWNER_TRIGGER_RE.finditer(text):
+        name = m.group(1)
+        words = name.split()
+        if any(w in NOT_A_NAME for w in words):
+            continue
+        return name
+    return None
+
+
 MONTHS_PATTERN = "|".join("ב" + m for m in HE_MONTHS)
 
 
@@ -355,6 +380,7 @@ def build_card(name, text, article_title, article_url, published_iso, details_li
         "name": name,
         "type": extract_type(text, name),
         "what_to_eat": extract_what_to_eat(text, dish_hint=dish_hint),
+        "owner": extract_owner(text),
         "hours": extract_hours(text),
         "city": city,
         "location": location,
