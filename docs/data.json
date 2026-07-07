@@ -15,7 +15,32 @@
    "article_title": "אין דברים כאלו: קבב ושות' מציעים פיתה קבב איכותי בפחות מ-40 ש\"ח",
    "article_url": "https://timeout.co.il/%d7%a7%d7%91%d7%91-%d7%95%d7%a9%d7%95%d7%aa/",
    "published": "2026-07-06T11:15:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": [
+    {
+     "days": [
+      0,
+      1
+     ],
+     "from": "11:00",
+     "to": "24:00"
+    },
+    {
+     "days": [
+      2,
+      3
+     ],
+     "from": "02:00",
+     "to": "11:00"
+    },
+    {
+     "days": [
+      4
+     ],
+     "from": "04:00",
+     "to": "11:00"
+    }
+   ]
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#Oscar's",
@@ -32,7 +57,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אצל ציון",
@@ -49,7 +75,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קפה נואר",
@@ -66,7 +93,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מלכה",
@@ -83,7 +111,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#נורדר",
@@ -100,7 +129,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קפה נונה",
@@ -117,7 +147,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#גווידו",
@@ -134,7 +165,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מנטנטן",
@@ -151,7 +183,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#רחל בשדרה",
@@ -168,7 +201,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מי ומי",
@@ -185,7 +219,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פילדלפיה",
@@ -202,7 +237,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#נורמן",
@@ -219,7 +255,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#חלה",
@@ -236,7 +273,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ישתבח",
@@ -253,7 +291,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פונדק איילון",
@@ -270,7 +309,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קיטון",
@@ -287,7 +327,8 @@
    "article_title": "משאירים פירורים למתחרים: אלו 15 השניצלים הכי טעימים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a9%d7%a0%d7%99%d7%a6%d7%9c%d7%99%d7%9d-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-06T11:14:30+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%92%d7%90%d7%92%d7%a8-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ג'אגר מקריית אונו",
@@ -304,7 +345,22 @@
    "article_title": "תאמינו להייפ: ג'אגר מקריית אונו הגיע להתחרות בהמבורגרים של ת\"א",
    "article_url": "https://timeout.co.il/%d7%92%d7%90%d7%92%d7%a8-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "published": "2026-07-05T12:29:24+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "from": "11:30",
+     "to": "23:00"
+    }
+   ]
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%90%d7%9e%d7%a8%d7%99%d7%a7%d7%90%d7%99%d7%9d/#שייק שאק",
@@ -321,7 +377,8 @@
    "article_title": "לחגוג כמו טראמפ: 3 מקומות תל אביבים עם משלוח אוכל כמו באמריקה",
    "article_url": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%90%d7%9e%d7%a8%d7%99%d7%a7%d7%90%d7%99%d7%9d/",
    "published": "2026-07-02T15:20:22+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%90%d7%9e%d7%a8%d7%99%d7%a7%d7%90%d7%99%d7%9d/#נולה",
@@ -338,7 +395,8 @@
    "article_title": "לחגוג כמו טראמפ: 3 מקומות תל אביבים עם משלוח אוכל כמו באמריקה",
    "article_url": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%90%d7%9e%d7%a8%d7%99%d7%a7%d7%90%d7%99%d7%9d/",
    "published": "2026-07-02T15:20:22+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%90%d7%9e%d7%a8%d7%99%d7%a7%d7%90%d7%99%d7%9d/#פלטבוש",
@@ -355,7 +413,8 @@
    "article_title": "לחגוג כמו טראמפ: 3 מקומות תל אביבים עם משלוח אוכל כמו באמריקה",
    "article_url": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%90%d7%9e%d7%a8%d7%99%d7%a7%d7%90%d7%99%d7%9d/",
    "published": "2026-07-02T15:20:22+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/#טרטוריה אונה",
@@ -372,7 +431,8 @@
    "article_title": "כולם אוכלים עכשיו: המקומות החדשים הכי חמים של חודש יולי",
    "article_url": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/",
    "published": "2026-07-02T14:42:22+03:00",
-   "details_url": "https://timeout.co.il/trattoria-una-%d7%98%d7%a8%d7%98%d7%95%d7%a8%d7%99%d7%94-%d7%90%d7%95%d7%a0%d7%94/"
+   "details_url": "https://timeout.co.il/trattoria-una-%d7%98%d7%a8%d7%98%d7%95%d7%a8%d7%99%d7%94-%d7%90%d7%95%d7%a0%d7%94/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/#פוגאזי",
@@ -389,7 +449,8 @@
    "article_title": "כולם אוכלים עכשיו: המקומות החדשים הכי חמים של חודש יולי",
    "article_url": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/",
    "published": "2026-07-02T14:42:22+03:00",
-   "details_url": "https://timeout.co.il/fugazzi/"
+   "details_url": "https://timeout.co.il/fugazzi/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/#ברטה",
@@ -406,7 +467,8 @@
    "article_title": "כולם אוכלים עכשיו: המקומות החדשים הכי חמים של חודש יולי",
    "article_url": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/",
    "published": "2026-07-02T14:42:22+03:00",
-   "details_url": "https://timeout.co.il/%d7%91%d7%a8%d7%98%d7%94-%d7%9e%d7%a1%d7%a2%d7%93%d7%94/"
+   "details_url": "https://timeout.co.il/%d7%91%d7%a8%d7%98%d7%94-%d7%9e%d7%a1%d7%a2%d7%93%d7%94/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/#מלח מים",
@@ -423,7 +485,8 @@
    "article_title": "כולם אוכלים עכשיו: המקומות החדשים הכי חמים של חודש יולי",
    "article_url": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/",
    "published": "2026-07-02T14:42:22+03:00",
-   "details_url": "https://timeout.co.il/%d7%9e%d7%9c%d7%97-%d7%9e%d7%99%d7%9d/#google_vignette"
+   "details_url": "https://timeout.co.il/%d7%9e%d7%9c%d7%97-%d7%9e%d7%99%d7%9d/#google_vignette",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/#שווארמה סטיישן",
@@ -440,7 +503,8 @@
    "article_title": "כולם אוכלים עכשיו: המקומות החדשים הכי חמים של חודש יולי",
    "article_url": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/",
    "published": "2026-07-02T14:42:22+03:00",
-   "details_url": "https://timeout.co.il/%d7%a9%d7%95%d7%95%d7%90%d7%a8%d7%9e%d7%94-%d7%a1%d7%98%d7%99%d7%99%d7%a9%d7%9f/"
+   "details_url": "https://timeout.co.il/%d7%a9%d7%95%d7%95%d7%90%d7%a8%d7%9e%d7%94-%d7%a1%d7%98%d7%99%d7%99%d7%a9%d7%9f/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/#קלבריה בן ציון",
@@ -457,7 +521,8 @@
    "article_title": "כולם אוכלים עכשיו: המקומות החדשים הכי חמים של חודש יולי",
    "article_url": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/",
    "published": "2026-07-02T14:42:22+03:00",
-   "details_url": "https://timeout.co.il/%d7%a7%d7%9c%d7%91%d7%a8%d7%99%d7%94-%d7%91%d7%9f-%d7%a6%d7%99%d7%95%d7%9f/"
+   "details_url": "https://timeout.co.il/%d7%a7%d7%9c%d7%91%d7%a8%d7%99%d7%94-%d7%91%d7%9f-%d7%a6%d7%99%d7%95%d7%9f/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/#סטף",
@@ -474,7 +539,8 @@
    "article_title": "כולם אוכלים עכשיו: המקומות החדשים הכי חמים של חודש יולי",
    "article_url": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/",
    "published": "2026-07-02T14:42:22+03:00",
-   "details_url": "https://timeout.co.il/%d7%a1%d7%98%d7%a3-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/"
+   "details_url": "https://timeout.co.il/%d7%a1%d7%98%d7%a3-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/#וונסדיי",
@@ -491,7 +557,8 @@
    "article_title": "כולם אוכלים עכשיו: המקומות החדשים הכי חמים של חודש יולי",
    "article_url": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%9c%d7%99-2026/",
    "published": "2026-07-02T14:42:22+03:00",
-   "details_url": "https://timeout.co.il/%d7%95%d7%95%d7%a0%d7%a1%d7%93%d7%99%d7%99-wednesday-wine-bar/#google_vignette"
+   "details_url": "https://timeout.co.il/%d7%95%d7%95%d7%a0%d7%a1%d7%93%d7%99%d7%99-wednesday-wine-bar/#google_vignette",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%92%d7%99%d7%90%d7%a7%d7%95%d7%a0%d7%93%d7%94-20-%d7%a9%d7%a0%d7%94/#חנות היין ג'יאקונדה",
@@ -508,7 +575,8 @@
    "article_title": "יצא סוד: חנות היין ג'יאקונדה ראתה את הנולד כבר לפני 20 שנה",
    "article_url": "https://timeout.co.il/%d7%92%d7%99%d7%90%d7%a7%d7%95%d7%a0%d7%93%d7%94-20-%d7%a9%d7%a0%d7%94/",
    "published": "2026-07-02T13:10:35+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#מתחת לעץ",
@@ -525,7 +593,8 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": "https://timeout.co.il/%D7%A7%D7%A4%D7%94-%D7%A0%D7%99%D7%A1%D7%95-%D7%A0%D7%A1%D7%92%D7%A8/"
+   "details_url": "https://timeout.co.il/%D7%A7%D7%A4%D7%94-%D7%A0%D7%99%D7%A1%D7%95-%D7%A0%D7%A1%D7%92%D7%A8/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#עילא",
@@ -542,7 +611,8 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#Murikana & Pallete",
@@ -559,7 +629,8 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#עזריאלי",
@@ -576,7 +647,22 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "from": "18:00",
+     "to": "11:00"
+    }
+   ]
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#תומר אגאי X פיקוק",
@@ -593,7 +679,8 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#לה טיגרה",
@@ -610,7 +697,8 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#EATS בייק האוס",
@@ -627,7 +715,8 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#Jurong East",
@@ -644,7 +733,8 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": "https://timeout.co.il/jurong-east/"
+   "details_url": "https://timeout.co.il/jurong-east/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#הולה הולה",
@@ -661,7 +751,8 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#רזיאל",
@@ -678,7 +769,8 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/#טוני וספה וענבי טלי",
@@ -695,7 +787,8 @@
    "article_title": "מגלים את אמריקה, קולוניאליזם טעים, סטרצ'טלה ועוד חדשות אוכל - טיים אאוט",
    "article_url": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-106/",
    "published": "2026-07-01T14:57:37+03:00",
-   "details_url": "https://timeout.co.il/%D7%9E%D7%A9%D7%9C%D7%95%D7%97%D7%99%D7%9D-%D7%9E%D7%95%D7%A0%D7%93%D7%99%D7%90%D7%9C/"
+   "details_url": "https://timeout.co.il/%D7%9E%D7%A9%D7%9C%D7%95%D7%97%D7%99%D7%9D-%D7%9E%D7%95%D7%A0%D7%93%D7%99%D7%90%D7%9C/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a9%d7%99%d7%99%d7%94-%d7%91%d7%a8-%d7%a6%d7%a0%d7%92%d7%a8/#משייה",
@@ -712,7 +805,39 @@
    "article_title": "דלתות מסתובבות: משייה החדשה לובשת את דמותו של השף בר צנגר",
    "article_url": "https://timeout.co.il/%d7%9e%d7%a9%d7%99%d7%99%d7%94-%d7%91%d7%a8-%d7%a6%d7%a0%d7%92%d7%a8/",
    "published": "2026-07-01T13:21:59+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "from": "12:00",
+     "to": "15:00"
+    },
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "from": "18:00",
+     "to": "22:00"
+    },
+    {
+     "days": [
+      5,
+      6
+     ],
+     "from": "08:00",
+     "to": "14:00"
+    }
+   ]
   },
   {
    "id": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/#מזא\"ה 18",
@@ -729,7 +854,8 @@
    "article_title": "פיתה מהסרטים ורחוב שנותן פייט לאירופה. העיר של אורי אפרים",
    "article_url": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/",
    "published": "2026-07-01T10:07:57+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/#הספסל מול הים (פארק צ'ארלס קלור / מתחם הדולפינריום)",
@@ -746,7 +872,8 @@
    "article_title": "פיתה מהסרטים ורחוב שנותן פייט לאירופה. העיר של אורי אפרים",
    "article_url": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/",
    "published": "2026-07-01T10:07:57+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/#מדרחוב נחלת בנימין",
@@ -763,7 +890,8 @@
    "article_title": "פיתה מהסרטים ורחוב שנותן פייט לאירופה. העיר של אורי אפרים",
    "article_url": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/",
    "published": "2026-07-01T10:07:57+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/#מסלול אופניים (מדוד המלך, דרך הים ועד המגדלור)",
@@ -780,7 +908,8 @@
    "article_title": "פיתה מהסרטים ורחוב שנותן פייט לאירופה. העיר של אורי אפרים",
    "article_url": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/",
    "published": "2026-07-01T10:07:57+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/#שוק הכרמל ומפגש רמב״ם",
@@ -797,7 +926,8 @@
    "article_title": "פיתה מהסרטים ורחוב שנותן פייט לאירופה. העיר של אורי אפרים",
    "article_url": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/",
    "published": "2026-07-01T10:07:57+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/#סיטואציה לא נעימה בעיר",
@@ -814,7 +944,8 @@
    "article_title": "פיתה מהסרטים ורחוב שנותן פייט לאירופה. העיר של אורי אפרים",
    "article_url": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/",
    "published": "2026-07-01T10:07:57+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/#השאלון",
@@ -831,7 +962,8 @@
    "article_title": "פיתה מהסרטים ורחוב שנותן פייט לאירופה. העיר של אורי אפרים",
    "article_url": "https://timeout.co.il/%D7%94%D7%A2%D7%99%D7%A8-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%A8%D7%99-%D7%90%D7%A4%D7%A8%D7%99%D7%9D/",
    "published": "2026-07-01T10:07:57+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#בוב",
@@ -848,7 +980,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%a7%d7%95%d7%a7%d7%98%d7%99%d7%99%d7%9c%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/"
+   "details_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%a7%d7%95%d7%a7%d7%98%d7%99%d7%99%d7%9c%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#בוסר",
@@ -865,7 +998,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#בריקס",
@@ -882,7 +1016,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#ג'יאקונדה",
@@ -899,7 +1034,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#הגפן – חצר יין מקומי",
@@ -916,7 +1052,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#הלנה",
@@ -933,7 +1070,22 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "from": "18:00",
+     "to": "19:00"
+    }
+   ]
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#וגה",
@@ -950,7 +1102,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#יין בכרם",
@@ -967,7 +1120,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#כריסטוף",
@@ -984,7 +1138,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#גאזטה",
@@ -1001,7 +1156,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#קוט",
@@ -1018,7 +1174,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#תל א וין",
@@ -1035,7 +1192,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#תרצה",
@@ -1052,7 +1210,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#ג׳ודי",
@@ -1069,7 +1228,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#קופ נטור",
@@ -1086,7 +1246,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#Wine shop",
@@ -1103,7 +1264,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#קולמי",
@@ -1120,7 +1282,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#סורסטו",
@@ -1137,7 +1300,22 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "from": "16:30",
+     "to": "19:30"
+    }
+   ]
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#סיד וננסי",
@@ -1154,7 +1332,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#סנטי",
@@ -1171,7 +1350,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#פלור",
@@ -1188,7 +1368,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#קרוט",
@@ -1205,7 +1386,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#שאטו שועל",
@@ -1222,7 +1404,22 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "from": "18:00",
+     "to": "19:30"
+    }
+   ]
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#אל וסינו",
@@ -1239,7 +1436,8 @@
    "article_title": "נכנס יין יצא טעים: 24 ברי היין הכי מומלצים בתל אביב",
    "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%99%d7%99%d7%9f-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/",
    "published": "2026-05-09T09:21:45+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/ampm-m25/#הבשרים של M25",
@@ -1256,7 +1454,8 @@
    "article_title": "שמחים לבשר: הבשרים של M25, עכשיו באמפם הקרוב לביתכם",
    "article_url": "https://timeout.co.il/ampm-m25/",
    "published": "2026-04-20T11:30:29+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%9e%d7%9e%d7%94-%d7%91%d7%a8-%d7%99%d7%99%d7%9f/#החממה",
@@ -1273,7 +1472,25 @@
    "article_title": "רק טבעי: בר היין \"החממה\" מאיר את רביעיית פלורנטין עם הנחה רדיקלית",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%9e%d7%9e%d7%94-%d7%91%d7%a8-%d7%99%d7%99%d7%9f/",
    "published": "2026-04-19T14:18:01+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": [
+    {
+     "days": [
+      2,
+      3,
+      4
+     ],
+     "from": "17:00",
+     "to": "23:00"
+    },
+    {
+     "days": [
+      5
+     ],
+     "from": "12:00",
+     "to": "17:00"
+    }
+   ]
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#אבו חסן",
@@ -1290,7 +1507,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#אבו מרוואן",
@@ -1307,7 +1525,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#אל קלחה",
@@ -1324,7 +1543,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": "https://timeout.co.il/%D7%A4%D7%90%D7%AA%D7%94/"
+   "details_url": "https://timeout.co.il/%D7%A4%D7%90%D7%AA%D7%94/",
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#גרגר הזהב",
@@ -1341,7 +1561,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#חומוס 616",
@@ -1358,7 +1579,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#החומוס של אבי מעכו",
@@ -1375,7 +1597,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#האחים קלבוני",
@@ -1392,7 +1615,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#חומוס המשורר",
@@ -1409,7 +1633,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#חומוס חג' כחיל",
@@ -1426,7 +1651,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#חומוס חמודי",
@@ -1443,7 +1669,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#חומוס פרנקל // סיפורו של גרגר",
@@ -1460,7 +1687,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#נאדר הגדול",
@@ -1477,7 +1705,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/#חומוס שלמה ודורון",
@@ -1494,7 +1723,8 @@
    "article_title": "אפשר עוד פיתה: 13 החומוסיות הכי טובות בתל אביב (וביפו)",
    "article_url": "https://timeout.co.il/%d7%94%d7%97%d7%95%d7%9e%d7%95%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
    "published": "2026-04-18T11:51:44+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%95%d7%a8%d7%a7%d7%a1-%d7%a9%d7%a7%d7%a9%d7%95%d7%a7%d7%94/#קחו בורקס. הכניסו לתוכו שקשוקה. למה לא חשבתם על זה קודם",
@@ -1511,7 +1741,8 @@
    "article_title": "קחו בורקס. הכניסו לתוכו שקשוקה. למה לא חשבתם על זה קודם",
    "article_url": "https://timeout.co.il/%d7%91%d7%95%d7%a8%d7%a7%d7%a1-%d7%a9%d7%a7%d7%a9%d7%95%d7%a7%d7%94/",
    "published": "2026-04-17T13:53:18+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%99%d7%a6%d7%94-%d7%9c%d7%99%d7%9c%d7%94-%d7%94%d7%93%d7%a1%d7%98%d7%90%d7%a8%d7%98/#בואו לעזור לפיצה",
@@ -1528,7 +1759,8 @@
    "article_title": "מחממים תנורים: בואו לעזור לפיצה לילה להתאושש מהבניין שקרס",
    "article_url": "https://timeout.co.il/%d7%a4%d7%99%d7%a6%d7%94-%d7%9c%d7%99%d7%9c%d7%94-%d7%94%d7%93%d7%a1%d7%98%d7%90%d7%a8%d7%98/",
    "published": "2026-04-16T13:37:16+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": null
   },
   {
    "id": "https://timeout.co.il/lupa-%d7%9c%d7%95%d7%a4%d7%94/#המסעדניה לופה",
@@ -1545,7 +1777,20 @@
    "article_title": "לזניה כציפרלקס: המסעדניה לופה היא שילוב בין שני כוחות קולינריים",
    "article_url": "https://timeout.co.il/lupa-%d7%9c%d7%95%d7%a4%d7%94/",
    "published": "2026-04-15T12:54:16+03:00",
-   "details_url": null
+   "details_url": null,
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "from": "08:00",
+     "to": "17:00"
+    }
+   ]
   }
  ],
  "seen_articles": [

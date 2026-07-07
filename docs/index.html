@@ -90,6 +90,12 @@
   .field .ico { flex-shrink: 0; }
   .field .missing { color: var(--muted); font-style: italic; }
   .opening { color: var(--new); font-size: .85rem; font-weight: 600; }
+  .open-badge {
+    display: inline-block; font-size: .75rem; font-weight: 700;
+    padding: 2px 9px; border-radius: 10px; margin-inline-start: 6px; white-space: nowrap;
+  }
+  .open-badge.open { background: var(--new-bg); color: var(--new); }
+  .open-badge.closed { background: var(--accent-soft); color: var(--accent); }
   .card-footer {
     margin-top: auto; padding-top: 10px; border-top: 1px dashed var(--border);
     display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .8rem;
@@ -210,6 +216,31 @@ function field(icon, value, label) {
 const esc = s => String(s).replace(/[&<>"']/g, m =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
 
+// "פתוח עכשיו" לפי שעון ישראל — רק לכרטיסים שהשעות שלהם פוענחו.
+// מחזיר true/false, או null אם אין נתונים (ואז לא מוצג כלום).
+function openNow(c) {
+  if (!c.schedule || !c.schedule.length) return null;
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Asia/Jerusalem", weekday: "short", hour: "numeric",
+    minute: "numeric", hourCycle: "h23",
+  }).formatToParts(new Date());
+  const get = t => parts.find(p => p.type === t).value;
+  const day = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 }[get("weekday")];
+  const mins = parseInt(get("hour")) * 60 + parseInt(get("minute"));
+  const toMin = s => parseInt(s.slice(0, 2)) * 60 + parseInt(s.slice(3));
+  for (const seg of c.schedule) {
+    const f = toMin(seg.from), t = toMin(seg.to);
+    if (f < t) {
+      if (seg.days.includes(day) && mins >= f && mins < t) return true;
+    } else {
+      // טווח שחוצה חצות (למשל 18:00-02:00)
+      if (seg.days.includes(day) && mins >= f) return true;
+      if (seg.days.includes((day + 6) % 7) && mins < t) return true;
+    }
+  }
+  return false;
+}
+
 function render() {
   const grid = document.getElementById("grid");
   const perRegion = { tlv: 0, haifa: 0, rest: 0 };
@@ -231,7 +262,15 @@ function render() {
       <span class="type-tag">${c.type === NOT_SPECIFIED ? "סוג: " + NOT_SPECIFIED : esc(c.type)}</span>
       ${c.owner ? `<div class="field"><span class="ico">🧑‍🍳</span><span>${esc(c.owner)}</span></div>` : ""}
       ${field("🍴", c.what_to_eat, "מה לאכול")}
-      ${field("🕐", c.hours, "שעות")}
+      ${(() => {
+        const st = openNow(c);
+        const badge = st === null ? "" :
+          st ? '<span class="open-badge open">🟢 פתוח עכשיו</span>'
+             : '<span class="open-badge closed">🔴 סגור עכשיו</span>';
+        const missing = !c.hours || c.hours === NOT_SPECIFIED;
+        return `<div class="field"><span class="ico">🕐</span><span class="${missing ? "missing" : ""}">${
+          missing ? "שעות: " + NOT_SPECIFIED : esc(c.hours)}${badge}</span></div>`;
+      })()}
       ${field("📍", loc, "מיקום")}
       ${c.opening_info ? `<div class="opening">🎉 ${esc(c.opening_info)}</div>` : ""}
       <div class="card-footer">

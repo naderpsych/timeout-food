@@ -185,6 +185,68 @@ def extract_hours(text):
     return NOT_SPECIFIED
 
 
+# ---------- תרגום טקסט שעות למבנה ימים+שעות (לחישוב "פתוח עכשיו" באתר) ----------
+
+DAY_TOKENS = {"א": 0, "ראשון": 0, "ב": 1, "שני": 1, "ג": 2, "שלישי": 2,
+              "ד": 3, "רביעי": 3, "ה": 4, "חמישי": 4, "ו": 5, "שישי": 5,
+              "ש": 6, "שבת": 6}
+DAY_PAT = r"(?:יום\s+|ימי\s+)?(ראשון|שני|שלישי|רביעי|חמישי|שישי|שבת|[אבגדהוש]['׳’])"
+TIME_RANGE_PAT = r"(\d{1,2})[:.](\d{2})\s*[-–]\s*(?:(\d{1,2})[:.](\d{2})|חצות)"
+
+
+def _day_num(token):
+    return DAY_TOKENS.get(token.strip("'׳’"))
+
+
+def _parse_days(fragment):
+    days = set()
+    range_pat = DAY_PAT + r"\s*[-–]\s*" + DAY_PAT
+    for m in re.finditer(range_pat, fragment):
+        a, b = _day_num(m.group(1)), _day_num(m.group(2))
+        if a is None or b is None:
+            continue
+        d = a
+        while True:
+            days.add(d)
+            if d == b:
+                break
+            d = (d + 1) % 7
+    for m in re.finditer(DAY_PAT, re.sub(range_pat, " ", fragment)):
+        d = _day_num(m.group(1))
+        if d is not None:
+            days.add(d)
+    return days
+
+
+def parse_schedule(hours_text):
+    """ 'א'-ה' 11:00-23:00, ו' 12:00-17:00' -> [{days:[0..4], from, to}, ...] """
+    if not hours_text or hours_text == NOT_SPECIFIED:
+        return None
+    segments = []
+    pending_days = None
+    for fragment in re.split(r"[,;]", hours_text):
+        days = _parse_days(fragment)
+        time_matches = list(re.finditer(TIME_RANGE_PAT, fragment))
+        if time_matches:
+            use_days = days or pending_days or set(range(7))
+            for tm in time_matches:
+                start = f"{int(tm.group(1)):02d}:{tm.group(2)}"
+                end = "24:00" if tm.group(3) is None else f"{int(tm.group(3)):02d}:{tm.group(4)}"
+                if int(start[:2]) > 24 or int(end[:2]) > 24:
+                    continue
+                # טווח בלי ימים בכלל שנראה הפוך/מוזר (מעל 18 שעות) — כנראה לא שעות פתיחה
+                s_min = int(start[:2]) * 60 + int(start[3:])
+                e_min = int(end[:2]) * 60 + int(end[3:])
+                duration = e_min - s_min if e_min > s_min else e_min + 1440 - s_min
+                if not days and not pending_days and duration > 18 * 60:
+                    continue
+                segments.append({"days": sorted(use_days), "from": start, "to": end})
+            pending_days = None
+        elif days:
+            pending_days = days
+    return segments or None
+
+
 def extract_what_to_eat(text, dish_hint=None):
     found = [dish_hint] if dish_hint else []
     for word in FOOD_WORDS:
@@ -369,6 +431,7 @@ def parse_article(url, html):
 
 def build_card(name, text, article_title, article_url, published_iso, details_link, dish_hint=None):
     city, location = extract_city_and_address(text, article_title)
+    hours = extract_hours(text)
     opening = extract_opening_info(text)
     if city in TLV_AREA:
         region = "tlv"
@@ -384,7 +447,8 @@ def build_card(name, text, article_title, article_url, published_iso, details_li
         "type": extract_type(text, name),
         "what_to_eat": extract_what_to_eat(text, dish_hint=dish_hint),
         "owner": extract_owner(text),
-        "hours": extract_hours(text),
+        "hours": hours,
+        "schedule": parse_schedule(hours),
         "city": city,
         "location": location,
         "region": region,
