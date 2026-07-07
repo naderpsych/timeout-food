@@ -62,8 +62,9 @@ TYPE_KEYWORDS = [
 
 
 def word_match(keyword, text):
-    """התאמה על גבול מילה: המילה לא צמודה לאותיות עבריות משני הצדדים."""
-    return re.search(r"(?<![א-ת])" + re.escape(keyword) + r"(?![א-ת])", text) is not None
+    """התאמה על גבול מילה, כולל תחיליות נפוצות: "המסעדה", "בבר", "לפיצרייה".
+    (כ' לא נכללת בתחיליות בכוונה — אחרת "כבר" היה נתפס כ"בר".)"""
+    return re.search(r"(?<![א-ת])[ובל]?ה?" + re.escape(keyword) + r"(?![א-ת])", text) is not None
 
 # שכונה/אזור -> עיר
 NEIGHBORHOOD_TO_CITY = {
@@ -523,6 +524,12 @@ def build_card(name, text, article_title, article_url, published_iso, details_li
 
 # ---------- ריצה ראשית ----------
 
+def has_content(card):
+    """כרטיס בלי שום שדה אמיתי (הכל 'לא צוין') לא שווה הצגה."""
+    return (any(card[k] != NOT_SPECIFIED for k in ("type", "what_to_eat", "hours", "city", "location"))
+            or card["owner"] or card["opening_info"])
+
+
 def collect_article_urls(topic_html):
     soup = BeautifulSoup(topic_html, "html.parser")
     urls = []
@@ -556,6 +563,9 @@ def main():
             time.sleep(REQUEST_DELAY_SEC)
             html = fetch(url)
             cards = parse_article(url, html)
+            # בכתבת רשימה: מסננים כרטיסים ריקים לגמרי (רחובות, מסלולים וכד')
+            if len(cards) > 1:
+                cards = [c for c in cards if has_content(c)]
             existing_ids = {c["id"] for c in data["cards"]}
             for card in cards:
                 if card["id"] not in existing_ids:
