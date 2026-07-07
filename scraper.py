@@ -125,6 +125,56 @@ def fetch(url):
     return resp.text
 
 
+# ---------- גיאוקודינג (OpenStreetMap Nominatim, חינמי, מקס' בקשה לשנייה) ----------
+
+GEOCODE_URL = "https://nominatim.openstreetmap.org/search"
+GEOCODE_UA = {"User-Agent": "timeout-food personal project (github.com/naderpsych/timeout-food)"}
+
+
+def geo_query(card):
+    """בונה שאילתת כתובת לכרטיס + רמת דיוק. None אם אין שום מיקום."""
+    if card["location"] != NOT_SPECIFIED:
+        city = card["city"] if card["city"] != NOT_SPECIFIED else ""
+        query = ", ".join(p for p in (card["location"], city) if p)
+        precision = "address" if re.search(r"\d", card["location"]) else "area"
+    elif card["city"] != NOT_SPECIFIED:
+        query, precision = card["city"], "city"
+    else:
+        return None, None
+    return query + ", ישראל", precision
+
+
+def geocode(query, cache):
+    """מחזיר [lat, lon] או None; תוצאות נשמרות ב-cache כדי לא לחזור על בקשות."""
+    if query in cache:
+        return cache[query]
+    time.sleep(1.1)  # מדיניות Nominatim: בקשה אחת לשנייה לכל היותר
+    try:
+        resp = requests.get(GEOCODE_URL, headers=GEOCODE_UA, timeout=30, params={
+            "format": "json", "q": query, "countrycodes": "il",
+            "limit": 1, "accept-language": "he"})
+        resp.raise_for_status()
+        results = resp.json()
+        cache[query] = [float(results[0]["lat"]), float(results[0]["lon"])] if results else None
+        return cache[query]
+    except Exception as exc:
+        print(f"geocode failed for {query}: {exc}", file=sys.stderr)
+        return None  # שגיאה זמנית — לא שומרים ב-cache כדי לנסות שוב מחר
+
+
+def geocode_cards(cards, cache):
+    for card in cards:
+        if card.get("lat") is not None:
+            continue
+        query, precision = geo_query(card)
+        if not query:
+            continue
+        coords = geocode(query, cache)
+        if coords:
+            card["lat"], card["lon"] = coords
+            card["geo_precision"] = precision
+
+
 # ---------- חילוץ שדות מטקסט חופשי ----------
 
 def extract_type(text, title=""):
@@ -353,6 +403,9 @@ def parse_article(url, html):
         published = datetime.now(TZ)
     published_iso = published.isoformat()
 
+    img_meta = soup.find("meta", attrs={"property": "og:image"})
+    article_image = img_meta["content"].strip() if img_meta and img_meta.get("content") else None
+
     body = soup.find("article") or soup
 
     # איסוף מקטעים: כל כותרת h2/h3 "של מקום" פותחת מקטע; הטקסט עד הכותרת הבאה שייך אליו.
@@ -397,7 +450,8 @@ def parse_article(url, html):
             sec_text = " ".join(sec["texts"])
             cards.append(build_card(sec["name"], sec_text, article_title,
                                     url, published_iso, sec["link"],
-                                    dish_hint=sec.get("dish")))
+                                    dish_hint=sec.get("dish"),
+                                    article_image=article_image))
     else:
         # כתבה על מקום בודד
         paragraphs = [p.get_text(" ", strip=True) for p in body.find_all("p")]
@@ -425,11 +479,13 @@ def parse_article(url, html):
             else:
                 name = article_title
         cards.append(build_card(clean_name(name), full_text, article_title,
-                                url, published_iso, None))
+                                url, published_iso, None,
+                                article_image=article_image))
     return cards
 
 
-def build_card(name, text, article_title, article_url, published_iso, details_link, dish_hint=None):
+def build_card(name, text, article_title, article_url, published_iso, details_link,
+               dish_hint=None, article_image=None):
     city, location = extract_city_and_address(text, article_title)
     hours = extract_hours(text)
     opening = extract_opening_info(text)
@@ -456,8 +512,12 @@ def build_card(name, text, article_title, article_url, published_iso, details_li
         "opening_info": opening,
         "article_title": article_title,
         "article_url": article_url,
+        "article_image": article_image,
         "published": published_iso,
         "details_url": details_link,
+        "lat": None,
+        "lon": None,
+        "geo_precision": None,
     }
 
 
@@ -505,6 +565,10 @@ def main():
             print(f"OK {unquote(url)[:80]} -> {len(cards)} cards")
         except Exception as exc:
             print(f"FAIL {unquote(url)[:80]}: {exc}", file=sys.stderr)
+
+    # גיאוקודינג לכרטיסים חדשים (עם מטמון כדי לא לחזור על שאילתות)
+    geocache = data.setdefault("geocache", {})
+    geocode_cards(data["cards"], geocache)
 
     data["cards"].sort(key=lambda c: datetime.fromisoformat(c["published"]), reverse=True)
     data["seen_articles"] = sorted(seen)

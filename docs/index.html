@@ -56,9 +56,31 @@
   .controls { max-width: 1100px; margin: 0 auto; padding: 0 20px 8px; }
   #search {
     width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border);
-    background: var(--card); color: var(--text); font-size: 1rem; margin-bottom: 12px;
+    background: var(--card); color: var(--text); font-size: 1rem; margin-bottom: 10px;
   }
   #search:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  .geo-row { display: flex; gap: 8px; margin-bottom: 10px; }
+  #addr {
+    flex: 1; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+    background: var(--card); color: var(--text); font-size: .92rem; min-width: 0;
+  }
+  #addr:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  #geoBtn {
+    border: none; background: var(--accent); color: #fff; border-radius: 12px;
+    padding: 10px 16px; cursor: pointer; font-size: .9rem; font-weight: 600; white-space: nowrap;
+  }
+  #geoBtn:disabled { opacity: .6; cursor: wait; }
+  #geoStatus {
+    display: inline-flex; align-items: center; gap: 8px; margin-bottom: 10px;
+    background: var(--new-bg); color: var(--new); border-radius: 12px;
+    padding: 7px 13px; font-size: .87rem; font-weight: 600;
+  }
+  #geoStatus.error { background: var(--accent-soft); color: var(--accent); }
+  #geoStatus[hidden] { display: none; }
+  #geoStatus button {
+    border: none; background: none; color: inherit; cursor: pointer;
+    font-size: 1rem; padding: 0; line-height: 1;
+  }
   .tabs { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
   .tab {
     border: 1px solid var(--border); background: var(--card); color: var(--text);
@@ -66,6 +88,12 @@
   }
   .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
   .tab .count { font-weight: 400; font-size: .8rem; opacity: .75; }
+  .views { display: flex; gap: 8px; margin-bottom: 10px; }
+  .viewbtn {
+    border: 1px solid var(--border); background: var(--card); color: var(--text);
+    padding: 8px 16px; border-radius: 12px; cursor: pointer; font-size: .88rem;
+  }
+  .viewbtn.active { background: var(--chip-active); color: var(--chip-active-text); border-color: var(--chip-active); }
   .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 6px; }
   .chip {
     border: none; background: var(--chip); color: var(--text);
@@ -81,9 +109,14 @@
   }
   .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
   .card h3 { margin: 0; font-size: 1.15rem; line-height: 1.3; }
+  .badges { display: flex; gap: 5px; flex-shrink: 0; }
   .badge-new {
     background: var(--new-bg); color: var(--new); font-size: .75rem; font-weight: 700;
-    padding: 3px 10px; border-radius: 12px; white-space: nowrap; flex-shrink: 0;
+    padding: 3px 10px; border-radius: 12px; white-space: nowrap;
+  }
+  .badge-dist {
+    background: var(--chip); color: var(--text); font-size: .75rem; font-weight: 700;
+    padding: 3px 10px; border-radius: 12px; white-space: nowrap;
   }
   .type-tag { color: var(--accent); font-size: .85rem; font-weight: 600; }
   .field { font-size: .88rem; line-height: 1.5; display: flex; gap: 7px; }
@@ -103,9 +136,36 @@
   .card-footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
   .card-footer a:hover { text-decoration: underline; }
   .card-footer .date { color: var(--muted); white-space: nowrap; }
+  /* --- תצוגה לפי כתבה --- */
+  .article-group {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+    box-shadow: var(--shadow); margin-bottom: 16px; overflow: hidden;
+  }
+  .article-header {
+    width: 100%; display: flex; align-items: center; gap: 14px; padding: 0;
+    border: none; background: none; color: inherit; cursor: pointer; text-align: start;
+    font-family: inherit;
+  }
+  .article-header img {
+    width: 150px; height: 96px; object-fit: cover; flex-shrink: 0;
+    background: var(--chip);
+  }
+  .article-header .noimg {
+    width: 150px; height: 96px; flex-shrink: 0; background: var(--chip);
+    display: flex; align-items: center; justify-content: center; font-size: 1.6rem;
+  }
+  .article-info { flex: 1; padding: 10px 2px 10px 10px; min-width: 0; }
+  .article-info h2 { margin: 0 0 5px; font-size: 1.02rem; line-height: 1.35; }
+  .article-info .meta { color: var(--muted); font-size: .8rem; }
+  .chevron { padding: 0 14px; font-size: 1rem; color: var(--muted); transition: transform .2s; }
+  .article-group.open .chevron { transform: rotate(180deg); }
+  .article-cards { padding: 14px; border-top: 1px solid var(--border); }
   .empty { text-align: center; color: var(--muted); padding: 60px 0; font-size: 1.05rem; }
   footer { text-align: center; color: var(--muted); font-size: .78rem; padding: 0 20px 30px; max-width: 1100px; margin: 0 auto; }
   footer a { color: var(--muted); }
+  @media (max-width: 480px) {
+    .article-header img, .article-header .noimg { width: 96px; height: 80px; }
+  }
 </style>
 </head>
 <body>
@@ -118,7 +178,16 @@
 </header>
 
 <div class="controls">
-  <input id="search" type="search" placeholder="חיפוש מקום, מנה, רחוב...">
+  <input id="search" type="search" placeholder="חיפוש מקום, מנה, שף, רחוב...">
+  <div class="geo-row">
+    <input id="addr" type="text" placeholder="📍 כתובת למיון לפי קרבה (למשל: דיזנגוף 100 תל אביב)">
+    <button id="geoBtn">מיין לפי קרבה</button>
+  </div>
+  <div id="geoStatus" hidden></div>
+  <div class="views">
+    <button class="viewbtn active" data-view="cards">🃏 תצוגה חופשית</button>
+    <button class="viewbtn" data-view="articles">📰 לפי כתבה</button>
+  </div>
   <div class="tabs" id="tabs">
     <button class="tab active" data-region="tlv">תל אביב והמרכז <span class="count"></span></button>
     <button class="tab" data-region="haifa">חיפה והצפון <span class="count"></span></button>
@@ -127,15 +196,22 @@
   <div class="chips" id="typeChips"></div>
 </div>
 
-<main><div class="grid" id="grid"></div><div class="empty" id="empty" hidden>לא נמצאו מקומות מתאימים 🤷</div></main>
+<main>
+  <div class="grid" id="grid"></div>
+  <div id="articleList"></div>
+  <div class="empty" id="empty" hidden>לא נמצאו מקומות מתאימים 🤷</div>
+</main>
 
 <footer>
   לשימוש אישי בלבד. כל ההמלצות שייכות ל-<a href="https://timeout.co.il" target="_blank" rel="noopener">TimeOut ישראל</a> — כל כרטיס מקשר לכתבה המקורית.
+  חיפוש כתובות באדיבות <a href="https://www.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMap</a>.
 </footer>
 
 <script>
 const NOT_SPECIFIED = "לא צוין";
 let cards = [], region = "tlv", activeType = null, onlyNew = false, query = "";
+let view = "cards", geoPoint = null;
+const expanded = new Set();
 
 // מצב כהה: זיכרון מקומי, אחרת לפי העדפת המערכת
 const saved = localStorage.getItem("theme");
@@ -173,7 +249,72 @@ document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
   t.classList.add("active"); region = t.dataset.region; render();
 });
 
+document.querySelectorAll(".viewbtn").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".viewbtn").forEach(x => x.classList.remove("active"));
+  b.classList.add("active"); view = b.dataset.view; render();
+});
+
 document.getElementById("search").oninput = e => { query = e.target.value.trim(); render(); };
+
+// --- חיפוש לפי כתובת (OpenStreetMap Nominatim) ---
+const addrInput = document.getElementById("addr");
+const geoBtn = document.getElementById("geoBtn");
+geoBtn.onclick = locateAddress;
+addrInput.onkeydown = e => { if (e.key === "Enter") locateAddress(); };
+
+function geoStatusEl() { return document.getElementById("geoStatus"); }
+
+async function locateAddress() {
+  const q = addrInput.value.trim();
+  if (!q) return;
+  geoBtn.disabled = true; geoBtn.textContent = "מאתר...";
+  try {
+    const url = "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=il&accept-language=he&q="
+      + encodeURIComponent(q);
+    const res = await fetch(url).then(r => r.json());
+    if (!res.length) {
+      showGeoStatus("לא הצלחתי לאתר את הכתובת — נסה לנסח אחרת (רחוב, מספר ועיר)", true);
+      geoPoint = null;
+    } else {
+      geoPoint = { lat: +res[0].lat, lon: +res[0].lon, label: q };
+      showGeoStatus("ממוין לפי קרבה אל: " + q);
+    }
+  } catch {
+    showGeoStatus("שירות הכתובות לא זמין כרגע, נסה שוב עוד רגע", true);
+    geoPoint = null;
+  }
+  geoBtn.disabled = false; geoBtn.textContent = "מיין לפי קרבה";
+  render();
+}
+
+function showGeoStatus(msg, isError) {
+  const el = geoStatusEl();
+  el.hidden = false;
+  el.className = isError ? "error" : "";
+  el.innerHTML = esc(msg) + ' <button title="ביטול">✕</button>';
+  el.querySelector("button").onclick = () => {
+    geoPoint = null; el.hidden = true; addrInput.value = ""; render();
+  };
+}
+
+function haversineKm(lat1, lon1, lat2, lon2) {
+  const R = 6371, rad = d => d * Math.PI / 180;
+  const dLat = rad(lat2 - lat1), dLon = rad(lon2 - lon1);
+  const a = Math.sin(dLat / 2) ** 2 +
+    Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+
+function distKm(c) {
+  if (!geoPoint || c.lat == null) return null;
+  return haversineKm(geoPoint.lat, geoPoint.lon, c.lat, c.lon);
+}
+
+function fmtDist(km, precision) {
+  const approx = precision !== "address" ? "≈" : "";
+  if (km < 1) return approx + Math.round(km * 1000 / 10) * 10 + " מ'";
+  return approx + km.toFixed(1) + ' ק"מ';
+}
 
 function buildTypeChips() {
   const counts = {};
@@ -241,44 +382,107 @@ function openNow(c) {
   return false;
 }
 
+function cardHTML(c) {
+  const locParts = [c.location, c.city].filter(v => v && v !== NOT_SPECIFIED);
+  const loc = (locParts[1] && locParts[0] && locParts[0].includes(locParts[1]))
+    ? locParts[0] : locParts.join(", ");
+  const km = distKm(c);
+  const distBadge = km !== null ? `<span class="badge-dist">📍 ${fmtDist(km, c.geo_precision)}</span>` : "";
+  const st = openNow(c);
+  const openBadge = st === null ? "" :
+    st ? '<span class="open-badge open">🟢 פתוח עכשיו</span>'
+       : '<span class="open-badge closed">🔴 סגור עכשיו</span>';
+  const hoursMissing = !c.hours || c.hours === NOT_SPECIFIED;
+  return `<article class="card">
+    <div class="card-top">
+      <h3>${esc(c.name)}</h3>
+      <div class="badges">${distBadge}${c.is_new ? '<span class="badge-new">✨ חדש</span>' : ""}</div>
+    </div>
+    <span class="type-tag">${c.type === NOT_SPECIFIED ? "סוג: " + NOT_SPECIFIED : esc(c.type)}</span>
+    ${c.owner ? `<div class="field"><span class="ico">🧑‍🍳</span><span>${esc(c.owner)}</span></div>` : ""}
+    ${field("🍴", c.what_to_eat, "מה לאכול")}
+    <div class="field"><span class="ico">🕐</span><span class="${hoursMissing ? "missing" : ""}">${
+      hoursMissing ? "שעות: " + NOT_SPECIFIED : esc(c.hours)}${openBadge}</span></div>
+    ${field("📍", loc, "מיקום")}
+    ${c.opening_info ? `<div class="opening">🎉 ${esc(c.opening_info)}</div>` : ""}
+    <div class="card-footer">
+      <a href="${esc(c.article_url)}" target="_blank" rel="noopener" title="${esc(c.article_title)}">לכתבה המקורית ↗</a>
+      <span class="date">${fmtDate(c.published)}</span>
+    </div>
+  </article>`;
+}
+
+function sortShown(list) {
+  if (!geoPoint) return list; // כבר ממוין לפי תאריך
+  return [...list].sort((a, b) => {
+    const da = distKm(a), db = distKm(b);
+    if (da === null && db === null) return new Date(b.published) - new Date(a.published);
+    if (da === null) return 1;
+    if (db === null) return -1;
+    return da - db;
+  });
+}
+
 function render() {
   const grid = document.getElementById("grid");
+  const articleList = document.getElementById("articleList");
   const perRegion = { tlv: 0, haifa: 0, rest: 0 };
   cards.forEach(c => { if (c.region in perRegion) perRegion[c.region]++; });
   document.querySelectorAll(".tab").forEach(t =>
     t.querySelector(".count").textContent = "(" + perRegion[t.dataset.region] + ")");
 
-  const shown = cards.filter(matches);
+  const shown = sortShown(cards.filter(matches));
   document.getElementById("empty").hidden = shown.length > 0;
-  grid.innerHTML = shown.map(c => {
-    const locParts = [c.location, c.city].filter(v => v && v !== NOT_SPECIFIED);
-    const loc = (locParts[1] && locParts[0] && locParts[0].includes(locParts[1]))
-      ? locParts[0] : locParts.join(", ");
-    return `<article class="card">
-      <div class="card-top">
-        <h3>${esc(c.name)}</h3>
-        ${c.is_new ? '<span class="badge-new">✨ חדש</span>' : ""}
+
+  if (view === "cards") {
+    articleList.innerHTML = ""; articleList.hidden = true; grid.hidden = false;
+    grid.innerHTML = shown.map(cardHTML).join("");
+  } else {
+    grid.innerHTML = ""; grid.hidden = true; articleList.hidden = false;
+    renderArticles(shown, articleList);
+  }
+}
+
+function renderArticles(shown, box) {
+  // קיבוץ לפי כתבה
+  const groups = new Map();
+  shown.forEach(c => {
+    if (!groups.has(c.article_url)) {
+      groups.set(c.article_url, { url: c.article_url, title: c.article_title,
+        image: c.article_image, published: c.published, cards: [] });
+    }
+    groups.get(c.article_url).cards.push(c);
+  });
+  let list = [...groups.values()];
+  if (geoPoint) {
+    const minDist = g => Math.min(...g.cards.map(c => { const d = distKm(c); return d === null ? Infinity : d; }));
+    list.sort((a, b) => minDist(a) - minDist(b));
+  } else {
+    list.sort((a, b) => new Date(b.published) - new Date(a.published));
+  }
+  box.innerHTML = list.map(g => `
+    <section class="article-group${expanded.has(g.url) ? " open" : ""}" data-url="${esc(g.url)}">
+      <button class="article-header">
+        ${g.image ? `<img src="${esc(g.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+                  : '<div class="noimg">🍽️</div>'}
+        <div class="article-info">
+          <h2>${esc(g.title)}</h2>
+          <span class="meta">${fmtDate(g.published)} · ${g.cards.length} מקומות</span>
+        </div>
+        <span class="chevron">▾</span>
+      </button>
+      <div class="article-cards" ${expanded.has(g.url) ? "" : "hidden"}>
+        <div class="grid">${g.cards.map(cardHTML).join("")}</div>
       </div>
-      <span class="type-tag">${c.type === NOT_SPECIFIED ? "סוג: " + NOT_SPECIFIED : esc(c.type)}</span>
-      ${c.owner ? `<div class="field"><span class="ico">🧑‍🍳</span><span>${esc(c.owner)}</span></div>` : ""}
-      ${field("🍴", c.what_to_eat, "מה לאכול")}
-      ${(() => {
-        const st = openNow(c);
-        const badge = st === null ? "" :
-          st ? '<span class="open-badge open">🟢 פתוח עכשיו</span>'
-             : '<span class="open-badge closed">🔴 סגור עכשיו</span>';
-        const missing = !c.hours || c.hours === NOT_SPECIFIED;
-        return `<div class="field"><span class="ico">🕐</span><span class="${missing ? "missing" : ""}">${
-          missing ? "שעות: " + NOT_SPECIFIED : esc(c.hours)}${badge}</span></div>`;
-      })()}
-      ${field("📍", loc, "מיקום")}
-      ${c.opening_info ? `<div class="opening">🎉 ${esc(c.opening_info)}</div>` : ""}
-      <div class="card-footer">
-        <a href="${esc(c.article_url)}" target="_blank" rel="noopener" title="${esc(c.article_title)}">לכתבה המקורית ↗</a>
-        <span class="date">${fmtDate(c.published)}</span>
-      </div>
-    </article>`;
-  }).join("");
+    </section>`).join("");
+  box.querySelectorAll(".article-group").forEach(sec => {
+    sec.querySelector(".article-header").onclick = () => {
+      const url = sec.dataset.url;
+      if (expanded.has(url)) expanded.delete(url); else expanded.add(url);
+      sec.classList.toggle("open");
+      sec.querySelector(".article-cards").hidden = !expanded.has(url);
+    };
+  });
 }
 </script>
 </body>
