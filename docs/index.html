@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>מה אוכלים? — המלצות אוכל מ-TimeOut</title>
+<style>
+  :root {
+    --bg: #f7f5f2;
+    --card: #ffffff;
+    --text: #1c1b1a;
+    --muted: #6e6a64;
+    --accent: #d13438;
+    --accent-soft: #fdeaea;
+    --border: #e6e2dc;
+    --chip: #efece7;
+    --chip-active: #1c1b1a;
+    --chip-active-text: #ffffff;
+    --new: #1e7d46;
+    --new-bg: #e3f4ea;
+    --shadow: 0 1px 3px rgba(0,0,0,.06), 0 4px 14px rgba(0,0,0,.05);
+  }
+  [data-theme="dark"] {
+    --bg: #17161a;
+    --card: #211f26;
+    --text: #f0eee9;
+    --muted: #a39e96;
+    --accent: #ff6b6e;
+    --accent-soft: #3a2426;
+    --border: #322f38;
+    --chip: #2b2831;
+    --chip-active: #f0eee9;
+    --chip-active-text: #17161a;
+    --new: #5dd394;
+    --new-bg: #1d3328;
+    --shadow: 0 1px 3px rgba(0,0,0,.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: "Segoe UI", "Heebo", Arial, sans-serif;
+    transition: background .25s, color .25s;
+  }
+  header {
+    padding: 28px 20px 12px; max-width: 1100px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  }
+  h1 { margin: 0; font-size: 1.7rem; }
+  h1 .accent { color: var(--accent); }
+  .subtitle { color: var(--muted); font-size: .9rem; margin: 4px 0 0; }
+  #themeBtn {
+    border: 1px solid var(--border); background: var(--card); color: var(--text);
+    border-radius: 20px; padding: 8px 14px; cursor: pointer; font-size: .9rem;
+  }
+  .controls { max-width: 1100px; margin: 0 auto; padding: 0 20px 8px; }
+  #search {
+    width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border);
+    background: var(--card); color: var(--text); font-size: 1rem; margin-bottom: 12px;
+  }
+  #search:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+  .tab {
+    border: 1px solid var(--border); background: var(--card); color: var(--text);
+    padding: 9px 18px; border-radius: 12px; cursor: pointer; font-size: .95rem; font-weight: 600;
+  }
+  .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .tab .count { font-weight: 400; font-size: .8rem; opacity: .75; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 6px; }
+  .chip {
+    border: none; background: var(--chip); color: var(--text);
+    padding: 6px 13px; border-radius: 16px; cursor: pointer; font-size: .83rem;
+  }
+  .chip.active { background: var(--chip-active); color: var(--chip-active-text); }
+  .chip.newchip.active { background: var(--new); color: #fff; }
+  main { max-width: 1100px; margin: 0 auto; padding: 10px 20px 60px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+    padding: 18px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 10px;
+  }
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .card h3 { margin: 0; font-size: 1.15rem; line-height: 1.3; }
+  .badge-new {
+    background: var(--new-bg); color: var(--new); font-size: .75rem; font-weight: 700;
+    padding: 3px 10px; border-radius: 12px; white-space: nowrap; flex-shrink: 0;
+  }
+  .type-tag { color: var(--accent); font-size: .85rem; font-weight: 600; }
+  .field { font-size: .88rem; line-height: 1.5; display: flex; gap: 7px; }
+  .field .ico { flex-shrink: 0; }
+  .field .missing { color: var(--muted); font-style: italic; }
+  .opening { color: var(--new); font-size: .85rem; font-weight: 600; }
+  .card-footer {
+    margin-top: auto; padding-top: 10px; border-top: 1px dashed var(--border);
+    display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .8rem;
+  }
+  .card-footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  .card-footer a:hover { text-decoration: underline; }
+  .card-footer .date { color: var(--muted); white-space: nowrap; }
+  .empty { text-align: center; color: var(--muted); padding: 60px 0; font-size: 1.05rem; }
+  footer { text-align: center; color: var(--muted); font-size: .78rem; padding: 0 20px 30px; max-width: 1100px; margin: 0 auto; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>מה אוכלים? <span class="accent">🍽️</span></h1>
+    <p class="subtitle">מקומות שהומלצו בכתבות האוכל של TimeOut ישראל — כרטיס לכל מקום · <span id="lastRun"></span></p>
+  </div>
+  <button id="themeBtn">🌙 מצב כהה</button>
+</header>
+
+<div class="controls">
+  <input id="search" type="search" placeholder="חיפוש מקום, מנה, רחוב...">
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-region="tlv">תל אביב והמרכז <span class="count"></span></button>
+    <button class="tab" data-region="haifa">חיפה והצפון <span class="count"></span></button>
+    <button class="tab" data-region="rest">שאר הארץ <span class="count"></span></button>
+  </div>
+  <div class="chips" id="typeChips"></div>
+</div>
+
+<main><div class="grid" id="grid"></div><div class="empty" id="empty" hidden>לא נמצאו מקומות מתאימים 🤷</div></main>
+
+<footer>
+  לשימוש אישי בלבד. כל ההמלצות שייכות ל-<a href="https://timeout.co.il" target="_blank" rel="noopener">TimeOut ישראל</a> — כל כרטיס מקשר לכתבה המקורית.
+</footer>
+
+<script>
+const NOT_SPECIFIED = "לא צוין";
+let cards = [], region = "tlv", activeType = null, onlyNew = false, query = "";
+
+// מצב כהה: זיכרון מקומי, אחרת לפי העדפת המערכת
+const saved = localStorage.getItem("theme");
+const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+setTheme(saved || (prefersDark ? "dark" : "light"));
+function setTheme(t) {
+  document.documentElement.dataset.theme = t;
+  const btn = document.getElementById("themeBtn");
+  if (btn) btn.textContent = t === "dark" ? "☀️ מצב בהיר" : "🌙 מצב כהה";
+}
+document.getElementById("themeBtn").onclick = () => {
+  const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+  localStorage.setItem("theme", next); setTheme(next);
+};
+
+const fmtDate = iso => new Date(iso).toLocaleDateString("he-IL",
+  { day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Jerusalem" });
+
+fetch("data.json?t=" + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    cards = data.cards || [];
+    // מיון מהחדש לישן לפי תאריך אמיתי (לא השוואת מחרוזות)
+    cards.sort((a, b) => new Date(b.published) - new Date(a.published));
+    if (data.last_run) {
+      document.getElementById("lastRun").textContent = "עודכן: " + fmtDate(data.last_run);
+    }
+    buildTypeChips();
+    render();
+  })
+  .catch(() => { document.getElementById("empty").hidden = false; });
+
+document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
+  document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
+  t.classList.add("active"); region = t.dataset.region; render();
+});
+
+document.getElementById("search").oninput = e => { query = e.target.value.trim(); render(); };
+
+function buildTypeChips() {
+  const counts = {};
+  cards.forEach(c => { if (c.type !== NOT_SPECIFIED) counts[c.type] = (counts[c.type] || 0) + 1; });
+  const types = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+  const box = document.getElementById("typeChips");
+  const newChip = document.createElement("button");
+  newChip.className = "chip newchip"; newChip.textContent = "✨ רק חדשים";
+  newChip.onclick = () => { onlyNew = !onlyNew; newChip.classList.toggle("active", onlyNew); render(); };
+  box.appendChild(newChip);
+  types.forEach(t => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.textContent = t;
+    b.onclick = () => {
+      activeType = activeType === t ? null : t;
+      box.querySelectorAll(".chip:not(.newchip)").forEach(x => x.classList.toggle("active", x.textContent === activeType));
+      render();
+    };
+    box.appendChild(b);
+  });
+}
+
+function matches(c) {
+  if (c.region !== region) return false;
+  if (onlyNew && !c.is_new) return false;
+  if (activeType && c.type !== activeType) return false;
+  if (query) {
+    const hay = [c.name, c.type, c.what_to_eat, c.city, c.location, c.article_title].join(" ");
+    if (!hay.includes(query)) return false;
+  }
+  return true;
+}
+
+function field(icon, value, label) {
+  const missing = !value || value === NOT_SPECIFIED;
+  return `<div class="field"><span class="ico">${icon}</span><span class="${missing ? "missing" : ""}">${
+    missing ? label + ": " + NOT_SPECIFIED : esc(value)}</span></div>`;
+}
+
+const esc = s => String(s).replace(/[&<>"']/g, m =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
+
+function render() {
+  const grid = document.getElementById("grid");
+  const perRegion = { tlv: 0, haifa: 0, rest: 0 };
+  cards.forEach(c => { if (c.region in perRegion) perRegion[c.region]++; });
+  document.querySelectorAll(".tab").forEach(t =>
+    t.querySelector(".count").textContent = "(" + perRegion[t.dataset.region] + ")");
+
+  const shown = cards.filter(matches);
+  document.getElementById("empty").hidden = shown.length > 0;
+  grid.innerHTML = shown.map(c => {
+    const locParts = [c.location, c.city].filter(v => v && v !== NOT_SPECIFIED);
+    const loc = (locParts[1] && locParts[0] && locParts[0].includes(locParts[1]))
+      ? locParts[0] : locParts.join(", ");
+    return `<article class="card">
+      <div class="card-top">
+        <h3>${esc(c.name)}</h3>
+        ${c.is_new ? '<span class="badge-new">✨ חדש</span>' : ""}
+      </div>
+      <span class="type-tag">${c.type === NOT_SPECIFIED ? "סוג: " + NOT_SPECIFIED : esc(c.type)}</span>
+      ${field("🍴", c.what_to_eat, "מה לאכול")}
+      ${field("🕐", c.hours, "שעות")}
+      ${field("📍", loc, "מיקום")}
+      ${c.opening_info ? `<div class="opening">🎉 ${esc(c.opening_info)}</div>` : ""}
+      <div class="card-footer">
+        <a href="${esc(c.article_url)}" target="_blank" rel="noopener" title="${esc(c.article_title)}">לכתבה המקורית ↗</a>
+        <span class="date">${fmtDate(c.published)}</span>
+      </div>
+    </article>`;
+  }).join("");
+}
+</script>
+</body>
+</html>
