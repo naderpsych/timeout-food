@@ -7,33 +7,33 @@
 <title>מה אוכלים? — המלצות אוכל מ-TimeOut</title>
 <style>
   :root {
-    --bg: #f7f5f2;
+    --bg: #f2f3f4;
     --card: #ffffff;
-    --text: #1c1b1a;
-    --muted: #6e6a64;
+    --text: #1d1d1d;
+    --muted: #6d7075;
     --accent: #d13438;
     --accent-soft: #fdeaea;
-    --border: #e6e2dc;
-    --chip: #efece7;
-    --chip-active: #1c1b1a;
+    --border: #e1e3e5;
+    --chip: #e9eaec;
+    --chip-active: #1d1d1d;
     --chip-active-text: #ffffff;
     --new: #1e7d46;
     --new-bg: #e3f4ea;
     --shadow: 0 1px 3px rgba(0,0,0,.06), 0 4px 14px rgba(0,0,0,.05);
   }
   [data-theme="dark"] {
-    --bg: #17161a;
-    --card: #211f26;
-    --text: #f0eee9;
-    --muted: #a39e96;
+    --bg: #171717;
+    --card: #202020;
+    --text: #efefec;
+    --muted: #a0a0a0;
     --accent: #ff6b6e;
-    --accent-soft: #3a2426;
-    --border: #322f38;
-    --chip: #2b2831;
-    --chip-active: #f0eee9;
-    --chip-active-text: #17161a;
+    --accent-soft: #3a2626;
+    --border: #303030;
+    --chip: #2a2a2a;
+    --chip-active: #efefec;
+    --chip-active-text: #171717;
     --new: #5dd394;
-    --new-bg: #1d3328;
+    --new-bg: #1f3227;
     --shadow: 0 1px 3px rgba(0,0,0,.4);
   }
   * { box-sizing: border-box; }
@@ -129,6 +129,11 @@
   }
   .open-badge.open { background: var(--new-bg); color: var(--new); }
   .open-badge.closed { background: var(--accent-soft); color: var(--accent); }
+  .src-badge {
+    display: inline-block; font-size: .68rem; font-weight: 600; white-space: nowrap;
+    padding: 1px 7px; border-radius: 9px; margin-inline-start: 5px;
+    background: var(--chip); color: var(--muted); vertical-align: middle;
+  }
   .card-footer {
     margin-top: auto; padding-top: 10px; border-top: 1px dashed var(--border);
     display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .8rem;
@@ -136,6 +141,15 @@
   .card-footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
   .card-footer a:hover { text-decoration: underline; }
   .card-footer .date { color: var(--muted); white-space: nowrap; }
+  .card-footer .links { display: flex; align-items: center; gap: 10px; }
+  .gmaps-btn {
+    display: inline-flex; align-items: center; gap: 5px;
+    border: 1px solid var(--border); border-radius: 10px; padding: 3px 9px;
+    color: var(--text) !important; font-weight: 600; font-size: .78rem;
+    text-decoration: none !important; background: var(--card);
+  }
+  .gmaps-btn:hover { border-color: #4285F4; }
+  .gmaps-btn svg { width: 13px; height: 13px; }
   /* --- תצוגה לפי כתבה --- */
   .article-group {
     background: var(--card); border: 1px solid var(--border); border-radius: 16px;
@@ -161,6 +175,12 @@
   .article-group.open .chevron { transform: rotate(180deg); }
   .article-cards { padding: 14px; border-top: 1px solid var(--border); }
   .empty { text-align: center; color: var(--muted); padding: 60px 0; font-size: 1.05rem; }
+  #moreBox { text-align: center; padding: 22px 0 0; }
+  .loadmore {
+    border: 1px solid var(--border); background: var(--card); color: var(--text);
+    border-radius: 12px; padding: 11px 26px; cursor: pointer; font-size: .95rem; font-weight: 600;
+  }
+  .loadmore:hover { border-color: var(--accent); color: var(--accent); }
   footer { text-align: center; color: var(--muted); font-size: .78rem; padding: 0 20px 30px; max-width: 1100px; margin: 0 auto; }
   footer a { color: var(--muted); }
   @media (max-width: 480px) {
@@ -199,6 +219,7 @@
 <main>
   <div class="grid" id="grid"></div>
   <div id="articleList"></div>
+  <div id="moreBox"></div>
   <div class="empty" id="empty" hidden>לא נמצאו מקומות מתאימים 🤷</div>
 </main>
 
@@ -212,6 +233,11 @@ const NOT_SPECIFIED = "לא צוין";
 let cards = [], region = "tlv", activeType = null, onlyNew = false, query = "";
 let view = "cards", geoPoint = null;
 const expanded = new Set();
+
+// טעינה הדרגתית — לא מציירים מאות כרטיסים בבת אחת
+const CARD_CHUNK = 120, GROUP_CHUNK = 30;
+let cardLimit = CARD_CHUNK, groupLimit = GROUP_CHUNK;
+function rerender() { cardLimit = CARD_CHUNK; groupLimit = GROUP_CHUNK; render(); }
 
 // מצב כהה: זיכרון מקומי, אחרת לפי העדפת המערכת
 const saved = localStorage.getItem("theme");
@@ -246,15 +272,15 @@ fetch("data.json?t=" + Date.now())
 
 document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
-  t.classList.add("active"); region = t.dataset.region; render();
+  t.classList.add("active"); region = t.dataset.region; rerender();
 });
 
 document.querySelectorAll(".viewbtn").forEach(b => b.onclick = () => {
   document.querySelectorAll(".viewbtn").forEach(x => x.classList.remove("active"));
-  b.classList.add("active"); view = b.dataset.view; render();
+  b.classList.add("active"); view = b.dataset.view; rerender();
 });
 
-document.getElementById("search").oninput = e => { query = e.target.value.trim(); render(); };
+document.getElementById("search").oninput = e => { query = e.target.value.trim(); rerender(); };
 
 // --- חיפוש לפי כתובת (OpenStreetMap Nominatim) ---
 const addrInput = document.getElementById("addr");
@@ -284,7 +310,7 @@ async function locateAddress() {
     geoPoint = null;
   }
   geoBtn.disabled = false; geoBtn.textContent = "מיין לפי קרבה";
-  render();
+  rerender();
 }
 
 function showGeoStatus(msg, isError) {
@@ -293,7 +319,7 @@ function showGeoStatus(msg, isError) {
   el.className = isError ? "error" : "";
   el.innerHTML = esc(msg) + ' <button title="ביטול">✕</button>';
   el.querySelector("button").onclick = () => {
-    geoPoint = null; el.hidden = true; addrInput.value = ""; render();
+    geoPoint = null; el.hidden = true; addrInput.value = ""; rerender();
   };
 }
 
@@ -323,7 +349,7 @@ function buildTypeChips() {
   const box = document.getElementById("typeChips");
   const newChip = document.createElement("button");
   newChip.className = "chip newchip"; newChip.textContent = "✨ רק חדשים";
-  newChip.onclick = () => { onlyNew = !onlyNew; newChip.classList.toggle("active", onlyNew); render(); };
+  newChip.onclick = () => { onlyNew = !onlyNew; newChip.classList.toggle("active", onlyNew); rerender(); };
   box.appendChild(newChip);
   types.forEach(t => {
     const b = document.createElement("button");
@@ -331,7 +357,7 @@ function buildTypeChips() {
     b.onclick = () => {
       activeType = activeType === t ? null : t;
       box.querySelectorAll(".chip:not(.newchip)").forEach(x => x.classList.toggle("active", x.textContent === activeType));
-      render();
+      rerender();
     };
     box.appendChild(b);
   });
@@ -357,10 +383,15 @@ function field(icon, value, label) {
 const esc = s => String(s).replace(/[&<>"']/g, m =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
 
+// הלוגו הצבעוני של גוגל (SVG רשמי) — לכפתור "פתח בגוגל מפות"
+const GOOGLE_G = `<svg viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>`;
+
 // "פתוח עכשיו" לפי שעון ישראל — רק לכרטיסים שהשעות שלהם פוענחו.
 // מחזיר true/false, או null אם אין נתונים (ואז לא מוצג כלום).
 function openNow(c) {
-  if (!c.schedule || !c.schedule.length) return null;
+  const sched = (c.schedule && c.schedule.length) ? c.schedule
+    : (c.enrichment && c.enrichment.schedule && c.enrichment.schedule.length ? c.enrichment.schedule : null);
+  if (!sched) return null;
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: "Asia/Jerusalem", weekday: "short", hour: "numeric",
     minute: "numeric", hourCycle: "h23",
@@ -369,7 +400,7 @@ function openNow(c) {
   const day = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 }[get("weekday")];
   const mins = parseInt(get("hour")) * 60 + parseInt(get("minute"));
   const toMin = s => parseInt(s.slice(0, 2)) * 60 + parseInt(s.slice(3));
-  for (const seg of c.schedule) {
+  for (const seg of sched) {
     const f = toMin(seg.from), t = toMin(seg.to);
     if (f < t) {
       if (seg.days.includes(day) && mins >= f && mins < t) return true;
@@ -382,17 +413,34 @@ function openNow(c) {
   return false;
 }
 
+function srcBadge(e) {
+  return ` <span class="src-badge" title="מקור: ${esc(e.source)} (${esc(e.date || "")})">🔎 ${esc(e.source)}</span>`;
+}
+
 function cardHTML(c) {
+  const e = c.enrichment || null;
+  // מיקום: מהכתבה, ואם חסר — מההעשרה (עם תג מקור)
   const locParts = [c.location, c.city].filter(v => v && v !== NOT_SPECIFIED);
-  const loc = (locParts[1] && locParts[0] && locParts[0].includes(locParts[1]))
+  let loc = (locParts[1] && locParts[0] && locParts[0].includes(locParts[1]))
     ? locParts[0] : locParts.join(", ");
+  const locFromArticle = !!loc;
+  let locBadge = "";
+  if (!loc && e && e.address) {
+    loc = [e.address, c.city !== NOT_SPECIFIED ? c.city : ""].filter(Boolean).join(", ");
+    locBadge = srcBadge(e);
+  }
   const km = distKm(c);
   const distBadge = km !== null ? `<span class="badge-dist">📍 ${fmtDist(km, c.geo_precision)}</span>` : "";
   const st = openNow(c);
   const openBadge = st === null ? "" :
     st ? '<span class="open-badge open">🟢 פתוח עכשיו</span>'
        : '<span class="open-badge closed">🔴 סגור עכשיו</span>';
-  const hoursMissing = !c.hours || c.hours === NOT_SPECIFIED;
+  // שעות: מהכתבה, ואם חסר — מההעשרה (עם תג מקור)
+  const articleHours = c.hours && c.hours !== NOT_SPECIFIED;
+  let hoursText, hoursMissing = false, hoursBadge = "";
+  if (articleHours) { hoursText = esc(c.hours); }
+  else if (e && e.hours) { hoursText = esc(e.hours); hoursBadge = srcBadge(e); }
+  else { hoursText = "שעות: " + NOT_SPECIFIED; hoursMissing = true; }
   return `<article class="card">
     <div class="card-top">
       <h3>${esc(c.name)}</h3>
@@ -402,11 +450,17 @@ function cardHTML(c) {
     ${c.owner ? `<div class="field"><span class="ico">🧑‍🍳</span><span>${esc(c.owner)}</span></div>` : ""}
     ${field("🍴", c.what_to_eat, "מה לאכול")}
     <div class="field"><span class="ico">🕐</span><span class="${hoursMissing ? "missing" : ""}">${
-      hoursMissing ? "שעות: " + NOT_SPECIFIED : esc(c.hours)}${openBadge}</span></div>
-    ${field("📍", loc, "מיקום")}
+      hoursText}${openBadge}${hoursBadge}</span></div>
+    <div class="field"><span class="ico">📍</span><span class="${loc ? "" : "missing"}">${
+      loc ? esc(loc) : "מיקום: " + NOT_SPECIFIED}${locBadge}</span></div>
     ${c.opening_info ? `<div class="opening">🎉 ${esc(c.opening_info)}</div>` : ""}
     <div class="card-footer">
-      <a href="${esc(c.article_url)}" target="_blank" rel="noopener" title="${esc(c.article_title)}">לכתבה המקורית ↗</a>
+      <span class="links">
+        <a href="${esc(c.article_url)}" target="_blank" rel="noopener" title="${esc(c.article_title)}">לכתבה ↗</a>
+        <a class="gmaps-btn" target="_blank" rel="noopener" title="פתח בגוגל מפות"
+           href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+             c.name + " " + (c.city !== NOT_SPECIFIED ? c.city : "ישראל"))}">${GOOGLE_G} מפות</a>
+      </span>
       <span class="date">${fmtDate(c.published)}</span>
     </div>
   </article>`;
@@ -433,17 +487,30 @@ function render() {
 
   const shown = sortShown(cards.filter(matches));
   document.getElementById("empty").hidden = shown.length > 0;
+  const moreBox = document.getElementById("moreBox");
+  moreBox.innerHTML = "";
 
   if (view === "cards") {
     articleList.innerHTML = ""; articleList.hidden = true; grid.hidden = false;
-    grid.innerHTML = shown.map(cardHTML).join("");
+    grid.innerHTML = shown.slice(0, cardLimit).map(cardHTML).join("");
+    if (shown.length > cardLimit) {
+      addLoadMore(moreBox, shown.length - cardLimit, () => { cardLimit += CARD_CHUNK; render(); });
+    }
   } else {
     grid.innerHTML = ""; grid.hidden = true; articleList.hidden = false;
-    renderArticles(shown, articleList);
+    renderArticles(shown, articleList, moreBox);
   }
 }
 
-function renderArticles(shown, box) {
+function addLoadMore(box, remaining, onClick) {
+  const b = document.createElement("button");
+  b.className = "loadmore";
+  b.textContent = `הצג עוד (${remaining} נוספים)`;
+  b.onclick = onClick;
+  box.appendChild(b);
+}
+
+function renderArticles(shown, box, moreBox) {
   // קיבוץ לפי כתבה
   const groups = new Map();
   shown.forEach(c => {
@@ -460,7 +527,10 @@ function renderArticles(shown, box) {
   } else {
     list.sort((a, b) => new Date(b.published) - new Date(a.published));
   }
-  box.innerHTML = list.map(g => `
+  const visible = list.slice(0, groupLimit);
+  // הכרטיסים שבתוך כתבה מצוירים רק בפתיחה (חיסכון גדול כשיש מאות כתבות)
+  const byUrl = new Map(visible.map(g => [g.url, g]));
+  box.innerHTML = visible.map(g => `
     <section class="article-group${expanded.has(g.url) ? " open" : ""}" data-url="${esc(g.url)}">
       <button class="article-header">
         ${g.image ? `<img src="${esc(g.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
@@ -472,17 +542,26 @@ function renderArticles(shown, box) {
         <span class="chevron">▾</span>
       </button>
       <div class="article-cards" ${expanded.has(g.url) ? "" : "hidden"}>
-        <div class="grid">${g.cards.map(cardHTML).join("")}</div>
+        <div class="grid">${expanded.has(g.url) ? g.cards.map(cardHTML).join("") : ""}</div>
       </div>
     </section>`).join("");
   box.querySelectorAll(".article-group").forEach(sec => {
     sec.querySelector(".article-header").onclick = () => {
       const url = sec.dataset.url;
-      if (expanded.has(url)) expanded.delete(url); else expanded.add(url);
+      const cardsBox = sec.querySelector(".article-cards");
+      if (expanded.has(url)) { expanded.delete(url); } else {
+        expanded.add(url);
+        const g = byUrl.get(url);
+        const inner = cardsBox.querySelector(".grid");
+        if (g && !inner.childElementCount) inner.innerHTML = g.cards.map(cardHTML).join("");
+      }
       sec.classList.toggle("open");
-      sec.querySelector(".article-cards").hidden = !expanded.has(url);
+      cardsBox.hidden = !expanded.has(url);
     };
   });
+  if (list.length > groupLimit) {
+    addLoadMore(moreBox, list.length - groupLimit, () => { groupLimit += GROUP_CHUNK; render(); });
+  }
 }
 </script>
 </body>

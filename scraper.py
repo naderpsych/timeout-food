@@ -409,6 +409,14 @@ def parse_article(url, html):
 
     body = soup.find("article") or soup
 
+    # כותרת חשופה (בלי מספור/קו מפריד) נחשבת שם-מקום רק בכתבת רשימה מוצהרת
+    # ("3 מקומות", "41 הברים", "חדשות אוכל") — אחרת אלו כותרות נושא של כתבת פיצ'ר.
+    _nums = [int(n) for n in re.findall(r"\d+", article_title)]
+    is_list_article = (
+        any(2 <= n <= 99 for n in _nums)
+        or any(w in article_title for w in ("מקומות", "חדשות אוכל", "חדשות האוכל"))
+        or bool(re.search(r"ה(מסעדות|ברים|בתי|מזללות|מעדניות|קפה)\b", article_title)))
+
     # איסוף מקטעים: כל כותרת h2/h3 "של מקום" פותחת מקטע; הטקסט עד הכותרת הבאה שייך אליו.
     # פורמטים נתמכים: "1. שם המקום" | "מנה מומלצת | שם המקום" | שם המקום לבדו.
     # כותרת המשנה של הכתבה מסומנת class="underline" ולכן מוחרגת.
@@ -429,7 +437,8 @@ def parse_article(url, html):
             elif "|" in text and len(text) <= 70:
                 dish_part, name_part = text.split("|", 1)
                 name, dish = name_part.strip(), dish_part.strip()
-            elif len(text) <= 45 and not text.endswith(("?", "!")):
+            elif (is_list_article and len(text) <= 45
+                  and not re.search(r"[?!:,]", text) and len(text.split()) <= 4):
                 name = text
             if name:
                 current = {"name": clean_name(name), "dish": dish, "texts": [], "link": None}
