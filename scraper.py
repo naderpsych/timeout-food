@@ -463,9 +463,13 @@ def parse_article(url, html):
                                     dish_hint=sec.get("dish"),
                                     article_image=article_image))
     else:
-        # כתבה על מקום בודד
+        # כתבה על מקום בודד. נחשבת המלצה רק אם יש "שורת פרטים" מודגשת
+        # ("לבונטין 13, ראשון-חמישי, 08:00-17:00") — בלעדיה זו כתבת דעה/חדשות, מדלגים.
         paragraphs = [p.get_text(" ", strip=True) for p in body.find_all("p")]
         full_text = " ".join(paragraphs)
+        if not TIME_HINT_RE.search(full_text):
+            print(f"SKIP (אין שורת פרטים - לא המלצה): {article_title[:60]}")
+            return []
         name = None
         # הכי אמין: שורת הפרטים בסוף הכתבה — "שם, רחוב 5, ימים ושעות"
         for ptext in reversed(paragraphs):
