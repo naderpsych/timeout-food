@@ -210,8 +210,9 @@
   </div>
   <div id="geoStatus" hidden></div>
   <div class="views">
-    <button class="viewbtn active" data-view="cards">🃏 תצוגה חופשית</button>
-    <button class="viewbtn" data-view="articles">📰 לפי כתבה</button>
+    <button class="viewbtn active" data-view="articles">📰 לפי כתבה</button>
+    <button class="viewbtn" data-view="cards">🃏 תצוגה חופשית</button>
+    <button class="viewbtn" data-view="cityof">🏙️ העיר של</button>
   </div>
   <div class="tabs" id="tabs">
     <button class="tab active" data-region="tlv">תל אביב והמרכז <span class="count"></span></button>
@@ -236,7 +237,7 @@
 <script>
 const NOT_SPECIFIED = "לא צוין";
 let cards = [], region = "tlv", activeType = null, onlyNew = false, query = "";
-let view = "cards", geoPoint = null;
+let view = "articles", geoPoint = null;
 const expanded = new Set();
 
 // טעינה הדרגתית — לא מציירים מאות כרטיסים בבת אחת
@@ -368,7 +369,11 @@ function buildTypeChips() {
   });
 }
 
+// כתבות "העיר של X" — ראיונות אישיים, מוצגות רק בלשונית שלהן
+const isCityOf = c => (c.article_title || "").includes("העיר של");
+
 function matches(c) {
+  if (view === "cityof" ? !isCityOf(c) : isCityOf(c)) return false;
   if (c.region !== region) return false;
   if (onlyNew && !c.is_new) return false;
   if (activeType && c.type !== activeType) return false;
@@ -502,6 +507,7 @@ function render() {
       addLoadMore(moreBox, shown.length - cardLimit, () => { cardLimit += CARD_CHUNK; render(); });
     }
   } else {
+    // "לפי כתבה" וגם "העיר של" — שתיהן תצוגות מקובצות לפי כתבה
     grid.innerHTML = ""; grid.hidden = true; articleList.hidden = false;
     renderArticles(shown, articleList, moreBox);
   }
