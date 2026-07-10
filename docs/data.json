@@ -1,6 +1,149 @@
 {
  "cards": [
   {
+   "id": "https://timeout.co.il/cookie-girl-%d7%a4%d7%9c%d7%95%d7%a8%d7%a0%d7%98%d7%99%d7%9f/#שווארמה משוקולד לבן-ורוד",
+   "name": "שווארמה משוקולד לבן-ורוד",
+   "type": "שווארמה",
+   "what_to_eat": "שווארמה, גלידה, צ'יפס",
+   "owner": "עדי ברק",
+   "hours": "הפופ אפ ימשך במהלך חודש יולי בימים ד'-ו', בין 10:00-16:00",
+   "schedule": [
+    {
+     "days": [
+      3,
+      4,
+      5
+     ],
+     "from": "10:00",
+     "to": "16:00"
+    }
+   ],
+   "city": "תל אביב",
+   "location": "פלורנטין",
+   "region": "tlv",
+   "is_new": true,
+   "opening_info": null,
+   "article_title": "קוקי גירל: שווארמה משוקולד לבן-ורוד ועוד קסמים מתוקים בפלורנטין",
+   "article_url": "https://timeout.co.il/cookie-girl-%d7%a4%d7%9c%d7%95%d7%a8%d7%a0%d7%98%d7%99%d7%9f/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/IMG_1092-1140x641.jpg",
+   "published": "2026-07-09T13:01:12+03:00",
+   "details_url": null,
+   "lat": 32.0577595,
+   "lon": 34.7686424,
+   "geo_precision": "area"
+  },
+  {
+   "id": "https://timeout.co.il/wabito-%d7%95%d7%95%d7%90%d7%91%d7%99%d7%98%d7%95/#Wabito מבית וואבי",
+   "name": "Wabito מבית וואבי",
+   "type": "המבורגרייה",
+   "what_to_eat": "המבורגר, שיפודים, סורבה, סאקה, צ'יפס",
+   "owner": "עינב אזגורי",
+   "hours": "דה פיג'וטו 22, רביעי-חמישי מ-18:00 (שעות פתיחה בהרצה), להזמנות",
+   "schedule": null,
+   "city": "תל אביב",
+   "location": "יפו",
+   "region": "tlv",
+   "is_new": true,
+   "opening_info": null,
+   "article_title": "טעון שיפוד: Wabito מבית וואבי תשנה את מה שידעתם על יקיטורי",
+   "article_url": "https://timeout.co.il/wabito-%d7%95%d7%95%d7%90%d7%91%d7%99%d7%98%d7%95/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/WAB2-1140x641.jpeg",
+   "published": "2026-07-08T14:00:57+03:00",
+   "details_url": null,
+   "lat": 32.0443395,
+   "lon": 34.7509908,
+   "geo_precision": "area"
+  },
+  {
+   "id": "https://timeout.co.il/%d7%a2%d7%99%d7%a0%d7%91-%d7%90%d7%96%d7%92%d7%95%d7%a8%d7%99-%d7%a4%d7%a8%d7%90%d7%a0%d7%96%d7%95/#אם חיפשתם את השף עינב אזגורי, תמצאו אותו מכין אוכל ביתי בבזל",
+   "name": "אם חיפשתם את השף עינב אזגורי, תמצאו אותו מכין אוכל ביתי בבזל",
+   "type": "ביסטרו",
+   "what_to_eat": "פסטה, לזניה, שניצל, טירמיסו, קפה, יין",
+   "owner": "עינב אזגורי",
+   "hours": "א'-ה' 10:30-19:30, ו' 9:00-16:00.",
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "from": "10:30",
+     "to": "19:30"
+    },
+    {
+     "days": [
+      5
+     ],
+     "from": "09:00",
+     "to": "16:00"
+    }
+   ],
+   "city": "תל אביב",
+   "location": "בזל 37, תל אביב",
+   "region": "tlv",
+   "is_new": true,
+   "opening_info": null,
+   "article_title": "אם חיפשתם את השף עינב אזגורי, תמצאו אותו מכין אוכל ביתי בבזל",
+   "article_url": "https://timeout.co.il/%d7%a2%d7%99%d7%a0%d7%91-%d7%90%d7%96%d7%92%d7%95%d7%a8%d7%99-%d7%a4%d7%a8%d7%90%d7%a0%d7%96%d7%95/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/IMG_1058-1140x641-1783417575.jpg",
+   "published": "2026-07-08T12:14:56+03:00",
+   "details_url": null,
+   "lat": 32.089902,
+   "lon": 34.780465,
+   "geo_precision": "address"
+  },
+  {
+   "id": "https://timeout.co.il/%d7%9c%d7%99%d7%9e%d7%99/#קפה לימי",
+   "name": "קפה לימי",
+   "type": "בית קפה",
+   "what_to_eat": "שווארמה, מאפה, קפה, יין, סלט, כריך",
+   "owner": null,
+   "hours": "א'-ה' 17:00-08:00, ו' 15:00-08:00, ש' 14:30-08:30",
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "from": "17:00",
+     "to": "08:00"
+    },
+    {
+     "days": [
+      5
+     ],
+     "from": "15:00",
+     "to": "08:00"
+    },
+    {
+     "days": [
+      6
+     ],
+     "from": "14:30",
+     "to": "08:30"
+    }
+   ],
+   "city": "תל אביב",
+   "location": "רמת אביב",
+   "region": "tlv",
+   "is_new": true,
+   "opening_info": null,
+   "article_title": "וול וולנס: \"קפה לימי\" מוסיף לרמת אביב קצת אוויר וקצת בריאות",
+   "article_url": "https://timeout.co.il/%d7%9c%d7%99%d7%9e%d7%99/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1783584452_94429-1140x641.jpeg",
+   "published": "2026-07-08T10:38:23+03:00",
+   "details_url": null,
+   "lat": 32.1088611,
+   "lon": 34.7950946,
+   "geo_precision": "area"
+  },
+  {
    "id": "https://timeout.co.il/ppost/select-%d7%92%d7%95%d7%92%d7%90/#גוגא חוגגת תשע",
    "name": "גוגא חוגגת תשע",
    "type": "בית קפה",
@@ -57445,6 +57588,7 @@
   "https://timeout.co.il/casa-bar/",
   "https://timeout.co.il/chef-show-2025/",
   "https://timeout.co.il/chez-nous-שה-נו/",
+  "https://timeout.co.il/cookie-girl-פלורנטין/",
   "https://timeout.co.il/dopo-apollo/",
   "https://timeout.co.il/dopo/",
   "https://timeout.co.il/drinking-tel-aviv-these-are-the-citys-most-recommended-bars/",
@@ -57515,6 +57659,7 @@
   "https://timeout.co.il/tlvineyard/",
   "https://timeout.co.il/trattoria-una-טרטוריה-אונה/",
   "https://timeout.co.il/tyo-יותר-יפני-מיפני/",
+  "https://timeout.co.il/wabito-וואביטו/",
   "https://timeout.co.il/who-needs-restaurants-the-16-most-recommended-wine-bars-in-tel-aviv/",
   "https://timeout.co.il/wine-open-house/",
   "https://timeout.co.il/winterfest-קומרובסקי/",
@@ -57748,6 +57893,7 @@
   "https://timeout.co.il/לחמים-פיצה-בבקה/",
   "https://timeout.co.il/ליל-אנגל/",
   "https://timeout.co.il/לילך-ספיר-עפרה-גנור/",
+  "https://timeout.co.il/לימי/",
   "https://timeout.co.il/ליקווידיום/",
   "https://timeout.co.il/מאנטה-ריי-סגירה/",
   "https://timeout.co.il/מאנטה-ריי-עלמה-ביץ-חדש/",
@@ -57866,6 +58012,7 @@
   "https://timeout.co.il/עוגות-גבינה-2026/",
   "https://timeout.co.il/עוגות-לפסח-2026/",
   "https://timeout.co.il/עוגות-ראש-השנה-2025/",
+  "https://timeout.co.il/עינב-אזגורי-פראנזו/",
   "https://timeout.co.il/עסקים-שנפגעו-מטיל/",
   "https://timeout.co.il/ערי-האוכל-2026/",
   "https://timeout.co.il/פאסטל-שינוי-שף/",
@@ -61420,6 +61567,10 @@
    32.0648284,
    34.7741747
   ],
-  "רחוב בן יהודה כבר 25, תל אביב, ישראל": null
+  "רחוב בן יהודה כבר 25, תל אביב, ישראל": null,
+  "בזל 37, תל אביב, תל אביב, ישראל": [
+   32.089902,
+   34.780465
+  ]
  }
 }
