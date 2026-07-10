@@ -118,6 +118,11 @@
     background: var(--chip); color: var(--text); font-size: .75rem; font-weight: 700;
     padding: 3px 10px; border-radius: 12px; white-space: nowrap;
   }
+  .badge-closing {
+    background: #fdf0e0; color: #b25e09; font-size: .75rem; font-weight: 700;
+    padding: 3px 10px; border-radius: 12px; white-space: nowrap;
+  }
+  [data-theme="dark"] .badge-closing { background: #38290f; color: #f0a94f; }
   .type-tag { color: var(--accent); font-size: .85rem; font-weight: 600; }
   .field { font-size: .88rem; line-height: 1.5; display: flex; gap: 7px; }
   .field .ico { flex-shrink: 0; }
@@ -444,7 +449,7 @@ function cardHTML(c) {
   return `<article class="card">
     <div class="card-top">
       <h3>${esc(c.name)}</h3>
-      <div class="badges">${distBadge}${c.is_new ? '<span class="badge-new">✨ חדש</span>' : ""}</div>
+      <div class="badges">${distBadge}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new ? '<span class="badge-new">✨ חדש</span>' : ""}</div>
     </div>
     <span class="type-tag">${c.type === NOT_SPECIFIED ? "סוג: " + NOT_SPECIFIED : esc(c.type)}</span>
     ${c.owner ? `<div class="field"><span class="ico">🧑‍🍳</span><span>${esc(c.owner)}</span></div>` : ""}

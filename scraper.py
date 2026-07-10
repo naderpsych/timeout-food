@@ -363,6 +363,15 @@ SKIP_TITLE_RE = re.compile(
     # כתבות שמדרגות אנשים (שפים/מסעדנים) ולא מקומות
     r"|\d+\s+(שפים|שפיות|מסעדנים|מסעדניות|קונדיטורים|קונדיטוריות|אופים|אופות|בריסטות|בריסטים)")
 
+# כתבות סגירה: מקום שנסגר כבר = לא כרטיס; מקום שעומד להיסגר = "הזדמנות אחרונה"
+CLOSURE_TITLE_RE = re.compile(r"נסגר|נסגרו|נסגרת|סגירות|סגירה|סוגרת? את|נפרדים מ|פרידה מ")
+CLOSING_SOON_RE = re.compile(
+    r"עומדת? להיסגר|תיסגר|ייסגר|נסגרת? בימים אלו|נסגרת? בקרוב|לפני הסגירה"
+    r"|הזדמנות אחרונה|עד סוף (החודש|השבוע)|ביקור אחרון")
+# עדות לסגירה שכבר קרתה — בתוך הטקסט של המקום עצמו
+CLOSED_PAST_RE = re.compile(
+    r"(?<![א-ת])נסגר(?:ה|ו)?(?![א-ת])|סגר(?:ה)?\s+את|ננטש|הפסיק(?:ה)?\s+לפעול|ירד(?:ה)?\s+מהמפה")
+
 # שורת פרטים בסוף כתבה: "שם המקום, רחוב ומספר, ימים ושעות"
 DETAILS_LINE_RE = re.compile(r"^([^,.\d–\-]{2,30}),\s*[^,]{2,40}\d{1,3}")
 TIME_HINT_RE = re.compile(r"\d{1,2}:\d{2}|[א-ת]['׳]\s*[-–]")
@@ -454,14 +463,22 @@ def parse_article(url, html):
     # מקטע בלי טקסט בכלל = כנראה כותרת שאינה מקום
     sections = [s for s in sections if s["texts"]]
 
+    closure_article = bool(CLOSURE_TITLE_RE.search(article_title))
+
     cards = []
     if sections:
         for sec in sections:
             sec_text = " ".join(sec["texts"])
+            closing_soon = bool(CLOSING_SOON_RE.search(sec_text))
+            if closure_article and not closing_soon and CLOSED_PAST_RE.search(sec_text):
+                # המקום כבר נסגר — אין טעם בכרטיס (חלופות שמומלצות באותה כתבה נשארות)
+                print(f"SKIP (נסגר): {sec['name'][:40]}")
+                continue
             cards.append(build_card(sec["name"], sec_text, article_title,
                                     url, published_iso, sec["link"],
                                     dish_hint=sec.get("dish"),
-                                    article_image=article_image))
+                                    article_image=article_image,
+                                    closing_soon=closing_soon))
     else:
         # כתבה על מקום בודד. נחשבת המלצה רק אם יש "שורת פרטים" מודגשת
         # ("לבונטין 13, ראשון-חמישי, 08:00-17:00") — בלעדיה זו כתבת דעה/חדשות, מדלגים.
@@ -492,14 +509,19 @@ def parse_article(url, html):
                 name = " ".join(after.split()[:3])
             else:
                 name = article_title
+        closing_soon = bool(CLOSING_SOON_RE.search(full_text))
+        if closure_article and not closing_soon:
+            print(f"SKIP (כתבת סגירה): {article_title[:60]}")
+            return []
         cards.append(build_card(clean_name(name), full_text, article_title,
                                 url, published_iso, None,
-                                article_image=article_image))
+                                article_image=article_image,
+                                closing_soon=closing_soon))
     return cards
 
 
 def build_card(name, text, article_title, article_url, published_iso, details_link,
-               dish_hint=None, article_image=None):
+               dish_hint=None, article_image=None, closing_soon=False):
     city, location = extract_city_and_address(text, article_title)
     hours = extract_hours(text)
     opening = extract_opening_info(text)
@@ -522,7 +544,8 @@ def build_card(name, text, article_title, article_url, published_iso, details_li
         "city": city,
         "location": location,
         "region": region,
-        "is_new": detect_is_new(text, article_title),
+        "is_new": detect_is_new(text, article_title) and not closing_soon,
+        "closing_soon": closing_soon,
         "opening_info": opening,
         "article_title": article_title,
         "article_url": article_url,
