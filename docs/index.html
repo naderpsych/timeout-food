@@ -139,6 +139,15 @@
     padding: 1px 7px; border-radius: 9px; margin-inline-start: 5px;
     background: var(--chip); color: var(--muted); vertical-align: middle;
   }
+  .fav-btn {
+    border: none; background: none; cursor: pointer; font-size: 1.15rem;
+    line-height: 1; padding: 0 2px; color: var(--muted); flex-shrink: 0;
+  }
+  .fav-btn.active { color: #e0245e; }
+  .fav-btn:hover { transform: scale(1.15); }
+  .fav-art { cursor: pointer; font-size: 1.05rem; padding: 0 10px; color: var(--muted); }
+  .fav-art.active { color: #e0245e; }
+  .favs-section-title { font-size: 1rem; color: var(--muted); margin: 18px 0 10px; font-weight: 600; }
   .card-footer {
     margin-top: auto; padding-top: 10px; border-top: 1px dashed var(--border);
     display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .8rem;
@@ -213,6 +222,7 @@
     <button class="viewbtn active" data-view="articles">📰 לפי כתבה</button>
     <button class="viewbtn" data-view="cards">🃏 תצוגה חופשית</button>
     <button class="viewbtn" data-view="cityof">🏙️ העיר של</button>
+    <button class="viewbtn" data-view="favs">❤️ מועדפים <span id="favCount"></span></button>
   </div>
   <div class="tabs" id="tabs">
     <button class="tab active" data-region="tlv">תל אביב והמרכז <span class="count"></span></button>
@@ -372,7 +382,37 @@ function buildTypeChips() {
 // כתבות "העיר של X" — ראיונות אישיים, מוצגות רק בלשונית שלהן
 const isCityOf = c => (c.article_title || "").includes("העיר של");
 
+// --- מועדפים (נשמרים בדפדפן של המכשיר) ---
+const favCards = new Set(JSON.parse(localStorage.getItem("favCards") || "[]"));
+const favArts = new Set(JSON.parse(localStorage.getItem("favArts") || "[]"));
+function toggleFav(set, key, storageKey) {
+  set.has(key) ? set.delete(key) : set.add(key);
+  localStorage.setItem(storageKey, JSON.stringify([...set]));
+}
+function updateFavCount() {
+  const n = favCards.size + favArts.size;
+  document.getElementById("favCount").textContent = n ? "(" + n + ")" : "";
+}
+// לבבות על כרטיסים — האזנה אחת לכל העמוד
+document.addEventListener("click", e => {
+  const fb = e.target.closest(".fav-btn");
+  if (fb) {
+    e.stopPropagation();
+    toggleFav(favCards, fb.dataset.fid, "favCards");
+    render();
+  }
+});
+
 function matches(c) {
+  if (view === "favs") {
+    // במועדפים: בלי סינון אזור/סוג — רק מה שסומן, עם חיפוש חופשי
+    if (!favCards.has(c.id) && !favArts.has(c.article_url)) return false;
+    if (query) {
+      const hay = [c.name, c.type, c.what_to_eat, c.owner, c.city, c.location, c.article_title].join(" ");
+      if (!hay.includes(query)) return false;
+    }
+    return true;
+  }
   if (view === "cityof" ? !isCityOf(c) : isCityOf(c)) return false;
   if (c.region !== region) return false;
   if (onlyNew && !c.is_new) return false;
@@ -454,7 +494,9 @@ function cardHTML(c) {
   return `<article class="card">
     <div class="card-top">
       <h3>${esc(c.name)}</h3>
-      <div class="badges">${distBadge}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new ? '<span class="badge-new">✨ חדש</span>' : ""}</div>
+      <div class="badges">${distBadge}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new ? '<span class="badge-new">✨ חדש</span>' : ""}<button
+        class="fav-btn${favCards.has(c.id) ? " active" : ""}" data-fid="${esc(c.id)}"
+        title="${favCards.has(c.id) ? "הסר מהמועדפים" : "הוסף למועדפים"}">${favCards.has(c.id) ? "♥" : "♡"}</button></div>
     </div>
     <span class="type-tag">${c.type === NOT_SPECIFIED ? "סוג: " + NOT_SPECIFIED : esc(c.type)}</span>
     ${c.owner ? `<div class="field"><span class="ico">🧑‍🍳</span><span>${esc(c.owner)}</span></div>` : ""}
@@ -499,6 +541,25 @@ function render() {
   document.getElementById("empty").hidden = shown.length > 0;
   const moreBox = document.getElementById("moreBox");
   moreBox.innerHTML = "";
+  updateFavCount();
+
+  if (view === "favs") {
+    // כתבות שסומנו — כקבוצות; מקומות שסומנו בנפרד — ככרטיסים מתחת
+    const artCards = shown.filter(c => favArts.has(c.article_url));
+    const looseCards = shown.filter(c => favCards.has(c.id) && !favArts.has(c.article_url));
+    articleList.hidden = artCards.length === 0;
+    grid.hidden = looseCards.length === 0;
+    articleList.innerHTML = "";
+    if (artCards.length) renderArticles(artCards, articleList, moreBox);
+    grid.innerHTML = looseCards.map(cardHTML).join("");
+    if (!shown.length) {
+      document.getElementById("empty").innerHTML =
+        "עדיין אין מועדפים — לחצו על ♡ בכרטיס של מקום או בשורת כתבה כדי לשמור אותם כאן";
+      document.getElementById("empty").hidden = false;
+    }
+    return;
+  }
+  document.getElementById("empty").innerHTML = "לא נמצאו מקומות מתאימים 🤷";
 
   if (view === "cards") {
     articleList.innerHTML = ""; articleList.hidden = true; grid.hidden = false;
@@ -550,6 +611,8 @@ function renderArticles(shown, box, moreBox) {
           <h2>${esc(g.title)}</h2>
           <span class="meta">${fmtDate(g.published)} · ${g.cards.length} מקומות</span>
         </div>
+        <span class="fav-art${favArts.has(g.url) ? " active" : ""}" data-furl="${esc(g.url)}"
+          title="${favArts.has(g.url) ? "הסר כתבה מהמועדפים" : "הוסף כתבה למועדפים"}">${favArts.has(g.url) ? "♥" : "♡"}</span>
         <span class="chevron">▾</span>
       </button>
       <div class="article-cards" ${expanded.has(g.url) ? "" : "hidden"}>
@@ -557,8 +620,14 @@ function renderArticles(shown, box, moreBox) {
       </div>
     </section>`).join("");
   box.querySelectorAll(".article-group").forEach(sec => {
-    sec.querySelector(".article-header").onclick = () => {
+    sec.querySelector(".article-header").onclick = (e) => {
       const url = sec.dataset.url;
+      // לחיצה על הלב של הכתבה — מועדפים, בלי לפתוח/לסגור
+      if (e.target.closest(".fav-art")) {
+        toggleFav(favArts, url, "favArts");
+        render();
+        return;
+      }
       const cardsBox = sec.querySelector(".article-cards");
       if (expanded.has(url)) { expanded.delete(url); } else {
         expanded.add(url);
