@@ -1,6 +1,43 @@
 {
  "cards": [
   {
+   "id": "https://timeout.co.il/monroe-%d7%9e%d7%95%d7%a0%d7%a8%d7%95/#מושיקו אברהם ממשיך לכבוש את נחלת בנימין עם בר האוכל מונרו",
+   "name": "מושיקו אברהם ממשיך לכבוש את נחלת בנימין עם בר האוכל מונרו",
+   "type": "המבורגרייה",
+   "what_to_eat": "המבורגר, שווארמה, שקשוקה, סשימי, בריוש, דג",
+   "owner": null,
+   "hours": "18:00-20:00",
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "from": "18:00",
+     "to": "20:00"
+    }
+   ],
+   "city": "תל אביב",
+   "location": "אחד העם 19, תל אביב, נחלת בנימין",
+   "region": "tlv",
+   "is_new": false,
+   "closing_soon": false,
+   "opening_info": null,
+   "article_title": "מושיקו אברהם ממשיך לכבוש את נחלת בנימין עם בר האוכל מונרו",
+   "article_url": "https://timeout.co.il/monroe-%d7%9e%d7%95%d7%a0%d7%a8%d7%95/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1783668258_36014-1140x641.jpg",
+   "published": "2026-07-12T12:55:28+03:00",
+   "details_url": null,
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
+  },
+  {
    "id": "https://timeout.co.il/cookie-girl-%d7%a4%d7%9c%d7%95%d7%a8%d7%a0%d7%98%d7%99%d7%9f/#שווארמה משוקולד לבן-ורוד",
    "name": "שווארמה משוקולד לבן-ורוד",
    "type": "שווארמה",
@@ -57587,6 +57624,7 @@
   "https://timeout.co.il/cafe-tzin/",
   "https://timeout.co.il/casa-bar/",
   "https://timeout.co.il/chef-show-2025/",
+  "https://timeout.co.il/chef-table-2026/",
   "https://timeout.co.il/chez-nous-שה-נו/",
   "https://timeout.co.il/cookie-girl-פלורנטין/",
   "https://timeout.co.il/dopo-apollo/",
@@ -57613,6 +57651,7 @@
   "https://timeout.co.il/lupa-לופה/",
   "https://timeout.co.il/make-norish-great-again/",
   "https://timeout.co.il/molam-מולאם/",
+  "https://timeout.co.il/monroe-מונרו/",
   "https://timeout.co.il/motek-ניו-יורק/",
   "https://timeout.co.il/not-on-injera-alone-5-ethiopian-restaurants-you-need-to-eat-at-in-tel-aviv/",
   "https://timeout.co.il/not-your-nonnas/",
@@ -58141,7 +58180,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-07-12T09:17:36.265078+03:00",
+ "last_run": "2026-07-13T09:37:34.303742+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
@@ -61571,6 +61610,7 @@
   "בזל 37, תל אביב, תל אביב, ישראל": [
    32.089902,
    34.780465
-  ]
+  ],
+  "אחד העם 19, תל אביב, נחלת בנימין, תל אביב, ישראל": null
  }
 }
