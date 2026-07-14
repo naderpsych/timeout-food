@@ -563,7 +563,15 @@
    "details_url": null,
    "lat": 32.076967,
    "lon": 34.781601,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "enrichment": {
+    "hours": "פתוח 24 שעות",
+    "address": "אבן גבירול 44",
+    "source": "rest.co.il",
+    "source_url": "https://www.rest.co.il/rest/61215290/",
+    "date": "2026-07-12",
+    "schedule": null
+   }
   },
   {
    "id": "https://timeout.co.il/שניצלים-טובים-תל-אביב/#גווידו",
@@ -907,7 +915,15 @@
    "details_url": "https://timeout.co.il/trattoria-una-%d7%98%d7%a8%d7%98%d7%95%d7%a8%d7%99%d7%94-%d7%90%d7%95%d7%a0%d7%94/",
    "lat": 32.1088611,
    "lon": 34.7950946,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "enrichment": {
+    "hours": "כל יום מ-16:00",
+    "address": "אינשטיין 69",
+    "source": "כלכליסט",
+    "source_url": "https://www.calcalist.co.il/style/article/ryhfibwxmg",
+    "date": "2026-07-12",
+    "schedule": null
+   }
   },
   {
    "id": "https://timeout.co.il/מסעדות-חדשות-יולי-2026/#פוגאזי",
@@ -993,7 +1009,29 @@
    "details_url": "https://timeout.co.il/%d7%9e%d7%9c%d7%97-%d7%9e%d7%99%d7%9d/#google_vignette",
    "lat": 32.0443395,
    "lon": 34.7509908,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "enrichment": {
+    "hours": "א'-ש' 12:00-23:00",
+    "address": "טיילת שלמה להט 17",
+    "source": "ישראל היום",
+    "source_url": "https://www.israelhayom.co.il/food/food-news/article/20724713",
+    "date": "2026-07-12",
+    "schedule": [
+     {
+      "days": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     }
+    ]
+   }
   },
   {
    "id": "https://timeout.co.il/מסעדות-חדשות-יולי-2026/#שווארמה סטיישן",
@@ -1037,7 +1075,35 @@
    "details_url": "https://timeout.co.il/%d7%a7%d7%9c%d7%91%d7%a8%d7%99%d7%94-%d7%91%d7%9f-%d7%a6%d7%99%d7%95%d7%9f/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "enrichment": {
+    "hours": "א'-ה' 18:30-00:00, שבת 18:30-00:00 (ו' סגור)",
+    "address": "קינג ג'ורג' 29",
+    "source": "השולחן",
+    "source_url": "https://www.hashulchan.co.il/restaurant/קלבריה-calabria/",
+    "date": "2026-07-12",
+    "schedule": [
+     {
+      "days": [
+       0,
+       1,
+       2,
+       3,
+       4
+      ],
+      "from": "18:30",
+      "to": "00:00"
+     },
+     {
+      "days": [
+       5,
+       6
+      ],
+      "from": "18:30",
+      "to": "00:00"
+     }
+    ]
+   }
   },
   {
    "id": "https://timeout.co.il/מסעדות-חדשות-יולי-2026/#סטף",
@@ -2447,7 +2513,15 @@
    "details_url": null,
    "lat": 32.0813546,
    "lon": 34.7814007,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "enrichment": {
+    "hours": "פתוח 24 שעות",
+    "address": "אבן גבירול 44",
+    "source": "rest.co.il",
+    "source_url": "https://www.rest.co.il/rest/61215290/",
+    "date": "2026-07-12",
+    "schedule": null
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-105/#דיינינגס",
@@ -44051,7 +44125,15 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "enrichment": {
+    "hours": "פתוח 24 שעות",
+    "address": "אבן גבירול 44",
+    "source": "rest.co.il",
+    "source_url": "https://www.rest.co.il/rest/61215290/",
+    "date": "2026-07-12",
+    "schedule": null
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%aa%d7%95%d7%97-%d7%9e%d7%90%d7%95%d7%97%d7%a8-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בורקס עמיקם",
