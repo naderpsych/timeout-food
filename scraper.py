@@ -441,7 +441,8 @@ def parse_article(url, html):
                 continue
             name, dish = None, None
             m = NUMBERED_HEADING.match(text)
-            if m:
+            if m and is_list_article:
+                # מספור נחשב מקום רק בכתבת רשימה — אחרת אלו מנות/טיפים ממוספרים
                 name = m.group(2)
             elif "|" in text and len(text) <= 70:
                 dish_part, name_part = text.split("|", 1)
@@ -501,8 +502,12 @@ def parse_article(url, html):
             if name:
                 break
         if not name:
+            # שם באנגלית בכותרת (LEV, OPA) הוא כמעט תמיד שם המקום
+            mlat = re.search(r"\b([A-Z][A-Za-z'&]{1,20})\b", article_title)
             mq = re.search(r"[\"״']([^\"״']{2,30})[\"״']", article_title)
-            if mq:
+            if mlat and mlat.group(1).upper() not in ("TLV", "TIME", "OUT"):
+                name = mlat.group(1)
+            elif mq:
                 name = mq.group(1)
             elif ":" in article_title:
                 after = article_title.split(":", 1)[1].strip()
