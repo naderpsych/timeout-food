@@ -1,6 +1,112 @@
 {
  "cards": [
   {
+   "id": "https://timeout.co.il/lev-%d7%9c%d7%91/#פוגאס זיתים וקשקבל",
+   "name": "פוגאס זיתים וקשקבל",
+   "type": "מאפייה",
+   "what_to_eat": "מאפה",
+   "owner": "דניאל גינסברג",
+   "hours": "לא צוין",
+   "schedule": null,
+   "city": "לא צוין",
+   "location": "לא צוין",
+   "region": "tlv",
+   "is_new": true,
+   "closing_soon": false,
+   "opening_info": null,
+   "article_title": "שומרים ב-LEV: הפינוק החדש של יום שישי מסתתר בגינת צ'לנוב",
+   "article_url": "https://timeout.co.il/lev-%d7%9c%d7%91/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/LEV3-1140x641-1783933357.jpeg",
+   "published": "2026-07-13T12:00:10+03:00",
+   "details_url": null,
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
+  },
+  {
+   "id": "https://timeout.co.il/lev-%d7%9c%d7%91/#מותססים של OPA והקטן",
+   "name": "מותססים של OPA והקטן",
+   "type": "מסעדת שף",
+   "what_to_eat": "סנדוויץ'",
+   "owner": null,
+   "hours": "לא צוין",
+   "schedule": null,
+   "city": "תל אביב",
+   "location": "יפו",
+   "region": "tlv",
+   "is_new": true,
+   "closing_soon": false,
+   "opening_info": null,
+   "article_title": "שומרים ב-LEV: הפינוק החדש של יום שישי מסתתר בגינת צ'לנוב",
+   "article_url": "https://timeout.co.il/lev-%d7%9c%d7%91/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/LEV3-1140x641-1783933357.jpeg",
+   "published": "2026-07-13T12:00:10+03:00",
+   "details_url": null,
+   "lat": 32.0443395,
+   "lon": 34.7509908,
+   "geo_precision": "area"
+  },
+  {
+   "id": "https://timeout.co.il/lev-%d7%9c%d7%91/#טירמיסו",
+   "name": "טירמיסו",
+   "type": "לא צוין",
+   "what_to_eat": "טירמיסו, קפה, קקאו",
+   "owner": null,
+   "hours": "לא צוין",
+   "schedule": null,
+   "city": "לא צוין",
+   "location": "לא צוין",
+   "region": "tlv",
+   "is_new": true,
+   "closing_soon": false,
+   "opening_info": null,
+   "article_title": "שומרים ב-LEV: הפינוק החדש של יום שישי מסתתר בגינת צ'לנוב",
+   "article_url": "https://timeout.co.il/lev-%d7%9c%d7%91/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/LEV3-1140x641-1783933357.jpeg",
+   "published": "2026-07-13T12:00:10+03:00",
+   "details_url": null,
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
+  },
+  {
+   "id": "https://timeout.co.il/lev-%d7%9c%d7%91/#שוקולדים של DZ",
+   "name": "שוקולדים של DZ",
+   "type": "לא צוין",
+   "what_to_eat": "לא צוין",
+   "owner": null,
+   "hours": "15:00-08:00",
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "from": "15:00",
+     "to": "08:00"
+    }
+   ],
+   "city": "תל אביב",
+   "location": "צ'לנוב 22, תל אביב, שוק לוינסקי",
+   "region": "tlv",
+   "is_new": true,
+   "closing_soon": false,
+   "opening_info": null,
+   "article_title": "שומרים ב-LEV: הפינוק החדש של יום שישי מסתתר בגינת צ'לנוב",
+   "article_url": "https://timeout.co.il/lev-%d7%9c%d7%91/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/LEV3-1140x641-1783933357.jpeg",
+   "published": "2026-07-13T12:00:10+03:00",
+   "details_url": null,
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
+  },
+  {
    "id": "https://timeout.co.il/monroe-%d7%9e%d7%95%d7%a0%d7%a8%d7%95/#מושיקו אברהם ממשיך לכבוש את נחלת בנימין עם בר האוכל מונרו",
    "name": "מושיקו אברהם ממשיך לכבוש את נחלת בנימין עם בר האוכל מונרו",
    "type": "המבורגרייה",
@@ -57646,6 +57752,7 @@
   "https://timeout.co.il/kazoof-קצוף-פופ-אפ/",
   "https://timeout.co.il/kimura-ya-מזאה/",
   "https://timeout.co.il/lab-7-1-2025/",
+  "https://timeout.co.il/lev-לב/",
   "https://timeout.co.il/loki/",
   "https://timeout.co.il/lookout-לוקאאוט/",
   "https://timeout.co.il/lupa-לופה/",
@@ -58180,7 +58287,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-07-13T09:37:34.303742+03:00",
+ "last_run": "2026-07-14T08:52:09.075306+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
@@ -61611,6 +61718,7 @@
    32.089902,
    34.780465
   ],
-  "אחד העם 19, תל אביב, נחלת בנימין, תל אביב, ישראל": null
+  "אחד העם 19, תל אביב, נחלת בנימין, תל אביב, ישראל": null,
+  "צ'לנוב 22, תל אביב, שוק לוינסקי, תל אביב, ישראל": null
  }
 }
