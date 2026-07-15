@@ -24,6 +24,29 @@
    "geo_precision": "area"
   },
   {
+   "id": "https://timeout.co.il/%d7%91%d7%a8-51-%d7%a6%d7%a4%d7%95%d7%9f-%d7%90%d7%91%d7%a8%d7%a7%d7%a1%d7%a1/#בר 51 מתארח",
+   "name": "בר 51 מתארח",
+   "type": "שווארמה",
+   "what_to_eat": "צ'יזבורגר, שווארמה, סשימי, בריוש, יין, סאקה",
+   "owner": null,
+   "hours": "לא צוין",
+   "schedule": null,
+   "city": "תל אביב",
+   "location": "יפו",
+   "region": "tlv",
+   "is_new": true,
+   "closing_soon": false,
+   "opening_info": null,
+   "article_title": "ליל אהבה במטבח: בר 51 מתארח בצפון אברקסס, ולהיפך",
+   "article_url": "https://timeout.co.il/%d7%91%d7%a8-51-%d7%a6%d7%a4%d7%95%d7%9f-%d7%90%d7%91%d7%a8%d7%a7%d7%a1%d7%a1/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1784011052_38505-1140x641.jpg",
+   "published": "2026-07-14T11:53:24+03:00",
+   "details_url": null,
+   "lat": 32.0443395,
+   "lon": 34.7509908,
+   "geo_precision": "area"
+  },
+  {
    "id": "https://timeout.co.il/lev-%d7%9c%d7%91/#LEV",
    "name": "LEV",
    "type": "בית קפה",
@@ -57557,6 +57580,7 @@
   "https://timeout.co.il/בלה-מיה/",
   "https://timeout.co.il/בנדיקט-סגירה/",
   "https://timeout.co.il/בסטה-דגים/",
+  "https://timeout.co.il/בר-51-צפון-אברקסס/",
   "https://timeout.co.il/בר-ורמיני-bar-vermini/",
   "https://timeout.co.il/בר-זוהר/",
   "https://timeout.co.il/בר-חניון/",
@@ -57974,7 +57998,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-07-14T12:47:09.798351+03:00",
+ "last_run": "2026-07-15T08:52:47.645349+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
