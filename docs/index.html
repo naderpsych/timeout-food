@@ -448,6 +448,12 @@ function openNow(c) {
   const sched = (c.schedule && c.schedule.length) ? c.schedule
     : (c.enrichment && c.enrichment.schedule && c.enrichment.schedule.length ? c.enrichment.schedule : null);
   if (!sched) return null;
+  // שעות חלקיות (למשל רק יום אחד ידוע) — לא מכריעים "פתוח/סגור", כדי לא להטעות
+  if (c.enrichment && sched === c.enrichment.schedule) {
+    const days = new Set();
+    sched.forEach(s => (s.days || []).forEach(d => days.add(d)));
+    if (days.size < 5) return null;
+  }
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: "Asia/Jerusalem", weekday: "short", hour: "numeric",
     minute: "numeric", hourCycle: "h23",
@@ -498,7 +504,14 @@ function cardHTML(c) {
   const articleHours = c.hours && c.hours !== NOT_SPECIFIED;
   let hoursText, hoursMissing = false, hoursBadge = "";
   if (articleHours) { hoursText = esc(c.hours); }
-  else if (e && e.hours) { hoursText = esc(e.hours); hoursBadge = srcBadge(e); }
+  else if (e && e.hours) {
+    hoursText = esc(e.hours);
+    // שעות חלקיות — מסמנים במפורש שזה לא כל השבוע
+    const days = new Set();
+    (e.schedule || []).forEach(s => (s.days || []).forEach(d => days.add(d)));
+    if (days.size && days.size < 5) hoursText += ' <span class="missing">(רק הימים שגוגל מציגה)</span>';
+    hoursBadge = srcBadge(e);
+  }
   else { hoursText = "שעות: " + NOT_SPECIFIED; hoursMissing = true; }
   return `<article class="card">
     <div class="card-top">

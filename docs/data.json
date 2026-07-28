@@ -45605,7 +45605,30 @@
    "details_url": null,
    "lat": 32.0607931,
    "lon": 34.7689643,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "enrichment": {
+    "address": "יהודה הלוי 12, תל אביב-יפו",
+    "hours": "ג' 08:00-24:00, ג' 08:00-18:00, ג' סגור",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-07-28"
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%90%d7%a8%d7%a7-%d7%94%d7%9e%d7%a1%d7%99%d7%9c%d7%94-%d7%a2%d7%a1%d7%a7%d7%99%d7%9d/#תדר",
@@ -45649,7 +45672,13 @@
    "details_url": null,
    "lat": 32.054946,
    "lon": 34.760867,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "enrichment": {
+    "address": "דרך יפו 9, תל אביב-יפו",
+    "source": "גוגל",
+    "date": "2026-07-28"
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%90%d7%a8%d7%a7-%d7%94%d7%9e%d7%a1%d7%99%d7%9c%d7%94-%d7%a2%d7%a1%d7%a7%d7%99%d7%9d/#אוגנדה",
@@ -45715,7 +45744,13 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "enrichment": {
+    "address": "דרך משה פלימן, חיפה, 3508415",
+    "source": "גוגל",
+    "date": "2026-07-28"
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%90%d7%a8%d7%a7-%d7%94%d7%9e%d7%a1%d7%99%d7%9c%d7%94-%d7%a2%d7%a1%d7%a7%d7%99%d7%9d/#ג'אז קיסה",
@@ -64850,7 +64885,16 @@
   "נועם 3, תל אביב-יפו, ישראל, ישראל": null,
   "נחמני 25, תל אביב-יפו, ישראל, ישראל": null,
   "דרך בן צבי 84, תל אביב-יפו, ישראל, ישראל": null,
-  "הברזל 4, תל אביב-יפו, ישראל, ישראל": null
+  "הברזל 4, תל אביב-יפו, ישראל, ישראל": null,
+  "יהודה הלוי 12, תל אביב-יפו, ישראל": [
+   32.0607931,
+   34.7689643
+  ],
+  "דרך יפו 9, תל אביב-יפו, ישראל": [
+   32.054946,
+   34.760867
+  ],
+  "דרך משה פלימן, חיפה, 3508415, ישראל": null
  },
- "last_google_run": "2026-07-28T16:19:28.921101+03:00"
+ "last_google_run": "2026-07-28T16:28:25.782494+03:00"
 }
