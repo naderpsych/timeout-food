@@ -148,6 +148,9 @@ def main():
     today = datetime.now(TZ).strftime("%Y-%m-%d")
     geocache = data.setdefault("geocache", {})
     filled = blocked = 0
+    # "טלאי" נפרד: מאפשר להחיל את התוצאות על גרסה עדכנית של data.json
+    # גם אם מישהו אחר עדכן אותה בינתיים (מונע התנגשויות git)
+    patch = {}
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
@@ -182,6 +185,10 @@ def main():
                 if coords and card.get("lat") is None:
                     card["lat"], card["lon"] = coords
                     card["geo_precision"] = "address"
+            key = f"{lead['name'].strip().lower()}|{lead['city']}"
+            patch[key] = {"enrichment": enr,
+                          "closed_permanently": found["closed_permanently"],
+                          "coords": coords}
             filled += 1
             print(f"  ✓   {lead['name'][:20]} (×{len(group)}) | {found.get('address','-')[:30]} | "
                   f"{(found.get('hours') or '-')[:34]}")
@@ -189,6 +196,9 @@ def main():
 
     data["last_google_run"] = datetime.now(TZ).isoformat()
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    (DATA_PATH.parent.parent / "enrich_patch.json").write_text(
+        json.dumps({"geocache": geocache, "places": patch}, ensure_ascii=False, indent=1),
+        encoding="utf-8")
     remaining = sum(1 for c in data["cards"] if needs_enrichment(c))
     print(f"\nfilled {filled}, blocked {blocked}, remaining {remaining}")
 
