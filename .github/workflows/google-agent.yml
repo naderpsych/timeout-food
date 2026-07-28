@@ -8,7 +8,7 @@ on:
     inputs:
       batch:
         description: "כמה מקומות למלא בריצה"
-        default: "150"
+        default: "350"
 
 permissions:
   contents: write
@@ -20,7 +20,7 @@ concurrency:
 jobs:
   enrich:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
 
@@ -34,7 +34,7 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: הרצת הסוכן
-        run: python google_agent.py ${{ github.event.inputs.batch || '150' }}
+        run: python google_agent.py ${{ github.event.inputs.batch || '350' }}
 
       - name: שמירת עדכונים
         run: |
