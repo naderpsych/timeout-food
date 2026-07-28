@@ -230,8 +230,8 @@
   footer a { color: var(--muted); }
   /* בטלפון: כותרת למעלה, תמונה רחבה מתחתיה, ולב קטן בפינה */
   @media (max-width: 600px) {
-    /* סוגי מקומות: שורה אחת בלבד, והשאר נפתח בלחיצה על "עוד" */
-    .chips.collapsed { max-height: 31px; overflow: hidden; }
+    /* סוגי מקומות: 3 בלבד (כולל "רק חדשים"), והשאר נפתח ב"עוד" */
+    .chips.collapsed .chip:nth-child(n+4) { display: none; }
     #chipsToggle { display: block; }
     header { position: relative; padding-top: 22px; }
     #themeBtn { position: absolute; top: 18px; inset-inline-end: 20px; }
