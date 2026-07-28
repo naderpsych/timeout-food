@@ -162,6 +162,17 @@
   .card-footer a:hover { text-decoration: underline; }
   .card-footer .date { color: var(--muted); white-space: nowrap; }
   .card-footer .links { display: flex; align-items: center; gap: 10px; }
+  .multi-src {
+    border-top: 1px dashed var(--border); padding-top: 9px; margin-top: 2px;
+    display: flex; flex-direction: column; gap: 5px;
+  }
+  .multi-src-title { color: var(--muted); font-size: .76rem; font-weight: 600; }
+  .multi-src a {
+    color: var(--accent); text-decoration: none; font-size: .8rem; line-height: 1.35;
+    display: flex; justify-content: space-between; gap: 8px;
+  }
+  .multi-src a:hover { text-decoration: underline; }
+  .multi-src .mini-date { color: var(--muted); font-size: .72rem; white-space: nowrap; flex-shrink: 0; }
   .gmaps-btn {
     display: inline-flex; align-items: center; gap: 5px;
     border: 1px solid var(--border); border-radius: 10px; padding: 3px 9px;
@@ -482,6 +493,36 @@ function srcBadge(e) {
     fromGoogle ? GOOGLE_G + " גוגל" : "🔎 " + esc(e.source)}</span>`;
 }
 
+// איחוד כפילויות: אותה מסעדה שהומלצה בכמה כתבות -> כרטיס אחד עם כל הקישורים.
+// משמש רק במיון לפי קרבה, שם רשימת כפילויות היא רעש.
+function mergeByPlace(list) {
+  const groups = new Map();
+  list.forEach(c => {
+    const key = c.name.trim().toLowerCase() + "|" + c.city;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(c);
+  });
+  const score = c => [c.type, c.what_to_eat, c.hours, c.location]
+    .filter(v => v && v !== NOT_SPECIFIED).length + (c.enrichment ? 3 : 0);
+  return [...groups.values()].map(g => {
+    if (g.length === 1) return g[0];
+    const base = [...g].sort((a, b) => score(b) - score(a))[0];
+    // ממלאים שדות חסרים מכרטיסים אחרים של אותו מקום
+    const merged = { ...base };
+    ["type", "what_to_eat", "hours", "location", "owner"].forEach(f => {
+      if (!merged[f] || merged[f] === NOT_SPECIFIED) {
+        const alt = g.find(c => c[f] && c[f] !== NOT_SPECIFIED);
+        if (alt) merged[f] = alt[f];
+      }
+    });
+    merged.is_new = g.some(c => c.is_new);
+    merged.closing_soon = g.some(c => c.closing_soon);
+    merged.sources = g.map(c => ({ url: c.article_url, title: c.article_title, published: c.published }))
+      .sort((a, b) => new Date(b.published) - new Date(a.published));
+    return merged;
+  });
+}
+
 function cardHTML(c) {
   const e = c.enrichment || null;
   // מיקום: מהכתבה, ואם חסר — מההעשרה (עם תג מקור)
@@ -528,9 +569,16 @@ function cardHTML(c) {
     <div class="field"><span class="ico">📍</span><span class="${loc ? "" : "missing"}">${
       loc ? esc(loc) : "מיקום: " + NOT_SPECIFIED}${locBadge}</span></div>
     ${c.opening_info ? `<div class="opening">🎉 ${esc(c.opening_info)}</div>` : ""}
+    ${c.sources && c.sources.length > 1 ? `<div class="multi-src">
+      <span class="multi-src-title">הומלץ ב-${c.sources.length} כתבות:</span>
+      ${c.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener"
+        title="${esc(s.title)}">${esc(s.title.length > 44 ? s.title.slice(0, 44) + "…" : s.title)}
+        <span class="mini-date">${fmtDate(s.published)}</span></a>`).join("")}
+    </div>` : ""}
     <div class="card-footer">
       <span class="links">
-        <a href="${esc(c.article_url)}" target="_blank" rel="noopener" title="${esc(c.article_title)}">לכתבה ↗</a>
+        ${c.sources && c.sources.length > 1 ? "" :
+          `<a href="${esc(c.article_url)}" target="_blank" rel="noopener" title="${esc(c.article_title)}">לכתבה ↗</a>`}
         <a class="gmaps-btn" target="_blank" rel="noopener" title="פתח בגוגל מפות"
            href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
              c.name + " " + (c.city !== NOT_SPECIFIED ? c.city : "ישראל"))}">${GOOGLE_G} מפות</a>
@@ -585,9 +633,11 @@ function render() {
 
   if (view === "cards") {
     articleList.innerHTML = ""; articleList.hidden = true; grid.hidden = false;
-    grid.innerHTML = shown.slice(0, cardLimit).map(cardHTML).join("");
-    if (shown.length > cardLimit) {
-      addLoadMore(moreBox, shown.length - cardLimit, () => { cardLimit += CARD_CHUNK; render(); });
+    // במיון לפי קרבה מאחדים כפילויות של אותה מסעדה לכרטיס אחד
+    const list = geoPoint ? mergeByPlace(shown) : shown;
+    grid.innerHTML = list.slice(0, cardLimit).map(cardHTML).join("");
+    if (list.length > cardLimit) {
+      addLoadMore(moreBox, list.length - cardLimit, () => { cardLimit += CARD_CHUNK; render(); });
     }
   } else {
     // "לפי כתבה" וגם "העיר של" — שתיהן תצוגות מקובצות לפי כתבה
