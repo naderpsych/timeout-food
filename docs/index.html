@@ -105,10 +105,11 @@
   }
   .chip.active { background: var(--chip-active); color: var(--chip-active-text); }
   .chip.newchip.active { background: var(--new); color: #fff; }
+  /* "עוד" יושב בתוך שורת הסוגים, כמו צ'יפ נוסף */
   #chipsToggle {
-    display: none; border: none; background: none; color: var(--accent);
-    font-size: .82rem; font-weight: 600; cursor: pointer; padding: 2px 4px 6px;
-    font-family: inherit;
+    display: none; border: 1px dashed var(--border); background: none;
+    color: var(--accent); font-size: .83rem; font-weight: 700; cursor: pointer;
+    padding: 6px 12px; border-radius: 16px; font-family: inherit; white-space: nowrap;
   }
   main { max-width: 1100px; margin: 0 auto; padding: 10px 20px 60px; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
@@ -290,7 +291,6 @@
     <button class="tab" data-region="rest">שאר הארץ <span class="count"></span></button>
   </div>
   <div class="chips" id="typeChips"></div>
-  <button id="chipsToggle" hidden>עוד ▾</button>
 </div>
 
 <main>
@@ -364,11 +364,12 @@ document.querySelectorAll(".viewbtn").forEach(b => b.onclick = () => {
 
 document.getElementById("search").oninput = e => { query = e.target.value.trim(); rerender(); };
 
-// רשימת הסוגים מקופלת בטלפון (שתי שורות) ונפתחת ב"עוד"
+// בטלפון מוצגים 3 סוגים בלבד; "עוד" יושב באותה שורה ופותח את השאר
 const chipsBox = document.getElementById("typeChips");
-const chipsToggle = document.getElementById("chipsToggle");
 chipsBox.classList.add("collapsed");
-chipsToggle.hidden = false;
+const chipsToggle = document.createElement("button");
+chipsToggle.id = "chipsToggle";
+chipsToggle.textContent = "עוד ▾";
 chipsToggle.onclick = () => {
   const collapsed = chipsBox.classList.toggle("collapsed");
   chipsToggle.textContent = collapsed ? "עוד ▾" : "פחות ▴";
@@ -453,6 +454,7 @@ function buildTypeChips() {
     };
     box.appendChild(b);
   });
+  box.appendChild(chipsToggle);  // תמיד אחרון, כדי שיישב מיד אחרי הצ'יפים הגלויים
 }
 
 // כתבות "העיר של X" — ראיונות אישיים, מוצגות רק בלשונית שלהן
