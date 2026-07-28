@@ -230,8 +230,8 @@
   footer a { color: var(--muted); }
   /* בטלפון: כותרת למעלה, תמונה רחבה מתחתיה, ולב קטן בפינה */
   @media (max-width: 600px) {
-    /* סוגי מקומות: שתי שורות בלבד, והשאר נפתח בלחיצה על "עוד" */
-    .chips.collapsed { max-height: 68px; overflow: hidden; }
+    /* סוגי מקומות: שורה אחת בלבד, והשאר נפתח בלחיצה על "עוד" */
+    .chips.collapsed { max-height: 31px; overflow: hidden; }
     #chipsToggle { display: block; }
     header { position: relative; padding-top: 22px; }
     #themeBtn { position: absolute; top: 18px; inset-inline-end: 20px; }
@@ -290,7 +290,7 @@
     <button class="tab" data-region="rest">שאר הארץ <span class="count"></span></button>
   </div>
   <div class="chips" id="typeChips"></div>
-  <button id="chipsToggle" hidden>עוד סוגים ▾</button>
+  <button id="chipsToggle" hidden>עוד ▾</button>
 </div>
 
 <main>
@@ -371,7 +371,7 @@ chipsBox.classList.add("collapsed");
 chipsToggle.hidden = false;
 chipsToggle.onclick = () => {
   const collapsed = chipsBox.classList.toggle("collapsed");
-  chipsToggle.textContent = collapsed ? "עוד סוגים ▾" : "פחות ▴";
+  chipsToggle.textContent = collapsed ? "עוד ▾" : "פחות ▴";
 };
 
 // --- חיפוש לפי כתובת (OpenStreetMap Nominatim) ---
