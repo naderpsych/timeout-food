@@ -187,22 +187,33 @@ def extract_type(text, title=""):
 
 
 def extract_city_and_address(text, article_title=""):
-    city = None
     combined = text + " " + article_title
-    for name in CITY_NAMES:
-        if name in combined:
-            city = CITY_CANON.get(name, name)
+
+    # 1) שכונה/שוק מוכרים הם האינדיקציה האמינה ביותר למיקום המקום עצמו.
+    #    חובה התאמת מילה שלמה — אחרת "הדר" נתפס בתוך "נהדר"/"הדרך".
+    city = None
+    for hood, hood_city in NEIGHBORHOOD_TO_CITY.items():
+        if word_match(hood, combined):
+            city = hood_city
             break
+
+    # 2) אחרת: עיר שמוזכרת כמיקום ("בתל אביב", "תל אביב") ולא כמוצא ("מבאר שבע").
+    #    ה-lookbehind מונע התאמה כשלפני שם העיר יש אות (למשל מ' של "מבאר שבע").
     if not city:
-        for hood, hood_city in NEIGHBORHOOD_TO_CITY.items():
-            if hood in combined:
-                city = hood_city
+        for name in CITY_NAMES:
+            if name not in combined:
+                continue
+            if re.search(r"(?<![א-ת])[בל]?" + re.escape(name), combined):
+                city = CITY_CANON.get(name, name)
                 break
 
-    # שכונה שמוזכרת — נוסיף כחלק מהמיקום גם אם יש עיר
+    # שכונה שמוזכרת — נוסיף כחלק מהמיקום גם אם יש עיר.
+    # רק שכונות של אותה עיר, וגם כאן בהתאמת מילה שלמה.
     neighborhood = None
     for hood in NEIGHBORHOOD_TO_CITY:
-        if hood in text:
+        if NEIGHBORHOOD_TO_CITY[hood] != city:
+            continue
+        if word_match(hood, text):
             neighborhood = hood
             break
 
