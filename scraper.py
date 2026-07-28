@@ -309,9 +309,11 @@ def extract_what_to_eat(text, dish_hint=None):
 
 
 # "השף יוסי שטרית", "המסעדן טל רשבסקי", "הבעלים דוד טור" -> שם פרטי + משפחה
-OWNER_TRIGGER_RE = re.compile(
-    r"(?:השף(?:ית)?|המסעדן(?:ית)?|הבעלים(?:\s+של[א-ת]*)?|הקונדיטור(?:ית)?|האופה|הבריסטה)"
-    r"\s+([א-ת][א-ת'׳]+\s[א-ת][א-ת'׳\"״]+)")
+_TITLES = r"(?:השף(?:ית)?|המסעדן(?:ית)?|הבעלים(?:\s+של[א-ת]*)?|הקונדיטור(?:ית)?|האופה|הבריסטה)"
+_PERSON = r"([א-ת][א-ת'׳]+\s[א-ת][א-ת'׳\"״]+)"
+# שני סדרים נפוצים: "השף יוסי שטרית" וגם "עדי ברק, הקונדיטורית ש..."
+OWNER_TRIGGER_RE = re.compile(_TITLES + r"\s+" + _PERSON)
+OWNER_REVERSED_RE = re.compile(_PERSON + r"\s*,\s*" + _TITLES)
 # מילים שמעידות שלא נתפס שם אדם אלא המשך המשפט
 NOT_A_NAME = {"המקום", "המסעדה", "הבר", "הקפה", "בית", "החדש", "החדשה", "הזה",
               "הוותיק", "שלה", "שלו", "כבר", "עוד", "לא", "הוא", "היא", "אשר",
@@ -324,12 +326,15 @@ NOT_A_NAME = {"המקום", "המסעדה", "הבר", "הקפה", "בית", "ה�
 
 
 def extract_owner(text):
-    for m in OWNER_TRIGGER_RE.finditer(text):
-        name = m.group(1)
-        words = name.split()
-        if any(w in NOT_A_NAME for w in words):
-            continue
-        return name
+    # "עדי ברק, הקונדיטורית" קודם — סדר זה מדויק יותר מ"הקונדיטורית שהכינה"
+    for pattern in (OWNER_REVERSED_RE, OWNER_TRIGGER_RE):
+        for m in pattern.finditer(text):
+            name = m.group(1)
+            if any(w in NOT_A_NAME for w in name.split()):
+                continue
+            if name.split()[0].startswith("ש") and len(name.split()[0]) > 4:
+                continue  # "שהכינה", "שפתחה" — פועל, לא שם
+            return name
     return None
 
 
@@ -370,6 +375,10 @@ CLOSURE_TITLE_RE = re.compile(r"נסגר|נסגרו|נסגרת|סגירות|סג
 CLOSING_SOON_RE = re.compile(
     r"עומדת? להיסגר|תיסגר|ייסגר|נסגרת? בימים אלו|נסגרת? בקרוב|לפני הסגירה"
     r"|הזדמנות אחרונה|עד סוף (החודש|השבוע)|ביקור אחרון")
+# מקום זמני: פופ-אפ, אירוח חד-פעמי, "לזמן מוגבל"
+POPUP_RE = re.compile(
+    r"פופ[\s\-]?אפ|pop[\s\-]?up|לזמן מוגבל|לתקופה מוגבלת|אירוח חד[\s\-]?פעמי"
+    r"|הימים האחרונים|שבועיים בלבד|עד סוף החודש בלבד")
 # עדות לסגירה שכבר קרתה — בתוך הטקסט של המקום עצמו
 CLOSED_PAST_RE = re.compile(
     r"(?<![א-ת])נסגר(?:ה|ו)?(?![א-ת])|סגר(?:ה)?\s+את|ננטש|הפסיק(?:ה)?\s+לפעול|ירד(?:ה)?\s+מהמפה")
@@ -567,6 +576,7 @@ def build_card(name, text, article_title, article_url, published_iso, details_li
         "region": region,
         "is_new": detect_is_new(text, article_title) and not closing_soon,
         "closing_soon": closing_soon,
+        "is_popup": bool(POPUP_RE.search(text)),
         "opening_info": opening,
         "article_title": article_title,
         "article_url": article_url,

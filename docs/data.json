@@ -36,22 +36,23 @@
    "region": "tlv",
    "is_new": false,
    "closing_soon": false,
+   "is_popup": false,
    "opening_info": null,
    "article_title": "ממתיקים את השווארמה: 3 מקומות שמשנים את המהות למנות מוכרות",
    "article_url": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%a9%d7%99%d7%a0%d7%95%d7%99/",
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/IMG_1077-1140x641-1785139000.jpg",
    "published": "2026-07-27T12:31:54+03:00",
    "details_url": "https://timeout.co.il/wabito-%d7%95%d7%95%d7%90%d7%91%d7%99%d7%98%d7%95/",
-   "lat": 32.0443395,
-   "lon": 34.7509908,
-   "geo_precision": "area"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%a9%d7%99%d7%a0%d7%95%d7%99/#קוקי גירל",
    "name": "קוקי גירל",
    "type": "שווארמה",
    "what_to_eat": "שווארמה מתוקה, שווארמה, פיתה, טחינה",
-   "owner": "שהכינה את",
+   "owner": "עדי ברק",
    "hours": "לא צוין",
    "schedule": null,
    "city": "תל אביב",
@@ -59,15 +60,16 @@
    "region": "tlv",
    "is_new": true,
    "closing_soon": false,
+   "is_popup": true,
    "opening_info": null,
    "article_title": "ממתיקים את השווארמה: 3 מקומות שמשנים את המהות למנות מוכרות",
    "article_url": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%a9%d7%99%d7%a0%d7%95%d7%99/",
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/IMG_1077-1140x641-1785139000.jpg",
    "published": "2026-07-27T12:31:54+03:00",
    "details_url": "https://timeout.co.il/cookie-girl-%d7%a4%d7%9c%d7%95%d7%a8%d7%a0%d7%98%d7%99%d7%9f/",
-   "lat": 32.0577595,
-   "lon": 34.7686424,
-   "geo_precision": "area"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%a9%d7%99%d7%a0%d7%95%d7%99/#Melt Me",
@@ -82,15 +84,16 @@
    "region": "tlv",
    "is_new": false,
    "closing_soon": false,
+   "is_popup": false,
    "opening_info": null,
    "article_title": "ממתיקים את השווארמה: 3 מקומות שמשנים את המהות למנות מוכרות",
    "article_url": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%a9%d7%99%d7%a0%d7%95%d7%99/",
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/IMG_1077-1140x641-1785139000.jpg",
    "published": "2026-07-27T12:31:54+03:00",
    "details_url": "https://timeout.co.il/melt-me-%d7%9e%d7%9c%d7%98-%d7%9e%d7%99/#google_vignette",
-   "lat": 32.0683679,
-   "lon": 34.7685526,
-   "geo_precision": "area"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/foodland/#Foodland",
@@ -21530,7 +21533,7 @@
    "name": "רשת בורגר סטיישן",
    "type": "המבורגרייה",
    "what_to_eat": "המבורגר, אסאדו",
-   "owner": "שלומי גדות",
+   "owner": null,
    "hours": "00:30-10:00",
    "schedule": [
     {
@@ -37469,7 +37472,7 @@
    "name": "ארוחות הטעימות הכי",
    "type": "פיצרייה",
    "what_to_eat": "פסטה, פיצה, ראמן, קוקטייל, יין, דג",
-   "owner": "שהגיע לארץ",
+   "owner": null,
    "hours": "17:30-19:00",
    "schedule": [
     {
@@ -39192,7 +39195,7 @@
    "name": "עדן דוד",
    "type": "דוכן / אוכל רחוב",
    "what_to_eat": "המטבח הסיני, פרגית, סלט",
-   "owner": "שכונתה ע\"י",
+   "owner": null,
    "hours": "לא צוין",
    "schedule": null,
    "city": "לא צוין",
@@ -42118,7 +42121,7 @@
    "name": "כל יום",
    "type": "חומוסייה",
    "what_to_eat": "ריזוטו, חומוס",
-   "owner": "שעומד מאחורי",
+   "owner": null,
    "hours": "11:00-22:00",
    "schedule": [
     {
@@ -49846,7 +49849,7 @@
    "name": "גסטרו-בר חדש בשדרות",
    "type": "המבורגרייה",
    "what_to_eat": "פסטה, דגים, שרימפס, סלט, כריך, סנדוויץ'",
-   "owner": "שעומד מאחריו",
+   "owner": null,
    "hours": "א'-ה', 18:00-00:00",
    "schedule": [
     {
@@ -55647,7 +55650,7 @@
    "name": "דה פקטו",
    "type": "מסעדה",
    "what_to_eat": "אורחים מבשלים",
-   "owner": "שמתמחה בבישול",
+   "owner": null,
    "hours": "לא צוין",
    "schedule": null,
    "city": "חיפה",
@@ -60172,7 +60175,7 @@
    "name": "רומנו",
    "type": "ביסטרו",
    "what_to_eat": "לא צוין",
-   "owner": "שמנצח על",
+   "owner": null,
    "hours": "מתי: א'-ה' בין 17:30-19:30 דרך יפו 9, תל אביב",
    "schedule": [
     {

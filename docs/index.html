@@ -141,6 +141,11 @@
   }
   .src-badge.g { display: inline-flex; align-items: center; gap: 3px; }
   .src-badge.g svg { width: 10px; height: 10px; }
+  .badge-popup {
+    background: #ede4fb; color: #6a3fb5; font-size: .75rem; font-weight: 700;
+    padding: 3px 10px; border-radius: 12px; white-space: nowrap;
+  }
+  [data-theme="dark"] .badge-popup { background: #2e2440; color: #b998f5; }
   .badge-closed-perm {
     background: var(--accent-soft); color: var(--accent); font-size: .75rem;
     font-weight: 700; padding: 3px 10px; border-radius: 12px; white-space: nowrap;
@@ -486,6 +491,19 @@ function openNow(c) {
   return false;
 }
 
+// קישור לגוגל מפות: שם + כתובת/שכונה + עיר, ועיגון לנקודה כשידועה —
+// כדי שלא ננחת על מקום אחר עם שם דומה.
+function gmapsUrl(c) {
+  const addr = (c.enrichment && c.enrichment.address) ||
+    (c.location !== NOT_SPECIFIED ? c.location : "");
+  const parts = [c.name, addr, c.city !== NOT_SPECIFIED ? c.city : "ישראל"]
+    .filter(Boolean).join(" ");
+  const q = encodeURIComponent(parts);
+  return c.lat
+    ? `https://www.google.com/maps/search/${q}/@${c.lat},${c.lon},16z`
+    : `https://www.google.com/maps/search/?api=1&query=${q}`;
+}
+
 function srcBadge(e) {
   const fromGoogle = e.source === "גוגל";
   const title = `מקור: ${esc(e.source)}${e.date ? " · נבדק ב-" + esc(e.date) : ""}`;
@@ -557,7 +575,7 @@ function cardHTML(c) {
   return `<article class="card">
     <div class="card-top">
       <h3>${esc(c.name)}</h3>
-      <div class="badges">${distBadge}${c.closed_permanently ? '<span class="badge-closed-perm">⛔ נסגר</span>' : ""}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new && !c.closed_permanently ? '<span class="badge-new">✨ חדש</span>' : ""}<button
+      <div class="badges">${distBadge}${c.closed_permanently ? '<span class="badge-closed-perm">⛔ נסגר</span>' : ""}${c.is_popup ? '<span class="badge-popup" title="מקום זמני — ייתכן שכבר אינו פעיל">🎪 פופ-אפ</span>' : ""}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new && !c.closed_permanently ? '<span class="badge-new">✨ חדש</span>' : ""}<button
         class="fav-btn${favCards.has(c.id) ? " active" : ""}" data-fid="${esc(c.id)}"
         title="${favCards.has(c.id) ? "הסר מהמועדפים" : "הוסף למועדפים"}">${favCards.has(c.id) ? "♥" : "♡"}</button></div>
     </div>
@@ -580,8 +598,7 @@ function cardHTML(c) {
         ${c.sources && c.sources.length > 1 ? "" :
           `<a href="${esc(c.article_url)}" target="_blank" rel="noopener" title="${esc(c.article_title)}">לכתבה ↗</a>`}
         <a class="gmaps-btn" target="_blank" rel="noopener" title="פתח בגוגל מפות"
-           href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-             c.name + " " + (c.city !== NOT_SPECIFIED ? c.city : "ישראל"))}">${GOOGLE_G} מפות</a>
+           href="${gmapsUrl(c)}">${GOOGLE_G} מפות</a>
       </span>
       <span class="date">${fmtDate(c.published)}</span>
     </div>
