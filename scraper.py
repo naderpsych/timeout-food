@@ -361,7 +361,9 @@ NUMBERED_HEADING = re.compile(r"^\s*(\d{1,2})\s*[.\)]\s*(.+)$")
 SKIP_TITLE_RE = re.compile(
     r"רשתות.{0,40}(ארה[\"״]ב|אמריק)|(ארה[\"״]ב|אמריק).{0,40}רשתות"
     # כתבות שמדרגות אנשים (שפים/מסעדנים) ולא מקומות
-    r"|\d+\s+(שפים|שפיות|מסעדנים|מסעדניות|קונדיטורים|קונדיטוריות|אופים|אופות|בריסטות|בריסטים)")
+    r"|\d+\s+(שפים|שפיות|מסעדנים|מסעדניות|קונדיטורים|קונדיטוריות|אופים|אופות|בריסטות|בריסטים)"
+    # רשימות עולמיות — מקומות בחו"ל, לא רלוונטיים
+    r"|הכי טובים בעולם|הכי טובות בעולם|בעולם כרגע")
 
 # כתבות סגירה: מקום שנסגר כבר = לא כרטיס; מקום שעומד להיסגר = "הזדמנות אחרונה"
 CLOSURE_TITLE_RE = re.compile(r"נסגר|נסגרו|נסגרת|סגירות|סגירה|סוגרת? את|נפרדים מ|פרידה מ")
@@ -444,22 +446,36 @@ def parse_article(url, html):
             if m and is_list_article:
                 # מספור נחשב מקום רק בכתבת רשימה — אחרת אלו מנות/טיפים ממוספרים
                 name = m.group(2)
-            elif "|" in text and len(text) <= 70:
-                dish_part, name_part = text.split("|", 1)
-                name, dish = name_part.strip(), dish_part.strip()
+            elif re.search(r"\s(//|\|)\s|^[^|]{2,40}\|", text) and len(text) <= 70:
+                name = text
             elif (is_list_article and len(text) <= 45
                   and not re.search(r"[?!:,]", text) and len(text.split()) <= 4):
                 name = text
+            names = []
             if name:
-                current = {"name": clean_name(name), "dish": dish, "texts": [], "link": None}
-                sections.append(current)
+                # טווח מספרים ("19-21. א // ב // ג") = כמה מקומות בכותרת אחת
+                if re.match(r"^\s*\d{1,2}\s*[-–]\s*\d{1,2}\s*[.\)]", text) and "//" in name:
+                    stripped = re.sub(r"^\s*\d{1,2}\s*[-–]\s*\d{1,2}\s*[.\)]\s*", "", name)
+                    names = [p.strip() for p in stripped.split("//") if p.strip()]
+                # "מנה // שם המקום" / "מנה | שם המקום" — שם המקום בחלק השני
+                elif re.search(r"\s(//|\|)\s|^[^|]{2,40}\|", name) and len(name) <= 70:
+                    sep = "//" if "//" in name else "|"
+                    dish_part, name_part = name.split(sep, 1)
+                    names, dish = [name_part.strip()], dish_part.strip()
+                else:
+                    names = [name]
+            if names:
+                current = [{"name": clean_name(n), "dish": dish, "texts": [], "link": None}
+                           for n in names]
+                sections.extend(current)
             else:
                 current = None
         elif current is not None:
-            current["texts"].append(text)
-            for a in el.find_all("a", href=True):
-                if "timeout.co.il" in a["href"] and current["link"] is None:
-                    current["link"] = a["href"]
+            for sec in current:
+                sec["texts"].append(text)
+                for a in el.find_all("a", href=True):
+                    if "timeout.co.il" in a["href"] and sec["link"] is None:
+                        sec["link"] = a["href"]
 
     # מקטע בלי טקסט בכלל = כנראה כותרת שאינה מקום
     sections = [s for s in sections if s["texts"]]
