@@ -139,6 +139,12 @@
     padding: 1px 7px; border-radius: 9px; margin-inline-start: 5px;
     background: var(--chip); color: var(--muted); vertical-align: middle;
   }
+  .src-badge.g { display: inline-flex; align-items: center; gap: 3px; }
+  .src-badge.g svg { width: 10px; height: 10px; }
+  .badge-closed-perm {
+    background: var(--accent-soft); color: var(--accent); font-size: .75rem;
+    font-weight: 700; padding: 3px 10px; border-radius: 12px; white-space: nowrap;
+  }
   .fav-btn {
     border: none; background: none; cursor: pointer; font-size: 1.15rem;
     line-height: 1; padding: 0 2px; color: var(--muted); flex-shrink: 0;
@@ -464,7 +470,10 @@ function openNow(c) {
 }
 
 function srcBadge(e) {
-  return ` <span class="src-badge" title="מקור: ${esc(e.source)} (${esc(e.date || "")})">🔎 ${esc(e.source)}</span>`;
+  const fromGoogle = e.source === "גוגל";
+  const title = `מקור: ${esc(e.source)}${e.date ? " · נבדק ב-" + esc(e.date) : ""}`;
+  return ` <span class="src-badge${fromGoogle ? " g" : ""}" title="${title}">${
+    fromGoogle ? GOOGLE_G + " גוגל" : "🔎 " + esc(e.source)}</span>`;
 }
 
 function cardHTML(c) {
@@ -494,7 +503,7 @@ function cardHTML(c) {
   return `<article class="card">
     <div class="card-top">
       <h3>${esc(c.name)}</h3>
-      <div class="badges">${distBadge}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new ? '<span class="badge-new">✨ חדש</span>' : ""}<button
+      <div class="badges">${distBadge}${c.closed_permanently ? '<span class="badge-closed-perm">⛔ נסגר</span>' : ""}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new && !c.closed_permanently ? '<span class="badge-new">✨ חדש</span>' : ""}<button
         class="fav-btn${favCards.has(c.id) ? " active" : ""}" data-fid="${esc(c.id)}"
         title="${favCards.has(c.id) ? "הסר מהמועדפים" : "הוסף למועדפים"}">${favCards.has(c.id) ? "♥" : "♡"}</button></div>
     </div>
