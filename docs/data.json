@@ -42407,7 +42407,13 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "enrichment": {
+    "address": "מאיר יערי 19, תל אביב-יפו, ישראל",
+    "source": "גוגל",
+    "date": "2026-08-07"
+   },
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-4/#הנרייטה",
@@ -62588,7 +62594,13 @@
    "details_url": null,
    "lat": 32.0683357,
    "lon": 34.7700335,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "enrichment": {
+    "address": "מאיר יערי 19, תל אביב-יפו, ישראל",
+    "source": "גוגל",
+    "date": "2026-08-07"
+   },
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a8%d7%98%d7%99%d7%a0%d7%98/#בר הקוקטיילים מרטינט הולך להיות המקום החם של הרגע להרבה רגעים",
@@ -140792,5 +140804,5 @@
   "נחלת בנימין 31, תל אביב-יפו, 6516208, ישראל, ישראל": null,
   "שדרות בן גוריון 35, הרצליה, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-05T12:35:10.045151+03:00"
+ "last_google_run": "2026-08-07T17:04:58.492914+03:00"
 }
