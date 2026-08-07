@@ -1,6 +1,42 @@
 {
  "cards": [
   {
+   "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%99%d7%91%d7%9c-%d7%9e%d7%95%d7%92%d7%96%d7%9d-%d7%91%d7%a0%d7%9e%d7%9c/#פסטיבל \"מוגזם",
+   "name": "פסטיבל \"מוגזם",
+   "type": "פיצרייה",
+   "what_to_eat": "פיצה, המבורגר, צ'יזבורגר, סושי, מאפה, טירמיסו",
+   "owner": null,
+   "hours": "פסטיבל \"מוגזם\", 12-31.8, א'-ה' 18:30-23:00, ש', כחצי שעה לאחר צאת השבת-00:00.",
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "from": "18:30",
+     "to": "23:00"
+    }
+   ],
+   "city": "תל אביב",
+   "location": "נווה צדק",
+   "region": "tlv",
+   "is_new": true,
+   "closing_soon": false,
+   "is_popup": true,
+   "opening_info": null,
+   "article_title": "בנמל ת\"א החליטו להגזים עם פסטיבל שמבטיח לפוצץ לכם את הבטן",
+   "article_url": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%99%d7%91%d7%9c-%d7%9e%d7%95%d7%92%d7%96%d7%9d-%d7%91%d7%a0%d7%9e%d7%9c/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/08/1786014812_1374407_33584-1140x641.jpg",
+   "published": "2026-08-06T15:03:18+03:00",
+   "details_url": null,
+   "lat": 32.063251,
+   "lon": 34.7641288,
+   "geo_precision": "area"
+  },
+  {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%90%d7%95%d7%92%d7%95%d7%a1%d7%98-26/#ג'אגר",
    "name": "ג'אגר",
    "type": "המבורגרייה",
@@ -136063,6 +136099,7 @@
   "https://timeout.co.il/פסטיבל-vin-yard-תדר/",
   "https://timeout.co.il/פסטיבל-החלה/",
   "https://timeout.co.il/פסטיבל-הקינוחים-שרונה-2025/",
+  "https://timeout.co.il/פסטיבל-מוגזם-בנמל/",
   "https://timeout.co.il/פסטיבל-רק-היום/",
   "https://timeout.co.il/פרונטו-בר-51/",
   "https://timeout.co.il/פריז-טקסס-היכל-מנורה/",
@@ -136161,7 +136198,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-08-06T09:10:38.659535+03:00",
+ "last_run": "2026-08-07T08:13:39.237252+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
