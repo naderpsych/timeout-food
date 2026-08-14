@@ -1,6 +1,30 @@
 {
  "cards": [
   {
+   "id": "https://timeout.co.il/%d7%90%d7%99%d7%99%d7%9c-%d7%a9%d7%a0%d7%99-homecoming/#השפים שגדלו אצל",
+   "name": "השפים שגדלו אצל",
+   "type": "מסעדת גריל",
+   "what_to_eat": "סטייק, טאקו, קפה, דג",
+   "owner": "אדר לוטן",
+   "hours": "לא צוין",
+   "schedule": null,
+   "city": "תל אביב",
+   "location": "דרך יפו 9, שדרות ירושלים",
+   "region": "tlv",
+   "is_new": true,
+   "closing_soon": false,
+   "is_popup": false,
+   "opening_info": null,
+   "article_title": "בואו הביתה: השפים שגדלו אצל אייל שני חוזרים לבקר ולבשל ברומנו",
+   "article_url": "https://timeout.co.il/%d7%90%d7%99%d7%99%d7%9c-%d7%a9%d7%a0%d7%99-homecoming/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/08/1786614184_1374699_68252-e1786614248485-1140x641-1786615058.jpg",
+   "published": "2026-08-13T13:48:54+03:00",
+   "details_url": null,
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
+  },
+  {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%99%d7%91%d7%9c-%d7%9e%d7%95%d7%92%d7%96%d7%9d-%d7%91%d7%a0%d7%9e%d7%9c/#פסטיבל \"מוגזם",
    "name": "פסטיבל \"מוגזם",
    "type": "פיצרייה",
@@ -136377,6 +136401,7 @@
   "https://timeout.co.il/אורבי-סגירה/",
   "https://timeout.co.il/אושר-קפה/",
   "https://timeout.co.il/אייבי-סגירה/",
+  "https://timeout.co.il/אייל-שני-homecoming/",
   "https://timeout.co.il/איינשטיין-בורגר/",
   "https://timeout.co.il/אימפריאל-סגירה/",
   "https://timeout.co.il/איפה-אוכלים-עם-כל-המשפחה/",
@@ -136844,7 +136869,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-08-13T08:17:31.884950+03:00",
+ "last_run": "2026-08-14T08:14:43.315568+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
@@ -141443,7 +141468,8 @@
   "יפו 105, ירושלים, ישראל, ישראל": [
    31.7778846,
    35.2256547
-  ]
+  ],
+  "דרך יפו 9, שדרות ירושלים, תל אביב, ישראל": null
  },
  "last_google_run": "2026-08-14T06:23:22.801616+03:00"
 }
