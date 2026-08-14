@@ -94609,9 +94609,15 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/11/1752488688_1352058_13724-2000x1125-1-1140x641.jpg",
    "published": "2025-11-16T12:48:39+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 31.7778846,
+   "lon": 35.2256547,
+   "geo_precision": "address",
+   "enrichment": {
+    "address": "יפו 105, ירושלים, ישראל",
+    "source": "גוגל",
+    "date": "2026-08-14"
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/31-places-to-eat-really-well-in-jerusalem/#Amaia",
@@ -141433,7 +141439,11 @@
   "שדרות בן גוריון 35, הרצליה, ישראל, ישראל": null,
   "לילינבלום 21, תל אביב-יפו, 6513213, ישראל, ישראל": null,
   "לילינבלום 28, תל אביב-יפו, ישראל, ישראל": null,
-  "Three Colts Tavern, 199 Cambridge Heath Rd, London E2 0EL, בריטניה, ישראל": null
+  "Three Colts Tavern, 199 Cambridge Heath Rd, London E2 0EL, בריטניה, ישראל": null,
+  "יפו 105, ירושלים, ישראל, ישראל": [
+   31.7778846,
+   35.2256547
+  ]
  },
- "last_google_run": "2026-08-13T06:23:53.570753+03:00"
+ "last_google_run": "2026-08-14T06:23:22.801616+03:00"
 }
