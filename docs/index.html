@@ -139,6 +139,10 @@
     background: var(--card); border: 1px solid var(--border); border-radius: 16px;
     padding: 18px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 10px;
   }
+  .place-photo {
+    width: calc(100% + 36px); margin: -18px -18px 2px; height: 140px;
+    object-fit: cover; border-radius: 16px 16px 0 0; background: var(--chip);
+  }
   .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
   .card h3 { margin: 0; font-size: 1.15rem; line-height: 1.3; }
   .badges { display: flex; gap: 5px; flex-shrink: 0; }
@@ -721,8 +725,10 @@ function cardHTML(c) {
   }
   else { hoursText = "שעות: " + NOT_SPECIFIED; hoursMissing = true; }
   return `<article class="card">
+    ${e && e.photo ? `<img class="place-photo" src="${esc(e.photo)}" alt="" loading="lazy"
+      onerror="this.remove()">` : ""}
     <div class="card-top">
-      <h3>${esc(c.name)}</h3>
+      <h3>${esc((e && e.fixed_name) || c.name)}</h3>
       <div class="badges">${distBadge}${c.closed_permanently ? '<span class="badge-closed-perm">⛔ נסגר</span>' : ""}${c.is_popup ? '<span class="badge-popup" title="מקום זמני — ייתכן שכבר אינו פעיל">🎪 פופ-אפ</span>' : ""}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new && !c.closed_permanently ? '<span class="badge-new">✨ חדש</span>' : ""}<button
         class="fav-btn${favCards.has(c.id) ? " active" : ""}" data-fid="${esc(c.id)}"
         title="${favCards.has(c.id) ? "הסר מהמועדפים" : "הוסף למועדפים"}">${favCards.has(c.id) ? "♥" : "♡"}</button></div>

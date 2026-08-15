@@ -84,6 +84,20 @@ def scrape_place(page, query):
         if addr:
             result["address"] = addr
 
+    # השם הרשמי של העסק בגוגל — משמש לתיקון שמות שבורים
+    h1 = page.query_selector("h1")
+    if h1:
+        gname = h1.inner_text().strip()
+        if gname and len(gname) < 60:
+            result["google_name"] = gname
+
+    # תמונת המקום
+    img = page.query_selector('img[src*="googleusercontent"]')
+    if img:
+        src = img.get_attribute("src") or ""
+        if src.startswith("http"):
+            result["photo"] = src
+
     # טבלת השעות מוצגת מקופלת (יום אחד) — צריך להרחיב אותה כדי לקבל שבוע מלא
     rows = []
     for selector in ('[aria-label*="שעות פעילות"]', '[jsaction*="openhours"]',
@@ -113,15 +127,40 @@ def scrape_place(page, query):
     return result
 
 
+# גרסת ההעשרה: מקומות שהועשרו בגרסה ישנה יבוקרו שוב פעם אחת,
+# כדי להוסיף תמונה ושם רשמי מגוגל.
+ENRICH_VERSION = 2
+
+
 def needs_enrichment(card):
-    if card.get("enrichment", {}).get("source") == "גוגל":
-        return False  # כבר נבדק בגוגל
+    enr = card.get("enrichment") or {}
+    if enr.get("source") == "גוגל":
+        return enr.get("v", 1) < ENRICH_VERSION
     return card.get("hours") == NOT_SPECIFIED or card.get("location") == NOT_SPECIFIED
 
 
 def build_query(card):
     city = card["city"] if card["city"] != NOT_SPECIFIED else "תל אביב"
     return f"{card['name']} {city}"
+
+
+SENTENCE_WORDS = {"של", "את", "עם", "אצל", "כדי", "היא", "הוא", "הם", "שגדלו", "חוזרים",
+                  "מקווה", "מתארח", "ממשיך", "פוגש", "חוגגת", "תשנה", "מגיש", "מגישה",
+                  "פותח", "פותחת", "נפתח", "מביא", "מביאה", "עושה", "הגיע", "חוזר"}
+
+
+def looks_like_sentence(name):
+    """שם שהוא בעצם שבר משפט מכותרת הכתבה, ולא שם מקום."""
+    words = name.split()
+    return len(words) >= 3 and any(w in SENTENCE_WORDS for w in words)
+
+
+def addresses_match(ours, theirs):
+    """האם הרחוב שחילצנו מהכתבה מופיע בכתובת של גוגל."""
+    if not ours or not theirs:
+        return False
+    street = re.split(r"[,\d]", ours.strip())[0].strip()
+    return len(street) >= 4 and street in theirs
 
 
 def place_key(card):
@@ -175,6 +214,15 @@ def main():
             enr = {k: v for k, v in found.items() if k != "closed_permanently"}
             enr["source"] = "גוגל"
             enr["date"] = today
+            enr["v"] = ENRICH_VERSION
+
+            # תיקון שם שבור: אם השם שלנו נראה כמו שבר משפט מהכותרת,
+            # ורחוב הכתובת שלנו מופיע בכתובת שגוגל החזירה — זה בוודאות אותו מקום,
+            # ולכן אפשר לאמץ את השם הרשמי.
+            gname = found.get("google_name")
+            if gname and looks_like_sentence(lead["name"]):
+                if addresses_match(lead.get("location", ""), found.get("address", "")):
+                    enr["fixed_name"] = gname
             coords = None
             if found.get("address"):
                 coords = geocode(found["address"] + ", ישראל", geocache)
