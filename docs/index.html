@@ -620,7 +620,7 @@ function matches(c) {
     return true;
   }
   if (view === "cityof" ? !isCityOf(c) : isCityOf(c)) return false;
-  if (period && c.published.slice(0, 7) !== period) return false;
+  if (!matchesPeriod(c)) return false;
   if (c.region !== region) return false;
   if (onlyNew && !c.is_new) return false;
   if (activeType && c.type !== activeType) return false;
