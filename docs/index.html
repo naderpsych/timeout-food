@@ -49,6 +49,18 @@
   h1 { margin: 0; font-size: 1.7rem; }
   h1 .accent { color: var(--accent); }
   .subtitle { color: var(--muted); font-size: .9rem; margin: 4px 0 0; }
+  .header-side { display: flex; align-items: center; gap: 10px; }
+  /* מזג אוויר בתל אביב — מתעדכן לבד */
+  #weather {
+    display: inline-flex; align-items: center; gap: 6px;
+    border: 1px solid var(--border); background: var(--card);
+    border-radius: 20px; padding: 7px 13px; font-size: .87rem;
+    white-space: nowrap; color: var(--text);
+  }
+  #weather[hidden] { display: none; }
+  #weather .temp { font-weight: 700; }
+  #weather .desc { color: var(--muted); font-size: .8rem; }
+  #weather .ico { font-size: 1rem; }
   /* כפתור מצב כהה: עיגול קטן עם אייקון בלבד, כמו באפליקציות */
   #themeBtn {
     border: 1px solid var(--border); background: var(--card); color: var(--text);
@@ -279,7 +291,10 @@
     <h1>מה אוכלים? <span class="accent">🍽️</span></h1>
     <p class="subtitle">מקומות שהומלצו בכתבות האוכל של TimeOut ישראל — כרטיס לכל מקום · <span id="lastRun"></span></p>
   </div>
-  <button id="themeBtn">🌙 מצב כהה</button>
+  <div class="header-side">
+    <span id="weather" hidden></span>
+    <button id="themeBtn">🌙</button>
+  </div>
 </header>
 
 <div class="controls">
@@ -351,6 +366,47 @@ document.getElementById("themeBtn").onclick = () => {
 
 const fmtDate = iso => new Date(iso).toLocaleDateString("he-IL",
   { day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Jerusalem" });
+
+// --- מזג אוויר בתל אביב (Open-Meteo — חינמי, בלי מפתח) ---
+// קודי WMO -> אימוג'י + תיאור בעברית
+const WMO = {
+  0: ["☀️", "בהיר"], 1: ["🌤️", "בהיר בעיקר"], 2: ["⛅", "מעונן חלקית"], 3: ["☁️", "מעונן"],
+  45: ["🌫️", "ערפל"], 48: ["🌫️", "ערפל"],
+  51: ["🌦️", "טפטוף קל"], 53: ["🌦️", "טפטוף"], 55: ["🌦️", "טפטוף חזק"],
+  61: ["🌧️", "גשם קל"], 63: ["🌧️", "גשם"], 65: ["🌧️", "גשם חזק"],
+  66: ["🌧️", "גשם קפוא"], 67: ["🌧️", "גשם קפוא"],
+  71: ["❄️", "שלג קל"], 73: ["❄️", "שלג"], 75: ["❄️", "שלג כבד"], 77: ["❄️", "גרגרי שלג"],
+  80: ["🌦️", "ממטרים"], 81: ["🌦️", "ממטרים"], 82: ["⛈️", "ממטרים עזים"],
+  85: ["🌨️", "ממטרי שלג"], 86: ["🌨️", "ממטרי שלג"],
+  95: ["⛈️", "סופת רעמים"], 96: ["⛈️", "רעמים וברד"], 99: ["⛈️", "רעמים וברד"],
+};
+
+async function loadWeather() {
+  const el = document.getElementById("weather");
+  try {
+    const url = "https://api.open-meteo.com/v1/forecast?latitude=32.0853&longitude=34.7818" +
+      "&current=temperature_2m,weather_code,is_day,apparent_temperature&timezone=Asia%2FJerusalem";
+    const cur = (await (await fetch(url)).json()).current;
+    const [icon, desc] = WMO[cur.weather_code] || ["🌡️", ""];
+    // בלילה, "בהיר" מקבל ירח במקום שמש
+    const showIcon = (!cur.is_day && cur.weather_code === 0) ? "🌙" : icon;
+    const feels = Math.round(cur.apparent_temperature);
+    const temp = Math.round(cur.temperature_2m);
+    el.innerHTML = `<span class="ico">${showIcon}</span>` +
+      `<span class="temp">${temp}°</span>` +
+      `<span class="desc">${esc(desc)} · ת"א</span>`;
+    el.title = `מרגיש כמו ${feels}° · עודכן ${new Date().toLocaleTimeString("he-IL",
+      { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Jerusalem" })}`;
+    el.hidden = false;
+  } catch {
+    el.hidden = true;  // בלי מזג אוויר — פשוט לא מציגים
+  }
+}
+loadWeather();
+setInterval(loadWeather, 10 * 60 * 1000);          // רענון כל 10 דקות
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) loadWeather();             // וגם בכל חזרה לעמוד
+});
 
 fetch("data.json?t=" + Date.now())
   .then(r => r.json())
