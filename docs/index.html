@@ -257,8 +257,8 @@
   footer a { color: var(--muted); }
   /* בטלפון: כותרת למעלה, תמונה רחבה מתחתיה, ולב קטן בפינה */
   @media (max-width: 600px) {
-    /* סוגי מקומות: 3 בלבד (כולל "רק חדשים"), והשאר נפתח ב"עוד" */
-    .chips.collapsed .chip:nth-child(n+4) { display: none; }
+    /* בטלפון: "רק חדשים" + 4 הסוגים המובילים, והשאר נפתח ב"עוד" */
+    .chips.collapsed .chip:nth-child(n+6) { display: none; }
     #chipsToggle { display: block; }
     header { position: relative; padding-top: 22px; }
     #themeBtn { position: absolute; top: 18px; inset-inline-end: 20px; }
@@ -532,7 +532,11 @@ function buildPeriods() {
 function buildTypeChips() {
   const counts = {};
   cards.forEach(c => { if (c.type !== NOT_SPECIFIED) counts[c.type] = (counts[c.type] || 0) + 1; });
-  const types = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+  // סוגים מובילים קבועים בראש הרשימה, השאר לפי כמות
+  const PINNED = ["מסעדה", "בית קפה", "דוכן / אוכל רחוב", "מאפייה"];
+  const rest = Object.keys(counts).filter(t => !PINNED.includes(t))
+    .sort((a, b) => counts[b] - counts[a]);
+  const types = [...PINNED.filter(t => counts[t]), ...rest];
   const box = document.getElementById("typeChips");
   const newChip = document.createElement("button");
   newChip.className = "chip newchip"; newChip.textContent = "✨ רק חדשים";
