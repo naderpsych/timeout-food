@@ -127,12 +127,17 @@
     display: flex; align-items: center; gap: 8px; margin: 8px 0 4px;
     font-size: .85rem; color: var(--muted);
   }
-  #period {
+  .period-row select {
     border: 1px solid var(--border); background: var(--card); color: var(--text);
     border-radius: 10px; padding: 6px 11px; font-size: .85rem; font-family: inherit;
-    cursor: pointer; max-width: 210px;
+    cursor: pointer;
   }
-  #period:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  .period-row select:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  #periodClear {
+    border: none; background: none; color: var(--accent); cursor: pointer;
+    font-size: .8rem; font-weight: 600; font-family: inherit; padding: 4px 6px;
+  }
+  #periodClear[hidden] { display: none; }
   main { max-width: 1100px; margin: 0 auto; padding: 10px 20px 60px; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
   .card {
@@ -259,6 +264,7 @@
   @media (max-width: 600px) {
     /* בטלפון: "רק חדשים" + מסעדה + בית קפה בלבד; השאר (דוכן, מאפייה...) ב"עוד" */
     .chips.collapsed .chip:nth-child(n+4) { display: none; }
+    .period-row { display: none; }   /* סינון תאריך — במחשב בלבד */
     #chipsToggle { display: block; }
     header { position: relative; padding-top: 22px; }
     #themeBtn { position: absolute; top: 18px; inset-inline-end: 20px; }
@@ -321,8 +327,10 @@
   </div>
   <div class="chips" id="typeChips"></div>
   <div class="period-row">
-    <label for="period">📅 תקופת פרסום:</label>
-    <select id="period"><option value="">כל התקופות</option></select>
+    <label>📅 פורסם ב:</label>
+    <select id="filterMonth"><option value="">כל החודשים</option></select>
+    <select id="filterYear"><option value="">כל השנים</option></select>
+    <button id="periodClear" hidden>נקה ✕</button>
   </div>
 </div>
 
@@ -341,7 +349,8 @@
 <script>
 const NOT_SPECIFIED = "לא צוין";
 let cards = [], region = "tlv", activeType = null, onlyNew = false, query = "";
-let view = "articles", geoPoint = null, period = "";
+let view = "articles", geoPoint = null;
+let filterMonth = "", filterYear = "";   // סינון לפי חודש ו/או שנה של פרסום
 const expanded = new Set();
 
 // טעינה הדרגתית — לא מציירים מאות כרטיסים בבת אחת
@@ -510,23 +519,43 @@ function fmtDist(km, precision) {
   return approx + km.toFixed(1) + ' ק"מ';
 }
 
-// רשימת חודשים שיש בהם כתבות, מהחדש לישן
+// סינון לפי חודש ו/או שנה — כל אחד עצמאי
+function matchesPeriod(c) {
+  if (filterYear && c.published.slice(0, 4) !== filterYear) return false;
+  if (filterMonth && c.published.slice(5, 7) !== filterMonth) return false;
+  return true;
+}
+
 function buildPeriods() {
-  const months = {};
-  cards.forEach(c => {
-    const key = c.published.slice(0, 7);
-    months[key] = (months[key] || 0) + 1;
+  const mSel = document.getElementById("filterMonth");
+  const ySel = document.getElementById("filterYear");
+  const clear = document.getElementById("periodClear");
+
+  const HE_MONTHS = ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי",
+                     "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"];
+  HE_MONTHS.forEach((name, i) => {
+    const o = document.createElement("option");
+    o.value = String(i + 1).padStart(2, "0");
+    o.textContent = name;
+    mSel.appendChild(o);
   });
-  const sel = document.getElementById("period");
-  Object.keys(months).sort().reverse().forEach(key => {
-    const [y, m] = key.split("-");
-    const label = new Date(+y, +m - 1, 1).toLocaleDateString("he-IL", { month: "long", year: "numeric" });
-    const opt = document.createElement("option");
-    opt.value = key;
-    opt.textContent = `${label} (${months[key]})`;
-    sel.appendChild(opt);
+
+  const years = [...new Set(cards.map(c => c.published.slice(0, 4)))].sort().reverse();
+  years.forEach(y => {
+    const o = document.createElement("option");
+    o.value = y; o.textContent = y;
+    ySel.appendChild(o);
   });
-  sel.onchange = e => { period = e.target.value; rerender(); };
+
+  const onChange = () => {
+    filterMonth = mSel.value;
+    filterYear = ySel.value;
+    clear.hidden = !filterMonth && !filterYear;
+    rerender();
+  };
+  mSel.onchange = onChange;
+  ySel.onchange = onChange;
+  clear.onclick = () => { mSel.value = ""; ySel.value = ""; onChange(); };
 }
 
 function buildTypeChips() {
@@ -583,7 +612,7 @@ function matches(c) {
   if (view === "favs") {
     // במועדפים: בלי סינון אזור/סוג — רק מה שסומן, עם חיפוש חופשי
     if (!favCards.has(c.id) && !favArts.has(c.article_url)) return false;
-    if (period && c.published.slice(0, 7) !== period) return false;
+    if (!matchesPeriod(c)) return false;
     if (query) {
       const hay = [c.name, c.type, c.what_to_eat, c.owner, c.city, c.location, c.article_title].join(" ");
       if (!hay.includes(query)) return false;
