@@ -111,6 +111,16 @@
     color: var(--accent); font-size: .83rem; font-weight: 700; cursor: pointer;
     padding: 6px 12px; border-radius: 16px; font-family: inherit; white-space: nowrap;
   }
+  .period-row {
+    display: flex; align-items: center; gap: 8px; margin: 8px 0 4px;
+    font-size: .85rem; color: var(--muted);
+  }
+  #period {
+    border: 1px solid var(--border); background: var(--card); color: var(--text);
+    border-radius: 10px; padding: 6px 11px; font-size: .85rem; font-family: inherit;
+    cursor: pointer; max-width: 210px;
+  }
+  #period:focus { outline: 2px solid var(--accent); border-color: transparent; }
   main { max-width: 1100px; margin: 0 auto; padding: 10px 20px 60px; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
   .card {
@@ -291,6 +301,10 @@
     <button class="tab" data-region="rest">שאר הארץ <span class="count"></span></button>
   </div>
   <div class="chips" id="typeChips"></div>
+  <div class="period-row">
+    <label for="period">📅 תקופת פרסום:</label>
+    <select id="period"><option value="">כל התקופות</option></select>
+  </div>
 </div>
 
 <main>
@@ -308,7 +322,7 @@
 <script>
 const NOT_SPECIFIED = "לא צוין";
 let cards = [], region = "tlv", activeType = null, onlyNew = false, query = "";
-let view = "articles", geoPoint = null;
+let view = "articles", geoPoint = null, period = "";
 const expanded = new Set();
 
 // טעינה הדרגתית — לא מציירים מאות כרטיסים בבת אחת
@@ -348,6 +362,7 @@ fetch("data.json?t=" + Date.now())
       document.getElementById("lastRun").textContent = "עודכן: " + fmtDate(data.last_run);
     }
     buildTypeChips();
+    buildPeriods();
     render();
   })
   .catch(() => { document.getElementById("empty").hidden = false; });
@@ -435,6 +450,25 @@ function fmtDist(km, precision) {
   return approx + km.toFixed(1) + ' ק"מ';
 }
 
+// רשימת חודשים שיש בהם כתבות, מהחדש לישן
+function buildPeriods() {
+  const months = {};
+  cards.forEach(c => {
+    const key = c.published.slice(0, 7);
+    months[key] = (months[key] || 0) + 1;
+  });
+  const sel = document.getElementById("period");
+  Object.keys(months).sort().reverse().forEach(key => {
+    const [y, m] = key.split("-");
+    const label = new Date(+y, +m - 1, 1).toLocaleDateString("he-IL", { month: "long", year: "numeric" });
+    const opt = document.createElement("option");
+    opt.value = key;
+    opt.textContent = `${label} (${months[key]})`;
+    sel.appendChild(opt);
+  });
+  sel.onchange = e => { period = e.target.value; rerender(); };
+}
+
 function buildTypeChips() {
   const counts = {};
   cards.forEach(c => { if (c.type !== NOT_SPECIFIED) counts[c.type] = (counts[c.type] || 0) + 1; });
@@ -485,6 +519,7 @@ function matches(c) {
   if (view === "favs") {
     // במועדפים: בלי סינון אזור/סוג — רק מה שסומן, עם חיפוש חופשי
     if (!favCards.has(c.id) && !favArts.has(c.article_url)) return false;
+    if (period && c.published.slice(0, 7) !== period) return false;
     if (query) {
       const hay = [c.name, c.type, c.what_to_eat, c.owner, c.city, c.location, c.article_title].join(" ");
       if (!hay.includes(query)) return false;
@@ -492,6 +527,7 @@ function matches(c) {
     return true;
   }
   if (view === "cityof" ? !isCityOf(c) : isCityOf(c)) return false;
+  if (period && c.published.slice(0, 7) !== period) return false;
   if (c.region !== region) return false;
   if (onlyNew && !c.is_new) return false;
   if (activeType && c.type !== activeType) return false;
