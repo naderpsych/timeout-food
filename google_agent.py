@@ -91,12 +91,19 @@ def scrape_place(page, query):
         if gname and len(gname) < 60:
             result["google_name"] = gname
 
-    # תמונת המקום
-    img = page.query_selector('img[src*="googleusercontent"]')
-    if img:
+    # תמונת המקום — בוחרים את הגדולה ביותר, ומעלים את הרזולוציה בכתובת עצמה
+    # (גוגל מקודדת את הגודל בסוף ה-URL, למשל "=w32-h32" -> "=w800-h500")
+    best, best_w = None, 0
+    for img in page.query_selector_all('img[src*="googleusercontent"]')[:12]:
         src = img.get_attribute("src") or ""
-        if src.startswith("http"):
-            result["photo"] = src
+        if not src.startswith("http"):
+            continue
+        m = re.search(r"=w(\d+)-h(\d+)", src)
+        width = int(m.group(1)) if m else 0
+        if width >= best_w:
+            best, best_w = src, width
+    if best:
+        result["photo"] = re.sub(r"=w\d+-h\d+", "=w800-h500", best)
 
     # טבלת השעות מוצגת מקופלת (יום אחד) — צריך להרחיב אותה כדי לקבל שבוע מלא
     rows = []

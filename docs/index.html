@@ -759,7 +759,7 @@ function cardHTML(c) {
   else { hoursText = "שעות: " + NOT_SPECIFIED; hoursMissing = true; }
   return `<article class="card">
     ${e && e.photo ? `<img class="place-photo" src="${esc(e.photo)}" alt="" loading="lazy"
-      onerror="this.remove()">` : ""}
+      referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
     <div class="card-top">
       <h3>${esc((e && e.fixed_name) || c.name)}</h3>
       <div class="badges">${distBadge}${c.closed_permanently ? '<span class="badge-closed-perm">⛔ נסגר</span>' : ""}${c.is_popup ? '<span class="badge-popup" title="מקום זמני — ייתכן שכבר אינו פעיל">🎪 פופ-אפ</span>' : ""}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new && !c.closed_permanently ? '<span class="badge-new">✨ חדש</span>' : ""}<button
