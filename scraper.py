@@ -449,14 +449,18 @@ def parse_article(url, html):
 
     # כותרת חשופה (בלי מספור/קו מפריד) נחשבת שם-מקום רק בכתבת רשימה מוצהרת
     # ("3 מקומות", "41 הברים", "חדשות אוכל") — אחרת אלו כותרות נושא של כתבת פיצ'ר.
-    # כתבה ממומנת = פרסומת למקום אחד. הכותרות בה הן משפטי שיווק,
-    # ולכן אסור לפרק אותה לרשימת מקומות.
+    # כתבה ממומנת: /ppost/ בכתובת הוא סימן חד-משמעי; המילים בטקסט הן רמז בלבד.
     body_text = body.get_text(" ", strip=True)[:4000]
     is_sponsored = ("/ppost/" in url
                     or any(w in body_text for w in ("פרסומי", "בשיתוף", "תוכן שיווקי")))
 
+    # בכתבה ממומנת הכותרות הן לרוב משפטי שיווק ("אותנטיות ללא פשרות").
+    # לכן שם-מקום מזוהה בה רק אם הכותרת ממוספרת ("1. שם") — כך פרסומת
+    # שכן מציגה כמה מקומות עדיין תפוצל נכון.
+    ad_single_place = "/ppost/" in url
+
     _nums = [int(n) for n in re.findall(r"\d+", article_title)]
-    is_list_article = (not is_sponsored) and (
+    is_list_article = (not ad_single_place) and (
         any(2 <= n <= 99 for n in _nums)
         or any(w in article_title for w in ("מקומות", "חדשות אוכל", "חדשות האוכל"))
         or bool(re.search(r"ה(מסעדות|ברים|בתי|מזללות|מעדניות|קפה)\b", article_title)))
@@ -476,7 +480,7 @@ def parse_article(url, html):
                 continue
             name, dish = None, None
             m = NUMBERED_HEADING.match(text)
-            if m and is_list_article:
+            if m and (is_list_article or ad_single_place):
                 # מספור נחשב מקום רק בכתבת רשימה — אחרת אלו מנות/טיפים ממוספרים
                 name = m.group(2)
             elif re.search(r"\s(//|\|)\s|^[^|]{2,40}\|", text) and len(text) <= 70:
