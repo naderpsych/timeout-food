@@ -1,6 +1,30 @@
 {
  "cards": [
   {
+   "id": "https://timeout.co.il/%d7%96%d7%90%d7%aa%d7%99-zoti/#מסעדה בסגנון דובאי",
+   "name": "מסעדה בסגנון דובאי",
+   "type": "פלאפלייה",
+   "what_to_eat": "פלאפל, סטייק, בריוש, קקאו, יין, בירה",
+   "owner": "כמו באלאלי",
+   "hours": "א'-ה' מ-17:00 עד לשעות הלילה, מוצ\"ש החל מחצי שעה אחרי יציאת השבת.",
+   "schedule": null,
+   "city": "תל אביב",
+   "location": "קויפמן 6, תל אביב, רוטשילד",
+   "region": "tlv",
+   "is_new": true,
+   "closing_soon": false,
+   "is_popup": false,
+   "opening_info": null,
+   "article_title": "זאת וזאתי: מסעדה בסגנון דובאי נפתחה בחלל של הרברט סמואל",
+   "article_url": "https://timeout.co.il/%d7%96%d7%90%d7%aa%d7%99-zoti/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/08/1786862088_1374750_17042-1140x641.jpg",
+   "published": "2026-08-16T12:04:31+03:00",
+   "details_url": null,
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
+  },
+  {
    "id": "https://timeout.co.il/ppost/select-zutt/#Zutt",
    "name": "Zutt",
    "type": "בית קפה",
@@ -143663,6 +143687,7 @@
   "https://timeout.co.il/ווסט-סייד-סגירה/",
   "https://timeout.co.il/ויה-מאריס-אתונה/",
   "https://timeout.co.il/ויקינג-אסיף/",
+  "https://timeout.co.il/זאתי-zoti/",
   "https://timeout.co.il/חברים-מקדונלדס/",
   "https://timeout.co.il/חגיגה-של-קפה/",
   "https://timeout.co.il/חדשות-האוכל-100/",
@@ -143984,7 +144009,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-08-16T07:09:22.048805+03:00",
+ "last_run": "2026-08-17T07:11:40.307091+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
@@ -148772,7 +148797,8 @@
   "הרב יצחק ידידיה פרנקל 7, תל אביב-יפו, 6608114, ישראל, ישראל": null,
   "רלב\"ג 15, תל אביב-יפו, ישראל, ישראל": null,
   "נועם 5, תל אביב-יפו, ישראל, ישראל": null,
-  "סמטת הכרמל 12, תל אביב-יפו, ישראל, ישראל": null
+  "סמטת הכרמל 12, תל אביב-יפו, ישראל, ישראל": null,
+  "קויפמן 6, תל אביב, רוטשילד, תל אביב, ישראל": null
  },
  "last_google_run": "2026-08-17T05:22:56.276453+03:00"
 }
