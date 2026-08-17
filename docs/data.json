@@ -131154,7 +131154,16 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "enrichment": {
+    "address": "טל ישראל 5, תל אביב-יפו, 6742726, ישראל",
+    "google_name": "The George Tel Aviv (ג'ורג' תל אביב)",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnEnFBIdK1R6wk5sHU7C8tZ-A87J6EUoL6CP00mwoXonSM0FLTHfjg0dCseu2LUj9y5K6IXiPiilHGBqYsxYK49WtfS6YnhDiVvydUuiyp02h0F9-UpbUauWfWaGNSSSkAdSEmD6HJq7rI3=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-08-17",
+    "v": 2
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-3107/#תומר אגאי והאבידנים",
@@ -144229,5 +144238,5 @@
   "שדרות הפלי\"ם 7, חיפה, ישראל, ישראל": null,
   "דוד בן גוריון 1, רמת גן, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-17T10:50:39.846948+03:00"
+ "last_google_run": "2026-08-17T22:23:40.590281+03:00"
 }
