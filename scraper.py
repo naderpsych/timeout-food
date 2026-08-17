@@ -449,8 +449,14 @@ def parse_article(url, html):
 
     # כותרת חשופה (בלי מספור/קו מפריד) נחשבת שם-מקום רק בכתבת רשימה מוצהרת
     # ("3 מקומות", "41 הברים", "חדשות אוכל") — אחרת אלו כותרות נושא של כתבת פיצ'ר.
+    # כתבה ממומנת = פרסומת למקום אחד. הכותרות בה הן משפטי שיווק,
+    # ולכן אסור לפרק אותה לרשימת מקומות.
+    body_text = body.get_text(" ", strip=True)[:4000]
+    is_sponsored = ("/ppost/" in url
+                    or any(w in body_text for w in ("פרסומי", "בשיתוף", "תוכן שיווקי")))
+
     _nums = [int(n) for n in re.findall(r"\d+", article_title)]
-    is_list_article = (
+    is_list_article = (not is_sponsored) and (
         any(2 <= n <= 99 for n in _nums)
         or any(w in article_title for w in ("מקומות", "חדשות אוכל", "חדשות האוכל"))
         or bool(re.search(r"ה(מסעדות|ברים|בתי|מזללות|מעדניות|קפה)\b", article_title)))
@@ -518,11 +524,13 @@ def parse_article(url, html):
                 # המקום כבר נסגר — אין טעם בכרטיס (חלופות שמומלצות באותה כתבה נשארות)
                 print(f"SKIP (נסגר): {sec['name'][:40]}")
                 continue
-            cards.append(build_card(sec["name"], sec_text, article_title,
-                                    url, published_iso, sec["link"],
-                                    dish_hint=sec.get("dish"),
-                                    article_image=article_image,
-                                    closing_soon=closing_soon))
+            card = build_card(sec["name"], sec_text, article_title,
+                              url, published_iso, sec["link"],
+                              dish_hint=sec.get("dish"),
+                              article_image=article_image,
+                              closing_soon=closing_soon)
+            card["is_sponsored"] = is_sponsored
+            cards.append(card)
     else:
         # כתבה על מקום בודד. נחשבת המלצה רק אם יש "שורת פרטים" מודגשת
         # ("לבונטין 13, ראשון-חמישי, 08:00-17:00") — בלעדיה זו כתבת דעה/חדשות, מדלגים.
@@ -561,10 +569,12 @@ def parse_article(url, html):
         if closure_article and not closing_soon:
             print(f"SKIP (כתבת סגירה): {article_title[:60]}")
             return []
-        cards.append(build_card(clean_name(name), full_text, article_title,
-                                url, published_iso, None,
-                                article_image=article_image,
-                                closing_soon=closing_soon))
+        card = build_card(clean_name(name), full_text, article_title,
+                          url, published_iso, None,
+                          article_image=article_image,
+                          closing_soon=closing_soon)
+        card["is_sponsored"] = is_sponsored
+        cards.append(card)
     return cards
 
 

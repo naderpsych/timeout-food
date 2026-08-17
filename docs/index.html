@@ -182,6 +182,10 @@
   }
   .src-badge.g { display: inline-flex; align-items: center; gap: 3px; }
   .src-badge.g svg { width: 10px; height: 10px; }
+  .badge-sponsored {
+    background: var(--chip); color: var(--muted); font-size: .72rem; font-weight: 700;
+    padding: 3px 9px; border-radius: 12px; white-space: nowrap;
+  }
   .badge-popup {
     background: #ede4fb; color: #6a3fb5; font-size: .75rem; font-weight: 700;
     padding: 3px 10px; border-radius: 12px; white-space: nowrap;
@@ -762,7 +766,7 @@ function cardHTML(c) {
       referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
     <div class="card-top">
       <h3>${esc((e && e.fixed_name) || c.name)}</h3>
-      <div class="badges">${distBadge}${c.closed_permanently ? '<span class="badge-closed-perm">⛔ נסגר</span>' : ""}${c.is_popup ? '<span class="badge-popup" title="מקום זמני — ייתכן שכבר אינו פעיל">🎪 פופ-אפ</span>' : ""}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new && !c.closed_permanently ? '<span class="badge-new">✨ חדש</span>' : ""}<button
+      <div class="badges">${distBadge}${c.closed_permanently ? '<span class="badge-closed-perm">⛔ נסגר</span>' : ""}${c.is_sponsored ? '<span class="badge-sponsored" title="כתבה ממומנת — פרסומת, לא המלצה עצמאית">ממומן</span>' : ""}${c.is_popup ? '<span class="badge-popup" title="מקום זמני — ייתכן שכבר אינו פעיל">🎪 פופ-אפ</span>' : ""}${c.closing_soon ? '<span class="badge-closing">⏳ הזדמנות אחרונה</span>' : ""}${c.is_new && !c.closed_permanently ? '<span class="badge-new">✨ חדש</span>' : ""}<button
         class="fav-btn${favCards.has(c.id) ? " active" : ""}" data-fid="${esc(c.id)}"
         title="${favCards.has(c.id) ? "הסר מהמועדפים" : "הוסף למועדפים"}">${favCards.has(c.id) ? "♥" : "♡"}</button></div>
     </div>
