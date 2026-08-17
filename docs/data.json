@@ -2685,9 +2685,9 @@
    "owner": null,
    "hours": "לא צוין",
    "schedule": null,
-   "city": "חיפה",
-   "location": "השומר 1, תל אביב, כרמל",
-   "region": "haifa",
+   "city": "תל אביב",
+   "location": "השומר 1, תל אביב",
+   "region": "tlv",
    "is_new": false,
    "closing_soon": false,
    "is_popup": false,
@@ -2718,9 +2718,9 @@
    "owner": null,
    "hours": "לא צוין",
    "schedule": null,
-   "city": "חיפה",
-   "location": "מל\"ן 43, תל אביב, כרמל",
-   "region": "haifa",
+   "city": "תל אביב",
+   "location": "מל\"ן 43, תל אביב",
+   "region": "tlv",
    "is_new": true,
    "closing_soon": false,
    "is_popup": false,
@@ -2754,9 +2754,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/CB94BD34-454E-48D3-89BF-E1AEF4FBA2B2-e1785667613582-1140x641.jpg",
    "published": "2026-08-02T13:35:06+03:00",
    "details_url": null,
-   "lat": 32.0597909,
-   "lon": 34.7721339,
-   "geo_precision": "address",
+   "lat": 32.0589906,
+   "lon": 34.774507,
+   "geo_precision": "area",
    "enrichment": {
     "address": "מרחביה 11, תל אביב-יפו, ישראל",
     "google_name": "Taco BA טאקו בא",
@@ -3042,9 +3042,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/CB94BD34-454E-48D3-89BF-E1AEF4FBA2B2-e1785667613582-1140x641.jpg",
    "published": "2026-08-02T13:35:06+03:00",
    "details_url": null,
-   "lat": 32.0506571,
-   "lon": 34.7726991,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "שביל המרץ 5, תל אביב-יפו, ישראל",
     "google_name": "Le Mala",
@@ -5318,307 +5318,6 @@
    "geo_precision": "city"
   },
   {
-   "id": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/#שניצל",
-   "name": "שניצל",
-   "type": "שניצלייה",
-   "what_to_eat": "שניצל, קפה, צ'יפס, פיתה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "משלוח מנות: 15 דברים טעימים שכדאי להזמין בתל אביב עכשיו",
-   "article_url": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/1688544124_1282157_47264-1140x641.jpg",
-   "published": "2026-07-19T13:56:27+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
-  },
-  {
-   "id": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/#המבורגר",
-   "name": "המבורגר",
-   "type": "המבורגרייה",
-   "what_to_eat": "המבורגר",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "חיפה",
-   "location": "כרמל",
-   "region": "haifa",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "משלוח מנות: 15 דברים טעימים שכדאי להזמין בתל אביב עכשיו",
-   "article_url": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/1688544124_1282157_47264-1140x641.jpg",
-   "published": "2026-07-19T13:56:27+03:00",
-   "details_url": null,
-   "lat": 32.7866144,
-   "lon": 34.9803096,
-   "geo_precision": "area"
-  },
-  {
-   "id": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/#סושי",
-   "name": "סושי",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "משלוח מנות: 15 דברים טעימים שכדאי להזמין בתל אביב עכשיו",
-   "article_url": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/1688544124_1282157_47264-1140x641.jpg",
-   "published": "2026-07-19T13:56:27+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
-  },
-  {
-   "id": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/#תאילנדי",
-   "name": "תאילנדי",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "משלוח מנות: 15 דברים טעימים שכדאי להזמין בתל אביב עכשיו",
-   "article_url": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/1688544124_1282157_47264-1140x641.jpg",
-   "published": "2026-07-19T13:56:27+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
-  },
-  {
-   "id": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/#פיצה",
-   "name": "פיצה",
-   "type": "פיצרייה",
-   "what_to_eat": "פיצה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "משלוח מנות: 15 דברים טעימים שכדאי להזמין בתל אביב עכשיו",
-   "article_url": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/1688544124_1282157_47264-1140x641.jpg",
-   "published": "2026-07-19T13:56:27+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
-  },
-  {
-   "id": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/#קריספי צ'יקן האני באטר",
-   "name": "קריספי צ'יקן האני באטר",
-   "type": "לא צוין",
-   "what_to_eat": "פרגית",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "משלוח מנות: 15 דברים טעימים שכדאי להזמין בתל אביב עכשיו",
-   "article_url": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/1688544124_1282157_47264-1140x641.jpg",
-   "published": "2026-07-19T13:56:27+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
-  },
-  {
-   "id": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/#פיתה קבב",
-   "name": "פיתה קבב",
-   "type": "מסעדת קבב",
-   "what_to_eat": "קבב, פיתה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לוינסקי",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "משלוח מנות: 15 דברים טעימים שכדאי להזמין בתל אביב עכשיו",
-   "article_url": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/1688544124_1282157_47264-1140x641.jpg",
-   "published": "2026-07-19T13:56:27+03:00",
-   "details_url": null,
-   "lat": 32.0589906,
-   "lon": 34.774507,
-   "geo_precision": "area"
-  },
-  {
-   "id": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/#אושפלוב",
-   "name": "אושפלוב",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "משלוח מנות: 15 דברים טעימים שכדאי להזמין בתל אביב עכשיו",
-   "article_url": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/1688544124_1282157_47264-1140x641.jpg",
-   "published": "2026-07-19T13:56:27+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
-   "enrichment": {
-    "address": "הירקון 3, בני ברק, ישראל",
-    "google_name": "אושפלו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWln_fF41o3SDwXhuNQ8HpQwROXblmsf44lIabeCk3bCGMsEWyMnYQjQ22gTGThM-11AGaTUvJIGnEF6w8dkWiBXaSPDLf_S2QqrTnYJtKPOxFRLM8J2konaPOlpYHJRyycdS3-S=w800-h500-p-k-no",
-    "hours": "א' 11:00-23:30, ב' 11:00-23:30, ג' 11:00-23:30, ד' 11:00-23:30, ה' 11:00-23:30, ו' 10:30-14:30, ש' 20:00-24:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "11:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "11:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "11:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "11:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "11:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "10:30",
-      "to": "14:30"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "20:00",
-      "to": "24:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/#מרק עוף וקניידלעך",
-   "name": "מרק עוף וקניידלעך",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "משלוח מנות: 15 דברים טעימים שכדאי להזמין בתל אביב עכשיו",
-   "article_url": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/1688544124_1282157_47264-1140x641.jpg",
-   "published": "2026-07-19T13:56:27+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
-  },
-  {
-   "id": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/#פנקייק יפני",
-   "name": "פנקייק יפני",
-   "type": "מסעדה",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "משלוח מנות: 15 דברים טעימים שכדאי להזמין בתל אביב עכשיו",
-   "article_url": "https://timeout.co.il/15-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%94%d7%96%d7%9e%d7%99%d7%9f-%d7%9c%d7%92%d7%9e%d7%a8-%d7%94%d7%9e%d7%95%d7%a0%d7%93%d7%99%d7%90%d7%9c/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/1688544124_1282157_47264-1140x641.jpg",
-   "published": "2026-07-19T13:56:27+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
-  },
-  {
    "id": "https://timeout.co.il/casa-mercado-estrella-damm/#Casa Estrella Damm",
    "name": "Casa Estrella Damm",
    "type": "המבורגרייה",
@@ -6859,1277 +6558,6 @@
    "opening_info": null,
    "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
    "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.065624,
-   "lon": 34.773877,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "אחד העם 15, תל אביב-יפו, 6514101, ישראל",
-    "google_name": "GREEN ROLL סושי טבעוני - סושי לנשים הריוניות -סושי צמחוני",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkqSZ-wO4ItlLNOu_NKAR_vNrWv6_8L5t9Ew6AsgDoxJdV8bu9kZncWl9bIIcFUUu_eQOd16st3HRxPzSjje9Dh4_dNvwo6ipK2vR_WTi7zkpvIRddr525HVqt8BQuyyMuhumfO=w800-h500-p-k-no",
-    "hours": "א' 12:00-22:30, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30, ו' 12:00-22:30, ש' 12:30-22:30",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:30",
-      "to": "22:30"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ASA",
-   "name": "ASA",
-   "type": "מסעדת גריל",
-   "what_to_eat": "סושי, סשימי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "אחד העם 54, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.0646198,
-   "lon": 34.7743305,
-   "geo_precision": "address"
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#גייג'ין",
-   "name": "גייג'ין",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי, סשימי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לילינבלום 29, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.062426,
-   "lon": 34.771259,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "לילינבלום 29, תל אביב-יפו, 6513308, ישראל",
-    "google_name": "Gaijin izakaya",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlHfFdy7q-FnaoczUFYk2VSG4fDvAQJAOdfWVS1Lb8YPi6q71aj9AGMBsFjLL3I3z-v1EMHIYZNkdKzjrWZgn4QPWvs_Uim5HWDr0W-teWa--4eiJ8MQ0XYxiEH8CfYiKSKxdNRl_RPhb2Y=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סאקה בה",
-   "name": "סאקה בה",
-   "type": "לא צוין",
-   "what_to_eat": "סאקה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "זבולון 8, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.060079,
-   "lon": 34.772867,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "זבולון 8, תל אביב-יפו, ישראל",
-    "google_name": "Saka Ba",
-    "photo": "https://lh3.googleusercontent.com/a/ACg8ocIQ76_Lx3zZrnBmr-nlR0oNH0xT2Pbsz9wjTxUDoplCzknhgg=w800-h500-p-rp-mo-ba12-br100",
-    "hours": "ש' 17:00-01:00, א' 17:00-01:00, ב' 17:00-01:00, ג' 17:00-01:00, ד' 17:00-02:00, ה' 17:00-03:00, ו' 12:00-01:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "17:00",
-      "to": "02:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "17:00",
-      "to": "03:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "01:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#OBI",
-   "name": "OBI",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "יבנה 31, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.0443395,
-   "lon": 34.7509908,
-   "geo_precision": "area",
-   "enrichment": {
-    "address": "יבנה 31, תל אביב-יפו, 6579206, ישראל",
-    "google_name": "אובי",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnoNch_xXlHLiBO1W0bklS21tDkT4dxepl3bn7s1moD4SywODth7m6V4X5oLm1kJPRuiWaSMdJvuireSoW7DRLvSUGzugbqY93k2sX70l3vIUZYlWkQa7_sn37zL82--YHDI5sqS0DuefA=w800-h500-p-k-no",
-    "hours": "ש' 18:00-24:00, א' 18:00-24:00, ב' 18:00-24:00, ג' 18:00-24:00, ד' 18:00-24:00, ה' 18:00-02:00, ו' 18:00-24:00, ש' סגור, א' 18:00-19:30",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "02:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "18:00",
-      "to": "19:30"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סאצ'י סושי",
-   "name": "סאצ'י סושי",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי, סשימי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "דיזנגוף 98, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.0788126,
-   "lon": 34.7741205,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "דיזנגוף 98, תל אביב-יפו, ישראל",
-    "google_name": "סאצ'י ראמן & סושי Sachi Ramen & Sushi",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkzip6ziYJNe4L3AOFTH_xNACzfJDgbNp6IqX7kVboFf5AzDdLRSqvq567KtSkrMC6AmN3stj9P-v2-arvhgdEg_mReKMmzPmfuRDbYFNOIcLNJKPik7uRwHibwko4TM4jWcpoD6Va5RFCv=w800-h500-p-k-no",
-    "hours": "א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-24:00, ו' 12:00-23:00, ש' 12:00-23:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#JMT",
-   "name": "JMT",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי, דג, דגים",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "אחוזת בית 3, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.0645717,
-   "lon": 34.7705798,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "אחוזת בית 3, תל אביב-יפו, ישראל",
-    "google_name": "JMT - ג׳ון מטאנג",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmstk31O0DvcJpjJJDIVQwklwZ14gpIWTUNRMQ96A_OIHlTXjSyYhFcgz7LEnv8E04mNepPTrAfWNzA8HX0C3mCzSJGv7Sis_XnmokTEPxWews84qs6kuL1d4DqI7vfAQUxxCv-=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ZO",
-   "name": "ZO",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "רוטשילד 11, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.063137,
-   "lon": 34.770399,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "שדרות רוטשילד 11, תל אביב-יפו, 6688114, ישראל",
-    "google_name": "מסעדת זו ZO TLV",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn3r6-FbVpOKHATBoQwvWwzYYTQKKNxv3ZpWEemUFsyLZVvZfItSYCExXyLGwUQupA12uXSxTFdyAQBG58FgIn2vSCuXk5YJFdyjPRsNVkKtvzvCHOYLMSQn25ck8b9MoYeWWo=w800-h500-p-k-no",
-    "hours": "ש' 19:00-24:00, א' סגור, ב' 19:00-24:00, ג' 19:00-24:00, ד' 19:00-24:00, ה' 19:00-24:00, ו' 19:00-24:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "19:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "19:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "19:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "19:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "19:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "19:00",
-      "to": "24:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#TYO",
-   "name": "TYO",
-   "type": "מסעדה",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "שבזי 58, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.063208,
-   "lon": 34.767936,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "שבזי 58, תל אביב-יפו, 6514431, ישראל",
-    "google_name": "TYO",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl143DcvIJskFuyqWBfg6QDRVGJl4qEbkuKcfuT81ssouOUg4wfPgcIToQ6MSC_G5m49Rh9dDW8at2o9gnt6qs4MpMZXQpMuVBRrhSdRW0_tFqR1ya83RVub8C7-9p5_2t8Cm-o=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אונמי",
-   "name": "אונמי",
-   "type": "מסעדה",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "הארבעה 18, תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.089224,
-   "lon": 34.770662,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "הארבעה 18, תל אביב-יפו, 6473918, ישראל",
-    "google_name": "אונאמי",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlaKlQVHquz2RWz6YpcWV9Ko53CVAoS0FeKpE8txh8U4vbJroHAhtOYbAXPkZsLxCzUlE3DCb7PCUEu6wAKwE9QyMxmLbHY1CqVgUK02uIKty3y0U83hVX0jh6SA0fq8bnKkAbp4Q=w800-h500-p-k-no",
-    "hours": "ש' 12:00-22:30, א' 12:00-22:30, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30, ו' 12:00-22:30",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#Wat Sang Sushi & More",
-   "name": "Wat Sang Sushi & More",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי, ראמן, סשימי, שרימפס, סלט",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "הרכבת 12 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.063376,
-   "lon": 34.776859,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "הרכבת 12, תל אביב-יפו, ישראל",
-    "google_name": "Wat Sang sushi & more",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm84gho9ooEIEdY86Mul1Jcr-pa-VR8CAR_rq8udHaN6qvVoMwaGt9gIsEbKkPXGfDvEJGcEorguShtTsZ2djIZWbZrcJSItUkjlbGwGGweyHBn8hLoO275gZDRdQTEUYOS8ej2rvXMErY=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אוקינאווה",
-   "name": "אוקינאווה",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לבונטין 11, תל אביב, נווה צדק",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#זה סושי/פוד טרמינל",
-   "name": "זה סושי/פוד טרמינל",
-   "type": "המבורגרייה",
-   "what_to_eat": "המבורגר, סושי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "אשתורי הפרחי 14, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.0674923,
-   "lon": 34.7854647,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "אשתורי הפרחי 14, תל אביב-יפו, ישראל",
-    "google_name": "זה סושי - בזל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkaT3sjYNeIEIs7Fj910H5wHaaSP18sS6fAScCY2suNC-eB8SHu7c1rU8kyfOGDfpOZZxi6bWVitdMgc3VT6YxW1wYMFMGBbAFXvnWN9Gv_QbntvyJre8q42jzHldJ84xL8WELx=w800-h500-p-k-no",
-    "hours": "א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:00, ו' 12:00-23:00, ש' 12:00-23:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#לאי פו",
-   "name": "לאי פו",
-   "type": "לא צוין",
-   "what_to_eat": "גיוזה, סשימי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "בוגרשוב 31, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.07672,
-   "lon": 34.770442,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "בוגרשוב 31, תל אביב-יפו, ישראל",
-    "google_name": "Lai fu ליי פו דים סאם וסושי בר",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnT2Gjx3Kfleq5yDouLyXb-HG2Z6MB1mMp85V8EdJuPeqfCR6dW1Dzr1nRQp1yngFGHQOi0YWlkDsw7vInz71E9j9sve1KFGGXaUnOmdrSxXB2b6XInB2UJJ6vkMjEXnhP_K5pJ4w=w800-h500-p-k-no",
-    "hours": "א' 18:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:00, ו' 12:00-23:00, ש' 12:00-23:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מון",
-   "name": "מון",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי",
-   "owner": null,
-   "hours": "12:00-18:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "12:00",
-     "to": "18:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "בוגרשוב 58, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.075607,
-   "lon": 34.771972,
-   "geo_precision": "address"
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מנטנטן",
-   "name": "מנטנטן",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי, ראמן, סשימי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "נחלת בנימין 57, תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.064139,
-   "lon": 34.771453,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "נחלת בנימין 57, תל אביב-יפו, ישראל",
-    "google_name": "Men Tenten Ramen Bar",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmlWvIizxhCukVV3AIXZtOa-Nmy-MYkqqmTuVqGLcgD3vasBrIlBqgYQWunLCkiYkM4g9KX0VATvwPNL8Y-2uh6n2lkueO8CAj8VNE_Cp5KfcQ9QlJ3kd6SPU11dCsxpaTDbkXg=w800-h500-p-k-no",
-    "hours": "ש' 12:00-24:00, א' 12:00-24:00, ב' 12:00-24:00, ג' 12:00-24:00, ד' 12:00-24:00, ה' 12:00-24:00, ו' 12:00-24:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ניני האצ'י",
-   "name": "ניני האצ'י",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "בן יהודה 228, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.0800949,
-   "lon": 34.8047672,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "בן יהודה 228, תל אביב-יפו, ישראל",
-    "google_name": "ניני האצ'י",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm8C2VeXnLdR9vtrL5WSaabRmEtJy9oWKUJhG8tHoV7YOklPuPEH6QB76vve9_rpA2uigp4IN-5Gm9NcbSJ3wuKQitZa3yCcSNI-QgxEiUkrMU6SC_PN5PXKYvLG47QBIIi1_EH=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סלאס",
-   "name": "סלאס",
-   "type": "מסעדה",
-   "what_to_eat": "דגים",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "רבי תנחום 6, יפו",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.05304,
-   "lon": 34.754998,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "תנחום 6, תל אביב-יפו, 6813821, ישראל",
-    "google_name": "סלאס",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl1sX29PovjIeQKqyC0w50TaFf9YIdM0kzf0ew_Ks--WLXZMuexJZrkHmtr7Vm-F2lhX8UUbiYGRFdSGul8KRZ1p75HncwG2BOSprIQFVc_XWyXF0vzT6TK7VdV2nI1XC8iHA=w800-h500-p-k-no",
-    "hours": "ש' 17:00-22:30, א' סגור, ב' 18:00-22:30, ג' 18:00-22:30, ד' 18:00-22:30, ה' 17:00-22:30, ו' 17:00-22:30, ש' 16:00-22:15, א' סגור",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "17:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "17:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "17:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "16:00",
-      "to": "22:15"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פו סושי",
-   "name": "פו סושי",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "דיזינגוף 302, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.0908154,
-   "lon": 34.7758683,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "דיזנגוף 302, תל אביב-יפו, ישראל",
-    "google_name": "סושי פו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn3TZaaJaDHelqXRz7Pt_EPaj-VvTA0PsO8D0s9UA6ArJF5w9c0SeuR_W28A39iZXSlryFj9wP7KaZFC-eI_ZRTweU-IiiHS1Kcq1MdF0wqjeDWSrUi6CPg2SLf-YvfeJpinotZvA=w800-h500-p-k-no",
-    "hours": "א' 11:30-23:00, ב' 11:30-23:00, ג' 11:30-23:00, ד' 11:30-23:00, ה' 11:30-23:00, ו' 12:00-24:00, ש' 12:00-24:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "11:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "11:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "11:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "11:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "11:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סאן יאנג",
-   "name": "סאן יאנג",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "ברנר 14, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
-   "published": "2026-07-16T14:12:18+03:00",
-   "details_url": null,
-   "lat": 32.068759,
-   "lon": 34.77221,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "ברנר 14, תל אביב-יפו, ישראל",
-    "google_name": "סאן יאנג",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmrVvbu4GV-5BbnJ_XH0m9w0DkaHAic2ajnyurub1O9WR4bZKu-rnBxeHvfvHA5Noc82qpy_dRkA-pRwhIoRV-sANijb8aWqE3izIb1NtxPZAgwbhyDL2GvPKHfrbwVQJmd6eM=w800-h500-p-k-no",
-    "hours": "א' 18:30-23:00, ב' 18:30-23:00, ג' 18:30-23:00, ד' 18:30-23:00, ה' 18:00-23:30, ו' 17:00-23:00, ש' 17:00-23:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "18:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "18:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "17:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "17:00",
-      "to": "23:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#גרין רול סושי",
-   "name": "גרין רול סושי",
-   "type": "מסעדה יפנית",
-   "what_to_eat": "סושי",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "מונטיפיורי 40, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "מתחמקים מהיאקוזה: 20 המקומות הכי טובים לאכול בהן סושי בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/SnapInsta-Ai_3733033120296662939-1140x641-1763725323.jpg",
    "published": "2026-07-16T14:12:18+03:00",
    "details_url": null,
@@ -10597,8 +9025,8 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782902323_1372335_68667-1140x641.jpg",
    "published": "2026-07-01T14:57:37+03:00",
    "details_url": "https://timeout.co.il/%D7%A7%D7%A4%D7%94-%D7%A0%D7%99%D7%A1%D7%95-%D7%A0%D7%A1%D7%92%D7%A8/",
-   "lat": 32.051587,
-   "lon": 34.757439,
+   "lat": 32.090187,
+   "lon": 34.774205,
    "geo_precision": "address",
    "enrichment": {
     "address": "בן יהודה 202, תל אביב-יפו, ישראל",
@@ -10905,9 +9333,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782902323_1372335_68667-1140x641.jpg",
    "published": "2026-07-01T14:57:37+03:00",
    "details_url": null,
-   "lat": 32.0793696,
-   "lon": 34.907439,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/חדשות-האוכל-106/#תומר אגאי X פיקוק",
@@ -11040,9 +9468,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782902323_1372335_68667-1140x641.jpg",
    "published": "2026-07-01T14:57:37+03:00",
    "details_url": null,
-   "lat": 32.0837848,
-   "lon": 34.7763077,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/חדשות-האוכל-106/#Jurong East",
@@ -11076,9 +9504,9 @@
    "owner": null,
    "hours": "17:00-12:00",
    "schedule": null,
-   "city": "חיפה",
+   "city": "תל אביב",
    "location": "סמטת הכרמל 27",
-   "region": "haifa",
+   "region": "tlv",
    "is_new": true,
    "closing_soon": false,
    "is_popup": false,
@@ -11088,9 +9516,70 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782902323_1372335_68667-1140x641.jpg",
    "published": "2026-07-01T14:57:37+03:00",
    "details_url": null,
-   "lat": 32.7971874,
-   "lon": 34.9814755,
-   "geo_precision": "address"
+   "lat": 32.0683679,
+   "lon": 34.7685526,
+   "geo_precision": "area",
+   "enrichment": {
+    "address": "סמטת הכרמל 27, תל אביב-יפו, ישראל",
+    "google_name": "הולה הולה",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlVl8P7-BtDmvfNm2GRDhaVjiildzR3ISzYJ5rs843gvGfdUVLQ1ieLUXeqPT1mP_xeZDuRFdkni-tKRE4l1gdi3YD6qmrr-Qgk5I5gew2eeTKYTUFM7PW8JJSah-DZl_OIyn7SVQ=w800-h500-p-k-no",
+    "hours": "א' 18:00-24:00, ב' 12:00-24:00, ג' 12:00-24:00, ד' 12:00-24:00, ה' 12:00-24:00, ו' 12:00-15:30, ש' 20:00-24:00",
+    "schedule": [
+     {
+      "days": [
+       0
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "15:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "20:00",
+      "to": "24:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-16",
+    "v": 2
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/חדשות-האוכל-106/#רזיאל",
@@ -11112,9 +9601,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782902323_1372335_68667-1140x641.jpg",
    "published": "2026-07-01T14:57:37+03:00",
    "details_url": null,
-   "lat": 32.0564309,
-   "lon": 34.7587418,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/חדשות-האוכל-106/#טוני וספה וענבי טלי",
@@ -12019,9 +10508,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": 32.06385,
-   "lon": 34.7797765,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "דרך מנחם בגין 23, תל אביב-יפו, ישראל",
     "google_name": "טאיזו",
@@ -12236,9 +10725,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": 32.06471,
-   "lon": 34.771687,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "הר סיני 2, תל אביב-יפו, 6581601, ישראל",
     "google_name": "Molam",
@@ -12814,9 +11303,9 @@
    "owner": null,
    "hours": "לא צוין",
    "schedule": null,
-   "city": "חיפה",
-   "location": "קרליבך 15 תל אביב, כרמל",
-   "region": "haifa",
+   "city": "תל אביב",
+   "location": "קרליבך 15 תל אביב",
+   "region": "tlv",
    "is_new": false,
    "closing_soon": false,
    "is_popup": false,
@@ -12833,7 +11322,7 @@
     "address": "קרליבך 15, תל אביב-יפו, ישראל",
     "google_name": "אונאומה מטבח תאילנדי - Onauma Thai kitchen",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnlg6ge9HpZMg3TBzXwlshCg279_s0tUyvQgCGl8gWRPnyTWlcv836BM6QTXfgvv_g_Cft0Owgk80ubfYvOQHoT-FuEN08Oa1dEOvg0omuG8s050PQMxi_0MAqjsyTmCYMR4Bet=w800-h500-p-k-no",
-    "hours": "א' 12:00-15:00, 17:00-23:00, ב' 12:00-15:00, 17:00-23:00, ג' 12:00-15:00, 17:00-23:00, ד' 12:00-15:00, 17:00-23:00, ה' 12:00-15:00, 17:00-22:00, ו' סגור, ש' סגור, א' 12:00-22:00, ב' 12:00-22:00",
+    "hours": "ש' סגור, א' 12:00-15:00, 17:00-23:00, ב' 12:00-15:00, 17:00-23:00, ג' 12:00-15:00, 17:00-23:00, ד' 12:00-15:00, 17:00-23:00, ה' 12:00-15:00, 17:00-22:00, ו' סגור, ש' סגור, א' 12:00-22:00",
     "schedule": [
      {
       "days": [
@@ -12911,17 +11400,10 @@
       ],
       "from": "12:00",
       "to": "22:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "22:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-16",
+    "date": "2026-08-15",
     "v": 2
    },
    "closed_permanently": false
@@ -12946,9 +11428,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": 32.0751788,
-   "lon": 34.7761781,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#למפור",
@@ -13204,9 +11686,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": 32.069629,
-   "lon": 34.784178,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אוקינאווה",
@@ -13228,9 +11710,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": 32.062843,
-   "lon": 34.767031,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#JMT",
@@ -13363,9 +11845,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": 32.071988,
-   "lon": 34.7888851,
-   "geo_precision": "area"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בבנג בנג",
@@ -13857,9 +12339,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": 32.068462,
-   "lon": 34.768458,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "לילינבלום 21, תל אביב-יפו, 6513213, ישראל",
     "source": "גוגל",
@@ -16862,9 +15344,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": null,
-   "lat": 32.0638911,
-   "lon": 34.7749395,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a7%d7%96%d7%95%d7%90%d7%9c-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ג'אנגו",
@@ -17526,9 +16008,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": null,
-   "lat": 32.049557,
-   "lon": 34.776082,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "מסילת ישרים 15, תל אביב-יפו, ישראל",
     "google_name": "חנן מרגילן",
@@ -17786,9 +16268,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": null,
-   "lat": 32.05563,
-   "lon": 34.766782,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "אברבנאל 72, תל אביב-יפו, ישראל",
     "google_name": "Lunel",
@@ -18251,9 +16733,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": null,
-   "lat": 32.065693,
-   "lon": 34.789831,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "רבניצקי 4, תל אביב-יפו, ישראל",
     "google_name": "סניור",
@@ -19090,9 +17572,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": null,
-   "lat": 32.0623423,
-   "lon": 34.7688117,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a7%d7%96%d7%95%d7%90%d7%9c-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#רומנו",
@@ -19409,9 +17891,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": "https://timeout.co.il/eat-big-the-best-casual-dining-restaurants-in-tel-aviv/",
-   "lat": 32.0809,
-   "lon": 34.779685,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%aa%d7%91%d7%95%d7%90%d7%94-%d7%a6%d7%a4%d7%95%d7%a0%d7%99%d7%aa-2026/#תבואה צפונית",
@@ -23320,9 +21802,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": 32.0837848,
-   "lon": 34.7763077,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#ליבר",
@@ -23406,9 +21888,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": 32.062397,
-   "lon": 34.7712641,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "לילינבלום 29, תל אביב-יפו, 6513308, ישראל",
     "google_name": "Gaijin izakaya",
@@ -23538,9 +22020,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": "https://timeout.co.il/%D7%93%D7%93%D7%94-%D7%91%D7%9E%D7%A9%D7%91%D7%99%D7%A8/",
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#קפה אירופה",
@@ -23687,9 +22169,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": 32.053143,
-   "lon": 34.75929,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "שדרות ירושלים 22, תל אביב-יפו, 6802203, ישראל",
     "google_name": "Palette Bistro",
@@ -23868,9 +22350,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": 32.0568471,
-   "lon": 34.7626408,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#קפה 65",
@@ -23906,9 +22388,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": 32.0652397,
-   "lon": 34.7765549,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#Link hotel & hub",
@@ -23944,9 +22426,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": "https://timeout.co.il/%D7%A9%D7%90%D7%95%D7%9C%D7%94/",
-   "lat": 32.0778913,
-   "lon": 34.790694,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#משק ברזילי",
@@ -24687,9 +23169,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": 32.06385,
-   "lon": 34.7797765,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "דרך מנחם בגין 23, תל אביב-יפו, ישראל",
     "google_name": "טאיזו",
@@ -24800,9 +23282,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": 32.05563,
-   "lon": 34.766782,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "אברבנאל 72, תל אביב-יפו, ישראל",
     "google_name": "Lunel",
@@ -24892,9 +23374,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": 32.0597088,
-   "lon": 34.7729282,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#פר דרייר",
@@ -24930,9 +23412,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": 32.0554441,
-   "lon": 34.7599386,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#קאב קם",
@@ -25406,2330 +23888,6 @@
    "closed_permanently": false
   },
   {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#שילה",
-   "name": "שילה",
-   "type": "לא צוין",
-   "what_to_eat": "שקשוקה, יין, פירות ים",
-   "owner": null,
-   "hours": "14:30-11:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "מונטיפיורי 9, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.064891,
-   "lon": 34.769965,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "מונטיפיורי 9, תל אביב-יפו, ישראל",
-    "google_name": "שילה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnZYiWmkFiX1u8HEZcHlP5QzPWovk59D7DxFgrcACZuqQ4o39pr-ITKUqeg5GM218ehes9PBzBLSwTWjEjSPJIIZSHPErJQ4yy3fWwwiS_DmZkejDI8nqZyUVKOF9xculMRND4w=w800-h500-p-k-no",
-    "hours": "ש' 12:00-23:00, א' 18:00-23:00, ב' 12:30-16:00, 18:00-23:00, ג' 12:30-16:00, 18:00-23:00, ד' 12:30-16:00, 18:00-23:00, ה' 12:30-16:00, 18:00-23:00, ו' 12:00-16:00, 17:30-23:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "17:30",
-      "to": "23:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סוף",
-   "name": "סוף",
-   "type": "מסעדה",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "17:00-12:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "הר סיני 2, תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
-   "enrichment": {
-    "address": "הר סיני 2-6, תל אביב-יפו, ישראל",
-    "google_name": "Suf - סוף",
-    "photo": "https://lh3.googleusercontent.com/a/ACg8ocLPoY8XWpB03Q4cpLvfqB-5VfOw82Uq7TWFu714L2cK757w5g=w800-h500-p-rp-mo-br100",
-    "hours": "ש' 12:00-01:00, א' 17:00-01:00, ב' 17:00-01:00, ג' 17:00-01:00, ד' 17:00-01:00, ה' 17:00-01:00, ו' 12:00-01:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "01:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#EATS בית חנה",
-   "name": "EATS בית חנה",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "15:00-09:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "15:00",
-     "to": "09:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "בן גוריון 75, תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0837848,
-   "lon": 34.7763077,
-   "geo_precision": "address"
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ליבר",
-   "name": "ליבר",
-   "type": "בר",
-   "what_to_eat": "יין",
-   "owner": null,
-   "hours": "14:00-11:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "מוהליבר 43, תל אביב, נחלת בנימין",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אופנהיימר",
-   "name": "אופנהיימר",
-   "type": "לא צוין",
-   "what_to_eat": "טוסט",
-   "owner": null,
-   "hours": "12:00-09:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "אופנהיימר 11, תל אביב, רמת אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#גייג'ין",
-   "name": "גייג'ין",
-   "type": "לא צוין",
-   "what_to_eat": "סשימי",
-   "owner": null,
-   "hours": "12:00-15:30",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "12:00",
-     "to": "15:30"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "לילינבלום 29 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.062397,
-   "lon": 34.7712641,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "לילינבלום 29, תל אביב-יפו, 6513308, ישראל",
-    "google_name": "Gaijin izakaya",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlHfFdy7q-FnaoczUFYk2VSG4fDvAQJAOdfWVS1Lb8YPi6q71aj9AGMBsFjLL3I3z-v1EMHIYZNkdKzjrWZgn4QPWvs_Uim5HWDr0W-teWa--4eiJ8MQ0XYxiEH8CfYiKSKxdNRl_RPhb2Y=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#האחים",
-   "name": "האחים",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": "טולי נווה",
-   "hours": "8:00-12:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "08:00",
-     "to": "12:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "אבן גבירול",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0813546,
-   "lon": 34.7814007,
-   "geo_precision": "area",
-   "enrichment": {
-    "address": "שלמה אבן גבירול 26, תל אביב-יפו, ישראל",
-    "google_name": "האחים",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm_k9c5qvbByst73oldpsQmtCVnxs9WUz2FjPy3_N4n1EsKF1Np1ODR9w3jRNQSGYoha3axp4RwJjOBORsTcQBQH2XP1uu1LeQT0ku3sGPSAbS5Y3U48Hh7w4iNQaiJiUEJnJ2I_Qs2pPk=w800-h500-p-k-no",
-    "hours": "ש' 12:00-23:00, א' 08:00-23:00, ב' 08:00-23:00, ג' 08:00-23:00, ד' 08:00-23:00, ה' 08:00-23:00, ו' 08:00-23:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#המשביר",
-   "name": "המשביר",
-   "type": "לא צוין",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "13:00-09:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": "https://timeout.co.il/%D7%93%D7%93%D7%94-%D7%91%D7%9E%D7%A9%D7%91%D7%99%D7%A8/",
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קפה אירופה",
-   "name": "קפה אירופה",
-   "type": "לא צוין",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "16:00-11:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "רוטשילד",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.063157,
-   "lon": 34.770193,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "שדרות רוטשילד 9, b, תל אביב-יפו, ישראל",
-    "google_name": "קפה אירופה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmVJQB8rErd-xpzK2q6r1dg5J8WzfP9AW4lQ_kVpYHU_FxadoiJSu3jGIj_Q5AEOE08GnOPJT28kIMIDc9WXaJ5g3swnSDzdG-YVeKSbQT57ombQ6j_KsqNzP2aVmlTvzmtwOM=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אמש",
-   "name": "אמש",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "16:00-12:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0443395,
-   "lon": 34.7509908,
-   "geo_precision": "area",
-   "enrichment": {
-    "address": "לילינבלום 30, תל אביב-יפו, 6513309, ישראל",
-    "google_name": "אמש",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm8oatRkzF4yssiNDQwuRZAgVeGee7am-4CNOTdtmpuIT8XCLsCiimhqdKjuQ16lYwThURUtESOB4XXbK9Le4FAaIVJSNVyZwUoh_00pkTW6f1_PLiq5V7jcA6a8sEuBWiOkuuNDA=w800-h500-p-k-no",
-    "hours": "א' סגור, ב' 19:30-02:00, ג' 19:00-02:00, ד' 19:00-02:00, ה' 18:30-04:00, ו' 12:00-17:00, 18:30-03:00, ש' 12:00-17:00, 18:30-02:00",
-    "schedule": [
-     {
-      "days": [
-       1
-      ],
-      "from": "19:30",
-      "to": "02:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "19:00",
-      "to": "02:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "19:00",
-      "to": "02:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:30",
-      "to": "04:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:30",
-      "to": "03:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "18:30",
-      "to": "02:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פאלט",
-   "name": "פאלט",
-   "type": "ביסטרו",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "16:00-12:30",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "ירושלים 22, יפו",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.053143,
-   "lon": 34.75929,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "שדרות ירושלים 22, תל אביב-יפו, 6802203, ישראל",
-    "google_name": "Palette Bistro",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlsBt13v84_A6Wt7mTG-qdU5tifwfWKvGmcs4Ers0YNyvLnI4jsaoJRpcLIIXhIpMK8QVYs_aHKbyLr_YEko7mw8DFjw5h3C0ShpY3spgmo604veTeVXWBMBoL8ueb9xIE3mlp_oi_jUG3O=w800-h500-p-k-no",
-    "hours": "א' 06:30-10:30, ב' 06:30-10:30, 18:00-23:30, ג' 06:30-10:30, 18:00-23:30, ד' 06:30-10:30, 18:00-23:30, ה' 06:30-10:30, 18:00-23:30, ו' 07:00-11:00, 17:00-23:30, ש' 07:00-11:00, 13:00-16:00, 17:00-23:30",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "06:30",
-      "to": "10:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "06:30",
-      "to": "10:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "06:30",
-      "to": "10:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "06:30",
-      "to": "10:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "06:30",
-      "to": "10:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "07:00",
-      "to": "11:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "17:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "07:00",
-      "to": "11:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "13:00",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "17:00",
-      "to": "23:30"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#נואמה",
-   "name": "נואמה",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "12:00-17:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "12:00",
-     "to": "17:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "נחלת בנימין 59, תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.063977,
-   "lon": 34.771557,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "נחלת בנימין 59, תל אביב-יפו, 6516313, ישראל",
-    "google_name": "Noema",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWldkHEMJlkFdgdoevKuCPd8hJX2uzBQEH67Jx6SAOMnnGaOAh8hwg3c5U3A0U4Fy3IA1BfP9bhNY5hcrPcc5434mvio3lun7toyM8nUnww65kHlAdPXzVEr3gModMeKf4WvT9BNCO8-Zu9l=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ג'ורג' וג'ון",
-   "name": "ג'ורג' וג'ון",
-   "type": "מסעדה",
-   "what_to_eat": "לא צוין",
-   "owner": "הקודם תומר",
-   "hours": "15:00-12:30",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "אוארבך 6 יפו",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0568471,
-   "lon": 34.7626408,
-   "geo_precision": "address"
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קפה 65",
-   "name": "קפה 65",
-   "type": "לא צוין",
-   "what_to_eat": "דגים",
-   "owner": null,
-   "hours": "13:00-07:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "13:00",
-     "to": "07:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "רוטשילד 65 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0652397,
-   "lon": 34.7765549,
-   "geo_precision": "address"
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#Link hotel & hub",
-   "name": "Link hotel & hub",
-   "type": "בית קפה",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "07:30-11:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "07:30",
-     "to": "11:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "שאול המלך 39 תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": "https://timeout.co.il/%D7%A9%D7%90%D7%95%D7%9C%D7%94/",
-   "lat": 32.0778913,
-   "lon": 34.790694,
-   "geo_precision": "address"
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#משק ברזילי",
-   "name": "משק ברזילי",
-   "type": "לא צוין",
-   "what_to_eat": "קפה, סלט",
-   "owner": null,
-   "hours": "10:00-13:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "10:00",
-     "to": "13:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "נווה צדק",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": "https://timeout.co.il/%D7%98%D7%95%D7%A8-%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%95%D7%AA-%D7%9E%D7%A9%D7%A7-%D7%91%D7%A8%D7%96%D7%99%D7%9C%D7%99/",
-   "lat": 32.063227,
-   "lon": 34.76837,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "אחד העם 6, תל אביב-יפו, ישראל",
-    "google_name": "משק ברזילי",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzkesI9AChr1M-gbmflvdH8h_BLxvOiLRbWel_CxYXN56N-DN4u1ykV7aEanhpNSePYoMIgFgsgFVXst35z1wN5z_77WiEUQelAzICiT95dGYxG34us8q3SJLCY9YSrmFrLjA=w800-h500-p-k-no",
-    "hours": "ש' 10:00-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:00, ו' 10:00-23:00, ש' סגור, א' 17:00-19:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "10:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "10:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "17:00",
-      "to": "19:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ברבור",
-   "name": "ברבור",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "17:00-12:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "נחלת בנימין 36 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.065083,
-   "lon": 34.770835,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "נחלת בנימין 36, תל אביב-יפו, ישראל",
-    "google_name": "Barbur Grill & Bar",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSG-oPDv3MiAnb8VWO9AZUIfOj4bqtPgMRuz4gsDX0Z-H9wv_z5EC-8rmtICWk0SFclZk4Rk9QnaXh815-g8TzivG-yq73dogGZnGuad-4Y2u57YaGi4Hbow5p16EtSTdjK7aUeisXiEIT=w800-h500-p-k-no",
-    "hours": "ש' 17:00-24:00, א' 17:00-24:00, ב' 17:00-24:00, ג' 17:00-24:00, ד' 17:00-24:00, ה' 17:00-01:00, ו' 17:00-24:00, ש' סגור, א' 17:00-19:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "17:00",
-      "to": "19:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בר פרדיסו",
-   "name": "בר פרדיסו",
-   "type": "בר",
-   "what_to_eat": "טרטר, טוסט",
-   "owner": null,
-   "hours": "16:00-13:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "נחלת בנימין 43 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0683357,
-   "lon": 34.7700335,
-   "geo_precision": "area",
-   "enrichment": {
-    "address": "נחלת בנימין 43, תל אביב-יפו, ישראל",
-    "google_name": "בר פרדיסו - bar paradiso",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmGtXY_jdcZ1puQEWxLO-6vEDdz_uCkMSme0Br7nRuCt32OWBJl-msis4cvnrWiLreMZOVx7K_sTT1aUzEj1cxuSmM2QWkxFrdy4ZD_YjYZLMcKHHQ9Ew5xpucN5IR5zK4Oe5LvHE3siPFu=w800-h500-p-k-no",
-    "hours": "ש' 18:00-23:30, א' 18:00-23:30, ב' 18:00-24:00, ג' 18:00-24:00, ד' 18:00-24:30, ה' 18:00-24:30, ו' 18:00-24:30",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "18:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "18:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "24:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "24:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "24:30"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#רביבה וסיליה",
-   "name": "רביבה וסיליה",
-   "type": "מסעדה",
-   "what_to_eat": "בריוש, טוסט",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0443395,
-   "lon": 34.7509908,
-   "geo_precision": "area",
-   "enrichment": {
-    "address": "צמרת G, ניסים אלוני 10, תל אביב-יפו, ישראל",
-    "google_name": "רביבה וסיליה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkbCMOKB5pbnUAA5wH_MCgSZRw-4SeWyWar-yHJ8EDzb0JFOx8Es5NROSQhEST_XZHOAZS6awAgcZelcKykwRk0K4hlDbO-SS0MWTTkDok-ambCNY_5FqSTKNuiQOuc_CdOZLUBwA=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#הוטל ססיל",
-   "name": "הוטל ססיל",
-   "type": "לא צוין",
-   "what_to_eat": "סלט",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "אברבנאל 52 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
-   "enrichment": {
-    "address": "אברבנאל 52, תל אביב-יפו, ישראל",
-    "google_name": "Hotel Cècil",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkmICccl4P-j4hxk7JV4ufCYzipMSqGwLNXi3HF3A3ts4GIg1fQA5-bcAAY-O8zzV9Eg3EK-a3BN0oMMwNsbnD_5ivelFtgkGDwcVJt8rhiRzotp7xVieR2pb9OTfCsx_qLIcs=w800-h500-p-k-no",
-    "hours": "ש' 10:00-24:00, א' 10:00-24:00, ב' 10:00-24:00, ג' 10:00-24:00, ד' 10:00-24:00, ה' 10:00-24:00, ו' 10:00-24:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "10:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "10:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "10:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "10:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "10:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "10:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "10:00",
-      "to": "24:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#שה ויוי",
-   "name": "שה ויוי",
-   "type": "לא צוין",
-   "what_to_eat": "סטייק, דגים",
-   "owner": null,
-   "hours": "10:00-16:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "10:00",
-     "to": "16:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "דיזינגוף 166 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0443395,
-   "lon": 34.7509908,
-   "geo_precision": "area",
-   "enrichment": {
-    "address": "דיזנגוף 166, תל אביב-יפו, 6346201, ישראל",
-    "google_name": "Chez Vivie",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmv8l9gpWZhcuzFi342mIWPv2Sob3VrKlj59P2Zu5_QOEjyfRk9SeA9G0jBI1bJKC3ndXCitfC-NEoElNloKeG-84-mjrrIIeyF9NP9M3yZJ3M-Gu9iRt6ylcgxDtP275JsS_c=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#דה ג'ורג' (Loft)",
-   "name": "דה ג'ורג' (Loft)",
-   "type": "מסעדה",
-   "what_to_eat": "סטייק",
-   "owner": null,
-   "hours": "12:30-15:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "12:30",
-     "to": "15:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
-   "enrichment": {
-    "address": "טל ישראל 5, תל אביב-יפו, 6742726, ישראל",
-    "google_name": "The George Tel Aviv (ג'ורג' תל אביב)",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm-QL4gkhXTDxvURmQGDqiiZzxdm6iiEylDm_WCC0ZL5dhiUH3ddbgIl0sUftEYV9NSGOWEVI31LRP-hSuYmGFUb0kZZn9UqcrOQb-lLycmRBintJs5tCigqr0Y45iXQROdC7E0yn9QGS4I=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בקסטייג",
-   "name": "בקסטייג",
-   "type": "לא צוין",
-   "what_to_eat": "דגים, סלט, טוסט",
-   "owner": null,
-   "hours": "07:00-13:45",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "07:00",
-     "to": "13:45"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "בילינסון 6 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
-   "enrichment": {
-    "address": "ביילינסון 6, תל אביב-יפו, ישראל",
-    "google_name": "מלון בקסטייג'",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl75_cjZTtgjwhF342CVkFrFqAQObkFozRvP-KTDnJNAaVcfwP-msU1g28o2U8ZwkuaL_732UTwtEiJDEeo56T1BP-k_MCu5LZ7ehUAIy9nNqeIiK0Ezg7ZLDT8uXNU3lSRRBII=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#דיקסי",
-   "name": "דיקסי",
-   "type": "לא צוין",
-   "what_to_eat": "טוסט",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "יגאל אלון 120 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0662392,
-   "lon": 34.7926321,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "יגאל אלון 120, תל אביב-יפו, 67443, ישראל",
-    "google_name": "דיקסי גריל בר",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmtxDq91ehT1OOO9HE6M0rH-Ks2rjMd6GAtj1Xo7TkMhkUs5RbKAEc0T5TUIayuuHc1Y8xc-H4cx8nrCj4tTW9tL_cpXINcwqhiRM2p9kS_90zuWqWvOcDMd6o1c0WWFbZgmYNu=w800-h500-p-k-no",
-    "hours": "ש' 09:00-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 09:00-23:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "09:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "09:00",
-      "to": "23:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#דלאל+מרינה דלאל",
-   "name": "דלאל+מרינה דלאל",
-   "type": "לא צוין",
-   "what_to_eat": "בורקס",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "שבזי 10 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.06118,
-   "lon": 34.763478,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "מעגן היאכטות, אליעזר פרי 10, תל אביב-יפו, ישראל",
-    "google_name": "מרינה דלאל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlOBTvBdwC_-veFP3M3djF14URxYdfSVKIme3LhzuOAoG3CtCwkyx-ntkIUbMEbvz03hS4hAUR13E9nk-mpgL8tQFz7aBVOs5FrAo0jJgZT4TzthPZKa4BeoYJq4nVN8Z88BcO_-ETRrZog=w800-h500-p-k-no",
-    "hours": "א' סגור, ב' 11:00-23:00, ג' 11:00-23:00, ד' 11:00-23:00, ה' 11:00-23:00, ו' 10:00-23:00, ש' 10:00-23:00",
-    "schedule": [
-     {
-      "days": [
-       1
-      ],
-      "from": "11:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "11:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "11:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "11:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "10:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "10:00",
-      "to": "23:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#טאיזו",
-   "name": "טאיזו",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "11:00-14:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "11:00",
-     "to": "14:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "מנחם בגין 23 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.06385,
-   "lon": 34.7797765,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "דרך מנחם בגין 23, תל אביב-יפו, ישראל",
-    "google_name": "טאיזו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlTmVrp7Bf7uPTJsOwaEH0N6H7PEfhvSo8hdbqmFCFA4Q__j7fdjWqYQUmNFENnmZTZ1bnWe2xlqKApgoUfYt7TlrRnKmq7LAlJ5lT1NTg0mUgVO98O3Cg5H8oT_cWUOmUCAyDw=w800-h500-p-k-no",
-    "hours": "ש' 12:00-15:30, 18:30-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:00, ו' 12:00-15:00, 17:30-23:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "15:30"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "18:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "17:30",
-      "to": "23:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#לונל",
-   "name": "לונל",
-   "type": "לא צוין",
-   "what_to_eat": "יין, קורנפלקס",
-   "owner": null,
-   "hours": "9:00-15:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "09:00",
-     "to": "15:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "אברבנאל 72 תל אביב, פלורנטין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.05563,
-   "lon": 34.766782,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "אברבנאל 72, תל אביב-יפו, ישראל",
-    "google_name": "Lunel",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAqXyw0O9bYgSacW4OAbFm-rrtggXIhSa0JRsK8VwvKfpv_ztCG7lX6MRS1Gem5G_XsLX2_swxMwJAIdv4G3TgdxT0EVvnb6K7gV2NoTKZFV6D_pl-MRzkTEWe2BVVcyI8HiBc=w800-h500-p-k-no",
-    "hours": "ש' 10:00-15:00, 18:00-24:00, א' סגור, ב' 17:00-24:00, ג' 17:00-24:00, ד' 17:00-24:00, ה' 18:00-24:00, ו' 10:00-15:00, 18:00-24:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "10:00",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "10:00",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סוסייטי קפה",
-   "name": "סוסייטי קפה",
-   "type": "ביסטרו",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "15:00-10:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "זבולון 13 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0597088,
-   "lon": 34.7729282,
-   "geo_precision": "address"
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פר דרייר",
-   "name": "פר דרייר",
-   "type": "שניצלייה",
-   "what_to_eat": "שקשוקה, שניצל, צ'יפס",
-   "owner": null,
-   "hours": "12:00-15:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "12:00",
-     "to": "15:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "בת עמי 7 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0554441,
-   "lon": 34.7599386,
-   "geo_precision": "address"
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קאב קם",
-   "name": "קאב קם",
-   "type": "לא צוין",
-   "what_to_eat": "קוקטייל",
-   "owner": null,
-   "hours": "12:00-15:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "12:00",
-     "to": "15:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "לינקולן 11 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.066955,
-   "lon": 34.782,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "לינקולן 11, תל אביב-יפו, ישראל",
-    "google_name": "קאב קם",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm8pp2BlettxgnPtxGfNm-UFjgadTv4ghMhHZLZsnno2oIygaD-KQ7GoUPaP958Vgkvo8krhCRcZBACTkdYeugkiW9VV28_CxBcAkABml8Cl8jLBPOWHfs3Cqv-4wN6CjdjSyYP=w800-h500-p-k-no",
-    "hours": "ש' 12:00-15:30, 17:00-24:00, א' 17:00-24:00, ב' 12:00-15:00, 17:00-24:00, ג' 12:00-15:00, 17:00-24:00, ד' 12:00-15:00, 17:00-24:00, ה' 12:00-15:00, 17:00-24:00, ו' 17:00-24:00, ש' סגור, א' 17:00-19:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "15:30"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "17:00",
-      "to": "19:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קלארו",
-   "name": "קלארו",
-   "type": "סביחייה",
-   "what_to_eat": "סביח, טוסט, קורנפלקס",
-   "owner": null,
-   "hours": "09:00-15:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "09:00",
-     "to": "15:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0443395,
-   "lon": 34.7509908,
-   "geo_precision": "area",
-   "enrichment": {
-    "address": "Ha'arbaa st 23, תל אביב-יפו, ישראל",
-    "google_name": "קלארו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlHPuxtWaXds2NRqYvnAICqwBkXMgm069SAc4Eoquw7OK2Are_XmPWudRdJNl2ti9ycOhgcFt-CdJ37Pp-bTMnS-8PTib_J_k8YcZx3DXNsu30ZWMB16X0gtURLAR8BGWIarUaV=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#שישקו",
-   "name": "שישקו",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "11:00-17:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "11:00",
-     "to": "17:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "הכובשים 48 תל אביב, שוק הכרמל",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#AKA",
-   "name": "AKA",
-   "type": "המבורגרייה",
-   "what_to_eat": "המבורגר, דגים",
-   "owner": null,
-   "hours": "12:00-16:00",
-   "schedule": [
-    {
-     "days": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "from": "12:00",
-     "to": "16:00"
-    }
-   ],
-   "city": "תל אביב",
-   "location": "נחלת בנימין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0642735,
-   "lon": 34.7711934,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "נחלת בנימין 44, תל אביב-יפו, 6516304, ישראל",
-    "google_name": "A.K.A",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlEgScWZmoSOobSfliy1le_j8ce4z2IbVMqUFKOtf14LOY9OdFdSYN53aa4i9gFsuY-dSvveuf5mzRGBX2OPKiK6SU2RMVWcJtT8X3gzQdrT39skxhvmBmyUuKPSBx7Al6uRVkX=w800-h500-p-k-no",
-    "hours": "ש' 13:00-24:30, א' 17:00-24:30, ב' 17:00-24:30, ג' 17:00-24:30, ד' 17:00-24:30, ה' 17:00-01:00, ו' 12:00-24:30",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "13:00",
-      "to": "24:30"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "17:00",
-      "to": "24:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "17:00",
-      "to": "24:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "17:00",
-      "to": "24:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "17:00",
-      "to": "24:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "17:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "24:30"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#R48",
-   "name": "R48",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "11:30-08:30",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "רוטשילד",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0638911,
-   "lon": 34.7749395,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "שדרות רוטשילד 48, תל אביב-יפו, 6688313, ישראל",
-    "google_name": "R48 Hotel and Garden - מלון רוטשילד 48",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn6kB6K8vH4nv62FBvHihYcd8fIyR79xGFf5MvEF72yml3VxadlZEdIL3IsebFNUYYTmkTbMXBiheV3e7rxyT57DA3Q4NLmZJl2j9tX7NsGbDKStZCkzpuX0QDnBTSt_igXhtY-=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פופ אנד פופ",
-   "name": "פופ אנד פופ",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "16:00-11:00",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תעשו אצלנו שבת: 37 ארוחות הבראנץ' הכי טובות בתל אביב",
-   "article_url": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
-   "published": "2026-05-26T09:53:12+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
-   "enrichment": {
-    "address": "הארבעה 28, תל אביב-יפו, 6479325, ישראל",
-    "google_name": "Pop and pope",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYgU4J-GFrufPhxrOASPAAnlwrRzN2phR5EZgi04-kvgxG-kuVR3JnoqCr5zFsVVO2qvp3iBURpzaEN7FpLyFve3W_qIBs_MKrBOjY64lpjrQyjJkCbJsv4d4jGAndONhGklW8=w800-h500-p-k-no",
-    "hours": "ש' 11:00-16:00, 18:00-24:00, א' סגור, ב' 12:00-15:30, 18:00-24:00, ג' 12:00-15:30, 18:00-24:00, ד' 12:00-15:30, 18:00-24:00, ה' 12:00-15:30, 18:00-24:00, ו' 18:00-24:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "11:00",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "15:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "15:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "15:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "15:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
    "id": "https://timeout.co.il/%d7%94%d7%95%d7%9c%d7%99-%d7%9e%d7%95%d7%96%d7%a1/#ההמבורגר שנסע רחוק והפוד טראק שהמטיילים בצפון חיכו לו",
    "name": "ההמבורגר שנסע רחוק והפוד טראק שהמטיילים בצפון חיכו לו",
    "type": "המבורגרייה",
@@ -27946,9 +24104,9 @@
    "owner": null,
    "hours": "לא צוין",
    "schedule": null,
-   "city": "חיפה",
-   "location": "הלל הזקן 18, תל אביב, כרמל",
-   "region": "haifa",
+   "city": "תל אביב",
+   "location": "הלל הזקן 18, תל אביב",
+   "region": "tlv",
    "is_new": false,
    "closing_soon": false,
    "is_popup": false,
@@ -27958,13 +24116,29 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/Messy-but-worth-it-1140x641-1779611823.jpg",
    "published": "2026-05-24T11:54:20+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.069724,
+   "lon": 34.770082,
+   "geo_precision": "address",
    "enrichment": {
     "address": "הלל הזקן 18, תל אביב-יפו, 6565656, ישראל",
-    "hours": "ג' 12:00-22:00, ד' 12:00-22:00, ה' 12:00-22:00, ו' 11:00-15:30, ש' 17:30-22:00, א' 12:00-22:00, ב' 12:00-22:00",
+    "google_name": "OSU",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlMEgN_c6R5SlSD6rBJMEkhU3F9Ol6U73YJdRGNQVo3mr58HNvYkGjXW9MloF_Oaut65gY29wBBZsnMk5hfeKjC3YsGN51zNHXdk0_VkUVbk16SWH1ZQqoxMzipONaIhoJ041nnJxJau-Qr=w800-h500-p-k-no",
+    "hours": "א' 12:00-22:00, ב' 12:00-22:00, ג' 12:00-22:00, ד' 12:00-22:00, ה' 12:00-22:00, ו' 11:00-15:30, ש' 17:30-22:00",
     "schedule": [
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "22:00"
+     },
      {
       "days": [
        2
@@ -27999,24 +24173,11 @@
       ],
       "from": "17:30",
       "to": "22:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "22:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "22:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-07-28"
+    "date": "2026-08-16",
+    "v": 2
    },
    "closed_permanently": false
   },
@@ -28727,9 +24888,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/Messy-but-worth-it-1140x641-1779611823.jpg",
    "published": "2026-05-24T11:54:20+03:00",
    "details_url": null,
-   "lat": 32.125067,
-   "lon": 34.801792,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ויטרינה",
@@ -28751,9 +24912,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/Messy-but-worth-it-1140x641-1779611823.jpg",
    "published": "2026-05-24T11:54:20+03:00",
    "details_url": null,
-   "lat": 32.0761178,
-   "lon": 34.7817312,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#לוקאל בורגר",
@@ -29286,9 +25447,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/Messy-but-worth-it-1140x641-1779611823.jpg",
    "published": "2026-05-24T11:54:20+03:00",
    "details_url": null,
-   "lat": 32.0766501,
-   "lon": 34.7767805,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אסתר המלכה",
@@ -29310,9 +25471,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/Messy-but-worth-it-1140x641-1779611823.jpg",
    "published": "2026-05-24T11:54:20+03:00",
    "details_url": null,
-   "lat": 32.0627097,
-   "lon": 34.7699046,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פרוזדור",
@@ -38576,1218 +34737,6 @@
    "closed_permanently": false
   },
   {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#נאס קפה",
-   "name": "נאס קפה",
-   "type": "בית קפה",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "עזה 55 יפו >> בתי הקפה הכ י ט ו ב י ם שפתוחים בשבת בבוקר בתל אביב >> הכי מיוחד בעיר: בתי הקפה ספיישלטי הטובים ביותר בתל אביב",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "עזה 55 יפו",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": "https://timeout.co.il/%D7%91%D7%AA%D7%99-%D7%A7%D7%A4%D7%94-%D7%A4%D7%AA%D7%95%D7%97%D7%99%D7%9D-%D7%91%D7%A9%D7%91%D7%AA-3/",
-   "lat": 32.042346,
-   "lon": 34.7610793,
-   "geo_precision": "address"
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#פועה",
-   "name": "פועה",
-   "type": "בית קפה",
-   "what_to_eat": "שניצל, קפה, אספרסו",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "רבי יוחנן 6 יפו",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.0526181,
-   "lon": 34.756154,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "רבי יוחנן 6, תל אביב-יפו, ישראל",
-    "google_name": "קפה פועה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkcQQiSr0KAf5TlSJX5ZC5K2tF1oXmZ3uwPB1hU4W1OLntGfB4hgvCHUV8EJK5oSJpN54gNQ_cJPtjNO5MUab9_PY-c592uzMYzF-VLn3AIpaHJY3AERJOw_UJ0myM-lpw9SK0=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#אדא חנינא",
-   "name": "אדא חנינא",
-   "type": "לא צוין",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "רבי חנינא 9 יפו",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.052261,
-   "lon": 34.75559,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "רבי חנינא 9, תל אביב-יפו, 6813737, ישראל",
-    "google_name": "Ada Hanina Cafe",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnEzdUDCDIS30xohJyHI07QP53dkOpq7LOytSVfbEH6CwcJ7R9tiBkkJI6BT-sQdbdZYwxmVqm-cfzh3Ze2VwHlqq8HJG7uhNmo2gL3DekYEmIqWMn6Ofq9-oPvLpKzJD-h4LoY=w800-h500-p-k-no",
-    "hours": "ש' 08:30-20:00, א' 07:30-20:00, ב' 07:30-20:00, ג' 07:30-20:00, ד' 07:30-20:00, ה' 07:30-20:00, ו' 07:30-18:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "08:30",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "07:30",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:30",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "07:30",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "07:30",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "07:30",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "07:30",
-      "to": "18:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#עפאים",
-   "name": "עפאים",
-   "type": "לא צוין",
-   "what_to_eat": "מאפה, קפה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "דרך שלמה 6, פלורנטין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.0548221,
-   "lon": 34.7698706,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "דרך שלמה 6, תל אביב-יפו, 6811116, ישראל",
-    "google_name": "משק עפאים",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnZOXV7RYz_MvZI5zq6IN4JU95hvWDHkUpu8ASDYjstcR9tHRBa_iDESfSs1j93HgiuQHD9_V-ESNbjLMCoj1adiCGlcfDWKOFubwEX0elAW2EPnBwyibm0iK9wE5PVGeNivSUXlQ=w800-h500-p-k-no",
-    "hours": "א' 08:00-21:00, ב' 08:00-21:00, ג' 08:00-21:00, ד' 08:00-21:00, ה' 08:00-21:00, ו' 08:00-14:00, ש' סגור",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "08:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "08:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "08:00",
-      "to": "14:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#פוק קפה",
-   "name": "פוק קפה",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "כפר גלעדי 48 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.0573278,
-   "lon": 34.7703031,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "48 Kfar Gilaadi, תל אביב-יפו, 6609248, ישראל",
-    "google_name": "פֹּהקפה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk12_YGHeV7tTXs6k-OAC80XWVfy5x9cO_Goh5Al_G6WYpF4QCflZMf0aFMHJF1i-3eir4t0nLbbPY6JlpKpIoCvx3Mh6Nr1mswnc-KWEN3J9XJ3u3vDyrG_yZDdtsIbgM1btWb=w800-h500-p-k-no",
-    "hours": "א' 07:00-20:00, ב' 07:00-20:00, ג' 07:00-20:00, ד' 07:00-20:00, ה' 07:00-20:00, ו' 07:00-19:00, ש' 07:00-20:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "07:00",
-      "to": "19:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#קאנה",
-   "name": "קאנה",
-   "type": "בית קפה",
-   "what_to_eat": "קפה",
-   "owner": "מכבד כל",
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "פרנקל 56 תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.0569644,
-   "lon": 34.7723085,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "הרב יצחק ידידיה פרנקל 56, תל אביב-יפו, ישראל",
-    "google_name": "קאנה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnkkJQvaPhw7_rpHtcCHMJ5idcxbG6Lc1Uk4RS4ZSIRxY7JpNJHwitFNA4GUPMGFeISg2zlcX8CuFa-rTnfKLiNu4jPMdaJRXNOZFdRKNv4_yhtdlQgQw1GKzF6y0ahaa4M341Las5vyfw=w800-h500-p-k-no",
-    "hours": "ש' 08:30-17:00, א' 07:30-18:30, ב' 07:30-18:30, ג' 07:30-18:30, ד' 07:30-18:30, ה' 07:30-18:30, ו' 08:30-16:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "08:30",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "07:30",
-      "to": "18:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:30",
-      "to": "18:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "07:30",
-      "to": "18:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "07:30",
-      "to": "18:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "07:30",
-      "to": "18:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "08:30",
-      "to": "16:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#איזי קפה",
-   "name": "איזי קפה",
-   "type": "לא צוין",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "שעות הפתיחה מוקדמות מאוד, ואם תרצו להעמיד פנים שאתם אשכרה עובדים במשהו, תוכלו לעשות זאת כבר מהשעה הדמיונית 6:30.",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "פלורנטין 38 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.056201,
-   "lon": 34.771037,
-   "geo_precision": "address"
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#קפה ברזילי",
-   "name": "קפה ברזילי",
-   "type": "לא צוין",
-   "what_to_eat": "קפה, מאצ'ה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "ברזילי 1 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.0625446,
-   "lon": 34.7751965,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "ברזילי 1, תל אביב-יפו, ישראל",
-    "google_name": "קפה ברזילי",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnIZZr64n30J5D-zZsHqGerxeuQRj2E9qRrfVLdqKzp87xzJvMqjV8a7dWzwiKzmKwQCeEF4qXYuCJ_fZ5fWW1txOCNnvM0CG3jC5pOwqtWAEJg5rEEVTATXwjelrMwsb_HGh6CjA=w800-h500-p-k-no",
-    "hours": "א' 07:00-20:00, ב' 07:00-20:00, ג' 07:00-20:00, ד' 07:00-20:00, ה' 07:00-20:00, ו' 07:00-15:00, ש' 08:00-20:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "07:00",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#שה שנטל",
-   "name": "שה שנטל",
-   "type": "בית קפה",
-   "what_to_eat": "בריוש, קפה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "מקווה ישראל 3 תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.062678,
-   "lon": 34.775727,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "מקווה ישראל 3, תל אביב-יפו, ישראל",
-    "google_name": "שה שנטל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlr1vRg1VPHSGB1aVe487hXekFIeBEYieTMXlQHyrbaLBdudFOVMpxNWoU6y9VZi1JaCsOcFUsmJjix50T0dIzrrOkw_BbfdBOmmCB1DL0wj9sd8Uvu9dhww7bkTzpNXCkp8Al7xw=w800-h500-p-k-no",
-    "hours": "ש' סגור, א' 06:30-15:00, ב' 06:30-15:00, ג' 06:30-15:00, ד' 06:30-15:00, ה' 06:30-15:00, ו' 06:30-15:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "06:30",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "06:30",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "06:30",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "06:30",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "06:30",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "06:30",
-      "to": "15:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#קפה קסטל",
-   "name": "קפה קסטל",
-   "type": "לא צוין",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "אבן גבירול 151, תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.090748,
-   "lon": 34.7826324,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "שלמה אבן גבירול 151, תל אביב-יפו, ישראל",
-    "google_name": "Cafe Castel קפה קסטל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmdBRv1FbkHMj8d2UYJy376yKGHmJ5aT4F6gPBM27Ic_5FGQRDeYoPLYkSAiWBJdKd2TVbgPDVx2Na9YE0WvzkT_xWucd-ji6CQmJ0kr_q9zJVxxhC1P1r5sBXbouL8MVt2qWdW-A=w800-h500-p-k-no",
-    "hours": "ש' 07:30-21:00, א' 07:00-21:00, ב' 07:00-21:00, ג' 07:00-21:00, ד' 07:00-21:00, ה' 07:00-21:00, ו' 07:00-18:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "07:30",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "07:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "07:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "07:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "07:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "07:00",
-      "to": "18:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#תחתית",
-   "name": "תחתית",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לינקולן 9 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.067078,
-   "lon": 34.781747,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "לינקולן 9, תל אביב-יפו, ישראל",
-    "google_name": "התחתית",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm96CJ5YJytUT0GYef3Jn0hsPmkQ5Kc-1ZbvftUsy9v5mSA4wtSgQO2O0IsqVcx3-XR3LZTSpMvRfwYQDb-dDvUbuIx1dBOH90PcYxA0x_zZvGIz_pvxnVPTv8vpKxHv5i4xiKc=w800-h500-p-k-no",
-    "hours": "א' 07:00-23:00, ב' 07:00-23:00, ג' 07:00-23:00, ד' 07:00-23:00, ה' 07:00-23:00, ו' 07:00-22:00, ש' 07:00-15:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "07:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "07:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "07:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "07:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "07:00",
-      "to": "22:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "07:00",
-      "to": "15:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#תילי קפה",
-   "name": "תילי קפה",
-   "type": "בית קפה",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "מריטוצו דב הוז 13, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
-   "enrichment": {
-    "address": "דב הוז 16, תל אביב-יפו, ישראל",
-    "google_name": "תילי קפה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlGioO66KTdBPI0w7OCgEmE_kUcy7Cc6Xv3bheDp5cZtIcQYpy9che9zmpPpHxvk1n2LZMU6SW5CNrmDJdm5NZJmmjM1j0fUjjKG8l4DDb2RAgyfleG6nbPdbsqRtuicpWF-kIv=w800-h500-p-k-no",
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#קפה לב",
-   "name": "קפה לב",
-   "type": "בית קפה",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
-   "enrichment": {
-    "address": "אידלסון 29, תל אביב-יפו, ישראל",
-    "google_name": "Lev Cafe",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlsn7g_cCMx8AdIhn_pKUArILGlqzYEpflEHsAMe1DtvdbjxL3Spiof14w9C7wgP403yoih2kGdoFlqZ9-Y8ppHdjrGq0CjyX9w6Mdo_A40khpkHHvZSD2U_WR6rvs35ybser81=w800-h500-p-k-no",
-    "hours": "א' 08:00-18:00, ב' 08:00-18:00, ג' 08:00-18:00, ד' 08:00-18:00, ה' 08:00-18:00, ו' 08:00-15:00, ש' 09:00-15:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "08:00",
-      "to": "18:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "18:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "18:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "18:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "08:00",
-      "to": "18:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "08:00",
-      "to": "15:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "09:00",
-      "to": "15:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#טימותי",
-   "name": "טימותי",
-   "type": "בית קפה",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "שלמה אבן גבירול 187 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.094125,
-   "lon": 34.783233,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "שלמה אבן גבירול 187, תל אביב-יפו, ישראל",
-    "google_name": "Timothy Café",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmCozdhGc5M2FBYvXB6udU0jfHxFg4Xs0gzOofmbHtICdGiLnh58nYg9StJeTEdErZa5Spcy9kOrq3j0aIRDOppKT3iY4jJTfzxTfNdvs76Lguy7hywbijuCtHUomjAjBoH9Uo=w800-h500-p-k-no",
-    "hours": "א' 07:30-21:00, ב' 07:30-21:00, ג' 07:30-21:00, ד' 07:30-21:00, ה' 07:30-21:00, ו' 07:30-19:00, ש' 08:00-19:00, א' 18:00-21:00, ב' 18:00-21:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "07:30",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:30",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "07:30",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "07:30",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "07:30",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "07:30",
-      "to": "19:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "08:00",
-      "to": "19:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "18:00",
-      "to": "21:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "21:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#נולה",
-   "name": "נולה",
-   "type": "בית קפה",
-   "what_to_eat": "קפה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "דיזינגוף 197 תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.0871766,
-   "lon": 34.7747817,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
-    "google_name": "NOLA American Bakery נולה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkSGxFktspNga07GtV1LpvYsWkVr1a2qi6GZF2rewTpa2Hi8pCdP7pphtU-YFzOO1IiL6HLLw25TCqn5j2iMNjr0Apey7ZS9SslqXkFYj6MqCDN98SFU5WDREfyJogbT4kqCfO9ZNHdTnKM=w800-h500-p-k-no",
-    "hours": "א' 08:00-22:00, ב' 08:00-22:00, ג' 08:00-22:00, ד' 08:00-22:00, ה' 08:00-22:00, ו' 08:00-17:00, ש' 08:00-22:00",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "08:00",
-      "to": "22:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "22:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "22:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "22:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "08:00",
-      "to": "22:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "08:00",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "08:00",
-      "to": "22:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#זוריק",
-   "name": "זוריק",
-   "type": "בית קפה",
-   "what_to_eat": "קפה, כריך",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
-   "enrichment": {
-    "address": "יהודה המכבי 4א, תל אביב-יפו, 6266905, ישראל",
-    "google_name": "קפה זוריק",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnhGzUwQYxqGoR0y43RDrARS1S_E_H8U1q1mXzg_opIInu-yP7mJ-ZfcNgKmpd6DOPSjntyFZyddcQxQIdF4xk_4mp6agHL0EE73dRCVI_fP2DYMjufyAiRFM4Kz5ZAFFg8FFxR=w800-h500-p-k-no",
-    "hours": "ש' 08:00-22:30, א' 08:00-22:30, ב' 08:00-22:30, ג' 08:00-22:30, ד' 08:00-22:30, ה' 08:00-22:30, ו' 08:00-22:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "08:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "08:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "08:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "08:00",
-      "to": "22:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/#פטלינה",
-   "name": "פטלינה",
-   "type": "בית קפה",
-   "what_to_eat": "פיצה, שקשוקה, עוגת גבינה, קפה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "עיר שמש 73, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "אספרסו מהיר ונמשיך: 17 בתי קפה מומלצים לעבודה עם הלפטופ",
-   "article_url": "https://timeout.co.il/בתי-קפה-ללפטופ-בתל-אביב/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/IMG_6205-1140x641.jpg",
-   "published": "2026-04-26T15:24:44+03:00",
-   "details_url": null,
-   "lat": 32.124567,
-   "lon": 34.830568,
-   "geo_precision": "address",
-   "enrichment": {
-    "address": "עיר שמש 73, תל אביב-יפו, ישראל",
-    "google_name": "פטלינה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmZOwZnlToTudNl3wPqvhy8wrbyO0xo8EW5UjuEFhoKaBSZvWeV8O2WpzBCHu2v1X4r2ZOnio_Is8gTmms_adrzZ84dfxacNFZgMrBRH1Se_x84CSJXFowGg26ZoQmyH7NkGwZa=w800-h500-p-k-no",
-    "hours": "א' 08:00-23:00, ב' 08:00-23:00, ג' 08:00-23:00, ד' 08:00-23:00, ה' 08:00-23:00, ו' 08:00-15:00, ש' סגור",
-    "schedule": [
-     {
-      "days": [
-       0
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "08:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "08:00",
-      "to": "15:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
-   },
-   "closed_permanently": false
-  },
-  {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-101/#טורק לחמג'ון",
    "name": "טורק לחמג'ון",
    "type": "שווארמה",
@@ -43721,9 +38670,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/04/itzik-1140x641.jpg",
    "published": "2026-04-20T10:14:46+03:00",
    "details_url": null,
-   "lat": 32.041969,
-   "lon": 34.751383,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%90%d7%98%d7%9c%d7%99%d7%96%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#איוו",
@@ -44194,8 +39143,8 @@
    "owner": null,
    "hours": "לא צוין",
    "schedule": null,
-   "city": "תל אביב",
-   "location": "ויצמן 45 גבעתיים, שוק הכרמל",
+   "city": "גבעתיים",
+   "location": "ויצמן 45 גבעתיים",
    "region": "tlv",
    "is_new": false,
    "closing_soon": false,
@@ -44291,9 +39240,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/04/itzik-1140x641.jpg",
    "published": "2026-04-20T10:14:46+03:00",
    "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%90%d7%98%d7%9c%d7%99%d7%96%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ידע הבשרים",
@@ -44563,9 +39512,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/04/itzik-1140x641.jpg",
    "published": "2026-04-20T10:14:46+03:00",
    "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/החממה-בר-יין/#החממה",
@@ -60329,9 +55278,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772525033_1366171_80157-1140x641-1773402689.jpg",
    "published": "2026-03-13T11:00:51+02:00",
    "details_url": null,
-   "lat": 32.063335,
-   "lon": 34.771519,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a4%d7%99%d7%a6%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa/#ארציאלי",
@@ -61224,9 +56173,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772525033_1366171_80157-1140x641-1773402689.jpg",
    "published": "2026-03-13T11:00:51+02:00",
    "details_url": null,
-   "lat": 32.123034,
-   "lon": 34.8244714,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a4%d7%99%d7%a6%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa/#לה טיגרה",
@@ -62000,9 +56949,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": "https://timeout.co.il/%D7%98%D7%A0%D7%90-%D7%A8%D7%9E%D7%AA-%D7%90%D7%91%D7%99%D7%91-%D7%92/",
-   "lat": 32.1254933,
-   "lon": 34.7984881,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#ימה",
@@ -62187,9 +57136,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": 32.089724,
-   "lon": 34.779773,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#פראנזו",
@@ -62445,9 +57394,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": 31.7848815,
-   "lon": 35.2123894,
-   "geo_precision": "area"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#דלישא",
@@ -63076,9 +58025,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#הרשלה",
@@ -63178,9 +58127,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#חוות נעמי",
@@ -63514,9 +58463,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": 32.059833,
-   "lon": 34.771958,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#ליגורי",
@@ -63698,9 +58647,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#משק עפאים",
@@ -67558,9 +62507,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/02/benedict-pancake5-2-e1771793922890-1140x641.jpg",
    "published": "2026-02-18T12:45:52+02:00",
    "details_url": "https://timeout.co.il/%D7%93%D7%93%D7%94-%D7%91%D7%9E%D7%A9%D7%91%D7%99%D7%A8/",
-   "lat": 32.060471,
-   "lon": 34.770894,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%97%d7%93%d7%a9%d7%99%d7%9d-0226/#CUE",
@@ -67660,9 +62609,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/02/benedict-pancake5-2-e1771793922890-1140x641.jpg",
    "published": "2026-02-18T12:45:52+02:00",
    "details_url": null,
-   "lat": 32.062426,
-   "lon": 34.771259,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "לילינבלום 29, תל אביב-יפו, 6513308, ישראל",
     "google_name": "Gaijin izakaya",
@@ -67962,9 +62911,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/02/benedict-pancake5-2-e1771793922890-1140x641.jpg",
    "published": "2026-02-18T12:45:52+02:00",
    "details_url": null,
-   "lat": 32.053143,
-   "lon": 34.75929,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "שדרות ירושלים 22, תל אביב-יפו, 6802203, ישראל",
     "google_name": "Palette Bistro",
@@ -68686,9 +63635,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/6f9b2ff1-6c63-468d-85e3-dfe3ad3113b8-1140x641.jpg",
    "published": "2026-02-14T11:10:41+02:00",
    "details_url": null,
-   "lat": 32.0597088,
-   "lon": 34.7729282,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%91%d7%a8%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%a8%d7%95%d7%9e%d7%a0%d7%98%d7%99%d7%99%d7%9d/#גא ז טי",
@@ -68710,9 +63659,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/6f9b2ff1-6c63-468d-85e3-dfe3ad3113b8-1140x641.jpg",
    "published": "2026-02-14T11:10:41+02:00",
    "details_url": null,
-   "lat": 32.071649,
-   "lon": 34.780179,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%91%d7%a8%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%a8%d7%95%d7%9e%d7%a0%d7%98%d7%99%d7%99%d7%9d/#דוב",
@@ -68922,9 +63871,9 @@
    "owner": null,
    "hours": "לא צוין",
    "schedule": null,
-   "city": "חיפה",
-   "location": "רמב\"ם 5 תל אביב, כרמל",
-   "region": "haifa",
+   "city": "תל אביב",
+   "location": "רמב\"ם 5 תל אביב",
+   "region": "tlv",
    "is_new": false,
    "closing_soon": false,
    "is_popup": false,
@@ -68934,15 +63883,60 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/6f9b2ff1-6c63-468d-85e3-dfe3ad3113b8-1140x641.jpg",
    "published": "2026-02-14T11:10:41+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.064062,
+   "lon": 34.782387,
+   "geo_precision": "address",
    "enrichment": {
-    "address": "שדרות הפלי\"ם 7, חיפה, ישראל",
-    "google_name": "לוסי בורכרד",
-    "photo": "https://lh3.googleusercontent.com/a/ACg8ocKo14JYpwddYWUs3uW2hBtIkEIb5phcRDI3F7ssEzSTWhhkew=w800-h500-p-rp-mo-br100",
+    "address": "דרך מנחם בגין, תל אביב-יפו, 6618003, ישראל",
+    "google_name": "לוסי מסעדה אתיופית תל אביב - Lucy Ethiopian Restaurant",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmX4uBtXx5dWUsjaHnAuPhhmqBBDphHX55PsOaEYUDMuVY4EIQW_IgCpd6YbS2PTNNd03HHJj8mgcRXWcS6qAgMRjhRRvVVpi6b6Xiw7sfmmtAaZmSdm8eb5ji3vRmedMFMq_PdFg01eLI=w800-h500-p-k-no",
+    "hours": "ש' 11:00-22:00, א' סגור, ב' 11:00-22:00, ג' 11:00-22:00, ד' 11:00-22:00, ה' 11:00-22:00, ו' 11:00-22:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "11:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "11:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "11:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "11:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "11:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "11:00",
+      "to": "22:00"
+     }
+    ],
     "source": "גוגל",
-    "date": "2026-08-17",
+    "date": "2026-08-15",
     "v": 2
    },
    "closed_permanently": false
@@ -83791,9 +78785,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "רויאל ביץ, הירקון 19, תל אביב-יפו, ישראל",
     "google_name": "ווסט סייד - West Side",
@@ -83857,9 +78851,70 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.083731,
+   "lon": 34.799334,
+   "geo_precision": "address",
+   "enrichment": {
+    "address": "דרך מנחם בגין 121, תל אביב-יפו, ישראל",
+    "google_name": "מסעדת איי - a Restaurant",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSUibAtkFYYcNAV-fEbPMU0UkIcmkH7bnrKHdQ4PvfcC3cJdcu3Qa7Z5mR75QI9PUGB8cqWKeTdUxjy00QIQ1JWzXpspAwNY2As1Glg_bXwz3zy895ddWcxUSWz8QBYaVs9EhkTA=w800-h500-p-k-no",
+    "hours": "א' 18:30-22:00, ב' 18:30-22:00, ג' 18:30-22:00, ד' 18:30-22:00, ה' 18:30-22:00, ו' 17:00-22:30, ש' 18:30-22:00",
+    "schedule": [
+     {
+      "days": [
+       0
+      ],
+      "from": "18:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "18:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "17:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "18:30",
+      "to": "22:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-16",
+    "v": 2
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%a8%d7%95%d7%97%d7%95%d7%aa-%d7%a1%d7%99%d7%9c%d7%91%d7%a1%d7%98%d7%a8-%d7%a0%d7%95%d7%91%d7%99-%d7%92%d7%95%d7%93-2025/#O",
@@ -84091,9 +79146,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": 32.057058,
-   "lon": 34.762673,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%a8%d7%95%d7%97%d7%95%d7%aa-%d7%a1%d7%99%d7%9c%d7%91%d7%a1%d7%98%d7%a8-%d7%a0%d7%95%d7%91%d7%99-%d7%92%d7%95%d7%93-2025/#תריסר",
@@ -84786,9 +79841,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "אברבנאל 72, תל אביב-יפו, ישראל",
     "google_name": "Lunel",
@@ -85518,9 +80573,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": 32.0852997,
-   "lon": 34.7818064,
-   "geo_precision": "city",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "השומר 4, תל אביב-יפו, ישראל",
     "google_name": "בסטה Basta",
@@ -85631,9 +80686,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": 32.0622106,
-   "lon": 34.8058007,
-   "geo_precision": "area"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%a8%d7%95%d7%97%d7%95%d7%aa-%d7%a1%d7%99%d7%9c%d7%91%d7%a1%d7%98%d7%a8-%d7%a0%d7%95%d7%91%d7%99-%d7%92%d7%95%d7%93-2025/#וילה מארה",
@@ -88408,9 +83463,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/10/1765880485_1356264_13494-1140x641-1765880543.jpg",
    "published": "2025-12-16T11:30:27+02:00",
    "details_url": "https://timeout.co.il/topic/%D7%92%D7%95%D7%A8%D7%92-%D7%95%D7%92%D7%95%D7%9F/",
-   "lat": 32.0568471,
-   "lon": 34.7626408,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%93%d7%a8%d7%95%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אוזריה",
@@ -88531,9 +83586,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/10/1765880485_1356264_13494-1140x641-1765880543.jpg",
    "published": "2025-12-16T11:30:27+02:00",
    "details_url": "https://timeout.co.il/topic/%D7%97%D7%A0%D7%9F-%D7%9E%D7%A8%D7%92%D7%99%D7%9C%D7%9F/",
-   "lat": 32.049557,
-   "lon": 34.776082,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "מסילת ישרים 15, תל אביב-יפו, ישראל",
     "google_name": "חנן מרגילן",
@@ -88722,9 +83777,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/10/1765880485_1356264_13494-1140x641-1765880543.jpg",
    "published": "2025-12-16T11:30:27+02:00",
    "details_url": "https://timeout.co.il/topic/%D7%9C%D7%95%D7%A0%D7%9C/",
-   "lat": 32.05563,
-   "lon": 34.766782,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "אברבנאל 72, תל אביב-יפו, ישראל",
     "google_name": "Lunel",
@@ -89083,9 +84138,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/10/1765880485_1356264_13494-1140x641-1765880543.jpg",
    "published": "2025-12-16T11:30:27+02:00",
    "details_url": null,
-   "lat": 32.060291,
-   "lon": 34.773504,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%95%d7%a8%d7%a3-25/#סופלייר",
@@ -89935,9 +84990,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/WhatsApp-Image-2025-12-11-at-12.53.59-e1765452010318-1140x641-1765452077.jpeg",
    "published": "2025-12-11T13:34:38+02:00",
    "details_url": null,
-   "lat": 32.0577595,
-   "lon": 34.7686424,
-   "geo_precision": "area"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a0%d7%95%d7%aa-%d7%97%d7%95%d7%a8%d7%a3-2025/#רומנו",
@@ -90780,9 +85835,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/SnapInsta-Ai_3062419406356323532-1140x641.jpg",
    "published": "2025-12-10T14:54:31+02:00",
    "details_url": null,
-   "lat": 32.049083,
-   "lon": 34.776179,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "מסילת ישרים 15, תל אביב-יפו, ישראל",
     "google_name": "חנן מרגילן",
@@ -95422,9 +90477,9 @@
    "owner": null,
    "hours": "לא צוין",
    "schedule": null,
-   "city": "חיפה",
-   "location": "לילינבלום 24 תל אביב, כרמל",
-   "region": "haifa",
+   "city": "תל אביב",
+   "location": "לילינבלום 24 תל אביב",
+   "region": "tlv",
    "is_new": true,
    "closing_soon": false,
    "is_popup": false,
@@ -95436,7 +90491,16 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "enrichment": {
+    "address": "לילינבלום 24, תל אביב-יפו, ישראל",
+    "google_name": "מרלוזה | merloza",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkEn3XmDi20kZAi_2_oADT6Z7hyIN7Ip21_9wUKmo6pxwJhCmAbr_75S3s5XmztHA2YUCeQAWAwit_h2OuRQDfprjYPcaviD-6KKlXDhACucefKczThvVL-MmkRs1Fy0akS0a21Vh9AwFo=w800-h500-p-k-no",
+    "source": "גוגל",
+    "date": "2026-08-15",
+    "v": 2
+   },
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%93%d7%92%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פישופ",
@@ -106723,9 +101787,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/shnit-4-1140x641.jpg",
    "published": "2025-11-01T11:22:23+02:00",
    "details_url": null,
-   "lat": 32.076018,
-   "lon": 34.781313,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%91%d7%99%d7%a8%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בירגארדן פאולנר\\בירגארדן",
@@ -112521,9 +107585,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/02/KARELA-3732-11-3-1140x641.jpg",
    "published": "2025-10-09T15:01:24+03:00",
    "details_url": null,
-   "lat": 32.0711035,
-   "lon": 34.7870617,
-   "geo_precision": "address"
+   "lat": null,
+   "lon": null,
+   "geo_precision": null
   },
   {
    "id": "https://timeout.co.il/%d7%9b%d7%99%d7%a1%d7%95%d7%a0%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#חנן מרגילן",
@@ -112545,9 +107609,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/02/KARELA-3732-11-3-1140x641.jpg",
    "published": "2025-10-09T15:01:24+03:00",
    "details_url": null,
-   "lat": 32.049502,
-   "lon": 34.776056,
-   "geo_precision": "address",
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
    "enrichment": {
     "address": "מסילת ישרים 15, תל אביב-יפו, ישראל",
     "google_name": "חנן מרגילן",
@@ -112675,9 +107739,9 @@
    "owner": null,
    "hours": "לא צוין",
    "schedule": null,
-   "city": "ירושלים",
-   "location": "נווה שאנן 26, תל אביב, ממילא",
-   "region": "rest",
+   "city": "תל אביב",
+   "location": "נווה שאנן 26, תל אביב",
+   "region": "tlv",
    "is_new": false,
    "closing_soon": false,
    "is_popup": false,
@@ -144410,7 +139474,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-08-17T07:11:40.307091+03:00",
+ "last_run": "2026-08-17T14:42:46.500166+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,

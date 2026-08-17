@@ -189,15 +189,22 @@ def extract_type(text, title=""):
 def extract_city_and_address(text, article_title=""):
     combined = text + " " + article_title
 
-    # 1) שכונה/שוק מוכרים הם האינדיקציה האמינה ביותר למיקום המקום עצמו.
-    #    חובה התאמת מילה שלמה — אחרת "הדר" נתפס בתוך "נהדר"/"הדרך".
+    # 1) עיר שכתובה במפורש בשורת הכתובת ("השומר 1, תל אביב") היא הראיה החזקה ביותר —
+    #    חזקה יותר משכונה, כי "כרמל" קיים גם בחיפה וגם בשוק הכרמל שבתל אביב.
     city = None
-    for hood, hood_city in NEIGHBORHOOD_TO_CITY.items():
-        if word_match(hood, combined):
-            city = hood_city
-            break
+    m_city = re.search(r"\d{1,3}\s*,?\s*(" + "|".join(map(re.escape, CITY_NAMES)) + r")", text)
+    if m_city:
+        city = CITY_CANON.get(m_city.group(1), m_city.group(1))
 
-    # 2) אחרת: עיר שמוזכרת כמיקום ("בתל אביב", "תל אביב") ולא כמוצא ("מבאר שבע").
+    # 2) אחרת: שכונה/שוק מוכרים.
+    #    חובה התאמת מילה שלמה — אחרת "הדר" נתפס בתוך "נהדר"/"הדרך".
+    if not city:
+        for hood, hood_city in NEIGHBORHOOD_TO_CITY.items():
+            if word_match(hood, combined):
+                city = hood_city
+                break
+
+    # 3) אחרת: עיר שמוזכרת כמיקום ("בתל אביב", "תל אביב") ולא כמוצא ("מבאר שבע").
     #    ה-lookbehind מונע התאמה כשלפני שם העיר יש אות (למשל מ' של "מבאר שבע").
     if not city:
         for name in CITY_NAMES:
@@ -602,6 +609,25 @@ def build_card(name, text, article_title, article_url, published_iso, details_li
 
 # ---------- ריצה ראשית ----------
 
+def drop_duplicate_articles(cards):
+    """TimeOut מפרסמים לפעמים אותה כתבה בשתי כתובות. משאירים עותק אחד
+    (זה עם הכי הרבה מקומות), לפי כותרת+תאריך פרסום זהים."""
+    by_article = {}
+    for card in cards:
+        by_article.setdefault(card["article_url"], []).append(card)
+    groups = {}
+    for url, items in by_article.items():
+        key = (items[0]["article_title"], items[0]["published"][:10])
+        groups.setdefault(key, []).append(url)
+    keep = set()
+    for urls in groups.values():
+        keep.add(max(urls, key=lambda u: len(by_article[u])))
+    removed = sum(len(by_article[u]) for u in by_article if u not in keep)
+    if removed:
+        print(f"הוסרו {removed} כרטיסים מכתבות כפולות")
+    return [c for c in cards if c["article_url"] in keep]
+
+
 def has_content(card):
     """כרטיס בלי שום שדה אמיתי (הכל 'לא צוין') לא שווה הצגה."""
     return (any(card[k] != NOT_SPECIFIED for k in ("type", "what_to_eat", "hours", "city", "location"))
@@ -658,6 +684,7 @@ def main():
     geocache = data.setdefault("geocache", {})
     geocode_cards(data["cards"], geocache)
 
+    data["cards"] = drop_duplicate_articles(data["cards"])
     data["cards"].sort(key=lambda c: datetime.fromisoformat(c["published"]), reverse=True)
     data["seen_articles"] = sorted(seen)
     data["last_run"] = datetime.now(TZ).isoformat()
