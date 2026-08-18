@@ -48,6 +48,12 @@
   }
   h1 { margin: 0; font-size: 1.7rem; }
   h1 .accent { color: var(--accent); }
+  /* סימן שאלה אדום מודגש — החתימה הוויזואלית של הכותרת */
+  h1 .qmark {
+    color: var(--accent); font-weight: 800; font-size: 1.25em;
+    line-height: 0; margin-inline-start: 3px; display: inline-block;
+    transform: translateY(.06em);
+  }
   .subtitle { color: var(--muted); font-size: .9rem; margin: 4px 0 0; }
   .header-side { display: flex; align-items: center; gap: 10px; }
   /* מזג אוויר בתל אביב — מתעדכן לבד */
@@ -325,7 +331,7 @@
 <body>
 <header>
   <div>
-    <h1>מה אוכלים? <span class="accent">🍽️</span></h1>
+    <h1>מה אוכלים<span class="qmark">?</span></h1>
     <p class="subtitle">מקומות שהומלצו בכתבות האוכל של TimeOut ישראל · <span id="lastRun"></span></p>
   </div>
   <div class="header-side">
@@ -337,7 +343,7 @@
 <div class="controls">
   <div class="views">
     <button class="viewbtn active" data-view="articles">📰 לפי כתבה</button>
-    <button class="viewbtn" data-view="cards">🃏 תצוגה חופשית</button>
+    <button class="viewbtn" data-view="cards">🍽️ לפי מסעדה</button>
     <button class="viewbtn" data-view="cityof">🏙️ העיר של</button>
     <button class="viewbtn" data-view="favs">❤️ מועדפים <span id="favCount"></span></button>
   </div>
