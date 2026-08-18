@@ -94736,8 +94736,11 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "יפו 105, ירושלים, ישראל",
+    "google_name": "רחלי ור ניר (מסעדת קרואסונים)",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk2oKEQHFpzAa1RmfaP_bJ7ofseBdEfArjXx8iwYHeVhwv4I726oGEpQ8dpT_9Ses4Vi3Zn-Ze0P4itXkzLr9dMQPFhadpQ70o7jnn8jbh-ygEgSf89hL8pZv_YwOQb8tbQuP8H=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-14"
+    "date": "2026-08-18",
+    "v": 2
    },
    "closed_permanently": false
   },
@@ -144276,5 +144279,5 @@
    34.779993
   ]
  },
- "last_google_run": "2026-08-17T22:23:40.590281+03:00"
+ "last_google_run": "2026-08-18T10:30:42.566628+03:00"
 }
