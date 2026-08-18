@@ -123,6 +123,18 @@
     color: var(--accent); font-size: .83rem; font-weight: 700; cursor: pointer;
     padding: 6px 12px; border-radius: 16px; font-family: inherit; white-space: nowrap;
   }
+  /* חיפוש מתקפל + בחירת אזור — פעילים בטלפון בלבד */
+  #searchToggle {
+    display: none; width: 100%; text-align: start;
+    border: 1px solid var(--border); background: var(--card); color: var(--text);
+    border-radius: 12px; padding: 11px 15px; cursor: pointer;
+    font-size: .92rem; font-weight: 600; font-family: inherit; margin-bottom: 10px;
+  }
+  #regionMore {
+    display: none; border: 1px dashed var(--border); background: none;
+    color: var(--accent); border-radius: 12px; padding: 9px 15px; cursor: pointer;
+    font-size: .9rem; font-weight: 700; font-family: inherit; white-space: nowrap;
+  }
   .period-row {
     display: flex; align-items: center; gap: 8px; margin: 8px 0 4px;
     font-size: .85rem; color: var(--muted);
@@ -265,6 +277,14 @@
     /* בטלפון: "רק חדשים" + מסעדה + בית קפה בלבד; השאר (דוכן, מאפייה...) ב"עוד" */
     .chips.collapsed .chip:nth-child(n+4) { display: none; }
     .period-row { display: none; }   /* סינון תאריך — במחשב בלבד */
+    /* אזור: מוצג רק הפעיל, והשאר נפתחים ב"אזור אחר" */
+    #searchToggle { display: block; }
+    #searchBox { display: none; }
+    #searchBox.open { display: block; }
+    #regionMore { display: inline-block; }
+    .tabs.collapsed .tab:not(.active) { display: none; }
+    .tabs.collapsed #regionMore { display: inline-block; }
+    .tabs:not(.collapsed) #regionMore { display: none; }
     #chipsToggle { display: block; }
     header { position: relative; padding-top: 22px; }
     #themeBtn { position: absolute; top: 18px; inset-inline-end: 20px; }
@@ -308,12 +328,6 @@
 </header>
 
 <div class="controls">
-  <input id="search" type="search" placeholder="חיפוש מקום, מנה, שף, רחוב...">
-  <div class="geo-row">
-    <input id="addr" type="text" placeholder="📍 כתובת למיון לפי קרבה (למשל: דיזנגוף 100 תל אביב)">
-    <button id="geoBtn">מיין לפי קרבה</button>
-  </div>
-  <div id="geoStatus" hidden></div>
   <div class="views">
     <button class="viewbtn active" data-view="articles">📰 לפי כתבה</button>
     <button class="viewbtn" data-view="cards">🃏 תצוגה חופשית</button>
@@ -324,6 +338,17 @@
     <button class="tab active" data-region="tlv">תל אביב והמרכז <span class="count"></span></button>
     <button class="tab" data-region="haifa">חיפה והצפון <span class="count"></span></button>
     <button class="tab" data-region="rest">שאר הארץ <span class="count"></span></button>
+    <button id="regionMore" hidden>אזור אחר ▾</button>
+  </div>
+
+  <button id="searchToggle" hidden>🔎 חיפוש לפי מסעדה או מיקום ▾</button>
+  <div id="searchBox">
+    <input id="search" type="search" placeholder="חיפוש מקום, מנה, שף, רחוב...">
+    <div class="geo-row">
+      <input id="addr" type="text" placeholder="📍 כתובת למיון לפי קרבה (למשל: דיזנגוף 100 תל אביב)">
+      <button id="geoBtn">מיין לפי קרבה</button>
+    </div>
+    <div id="geoStatus" hidden></div>
   </div>
   <div class="chips" id="typeChips"></div>
   <div class="period-row">
@@ -436,10 +461,30 @@ fetch("data.json?t=" + Date.now())
   })
   .catch(() => { document.getElementById("empty").hidden = false; });
 
+// בטלפון מוצג רק האזור הפעיל; "אזור אחר" פותח את השאר ובחירה סוגרת חזרה
+const tabsBox = document.getElementById("tabs");
+const regionMore = document.getElementById("regionMore");
+tabsBox.classList.add("collapsed");
+regionMore.hidden = false;
+regionMore.onclick = () => tabsBox.classList.remove("collapsed");
+
 document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
-  t.classList.add("active"); region = t.dataset.region; rerender();
+  t.classList.add("active"); region = t.dataset.region;
+  tabsBox.classList.add("collapsed");
+  rerender();
 });
+
+// תיבת החיפוש מקופלת בטלפון ונפתחת בלחיצה
+const searchToggle = document.getElementById("searchToggle");
+const searchBox = document.getElementById("searchBox");
+searchToggle.hidden = false;
+searchToggle.onclick = () => {
+  const open = searchBox.classList.toggle("open");
+  searchToggle.textContent = open ? "🔎 חיפוש לפי מסעדה או מיקום ▴"
+                                  : "🔎 חיפוש לפי מסעדה או מיקום ▾";
+  if (open) document.getElementById("search").focus();
+};
 
 document.querySelectorAll(".viewbtn").forEach(b => b.onclick = () => {
   document.querySelectorAll(".viewbtn").forEach(x => x.classList.remove("active"));
