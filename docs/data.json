@@ -247,9 +247,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1765973556_1361589_26537-1140x641.jpg",
    "published": "2026-08-17T14:51:51.925179+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0861535,
+   "lon": 34.7728727,
+   "geo_precision": "area",
    "is_sponsored": true
   },
   {
@@ -272,9 +272,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/02/CHIVAS-REGAL-CHIVAS-REGAL-Look-01-0085-1140x641-1769957092.jpg",
    "published": "2026-08-17T14:51:48.498248+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.075303,
+   "lon": 34.766432,
+   "geo_precision": "address",
    "is_sponsored": true
   },
   {
@@ -300,6 +300,31 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
+   "is_sponsored": true
+  },
+  {
+   "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%99%d7%91%d7%9c-%d7%94%d7%95%d7%95%d7%99%d7%a1%d7%a7%d7%99-%d7%97%d7%95%d7%96%d7%a8/#פסטיבל הוויסקי",
+   "name": "פסטיבל הוויסקי",
+   "type": "לא צוין",
+   "what_to_eat": "לא צוין",
+   "owner": null,
+   "hours": "לא צוין",
+   "schedule": null,
+   "city": "תל אביב",
+   "location": "לא צוין",
+   "region": "tlv",
+   "is_new": false,
+   "closing_soon": false,
+   "is_popup": false,
+   "opening_info": null,
+   "article_title": "סינגל מאלט והעיר הגדולה: פסטיבל הוויסקי חוזר לתל אביב - טיים אאוט",
+   "article_url": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%99%d7%91%d7%9c-%d7%94%d7%95%d7%95%d7%99%d7%a1%d7%a7%d7%99-%d7%97%d7%95%d7%96%d7%a8/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/08/1786960899_1374845_17436-1140x641.jpeg",
+   "published": "2026-08-17T13:02:24+03:00",
+   "details_url": null,
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city",
    "is_sponsored": true
   },
   {
@@ -2655,9 +2680,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/CB94BD34-454E-48D3-89BF-E1AEF4FBA2B2-e1785667613582-1140x641.jpg",
    "published": "2026-08-02T13:35:06+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.068786,
+   "lon": 34.769323,
+   "geo_precision": "address",
    "enrichment": {
     "address": "שוק תלפיות, סירקין 21, חיפה, ישראל",
     "google_name": "Taco Tia",
@@ -2688,9 +2713,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/CB94BD34-454E-48D3-89BF-E1AEF4FBA2B2-e1785667613582-1140x641.jpg",
    "published": "2026-08-02T13:35:06+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.068772,
+   "lon": 34.768691,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%98%d7%90%d7%a7%d7%95-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#טאקו בא",
@@ -3000,9 +3025,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/CB94BD34-454E-48D3-89BF-E1AEF4FBA2B2-e1785667613582-1140x641.jpg",
    "published": "2026-08-02T13:35:06+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0506571,
+   "lon": 34.7726991,
+   "geo_precision": "address",
    "enrichment": {
     "address": "שביל המרץ 5, תל אביב-יפו, ישראל",
     "google_name": "Le Mala",
@@ -9291,9 +9316,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782902323_1372335_68667-1140x641.jpg",
    "published": "2026-07-01T14:57:37+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0793696,
+   "lon": 34.907439,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/חדשות-האוכל-106/#תומר אגאי X פיקוק",
@@ -9426,9 +9451,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782902323_1372335_68667-1140x641.jpg",
    "published": "2026-07-01T14:57:37+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0837848,
+   "lon": 34.7763077,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/חדשות-האוכל-106/#Jurong East",
@@ -9559,9 +9584,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782902323_1372335_68667-1140x641.jpg",
    "published": "2026-07-01T14:57:37+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0564309,
+   "lon": 34.7587418,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/חדשות-האוכל-106/#טוני וספה וענבי טלי",
@@ -10466,9 +10491,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.06385,
+   "lon": 34.7797765,
+   "geo_precision": "address",
    "enrichment": {
     "address": "דרך מנחם בגין 23, תל אביב-יפו, ישראל",
     "google_name": "טאיזו",
@@ -10683,9 +10708,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.06471,
+   "lon": 34.771687,
+   "geo_precision": "address",
    "enrichment": {
     "address": "הר סיני 2, תל אביב-יפו, 6581601, ישראל",
     "google_name": "Molam",
@@ -11273,9 +11298,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.067516,
+   "lon": 34.783144,
+   "geo_precision": "address",
    "enrichment": {
     "address": "קרליבך 15, תל אביב-יפו, ישראל",
     "google_name": "אונאומה מטבח תאילנדי - Onauma Thai kitchen",
@@ -11386,9 +11411,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0751788,
+   "lon": 34.7761781,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#למפור",
@@ -11644,9 +11669,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.069629,
+   "lon": 34.784178,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אוקינאווה",
@@ -11668,9 +11693,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.062843,
+   "lon": 34.767031,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#JMT",
@@ -11803,9 +11828,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.071988,
+   "lon": 34.7888851,
+   "geo_precision": "area"
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בבנג בנג",
@@ -12297,9 +12322,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/1776687887_2617-1140x641.jpg",
    "published": "2026-06-26T09:56:03+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.068462,
+   "lon": 34.768458,
+   "geo_precision": "address",
    "enrichment": {
     "address": "לילינבלום 21, תל אביב-יפו, 6513213, ישראל",
     "source": "גוגל",
@@ -15302,9 +15327,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0638911,
+   "lon": 34.7749395,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a7%d7%96%d7%95%d7%90%d7%9c-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ג'אנגו",
@@ -15966,9 +15991,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.049557,
+   "lon": 34.776082,
+   "geo_precision": "address",
    "enrichment": {
     "address": "מסילת ישרים 15, תל אביב-יפו, ישראל",
     "google_name": "חנן מרגילן",
@@ -16226,9 +16251,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.05563,
+   "lon": 34.766782,
+   "geo_precision": "address",
    "enrichment": {
     "address": "אברבנאל 72, תל אביב-יפו, ישראל",
     "google_name": "Lunel",
@@ -16691,9 +16716,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.065693,
+   "lon": 34.789831,
+   "geo_precision": "address",
    "enrichment": {
     "address": "רבניצקי 4, תל אביב-יפו, ישראל",
     "google_name": "סניור",
@@ -17530,9 +17555,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0623423,
+   "lon": 34.7688117,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a7%d7%96%d7%95%d7%90%d7%9c-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#רומנו",
@@ -17849,9 +17874,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/06/AKA-1-1140x641-1781261205.jpg",
    "published": "2026-06-12T11:41:34+03:00",
    "details_url": "https://timeout.co.il/eat-big-the-best-casual-dining-restaurants-in-tel-aviv/",
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0809,
+   "lon": 34.779685,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%aa%d7%91%d7%95%d7%90%d7%94-%d7%a6%d7%a4%d7%95%d7%a0%d7%99%d7%aa-2026/#תבואה צפונית",
@@ -21760,9 +21785,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0837848,
+   "lon": 34.7763077,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#ליבר",
@@ -21846,9 +21871,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.062397,
+   "lon": 34.7712641,
+   "geo_precision": "address",
    "enrichment": {
     "address": "לילינבלום 29, תל אביב-יפו, 6513308, ישראל",
     "google_name": "Gaijin izakaya",
@@ -21978,9 +22003,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": "https://timeout.co.il/%D7%93%D7%93%D7%94-%D7%91%D7%9E%D7%A9%D7%91%D7%99%D7%A8/",
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city"
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#קפה אירופה",
@@ -22127,9 +22152,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.053143,
+   "lon": 34.75929,
+   "geo_precision": "address",
    "enrichment": {
     "address": "שדרות ירושלים 22, תל אביב-יפו, 6802203, ישראל",
     "google_name": "Palette Bistro",
@@ -22308,9 +22333,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0568471,
+   "lon": 34.7626408,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#קפה 65",
@@ -22346,9 +22371,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0652397,
+   "lon": 34.7765549,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#Link hotel & hub",
@@ -22384,9 +22409,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": "https://timeout.co.il/%D7%A9%D7%90%D7%95%D7%9C%D7%94/",
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0778913,
+   "lon": 34.790694,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#משק ברזילי",
@@ -23127,9 +23152,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.06385,
+   "lon": 34.7797765,
+   "geo_precision": "address",
    "enrichment": {
     "address": "דרך מנחם בגין 23, תל אביב-יפו, ישראל",
     "google_name": "טאיזו",
@@ -23240,9 +23265,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.05563,
+   "lon": 34.766782,
+   "geo_precision": "address",
    "enrichment": {
     "address": "אברבנאל 72, תל אביב-יפו, ישראל",
     "google_name": "Lunel",
@@ -23332,9 +23357,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0597088,
+   "lon": 34.7729282,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#פר דרייר",
@@ -23370,9 +23395,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/05/1779714339_1370353_46966-1140x641-1779790520.jpg",
    "published": "2026-05-26T09:53:12+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0554441,
+   "lon": 34.7599386,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#קאב קם",
@@ -24846,9 +24871,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/Messy-but-worth-it-1140x641-1779611823.jpg",
    "published": "2026-05-24T11:54:20+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.125067,
+   "lon": 34.801792,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ויטרינה",
@@ -24870,9 +24895,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/Messy-but-worth-it-1140x641-1779611823.jpg",
    "published": "2026-05-24T11:54:20+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0761178,
+   "lon": 34.7817312,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#לוקאל בורגר",
@@ -25405,9 +25430,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/Messy-but-worth-it-1140x641-1779611823.jpg",
    "published": "2026-05-24T11:54:20+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0766501,
+   "lon": 34.7767805,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אסתר המלכה",
@@ -25429,9 +25454,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/04/Messy-but-worth-it-1140x641-1779611823.jpg",
    "published": "2026-05-24T11:54:20+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0627097,
+   "lon": 34.7699046,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פרוזדור",
@@ -38628,9 +38653,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/04/itzik-1140x641.jpg",
    "published": "2026-04-20T10:14:46+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.041969,
+   "lon": 34.751383,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%90%d7%98%d7%9c%d7%99%d7%96%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#איוו",
@@ -39113,9 +39138,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/04/itzik-1140x641.jpg",
    "published": "2026-04-20T10:14:46+03:00",
    "details_url": "https://timeout.co.il/%d7%91%d7%95%d7%a6%d7%a8-%d7%a9%d7%95%d7%a4-%d7%91%d7%a4%d7%99%d7%aa%d7%94/",
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0676146,
+   "lon": 34.808509,
+   "geo_precision": "address",
    "enrichment": {
     "address": "יום טוב 15, תל אביב-יפו, 6560015, ישראל",
     "google_name": "Butcher Shop | בוצ׳ר שופ - קצביה מעדניה",
@@ -39198,9 +39223,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/04/itzik-1140x641.jpg",
    "published": "2026-04-20T10:14:46+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%90%d7%98%d7%9c%d7%99%d7%96%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ידע הבשרים",
@@ -39470,9 +39495,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/04/itzik-1140x641.jpg",
    "published": "2026-04-20T10:14:46+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city"
   },
   {
    "id": "https://timeout.co.il/החממה-בר-יין/#החממה",
@@ -55236,9 +55261,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772525033_1366171_80157-1140x641-1773402689.jpg",
    "published": "2026-03-13T11:00:51+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.063335,
+   "lon": 34.771519,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a4%d7%99%d7%a6%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa/#ארציאלי",
@@ -56131,9 +56156,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772525033_1366171_80157-1140x641-1773402689.jpg",
    "published": "2026-03-13T11:00:51+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.123034,
+   "lon": 34.8244714,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a4%d7%99%d7%a6%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa/#לה טיגרה",
@@ -56907,9 +56932,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": "https://timeout.co.il/%D7%98%D7%A0%D7%90-%D7%A8%D7%9E%D7%AA-%D7%90%D7%91%D7%99%D7%91-%D7%92/",
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.1254933,
+   "lon": 34.7984881,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#ימה",
@@ -57094,9 +57119,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.089724,
+   "lon": 34.779773,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#פראנזו",
@@ -57352,9 +57377,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 31.7848815,
+   "lon": 35.2123894,
+   "geo_precision": "area"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#דלישא",
@@ -57983,9 +58008,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#הרשלה",
@@ -58085,9 +58110,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#חוות נעמי",
@@ -58421,9 +58446,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.059833,
+   "lon": 34.771958,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#ליגורי",
@@ -58605,9 +58630,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/03/1772619285_43346-1140x641.jpg",
    "published": "2026-03-08T12:48:32+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#משק עפאים",
@@ -62465,9 +62490,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/02/benedict-pancake5-2-e1771793922890-1140x641.jpg",
    "published": "2026-02-18T12:45:52+02:00",
    "details_url": "https://timeout.co.il/%D7%93%D7%93%D7%94-%D7%91%D7%9E%D7%A9%D7%91%D7%99%D7%A8/",
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.060471,
+   "lon": 34.770894,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%97%d7%93%d7%a9%d7%99%d7%9d-0226/#CUE",
@@ -62567,9 +62592,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/02/benedict-pancake5-2-e1771793922890-1140x641.jpg",
    "published": "2026-02-18T12:45:52+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.062426,
+   "lon": 34.771259,
+   "geo_precision": "address",
    "enrichment": {
     "address": "לילינבלום 29, תל אביב-יפו, 6513308, ישראל",
     "google_name": "Gaijin izakaya",
@@ -62869,9 +62894,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/02/benedict-pancake5-2-e1771793922890-1140x641.jpg",
    "published": "2026-02-18T12:45:52+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.053143,
+   "lon": 34.75929,
+   "geo_precision": "address",
    "enrichment": {
     "address": "שדרות ירושלים 22, תל אביב-יפו, 6802203, ישראל",
     "google_name": "Palette Bistro",
@@ -63593,9 +63618,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/6f9b2ff1-6c63-468d-85e3-dfe3ad3113b8-1140x641.jpg",
    "published": "2026-02-14T11:10:41+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0597088,
+   "lon": 34.7729282,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%91%d7%a8%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%a8%d7%95%d7%9e%d7%a0%d7%98%d7%99%d7%99%d7%9d/#גא ז טי",
@@ -63617,9 +63642,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/6f9b2ff1-6c63-468d-85e3-dfe3ad3113b8-1140x641.jpg",
    "published": "2026-02-14T11:10:41+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.071649,
+   "lon": 34.780179,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%91%d7%a8%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%a8%d7%95%d7%9e%d7%a0%d7%98%d7%99%d7%99%d7%9d/#דוב",
@@ -78743,9 +78768,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city",
    "enrichment": {
     "address": "רויאל ביץ, הירקון 19, תל אביב-יפו, ישראל",
     "google_name": "ווסט סייד - West Side",
@@ -79104,9 +79129,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.057058,
+   "lon": 34.762673,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%a8%d7%95%d7%97%d7%95%d7%aa-%d7%a1%d7%99%d7%9c%d7%91%d7%a1%d7%98%d7%a8-%d7%a0%d7%95%d7%91%d7%99-%d7%92%d7%95%d7%93-2025/#תריסר",
@@ -79799,9 +79824,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city",
    "enrichment": {
     "address": "אברבנאל 72, תל אביב-יפו, ישראל",
     "google_name": "Lunel",
@@ -80531,9 +80556,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city",
    "enrichment": {
     "address": "השומר 4, תל אביב-יפו, ישראל",
     "google_name": "בסטה Basta",
@@ -80644,9 +80669,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1766324777_1361739_48615-1140x641-1767172364.jpg",
    "published": "2025-12-31T12:58:55+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0622106,
+   "lon": 34.8058007,
+   "geo_precision": "area"
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%a8%d7%95%d7%97%d7%95%d7%aa-%d7%a1%d7%99%d7%9c%d7%91%d7%a1%d7%98%d7%a8-%d7%a0%d7%95%d7%91%d7%99-%d7%92%d7%95%d7%93-2025/#וילה מארה",
@@ -83421,9 +83446,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/10/1765880485_1356264_13494-1140x641-1765880543.jpg",
    "published": "2025-12-16T11:30:27+02:00",
    "details_url": "https://timeout.co.il/topic/%D7%92%D7%95%D7%A8%D7%92-%D7%95%D7%92%D7%95%D7%9F/",
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0568471,
+   "lon": 34.7626408,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%93%d7%a8%d7%95%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אוזריה",
@@ -83544,9 +83569,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/10/1765880485_1356264_13494-1140x641-1765880543.jpg",
    "published": "2025-12-16T11:30:27+02:00",
    "details_url": "https://timeout.co.il/topic/%D7%97%D7%A0%D7%9F-%D7%9E%D7%A8%D7%92%D7%99%D7%9C%D7%9F/",
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.049557,
+   "lon": 34.776082,
+   "geo_precision": "address",
    "enrichment": {
     "address": "מסילת ישרים 15, תל אביב-יפו, ישראל",
     "google_name": "חנן מרגילן",
@@ -83735,9 +83760,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/10/1765880485_1356264_13494-1140x641-1765880543.jpg",
    "published": "2025-12-16T11:30:27+02:00",
    "details_url": "https://timeout.co.il/topic/%D7%9C%D7%95%D7%A0%D7%9C/",
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.05563,
+   "lon": 34.766782,
+   "geo_precision": "address",
    "enrichment": {
     "address": "אברבנאל 72, תל אביב-יפו, ישראל",
     "google_name": "Lunel",
@@ -84096,9 +84121,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/10/1765880485_1356264_13494-1140x641-1765880543.jpg",
    "published": "2025-12-16T11:30:27+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.060291,
+   "lon": 34.773504,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%95%d7%a8%d7%a3-25/#סופלייר",
@@ -84948,9 +84973,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/WhatsApp-Image-2025-12-11-at-12.53.59-e1765452010318-1140x641-1765452077.jpeg",
    "published": "2025-12-11T13:34:38+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0577595,
+   "lon": 34.7686424,
+   "geo_precision": "area"
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a0%d7%95%d7%aa-%d7%97%d7%95%d7%a8%d7%a3-2025/#רומנו",
@@ -85793,9 +85818,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/SnapInsta-Ai_3062419406356323532-1140x641.jpg",
    "published": "2025-12-10T14:54:31+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.049083,
+   "lon": 34.776179,
+   "geo_precision": "address",
    "enrichment": {
     "address": "מסילת ישרים 15, תל אביב-יפו, ישראל",
     "google_name": "חנן מרגילן",
@@ -90447,9 +90472,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/1752054244_1351701_32145-1140x641-1764415509.jpg",
    "published": "2025-11-29T07:51:15+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.062037,
+   "lon": 34.769947,
+   "geo_precision": "address",
    "enrichment": {
     "address": "לילינבלום 24, תל אביב-יפו, ישראל",
     "google_name": "מרלוזה | merloza",
@@ -101745,9 +101770,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2022/11/shnit-4-1140x641.jpg",
    "published": "2025-11-01T11:22:23+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.076018,
+   "lon": 34.781313,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%91%d7%99%d7%a8%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בירגארדן פאולנר\\בירגארדן",
@@ -107543,9 +107568,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/02/KARELA-3732-11-3-1140x641.jpg",
    "published": "2025-10-09T15:01:24+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.0711035,
+   "lon": 34.7870617,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%9b%d7%99%d7%a1%d7%95%d7%a0%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#חנן מרגילן",
@@ -107567,9 +107592,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/02/KARELA-3732-11-3-1140x641.jpg",
    "published": "2025-10-09T15:01:24+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.049502,
+   "lon": 34.776056,
+   "geo_precision": "address",
    "enrichment": {
     "address": "מסילת ישרים 15, תל אביב-יפו, ישראל",
     "google_name": "חנן מרגילן",
@@ -107709,9 +107734,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/02/KARELA-3732-11-3-1140x641.jpg",
    "published": "2025-10-09T15:01:24+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null
+   "lat": 32.058265,
+   "lon": 34.779993,
+   "geo_precision": "address"
   },
   {
    "id": "https://timeout.co.il/%d7%9b%d7%99%d7%a1%d7%95%d7%a0%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#שו",
@@ -139338,6 +139363,7 @@
   "https://timeout.co.il/פלורה/",
   "https://timeout.co.il/פסאדור-עינב-אזגורי/",
   "https://timeout.co.il/פסטיבל-vin-yard-תדר/",
+  "https://timeout.co.il/פסטיבל-הוויסקי-חוזר/",
   "https://timeout.co.il/פסטיבל-החלה/",
   "https://timeout.co.il/פסטיבל-הקינוחים-שרונה-2025/",
   "https://timeout.co.il/פסטיבל-מוגזם-בנמל/",
@@ -139441,7 +139467,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-08-17T14:52:09.475345+03:00",
+ "last_run": "2026-08-18T07:07:27.644018+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
@@ -144236,7 +144262,19 @@
   "שביל היינריך מנדלסון 19, משעול פרופ' היינריך מנדלסון 4, תל אביב-יפו, ישראל, ישראל": null,
   "מלכי ישראל 8, תל אביב-יפו, ישראל, ישראל": null,
   "שדרות הפלי\"ם 7, חיפה, ישראל, ישראל": null,
-  "דוד בן גוריון 1, רמת גן, ישראל, ישראל": null
+  "דוד בן גוריון 1, רמת גן, ישראל, ישראל": null,
+  "קרליבך 15 תל אביב, תל אביב, ישראל": [
+   32.067516,
+   34.783144
+  ],
+  "ויצמן 45 גבעתיים, גבעתיים, ישראל": [
+   32.0676146,
+   34.808509
+  ],
+  "נווה שאנן 26, תל אביב, תל אביב, ישראל": [
+   32.058265,
+   34.779993
+  ]
  },
  "last_google_run": "2026-08-17T22:23:40.590281+03:00"
 }
