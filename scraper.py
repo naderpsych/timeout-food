@@ -464,7 +464,8 @@ def parse_article(url, html):
     _nums = [int(n) for n in re.findall(r"\d+", article_title)]
     is_list_article = (not ad_single_place) and (
         any(2 <= n <= 99 for n in _nums)
-        or any(w in article_title for w in ("מקומות", "חדשות אוכל", "חדשות האוכל"))
+        or any(w in article_title for w in ("מקומות", "חדשות אוכל", "חדשות האוכל",
+                                            "העיר של", "העיר שלי"))
         or bool(re.search(r"ה(מסעדות|ברים|בתי|מזללות|מעדניות|קפה)\b", article_title)))
 
     # איסוף מקטעים: כל כותרת h2/h3 "של מקום" פותחת מקטע; הטקסט עד הכותרת הבאה שייך אליו.

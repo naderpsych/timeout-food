@@ -93,14 +93,21 @@ def scrape_place(page, query):
 
     # תמונת המקום — בוחרים את הגדולה ביותר, ומעלים את הרזולוציה בכתובת עצמה
     # (גוגל מקודדת את הגודל בסוף ה-URL, למשל "=w32-h32" -> "=w800-h500")
-    best, best_w = None, 0
-    for img in page.query_selector_all('img[src*="googleusercontent"]')[:12]:
+    best, best_w = None, -1
+    for img in page.query_selector_all('img[src*="googleusercontent"]')[:15]:
         src = img.get_attribute("src") or ""
         if not src.startswith("http"):
             continue
+        # דילוג על תמונות פרופיל של מבקרים (נתיב /a-/ או /a/) ועל אייקונים
+        if "/a-/" in src or "/a/AC" in src or "/gps-proxy/" in src:
+            continue
         m = re.search(r"=w(\d+)-h(\d+)", src)
-        width = int(m.group(1)) if m else 0
-        if width >= best_w:
+        if not m:
+            continue  # בלי מידות בכתובת אי אפשר לדעת אם זו תמונה אמיתית
+        width, height = int(m.group(1)), int(m.group(2))
+        if width < 60 or height < 60:
+            continue  # אייקון זעיר
+        if width > best_w:
             best, best_w = src, width
     if best:
         result["photo"] = re.sub(r"=w\d+-h\d+", "=w800-h500", best)
@@ -136,7 +143,7 @@ def scrape_place(page, query):
 
 # גרסת ההעשרה: מקומות שהועשרו בגרסה ישנה יבוקרו שוב פעם אחת,
 # כדי להוסיף תמונה ושם רשמי מגוגל.
-ENRICH_VERSION = 2
+ENRICH_VERSION = 3
 
 
 def needs_enrichment(card):
