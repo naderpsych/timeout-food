@@ -124,17 +124,20 @@
     padding: 6px 12px; border-radius: 16px; font-family: inherit; white-space: nowrap;
   }
   /* חיפוש מתקפל + בחירת אזור — פעילים בטלפון בלבד */
+  /* נראה כמו שדה חיפוש אמיתי, כדי שיהיה ברור שהוא נפתח */
   #searchToggle {
-    display: none; width: 100%; text-align: start;
-    border: 1px solid var(--border); background: var(--card); color: var(--text);
-    border-radius: 12px; padding: 11px 15px; cursor: pointer;
-    font-size: .92rem; font-weight: 600; font-family: inherit; margin-bottom: 10px;
+    display: none; width: 100%; margin-bottom: 10px; cursor: pointer;
+    border: 1px solid var(--border); background: var(--card); color: var(--muted);
+    border-radius: 12px; padding: 12px 15px; font-size: .95rem;
+    font-family: inherit; text-align: start;
+    align-items: center; gap: 9px;
   }
-  #regionMore {
-    display: none; border: 1px dashed var(--border); background: none;
-    color: var(--accent); border-radius: 12px; padding: 9px 15px; cursor: pointer;
-    font-size: .9rem; font-weight: 700; font-family: inherit; white-space: nowrap;
-  }
+  #searchToggle .st-text { flex: 1; }
+  #searchToggle .st-chev { color: var(--accent); font-size: .85rem; transition: transform .2s; }
+  #searchToggle.open { color: var(--text); border-color: var(--accent); }
+  #searchToggle.open .st-chev { transform: rotate(180deg); }
+  /* הכפתור האדום הוא עצמו התפריט: חץ בתוכו, והאפשרויות נפתחות מתחתיו */
+  .tab .chev { font-size: .75rem; opacity: .9; margin-inline-start: 5px; }
   .period-row {
     display: flex; align-items: center; gap: 8px; margin: 8px 0 4px;
     font-size: .85rem; color: var(--muted);
@@ -277,14 +280,18 @@
     /* בטלפון: "רק חדשים" + מסעדה + בית קפה בלבד; השאר (דוכן, מאפייה...) ב"עוד" */
     .chips.collapsed .chip:nth-child(n+4) { display: none; }
     .period-row { display: none; }   /* סינון תאריך — במחשב בלבד */
-    /* אזור: מוצג רק הפעיל, והשאר נפתחים ב"אזור אחר" */
-    #searchToggle { display: block; }
+    /* אזור: הכפתור האדום הוא תפריט — לחיצה עליו פותחת את שאר האזורים */
+    #searchToggle { display: flex; }
     #searchBox { display: none; }
     #searchBox.open { display: block; }
-    #regionMore { display: inline-block; }
+    .tabs { position: relative; flex-direction: column; align-items: stretch; gap: 0; }
+    .tabs .tab { width: 100%; text-align: start; }
     .tabs.collapsed .tab:not(.active) { display: none; }
-    .tabs.collapsed #regionMore { display: inline-block; }
-    .tabs:not(.collapsed) #regionMore { display: none; }
+    .tabs:not(.collapsed) .tab { border-radius: 0; margin-top: -1px; }
+    .tabs:not(.collapsed) .tab:first-child { border-radius: 12px 12px 0 0; margin-top: 0; }
+    .tabs:not(.collapsed) .tab:last-child { border-radius: 0 0 12px 12px; }
+    .tabs:not(.collapsed) .tab:not(.active) { background: var(--card); color: var(--text); }
+    .tabs .chev { float: inline-end; }
     #chipsToggle { display: block; }
     header { position: relative; padding-top: 22px; }
     #themeBtn { position: absolute; top: 18px; inset-inline-end: 20px; }
@@ -335,13 +342,12 @@
     <button class="viewbtn" data-view="favs">❤️ מועדפים <span id="favCount"></span></button>
   </div>
   <div class="tabs" id="tabs">
-    <button class="tab active" data-region="tlv">תל אביב והמרכז <span class="count"></span></button>
+    <button class="tab active" data-region="tlv">תל אביב והמרכז <span class="count"></span><span class="chev">▾</span></button>
     <button class="tab" data-region="haifa">חיפה והצפון <span class="count"></span></button>
     <button class="tab" data-region="rest">שאר הארץ <span class="count"></span></button>
-    <button id="regionMore" hidden>אזור אחר ▾</button>
   </div>
 
-  <button id="searchToggle" hidden>🔎 חיפוש לפי מסעדה או מיקום ▾</button>
+  <button id="searchToggle" hidden><span>🔎</span><span class="st-text">חיפוש מסעדה או מנה, ומיון לפי מרחק ממך</span><span class="st-chev">▾</span></button>
   <div id="searchBox">
     <input id="search" type="search" placeholder="חיפוש מקום, מנה, שף, רחוב...">
     <div class="geo-row">
@@ -461,18 +467,37 @@ fetch("data.json?t=" + Date.now())
   })
   .catch(() => { document.getElementById("empty").hidden = false; });
 
-// בטלפון מוצג רק האזור הפעיל; "אזור אחר" פותח את השאר ובחירה סוגרת חזרה
+// בטלפון הכפתור האדום הוא תפריט: לחיצה עליו פותחת את שאר האזורים,
+// ובחירה סוגרת חזרה ומשאירה רק את הנבחר.
 const tabsBox = document.getElementById("tabs");
-const regionMore = document.getElementById("regionMore");
 tabsBox.classList.add("collapsed");
-regionMore.hidden = false;
-regionMore.onclick = () => tabsBox.classList.remove("collapsed");
+const chevron = '<span class="chev">▾</span>';
+
+function setRegionChevron() {
+  document.querySelectorAll(".tab").forEach(t => {
+    const old = t.querySelector(".chev");
+    if (old) old.remove();
+    if (t.classList.contains("active")) t.insertAdjacentHTML("beforeend", chevron);
+  });
+}
 
 document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
+  // לחיצה על הפעיל כשהתפריט סגור = פתיחת הרשימה
+  if (t.classList.contains("active") && tabsBox.classList.contains("collapsed")) {
+    tabsBox.classList.remove("collapsed");
+    return;
+  }
   document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
   t.classList.add("active"); region = t.dataset.region;
   tabsBox.classList.add("collapsed");
+  setRegionChevron();
   rerender();
+});
+setRegionChevron();
+
+// סגירת התפריט בלחיצה מחוץ לו
+document.addEventListener("click", e => {
+  if (!tabsBox.contains(e.target)) tabsBox.classList.add("collapsed");
 });
 
 // תיבת החיפוש מקופלת בטלפון ונפתחת בלחיצה
@@ -481,8 +506,7 @@ const searchBox = document.getElementById("searchBox");
 searchToggle.hidden = false;
 searchToggle.onclick = () => {
   const open = searchBox.classList.toggle("open");
-  searchToggle.textContent = open ? "🔎 חיפוש לפי מסעדה או מיקום ▴"
-                                  : "🔎 חיפוש לפי מסעדה או מיקום ▾";
+  searchToggle.classList.toggle("open", open);
   if (open) document.getElementById("search").focus();
 };
 
