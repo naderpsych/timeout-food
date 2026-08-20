@@ -2125,8 +2125,8 @@
     "address": "רב אשי 14, תל אביב-יפו, ישראל",
     "google_name": "מרלין מונרו בע\"מ",
     "source": "גוגל",
-    "date": "2026-08-17",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": true
   },
@@ -9683,7 +9683,40 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "שלמה אבן גבירול 69, תל אביב-יפו, ישראל",
+    "google_name": "בית עיריית תל אביב-יפו",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkVlPfshPwqKHYXkEPanjNQHcaeppzryltpBw6sZnCCYN6PCetRRv2hG7lFIQjh51t0hQeZxPmXeN_rbJF5Iow7zM3dTZRJuVRnMnIBedhnYqlU3U-h4JotxyAEWx8UMSZmuNs2Rw=w800-h500-k-no",
+    "hours": "ה' סגור, ו' סגור, ש' סגור, א' סגור, ב' 08:00-15:30, ג' 08:00-15:30, ד' 08:00-15:30",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "15:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "15:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "15:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-20",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/העיר-שלי-אורי-אפרים/#השאלון",
@@ -13174,8 +13207,24 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "טל ישראל 5, תל אביב-יפו, 6764065, ישראל",
-    "hours": "א' סגור, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור",
+    "google_name": "Bou | בואו",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkrHg8kWrVFaVsSI_gnleUfi3QGeDdFXrhIEYRaqKRd9lDO8dOcPL5d98n36kCL9oi_ZjUhgqrPgu9n3Zp-MedPBG2pGMk8TtM8FygGML4N7om3xDEP788mGmxEVXuviLF_cCowuMEgBjA=w800-h500-k-no",
+    "hours": "ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' סגור, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        1
@@ -13196,24 +13245,11 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -14653,8 +14689,24 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "טל ישראל 5, תל אביב-יפו, 6764065, ישראל",
-    "hours": "א' סגור, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור",
+    "google_name": "Bou | בואו",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkrHg8kWrVFaVsSI_gnleUfi3QGeDdFXrhIEYRaqKRd9lDO8dOcPL5d98n36kCL9oi_ZjUhgqrPgu9n3Zp-MedPBG2pGMk8TtM8FygGML4N7om3xDEP788mGmxEVXuviLF_cCowuMEgBjA=w800-h500-k-no",
+    "hours": "ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' סגור, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        1
@@ -14675,24 +14727,11 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -34265,8 +34304,24 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "דרך מנחם בגין 144, תל אביב-יפו, 4692102, ישראל",
-    "hours": "א' סגור, ב' 18:00-23:30, ג' 18:00-23:30, ד' 18:00-23:30, ה' 18:00-23:30, ו' 18:00-23:30, ש' סגור",
+    "google_name": "מסעדת היבה",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmTW21RFb5rJnvoPLKgEtCm74v_rBiG_0yMKYM7h-Vy_BTQFzkOgrFZc1z9_TJCBggKzillO7H2eH-xZBmmyyWqTXaPC7bFzb8XXp2l5IffYCldimPbmwvtSx5U8PZtCVZ9dIt1=w800-h500-k-no",
+    "hours": "ה' 18:00-23:30, ו' 18:00-23:30, ש' סגור, א' סגור, ב' 18:00-23:30, ג' 18:00-23:30, ד' 18:00-23:30",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "23:30"
+     },
      {
       "days": [
        1
@@ -34287,24 +34342,11 @@
       ],
       "from": "18:00",
       "to": "23:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "23:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -34759,8 +34801,11 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "חבקוק הנביא 3, תל אביב-יפו, ישראל",
+    "google_name": "מלון אלכסנדר תל אביב",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmWaPhQY3WNb7wof3flHP0rdo2nVj_3lkvYfgGY_DvTArvyXJGKXAwUyEPTHjn3D3tcjIG0TYXvRy0tvgpOqngxrqqACyCnMMo1HjVP2QlTbof0eDDOaFcMvMGWNzRCZVRDkh3C=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -36150,8 +36195,24 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "דרך מנחם בגין 37, תל אביב-יפו, ישראל",
-    "hours": "א' 07:30-19:00, ב' 07:30-19:00, ג' 07:30-19:00, ד' 07:30-19:00, ה' 07:30-19:00, ו' 07:30-15:30, ש' סגור",
+    "google_name": "Zeit für Brot",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkpPzW5AnUAjBl5eyG5bTl32YLsSOa_hWghxwQylF8Hgd7f-MFWje3hy5X78n0JVzRG1SX2v6eFaaCs4ECHuCI4c-7zdjN92GtVYdMgpUdkOGlkoHJQisU55auoFYJKo5_wDN_xxw=w800-h500-k-no",
+    "hours": "ה' 07:30-19:00, ו' 07:30-15:30, ש' סגור, א' 07:30-19:00, ב' 07:30-19:00, ג' 07:30-19:00, ד' 07:30-19:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "07:30",
+      "to": "19:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "07:30",
+      "to": "15:30"
+     },
      {
       "days": [
        0
@@ -36179,24 +36240,11 @@
       ],
       "from": "07:30",
       "to": "19:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "07:30",
-      "to": "19:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "07:30",
-      "to": "15:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -39665,8 +39713,31 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "הברזל 27, תל אביב-יפו, ישראל",
-    "hours": "א' 12:30-22:00, ב' 12:30-22:00, ג' 12:30-22:00, ד' 12:30-22:00, ה' 12:30-22:30, ו' 16:00-22:30, ש' 12:30-22:30",
+    "google_name": "מסעדת הדסון | Hudson Brasserie",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnM3L3nH5Prk4JJZJgkuUGnYRsWCzxsfr2H9Vl8ZWQXv9Dw-wlWOnjmfybegRonMYwr8lysvKPkOElDbEbc4SunWX56rqWSiibI9y5FrxtEGnA9ykAvJBwCpAH8VOcA7rSBgzix=w800-h500-k-no",
+    "hours": "ה' 12:30-22:30, ו' 16:00-22:30, ש' 12:30-22:30, א' 12:30-22:00, ב' 12:30-22:00, ג' 12:30-22:00, ד' 12:30-22:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "12:30",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "16:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:30",
+      "to": "22:30"
+     },
      {
       "days": [
        0
@@ -39694,31 +39765,11 @@
       ],
       "from": "12:30",
       "to": "22:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:30",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "16:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:30",
-      "to": "22:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -43145,8 +43196,11 @@
    "geo_precision": null,
    "enrichment": {
     "address": "הנצי\"ב 20, תל אביב-יפו, ישראל",
+    "google_name": "MIA - Italian Food",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmWC60oJ-rmfFBbKDBGinmhRbMeKYBUaGQBkUrlEuV0vgcN6b4lAYkhRTZuNJjI48c1wRMmXDLPM3aMID5gnd3FEY5M_rgr5tKLNX9i10pBQbnQLOYYivvbuHPDp86y2eiw6vPf=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": true
   },
@@ -44737,10 +44791,54 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "מקווה ישראל 1, תל אביב-יפו, ישראל",
-    "hours": "א' 24:00-07:00, 22:00-24:00, ב' 24:00-07:00, 22:00-24:00, ג' 24:00-07:00, 22:00-24:00, ד' 24:00-07:00, 22:00-24:00, ה' 24:00-07:00, 22:00-24:00, ו' 24:00-07:00, 22:00-24:00, ש' 24:00-07:00, 22:00-24:00",
+    "google_name": "Onebar",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnkwYXKJ_bWeSp00BfGNRt5K63A2syseGkJLlH1uQjQ0rsPDkz7ZobgOHlPMqi2faLOm-qGnQWOJ-P0RzLHCaJJqLC3h3-AtnO4cpw1uAq9sUYnwl8di7ByUO2WOeye8YdDqirD=w800-h500-k-no",
+    "hours": "ה' 24:00-07:00, 22:00-24:00, ו' 24:00-07:00, 22:00-24:00, ש' 24:00-07:00, 22:00-24:00, א' 24:00-07:00, 22:00-24:00, ב' 24:00-07:00, 22:00-24:00, ג' 24:00-07:00, 22:00-24:00, ד' 24:00-07:00, 22:00-24:00",
     "schedule": [
      {
       "days": [
+       4
+      ],
+      "from": "24:00",
+      "to": "07:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "22:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "24:00",
+      "to": "07:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "22:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "24:00",
+      "to": "07:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "22:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
        0
       ],
       "from": "24:00",
@@ -44791,55 +44889,14 @@
      {
       "days": [
        3
-      ],
-      "from": "22:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "24:00",
-      "to": "07:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "22:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "24:00",
-      "to": "07:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "22:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "24:00",
-      "to": "07:00"
-     },
-     {
-      "days": [
-       6
       ],
       "from": "22:00",
       "to": "24:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -45533,8 +45590,31 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "רב אלוף דוד אלעזר 27, תל אביב-יפו, ישראל",
-    "hours": "א' 12:00-24:00, ב' 12:00-24:00, ג' 12:00-24:00, ד' 12:00-24:00, ה' 12:00-24:00, ו' 12:00-24:00, ש' 12:00-24:00",
+    "google_name": "לאגר אנד אייל | Lager & Ale",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn2P-UqUwPL6jyfQsNwH7gqc8yLGLAqo3QAXoca2YIRvRwzKaFSz05jYpwJDP1-QYKX8tR11wWOJl25mspwk-qFEa519arvOA1D_XhScJ8mg3k37YecQVvj7wiKOMdIs9iAnVE3YA=w800-h500-k-no",
+    "hours": "ה' 12:00-24:00, ו' 12:00-24:00, ש' 12:00-24:00, א' 12:00-24:00, ב' 12:00-24:00, ג' 12:00-24:00, ד' 12:00-24:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
      {
       "days": [
        0
@@ -45562,31 +45642,11 @@
       ],
       "from": "12:00",
       "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "24:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -51441,10 +51501,10 @@
    "enrichment": {
     "address": "כיכר קדומים 10, תל אביב-יפו, ישראל",
     "google_name": "קלמטה - מסעדה יוונית - מסעדה ביפו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSSr2xxPvnJ7dJoXAfK1aqs9jJ3HFW6wPba3wKl4dTfTYVnEYa4Ty7m8CzqTzSAoYnFZoP5UbeBtOGYo4W4mMUiNhOeFCSu7J3pZComny1zXXXOg1M8Nrk64UI0vdXrMUAWGk=w800-h500-p-k-no",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkh4wZww1sHJ_n-TRFqEMFo_JfPN1WU2x2WZjRX8EiJC3cxsCYu9An687nQZNkHLj2RP5aelomXgh-LmrzI7Oisa6HfLS3e2AVaZukZeIVusG7m1TkUoKa354-tdC-khqXgjN7T=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -51498,10 +51558,76 @@
    "enrichment": {
     "address": "הירקון 105, תל אביב-יפו, ישראל",
     "google_name": "יאסו מסעדה יוונית שמחה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlRlHRIMmUBWBmC5956v8qBz5hVTL1s-PqmXKiSMjuOLJA6qthhWsstwHuuhSsJ4aGZ_xM01T8At1ZW1hIpQNKUJjhTFBum-YNFerwgGgxG-YUa1gNssf5DFuSsXiUUTQWiQ35J=w800-h500-p-k-no",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQSa5-6zFiHSClYojxIIqSckpDQZH2d0L6rCQeXQCtW1UtL1QYjv3eY3f3Uopj5L9C-ck_DBqxIaWlCaT3Iz7TuL8mLlDzyZSkwkYbQN6NR_BtfkJlgpNPeX0Vfm9xI8_k3EKf=w800-h500-k-no",
+    "hours": "ה' 18:00-01:00, ו' 13:00-17:00, 19:00-01:00, ש' 13:30-17:00, 19:00-01:00, א' 18:00-01:00, ב' סגור, ג' 18:00-01:00, ד' 18:00-01:00, ה' 18:00-20:30, ו' סגור",
+    "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "13:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "19:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "13:30",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "19:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "18:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "20:30"
+     }
+    ],
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -51564,9 +51690,23 @@
    "enrichment": {
     "address": "הצורפים 38, תל אביב-יפו, ישראל",
     "google_name": "שבתאי היפה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmTt7YDgz1nIypyAkmEgZOKbbRyaQZnNkHKlJpeBcMrOx7fIvCeJErrPdyXCpnvmibNxN7OUZhkSBRVep_V4BqM5KSecoGRflXcNbrjMbLnWbsaQz_zQsDXmtEF4D4tJMnEkApvNNw5Opo=w800-h500-p-k-no",
-    "hours": "ש' 12:00-22:30, א' סגור, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30, ו' 12:00-23:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkZVo7DI6dG597pYXjAE6YGFsnMRX3B0aJl754XHsBHdJPUbMSIhzr4CSoskskBeoJrYtnqpRYCWxj9lbTGORS9FXinVUThbDMwGp6S3ykuNtPJ8HgvKNVXwAEHh110e1MIMTgrLg=w800-h500-k-no",
+    "hours": "ה' 12:00-22:30, ו' 12:00-23:00, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
      {
       "days": [
        6
@@ -51594,25 +51734,11 @@
       ],
       "from": "12:00",
       "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -51642,9 +51768,16 @@
    "enrichment": {
     "address": "קרליבך 7, תל אביב-יפו, ישראל",
     "google_name": "אולימפוס",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnq2wcQQAgDB9ifHueFUG1wIc588y7gjGLvbxOuRGjwAcp7ghcKZqkHNmWt71XeR4Ds6VYFKAHDhZ29KtoiRCXAi_0-O_K6F-wskt3ecpB7vnVanSZv4uaGwnbb6toKkyr6Wbixw5nLmMoY=w800-h500-p-k-no",
-    "hours": "ש' 12:00-17:00, א' 12:00-17:00, ב' 12:00-17:00, ג' 12:00-17:00, ד' 12:00-17:00, ה' 12:00-17:00, ו' סגור",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYxtf8jpfbBJR6_8VpCyva_2ZeLqUowXtAeCwiLu_17cyAFIvX6RYpivJQQXvsVYk61D1zimiv8CWgFaUUNHir8khXqWfOR8wwqVGsbSS5UoylRZCyVJRupkFJuD4kkF4yCdFwSDq-aAGi=w800-h500-k-no",
+    "hours": "ה' 12:00-17:00, ו' סגור, ש' 12:00-17:00, א' 12:00-17:00, ב' 12:00-17:00, ג' 12:00-17:00, ד' 12:00-17:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "17:00"
+     },
      {
       "days": [
        6
@@ -51679,18 +51812,11 @@
       ],
       "from": "12:00",
       "to": "17:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "17:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -53938,8 +54064,24 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "טל ישראל 5, תל אביב-יפו, 6764065, ישראל",
-    "hours": "א' סגור, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור",
+    "google_name": "Bou | בואו",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkrHg8kWrVFaVsSI_gnleUfi3QGeDdFXrhIEYRaqKRd9lDO8dOcPL5d98n36kCL9oi_ZjUhgqrPgu9n3Zp-MedPBG2pGMk8TtM8FygGML4N7om3xDEP788mGmxEVXuviLF_cCowuMEgBjA=w800-h500-k-no",
+    "hours": "ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' סגור, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        1
@@ -53960,24 +54102,11 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -54819,8 +54948,31 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "שדרות רוטשילד 142, תל אביב-יפו, ישראל",
-    "hours": "א' 18:00-24:00, ב' 18:00-24:00, ג' 18:00-24:00, ד' 18:00-24:00, ה' 18:00-24:00, ו' 18:00-24:00, ש' 18:00-24:00",
+    "google_name": "מלגו מלבר",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlnPQ-oSrRi9MtOy6sHgzOej3b4dznjebtHjgoupXrF734DchG28Bsv2W5hKYTb0YLQ5NIgPJBiMj2iuxK3FefoumokQjKVuwXUn-cQI9GD5Ya78KyOkkJPugHunjwZo2zyA-Y=w800-h500-k-no",
+    "hours": "ה' 18:00-24:00, ו' 18:00-24:00, ש' 18:00-24:00, א' 18:00-24:00, ב' 18:00-24:00, ג' 18:00-24:00, ד' 18:00-24:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
      {
       "days": [
        0
@@ -54848,31 +55000,11 @@
       ],
       "from": "18:00",
       "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "18:00",
-      "to": "24:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -57749,15 +57881,10 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "שערי ניקנור 42, תל אביב-יפו, ישראל",
-    "hours": "ד' 07:00-22:00, ה' 07:00-22:00, ו' 07:00-17:00, ש' סגור, א' 07:00-22:00, ב' 07:00-22:00, ג' 07:00-22:00",
+    "google_name": "מכולת האחים",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmkInOJHNgGSTUR6ph4tOxWsK-wsj8-Pa_fAMx5yD1jKg9dG1jn4RToegqFijZr1mq8SpC7-5FYdHJoGq1-MDsY8YVqhEpwkkcfHKeFYv-xu5ZUWfoDP0vFEKIGm2qq1tRkBPrC7g=w800-h500-p-k-no",
+    "hours": "ה' 07:00-22:00, ו' 07:00-17:00, ש' סגור, א' 07:00-22:00, ב' 07:00-22:00, ג' 07:00-22:00, ד' 07:00-22:00",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "07:00",
-      "to": "22:00"
-     },
      {
       "days": [
        4
@@ -57792,10 +57919,18 @@
       ],
       "from": "07:00",
       "to": "22:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:00",
+      "to": "22:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-07-29"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -58822,8 +58957,24 @@
    "geo_precision": null,
    "enrichment": {
     "address": "טל ישראל 5, תל אביב-יפו, 6764065, ישראל",
-    "hours": "א' סגור, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור",
+    "google_name": "Bou | בואו",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkrHg8kWrVFaVsSI_gnleUfi3QGeDdFXrhIEYRaqKRd9lDO8dOcPL5d98n36kCL9oi_ZjUhgqrPgu9n3Zp-MedPBG2pGMk8TtM8FygGML4N7om3xDEP788mGmxEVXuviLF_cCowuMEgBjA=w800-h500-k-no",
+    "hours": "ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' סגור, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        1
@@ -58844,24 +58995,11 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -60015,8 +60153,17 @@
    "geo_precision": null,
    "enrichment": {
     "address": "הרב כהנמן 129, בני ברק, ישראל",
-    "hours": "א' 08:00-19:30, ב' 08:00-19:30, ג' 08:00-19:30, ד' 08:00-19:30, ה' 08:00-19:30, ו' סגור, ש' סגור",
+    "google_name": "קוקה-קולה",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn5qEvMVD-Z27_pwWqU9CYeoasyn7r00julhqTAtgRQo4ZN0SKDY-WVit0fC3hg2QCWySDvTp3wFS56QFXnAfPpew0gYQtIEyrAtZU9zIq2GiZX4Uk_1vZfSwIW469mie4lpw4=w800-h500-k-no",
+    "hours": "ה' 08:00-19:30, ו' סגור, ש' סגור, א' 08:00-19:30, ב' 08:00-19:30, ג' 08:00-19:30, ד' 08:00-19:30",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "19:30"
+     },
      {
       "days": [
        0
@@ -60044,17 +60191,11 @@
       ],
       "from": "08:00",
       "to": "19:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "08:00",
-      "to": "19:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -62668,30 +62809,9 @@
    "enrichment": {
     "address": "שוקן 10, תל אביב-יפו, 6606315, ישראל",
     "google_name": "ברוש אופנועים.ברוש ביגוד לטכסי סיום",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWko6VZOoWD5QofTp--OTPoHpnXBmr-F3j5zC7Sm1OvJ40E0wmsh4Ya0fo4Q0iG2r-d2MrI641vASbVccmddDL6KTyKPg6MxkEgpPFAGRlMbq2395mueVduf6XTOAVQFjQ7PjJqrHwu8irNP=w800-h500-k-no",
-    "hours": "ב' 09:30-17:30, ג' 09:30-17:30, ד' 09:30-17:30, ה' 09:30-17:30, ו' 09:30-13:00, ש' סגור, א' 09:30-17:30",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntpbw30on7wApwKmE3q2KapY5ytqTHyThnFEp0eaWKJGKCjhUrh825rCULVVGV5JisZv2VjMoO6u7DTrhYuTbfhN2Sw_kOeEcpwSlk8EA8N3YiMB7oRChxbwDzuk-U-lHxj_Ac=w800-h500-k-no",
+    "hours": "ה' 09:30-17:30, ו' 09:30-13:00, ש' סגור, א' 09:30-17:30, ב' 09:30-17:30, ג' 09:30-17:30, ד' 09:30-17:30",
     "schedule": [
-     {
-      "days": [
-       1
-      ],
-      "from": "09:30",
-      "to": "17:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "09:30",
-      "to": "17:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "09:30",
-      "to": "17:30"
-     },
      {
       "days": [
        4
@@ -62712,11 +62832,32 @@
       ],
       "from": "09:30",
       "to": "17:30"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "09:30",
+      "to": "17:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:30",
+      "to": "17:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:30",
+      "to": "17:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-17",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -62825,8 +62966,11 @@
    "geo_precision": "area",
    "enrichment": {
     "address": "הירקון 5, בני ברק, 5120125, ישראל",
+    "google_name": "דוב תל אביב",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlNKqSHhtKZcs1BUDvOp-LsZZdUsucsYTIOIRuEUI0dDexfw_bVHlxjRnzRV21MqQ3jLJsvXmiIcSjzLFL0q1e1UpqAYhQLloUviRCGVTO2Fb1KywSaZ44VnbhQPQTFbglAx_1H=w800-h500-p-k-no",
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -65667,10 +65811,10 @@
    "enrichment": {
     "address": "טל ישראל 5, תל אביב-יפו, 6742726, ישראל",
     "google_name": "The George Tel Aviv (ג'ורג' תל אביב)",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlql2FmZ4s54toYNqYqLndRoZhDkCjlIwSk7yU0s-G3vwDds7likjXHrdJcPeBrghfeMY4tVlFNasPvW6wXpSAysWzBq3tBRKW8faVMSVMHfTHFdgU0QF93OojoCGP5_iPjtlEsGGgqTlCa=w800-h500-k-no",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmp4A5D1dQJOLYBND-HE-ABcr2lg1czV3iMW3S1S7Nozlmql42SZpTCP1voLohHenOq-TEOxySGjzglnr267YfyqPT8htPWn-S_gCLjn2PNl5wyK0B__32AeMlQ43zft5rvTAiEkRX2Jtk=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-17",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -67102,7 +67246,16 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "enrichment": {
+    "address": "בן יהודה 126, תל אביב-יפו, ישראל",
+    "google_name": "הישיבה",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlIVm9PbnrSCzoJch8xjrGyBcHVeUVe4jMc_qwyBrDBzRW1gd-sgaXXrf7g_eOykzDACYPW91vKeWBV1wSUhQLZ5elEEnigcYWgUTk4h0iJ2h2UzZgBTOoaYYFKy7bnlsq4DC1O=w800-h500-p-k-no",
+    "source": "גוגל",
+    "date": "2026-08-20",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/7-%d7%9b%d7%99%d7%a1%d7%95%d7%a0%d7%99%d7%9d/#גסטרו מכניקו",
@@ -68834,50 +68987,12 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "דוד בן גוריון 1, רמת גן, ישראל",
-    "google_name": "מרים - מסעדת שף חיים כהן",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmn_hqHMv4SNUS1s1KgNGRDEaZWoeAYmu15Rzca1PIJ_qZvZTsb55vid0O666h_zaZnQImk56x51smlCcFDRgygrHpZv7Qe62l-X4I-P2y34092Y54ETiKw-Pa1gOjfaqdMdSf7AdwKh8Q=w800-h500-k-no",
-    "hours": "ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30, ו' סגור, ש' סגור, א' 12:00-22:30",
-    "schedule": [
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     }
-    ],
+    "address": "Harav Yitzhak, הרב יצחק ידידיה פרנקל 29, תל אביב-יפו, ישראל",
+    "google_name": "בית מרקחת מרים MIRYAM קנאביס רפואי",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnh6SSnR9nCE6MJW-GX3cUwzAZ4nX3amjXiLkIdWCl1xeN0MfHwZVbfSkUIUakd9R01AcszREkEbYu52ZSjtHs9idOmrHPvTKUl07jSSjp_53pNqS1q4B7pwvrxgmnRHEzC2WkEHg=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-17",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -69122,9 +69237,23 @@
    "enrichment": {
     "address": "בני דן 62, תל אביב-יפו, ישראל",
     "google_name": "בית דניאל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnlBDKx2NJvINrHJ-HrboZpkvO6UA6eYYPkn3h1aen2Bsw5AeR248WEkeTkxd0MAZFNBfHk0RsGMrqs1pcEIYw_cbGDjSpgh335fVgUoSIqTKj1oaixJhRCoyEgmMNjlkbgc5NqyA=w800-h500-p-k-no",
-    "hours": "ש' 09:30-10:30, א' 09:00-17:00, ב' 09:00-17:00, ג' 09:00-17:00, ד' 09:00-17:00, ה' 09:00-17:00, ו' 09:00-13:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkw7CTtWE8TeV8EEOjaJyQhrkGk6Fjivt1whmNDxtdQkATOLFz5kmjR0qHYidyzUBlIwyKu2OYR95r-zAI_OjOWdIdwDYn7yDoS8Ec0cJTdZYOqrRDQbWcGou0Q1Ys0QMHQsGde=w800-h500-k-no",
+    "hours": "ה' 09:00-17:00, ו' 09:00-13:00, ש' 09:30-10:30, א' 09:00-17:00, ב' 09:00-17:00, ג' 09:00-17:00, ד' 09:00-17:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "13:00"
+     },
      {
       "days": [
        6
@@ -69159,25 +69288,11 @@
       ],
       "from": "09:00",
       "to": "17:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "09:00",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "09:00",
-      "to": "13:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -69757,8 +69872,31 @@
    "geo_precision": null,
    "enrichment": {
     "address": "שלמה אבן גבירול 30, תל אביב-יפו, ישראל",
-    "hours": "א' 10:00-22:00, ב' 10:00-22:00, ג' 10:00-22:00, ד' 10:00-22:00, ה' 10:00-22:00, ו' 10:00-22:00, ש' 10:00-22:00",
+    "google_name": "גריי תל אביב",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlIIfabkgw2ySBvP-I9ORCqHjHP-b-NgVxIMoDv-gEEGAnLyALFVptNu_4qS-hF3y7etIglWvv3PAA5MBXwo9bS_z6SLD-HUCrZYZmCXRARq8fb-p8dpKCnRuSI0xH6qnY8KM81=w800-h500-k-no",
+    "hours": "ה' 10:00-22:00, ו' 10:00-22:00, ש' 10:00-22:00, א' 10:00-22:00, ב' 10:00-22:00, ג' 10:00-22:00, ד' 10:00-22:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "10:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "10:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "10:00",
+      "to": "22:00"
+     },
      {
       "days": [
        0
@@ -69786,31 +69924,11 @@
       ],
       "from": "10:00",
       "to": "22:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "10:00",
-      "to": "22:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "10:00",
-      "to": "22:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "10:00",
-      "to": "22:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -73134,37 +73252,9 @@
    "enrichment": {
     "address": "החלוץ 14, חיפה, ישראל",
     "google_name": "THAI KITCHEN HAIFA",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnakwoFow0JWVFsvxTTBLHNpmUT0KN5SOIaKTvF0uEPV1PM2yFLODaRgkj9SsyJCrodabiM9ljZ3hoWEfaRBOQDVBbFDhwqax7fdagQuf8d1l1izsz5x5KWg6hWsV1X5PK2nmk_6NbC9BU=w800-h500-p-k-no",
-    "hours": "א' סגור, ב' סגור, ג' 12:00-16:00, 17:00-22:00, ד' 12:00-16:00, 17:00-22:00, ה' 12:00-16:00, 17:00-22:00, ו' 12:00-21:00, ש' 12:00-21:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm9kaNtBMQwbjTvdNzO67U7VK69joTPXBv_7cjQykpT_k2J_YTC_MSLY41nc2o9z5FlandyMKgjgY5XRaCIjJPATGfalrVQYkXVS_o2hs62Sq8pQtGCnZ5XN2J4nZaBdy0V1-DjLCQeeJTR=w800-h500-k-no",
+    "hours": "ה' 12:00-16:00, 17:00-22:00, ו' 12:00-21:00, ש' 12:00-21:00, א' סגור, ב' סגור, ג' 12:00-16:00, 17:00-22:00, ד' 12:00-16:00, 17:00-22:00",
     "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "17:00",
-      "to": "22:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "17:00",
-      "to": "22:00"
-     },
      {
       "days": [
        4
@@ -73192,11 +73282,39 @@
       ],
       "from": "12:00",
       "to": "21:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "17:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:00",
+      "to": "22:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -87041,10 +87159,9 @@
    "enrichment": {
     "address": "תל אביב-יפו",
     "google_name": "מצפור",
-    "photo": "https://lh3.googleusercontent.com/a-/ALV-UjVtlQvVPwZPaeFezDcnFGQ9BDDaKbHdk-piJgS4aaPTkCaMWAAC=w800-h500-p-rp-mo-ba12-br100",
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -87805,9 +87922,16 @@
    "enrichment": {
     "address": "קרליבך 7, תל אביב-יפו, ישראל",
     "google_name": "אולימפוס",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnq2wcQQAgDB9ifHueFUG1wIc588y7gjGLvbxOuRGjwAcp7ghcKZqkHNmWt71XeR4Ds6VYFKAHDhZ29KtoiRCXAi_0-O_K6F-wskt3ecpB7vnVanSZv4uaGwnbb6toKkyr6Wbixw5nLmMoY=w800-h500-p-k-no",
-    "hours": "ש' 12:00-17:00, א' 12:00-17:00, ב' 12:00-17:00, ג' 12:00-17:00, ד' 12:00-17:00, ה' 12:00-17:00, ו' סגור",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYxtf8jpfbBJR6_8VpCyva_2ZeLqUowXtAeCwiLu_17cyAFIvX6RYpivJQQXvsVYk61D1zimiv8CWgFaUUNHir8khXqWfOR8wwqVGsbSS5UoylRZCyVJRupkFJuD4kkF4yCdFwSDq-aAGi=w800-h500-k-no",
+    "hours": "ה' 12:00-17:00, ו' סגור, ש' 12:00-17:00, א' 12:00-17:00, ב' 12:00-17:00, ג' 12:00-17:00, ד' 12:00-17:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "17:00"
+     },
      {
       "days": [
        6
@@ -87842,18 +87966,11 @@
       ],
       "from": "12:00",
       "to": "17:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "17:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -91392,10 +91509,10 @@
    "enrichment": {
     "address": "דיזנגוף 190, תל אביב-יפו, 6346229, ישראל",
     "google_name": "Jasper Jones",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnS15ltaWnTnfwpapABW-UU66LtKDJY0ZAk4lBZdb21P0HCwhHOgz6xHGMopHuvF8SzTTq6l_dcPSTyHaaYeqP3ubP3xUpQCWo8_d14YqXFlLGqlFErJq3XU6WOHVuoBGgO9U0=w800-h500-p-k-no",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm-cYqdIVI3x9XCnQHgZohBR4Hpqjy_UYRowgVee6hd8axjFeIRQU1KLDWWlTh5JBqy9qBq__Mn5CES6uTxZJ4-Vq3FlW07nk6-KfJVJqRnjL0UbhloKtkIqU0InKm6IewOT2MLTQ=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -97113,10 +97230,54 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "מקווה ישראל 1, תל אביב-יפו, ישראל",
-    "hours": "א' 24:00-07:00, 22:00-24:00, ב' 24:00-07:00, 22:00-24:00, ג' 24:00-07:00, 22:00-24:00, ד' 24:00-07:00, 22:00-24:00, ה' 24:00-07:00, 22:00-24:00, ו' 24:00-07:00, 22:00-24:00, ש' 24:00-07:00, 22:00-24:00",
+    "google_name": "Onebar",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnkwYXKJ_bWeSp00BfGNRt5K63A2syseGkJLlH1uQjQ0rsPDkz7ZobgOHlPMqi2faLOm-qGnQWOJ-P0RzLHCaJJqLC3h3-AtnO4cpw1uAq9sUYnwl8di7ByUO2WOeye8YdDqirD=w800-h500-k-no",
+    "hours": "ה' 24:00-07:00, 22:00-24:00, ו' 24:00-07:00, 22:00-24:00, ש' 24:00-07:00, 22:00-24:00, א' 24:00-07:00, 22:00-24:00, ב' 24:00-07:00, 22:00-24:00, ג' 24:00-07:00, 22:00-24:00, ד' 24:00-07:00, 22:00-24:00",
     "schedule": [
      {
       "days": [
+       4
+      ],
+      "from": "24:00",
+      "to": "07:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "22:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "24:00",
+      "to": "07:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "22:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "24:00",
+      "to": "07:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "22:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
        0
       ],
       "from": "24:00",
@@ -97167,55 +97328,14 @@
      {
       "days": [
        3
-      ],
-      "from": "22:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "24:00",
-      "to": "07:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "22:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "24:00",
-      "to": "07:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "22:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "24:00",
-      "to": "07:00"
-     },
-     {
-      "days": [
-       6
       ],
       "from": "22:00",
       "to": "24:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -98462,8 +98582,11 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "חבקוק הנביא 3, תל אביב-יפו, ישראל",
+    "google_name": "מלון אלכסנדר תל אביב",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmWaPhQY3WNb7wof3flHP0rdo2nVj_3lkvYfgGY_DvTArvyXJGKXAwUyEPTHjn3D3tcjIG0TYXvRy0tvgpOqngxrqqACyCnMMo1HjVP2QlTbof0eDDOaFcMvMGWNzRCZVRDkh3C=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -100780,8 +100903,31 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "רב אלוף דוד אלעזר 27, תל אביב-יפו, ישראל",
-    "hours": "א' 12:00-24:00, ב' 12:00-24:00, ג' 12:00-24:00, ד' 12:00-24:00, ה' 12:00-24:00, ו' 12:00-24:00, ש' 12:00-24:00",
+    "google_name": "לאגר אנד אייל | Lager & Ale",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn2P-UqUwPL6jyfQsNwH7gqc8yLGLAqo3QAXoca2YIRvRwzKaFSz05jYpwJDP1-QYKX8tR11wWOJl25mspwk-qFEa519arvOA1D_XhScJ8mg3k37YecQVvj7wiKOMdIs9iAnVE3YA=w800-h500-k-no",
+    "hours": "ה' 12:00-24:00, ו' 12:00-24:00, ש' 12:00-24:00, א' 12:00-24:00, ב' 12:00-24:00, ג' 12:00-24:00, ד' 12:00-24:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
      {
       "days": [
        0
@@ -100809,31 +100955,11 @@
       ],
       "from": "12:00",
       "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "24:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -101004,8 +101130,31 @@
    "geo_precision": "area",
    "enrichment": {
     "address": "אלוף אלברט מנדלר 3 street, תל אביב-יפו, 6107038, ישראל",
-    "hours": "א' 16:00-01:00, ב' 16:00-01:00, ג' 16:00-01:00, ד' 16:00-01:00, ה' 16:00-02:00, ו' 16:00-01:00, ש' 18:00-01:00, א' 16:00-19:00, ב' 16:00-19:00",
+    "google_name": "ביר גארדן",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnA74f8GOviwY33JjYzLDrQCgEF2_3yGtgs1k58LrUv1AvW1ztyI3fgh9EKdOwPNmTtu0bninkjlWzRPeaBqygul5fXaKMsDUFauwfnkOTFsWG9pNXteJDdYEHKOh16W2ZLuA9WmQ=w800-h500-k-no",
+    "hours": "ה' 16:00-02:00, ו' 16:00-01:00, ש' 18:00-01:00, א' 16:00-01:00, ב' 16:00-01:00, ג' 16:00-01:00, ד' 16:00-01:00, ה' 16:00-19:00, ו' סגור",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "16:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "16:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "18:00",
+      "to": "01:00"
+     },
      {
       "days": [
        0
@@ -101039,39 +101188,12 @@
        4
       ],
       "from": "16:00",
-      "to": "02:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "16:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "18:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "16:00",
-      "to": "19:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "16:00",
       "to": "19:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -103426,8 +103548,23 @@
    "geo_precision": null,
    "enrichment": {
     "address": "זיסמן שלום 8, רמת גן, ישראל",
-    "hours": "א' 10:00-18:30, ב' 10:00-18:30, ג' 10:00-18:30, ד' 10:00-18:30, ה' 10:00-18:30, ו' 09:30-13:00, ש' סגור",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmzDgw-D337GtWGUEjWVx32Z1NqW5s1f2bvjc0RguC4zyC_enskxNQx8CA9U6rScxBAL-wr0AwytnfLFtWVJkQw-w8AH_Pwp0vjoU9AO15nLvGzIC_T2XxHb3a7CJyMSj5YJFG5=w800-h500-k-no",
+    "hours": "ה' 10:00-18:30, ו' 10:00-13:00, ש' סגור, א' 10:00-18:30, ב' 10:00-18:30, ג' 10:00-18:30, ד' 10:00-18:30",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "10:00",
+      "to": "18:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "10:00",
+      "to": "13:00"
+     },
      {
       "days": [
        0
@@ -103455,24 +103592,11 @@
       ],
       "from": "10:00",
       "to": "18:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "10:00",
-      "to": "18:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "09:30",
-      "to": "13:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -103635,10 +103759,10 @@
    "enrichment": {
     "address": "טל ישראל 5, תל אביב-יפו, 6742726, ישראל",
     "google_name": "The George Tel Aviv (ג'ורג' תל אביב)",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlql2FmZ4s54toYNqYqLndRoZhDkCjlIwSk7yU0s-G3vwDds7likjXHrdJcPeBrghfeMY4tVlFNasPvW6wXpSAysWzBq3tBRKW8faVMSVMHfTHFdgU0QF93OojoCGP5_iPjtlEsGGgqTlCa=w800-h500-k-no",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmp4A5D1dQJOLYBND-HE-ABcr2lg1czV3iMW3S1S7Nozlmql42SZpTCP1voLohHenOq-TEOxySGjzglnr267YfyqPT8htPWn-S_gCLjn2PNl5wyK0B__32AeMlQ43zft5rvTAiEkRX2Jtk=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-17",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -112871,7 +112995,61 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "enrichment": {
+    "address": "קהילת ציון 26, עפולה, ישראל",
+    "google_name": "שישו ושמחו עפולה - מתחם אירועים ובילויים",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl5kJfI9YPore9iHpkyHBVdd0U8FdvUJM7Ben6Mi2jX64kWbdCTFCIMK2HqG4Vc6tnJYVaZazaxd0dJdTTQ99dIpUiKJ1C3ijuQhJT67FSeZEtIAabAWTN_lQnCWSA-F8iAKQ0pvC1pl9Sd=w800-h500-k-no",
+    "hours": "ה' 08:00-23:00, ו' 08:00-15:00, ש' סגור, א' 08:00-23:00, ב' 08:00-23:00, ג' 08:00-23:00, ד' 08:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-20",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%91%d7%a9%d7%94-%d7%95%d7%94%d7%a4%d7%95%d7%a7%d7%90%d7%a6%d7%94/#יתכן שזה אחד",
@@ -124493,9 +124671,23 @@
    "enrichment": {
     "address": "ה' באייר 16, תל אביב-יפו, 6209308, ישראל",
     "google_name": "Golden Goose Tel Aviv",
-    "photo": "https://lh3.googleusercontent.com/a-/ALV-UjUnBNcl4foszQvdsHSGSk3Z3w5dFMPKbn5sRTqi6fY5qxC7A5M=w800-h500-p-rp-mo-br100",
-    "hours": "ש' סגור, א' 10:00-19:00, ב' 10:00-19:00, ג' 10:00-19:00, ד' 10:00-19:00, ה' 10:00-19:00, ו' 10:00-14:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnKu2JqRu0iDaRdC-BdAJIcB5FMCP2qss5WYb_mvipafRMMy05joiZsSO2IKdlKAvyhnfzpUUzfeGT8SAzP8duLafkSwKQ9Z8zJJRZn0e7LoKwzfbFfAXBnt3yd1cYVppM7203tw-iN0hfM=w800-h500-p-k-no",
+    "hours": "ה' 10:00-19:00, ו' 10:00-14:00, ש' סגור, א' 10:00-19:00, ב' 10:00-19:00, ג' 10:00-19:00, ד' 10:00-19:00",
     "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "10:00",
+      "to": "19:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "10:00",
+      "to": "14:00"
+     },
      {
       "days": [
        0
@@ -124523,25 +124715,11 @@
       ],
       "from": "10:00",
       "to": "19:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "10:00",
-      "to": "19:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "10:00",
-      "to": "14:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -132239,22 +132417,10 @@
    "geo_precision": null,
    "enrichment": {
     "address": "רציף הרברט סמואל 90, תל אביב-יפו, 6343125, ישראל",
-    "hours": "ג' 12:00-01:00, ד' 12:00-01:00, ה' 12:00-01:00, ו' 12:00-02:00, ש' 12:00-24:00, א' 12:00-01:00, ב' 12:00-01:00, ג' 12:00-01:00, ד' 12:00-01:00",
+    "google_name": "Mike's Place",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmBLsmnC0IkUa4YwAOyKNRRkCCi6u3LOXhVjTLn7ZJodWuEWepgHXUR-VjhG2YT8US_fuv7rNqilWryDV-WIxtlk9Lqbu8xiLoR8lADGCh7lUwEIlvU-STCJ_rzGzxAQxXKgoLoJElcHTUi=w800-h500-k-no",
+    "hours": "ה' 12:00-01:00, ו' 12:00-02:00, ש' 12:00-24:00, א' 12:00-01:00, ב' 12:00-01:00, ג' 12:00-01:00, ד' 12:00-01:00, ה' 12:00-01:30, ו' 12:00-02:00",
     "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "01:00"
-     },
      {
       "days": [
        4
@@ -132303,10 +132469,25 @@
       ],
       "from": "12:00",
       "to": "01:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "01:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "02:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-07-28"
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -132489,10 +132670,10 @@
    "enrichment": {
     "address": "כיכר קדומים 10, תל אביב-יפו, ישראל",
     "google_name": "קלמטה - מסעדה יוונית - מסעדה ביפו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSSr2xxPvnJ7dJoXAfK1aqs9jJ3HFW6wPba3wKl4dTfTYVnEYa4Ty7m8CzqTzSAoYnFZoP5UbeBtOGYo4W4mMUiNhOeFCSu7J3pZComny1zXXXOg1M8Nrk64UI0vdXrMUAWGk=w800-h500-p-k-no",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkh4wZww1sHJ_n-TRFqEMFo_JfPN1WU2x2WZjRX8EiJC3cxsCYu9An687nQZNkHLj2RP5aelomXgh-LmrzI7Oisa6HfLS3e2AVaZukZeIVusG7m1TkUoKa354-tdC-khqXgjN7T=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-20",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -144208,7 +144389,8 @@
    32.058265,
    34.779993
   ],
-  "וייצמן 45, גבעתיים, ישראל, ישראל": null
+  "וייצמן 45, גבעתיים, ישראל, ישראל": null,
+  "קהילת ציון 26, עפולה, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-20T10:36:02.061996+03:00"
+ "last_google_run": "2026-08-20T16:39:01.023493+03:00"
 }
