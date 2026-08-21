@@ -116493,8 +116493,11 @@
    "geo_precision": null,
    "enrichment": {
     "address": "מעון 5, תל אביב-יפו, ישראל",
+    "google_name": "CASA DI CANNOLI by Assaf Grushkovski",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlE2PyB5Ris63wk_GcFOTXgMBBr90MRDFogTNKBz7HkN7rJWIxGXHgltH15eTPt7K5x3XIXSr_W0vJ4yoWLteHy-s1PE2rt9fdUJnaO_JC046HdEbHR7-bnoSU4I5rGx_dXAJ4Fvgn-DJw=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-07-28"
+    "date": "2026-08-21",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -144395,5 +144398,5 @@
   "וייצמן 45, גבעתיים, ישראל, ישראל": null,
   "קהילת ציון 26, עפולה, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-20T22:26:06.506810+03:00"
+ "last_google_run": "2026-08-21T05:20:54.157506+03:00"
 }
