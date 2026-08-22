@@ -52610,15 +52610,10 @@
    "geo_precision": "area",
    "enrichment": {
     "address": "זבולון 7, תל אביב-יפו, 6652407, ישראל",
-    "hours": "ו' 11:00-16:00, ש' סגור, א' סגור, ב' 11:00-16:00, ג' 11:00-16:00, ד' 11:00-16:00, ה' 11:00-16:00",
+    "google_name": "פיתה לוינסקי",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlooR5ig08CoYhTIIPhk3no5s1vkWZ9n9AlDEUx1HwOyQVTf-Rd-SEx3IUxgZ2xcTYF-ktGIOjoF6JjH6hBhzF-oJ5e5WuUA-xP9Xf93v-Ksnk5AQINsn_Z3qKjFfFeYb7973AYlRWkMkdh=w800-h500-k-no",
+    "hours": "ש' סגור, א' סגור, ב' 11:00-16:00, ג' 11:00-16:00, ד' 11:00-16:00, ה' 11:00-16:00, ו' 11:00-16:00",
     "schedule": [
-     {
-      "days": [
-       5
-      ],
-      "from": "11:00",
-      "to": "16:00"
-     },
      {
       "days": [
        1
@@ -52646,10 +52641,18 @@
       ],
       "from": "11:00",
       "to": "16:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "11:00",
+      "to": "16:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-14"
+    "date": "2026-08-22",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -144398,5 +144401,5 @@
   "וייצמן 45, גבעתיים, ישראל, ישראל": null,
   "קהילת ציון 26, עפולה, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-21T05:20:54.157506+03:00"
+ "last_google_run": "2026-08-22T05:13:37.562208+03:00"
 }
