@@ -129,8 +129,16 @@ def _fetch_with_browser(url):
                                   viewport={"width": 1280, "height": 900})
         page = ctx.new_page()
         try:
-            page.goto(url, timeout=45000, wait_until="domcontentloaded")
-            page.wait_for_timeout(2500)
+            page.goto(url, timeout=60000, wait_until="domcontentloaded")
+            # עמוד אתגר של הגנת-בוטים נפתר לבד אחרי כמה שניות — ממתינים
+            # שקישורי תוכן אמיתיים יופיעו, ואם לא, נותנים עוד הזדמנות.
+            for _ in range(3):
+                page.wait_for_timeout(4000)
+                links = page.eval_on_selector_all(
+                    'a[href*="timeout.co.il"]',
+                    "els => els.filter(e => e.textContent.trim().length > 20).length")
+                if links > 3:
+                    break
             return page.content()
         finally:
             browser.close()
