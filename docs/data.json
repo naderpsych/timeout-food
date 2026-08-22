@@ -9534,9 +9534,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782885362_1372380_11700-1140x641-1782885400.jpg",
    "published": "2026-07-01T10:07:57+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0622106,
+   "lon": 34.8058007,
+   "geo_precision": "area",
    "is_sponsored": false
   },
   {
@@ -9680,9 +9680,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782885362_1372380_11700-1140x641-1782885400.jpg",
    "published": "2026-07-01T10:07:57+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city",
    "is_sponsored": false,
    "enrichment": {
     "address": "שלמה אבן גבירול 69, תל אביב-יפו, ישראל",
@@ -9738,9 +9738,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/07/1782885362_1372380_11700-1140x641-1782885400.jpg",
    "published": "2026-07-01T10:07:57+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0852997,
+   "lon": 34.7818064,
+   "geo_precision": "city",
    "is_sponsored": false
   },
   {
@@ -83719,370 +83719,6 @@
    "closed_permanently": false
   },
   {
-   "id": "https://timeout.co.il/העיר-של-עומר-ורובל/#ברבוניה",
-   "name": "ברבוניה",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "בן יהודה 192, תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תאורה וינטג’ ואותה פתיחת שולחן כבר 20 שנה. העיר של עומר ורובל",
-   "article_url": "https://timeout.co.il/העיר-של-עומר-ורובל/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1764659954_1360570_17920-1140x641-1765699523.jpg",
-   "published": "2025-12-14T10:44:18+02:00",
-   "details_url": null,
-   "lat": 32.089168,
-   "lon": 34.773905,
-   "geo_precision": "address",
-   "is_sponsored": false,
-   "enrichment": {
-    "address": "בן יהודה 192, תל אביב-יפו, 6347109, ישראל",
-    "google_name": "ברבוניה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlb2x5eY1dF-F3FFeMlExA5VXRPcRhAg5vJ0ArIj0XsajxsapnZlmqYyRtE7YLmT_7csLYstMZ6wCyWxhT5TXNJSlWH81kY9RyEeitI5iG4dVUvcbkUZYJWDzUy2Z1qqC5YgxvD=w800-h500-k-no",
-    "hours": "ג' 12:00-24:00, ד' 12:00-24:00, ה' 12:00-24:00, ו' 12:00-24:00, ש' 12:00-24:00, א' 12:00-24:00, ב' 12:00-24:00",
-    "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "24:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-18",
-    "v": 3
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/העיר-של-עומר-ורובל/#בר מימון",
-   "name": "בר מימון",
-   "type": "בר",
-   "what_to_eat": "בירה",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "רמב\"ם 5, תל אביב",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תאורה וינטג’ ואותה פתיחת שולחן כבר 20 שנה. העיר של עומר ורובל",
-   "article_url": "https://timeout.co.il/העיר-של-עומר-ורובל/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1764659954_1360570_17920-1140x641-1765699523.jpg",
-   "published": "2025-12-14T10:44:18+02:00",
-   "details_url": null,
-   "lat": 32.068179,
-   "lon": 34.769086,
-   "geo_precision": "address",
-   "is_sponsored": false,
-   "enrichment": {
-    "address": "רמב\"ם 5, תל אביב-יפו, ישראל",
-    "google_name": "Bar Maimon - בר מימון",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnanf7zkVGZUMzMcU4mbJDx2BMWpXOFPxOzy12KYm5ZGffnOjX6g8Zpj7j_vFBu1l4y-6BTer5z60Q7m58oxybaQRJB5Xbk_S3XPuQMPUkLzU1nBKhjyMrdmZ76rdbhnq7kMpUf=w800-h500-k-no",
-    "hours": "ד' 17:30-24:00, ה' 17:30-24:00, ו' 13:00-18:00, ש' 17:00-24:00, א' 17:30-24:00, ב' 17:30-24:00, ג' 17:30-24:00",
-    "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "17:30",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "17:30",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "13:00",
-      "to": "18:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "17:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "17:30",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "17:30",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "17:30",
-      "to": "24:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-19",
-    "v": 3
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/העיר-של-עומר-ורובל/#סורסטו",
-   "name": "סורסטו",
-   "type": "לא צוין",
-   "what_to_eat": "יין",
-   "owner": "האובן קובן",
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "הארבעה 16, תל אביב",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תאורה וינטג’ ואותה פתיחת שולחן כבר 20 שנה. העיר של עומר ורובל",
-   "article_url": "https://timeout.co.il/העיר-של-עומר-ורובל/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1764659954_1360570_17920-1140x641-1765699523.jpg",
-   "published": "2025-12-14T10:44:18+02:00",
-   "details_url": null,
-   "lat": 32.070253,
-   "lon": 34.7847898,
-   "geo_precision": "address",
-   "is_sponsored": false,
-   "enrichment": {
-    "address": "גבעון 13, תל אביב-יפו, ישראל",
-    "google_name": "Sorsetto",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnw3TR-ZANftsd8wkjfIe_T4vydWuyYKWBQ0iu6QKStqm1eWkPGOdrnJWh9GkKkNPlI3XBR0_SP--pC9z4cJejfGb3SLKhqhJZIDBynw53WvmCjvJdbaJJjAc8KPdhxCMufDYII=w800-h500-k-no",
-    "source": "גוגל",
-    "date": "2026-08-18",
-    "v": 3
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/העיר-של-עומר-ורובל/#ורובל אופטיק",
-   "name": "ורובל אופטיק",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "לא צוין",
-   "region": "tlv",
-   "is_new": false,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תאורה וינטג’ ואותה פתיחת שולחן כבר 20 שנה. העיר של עומר ורובל",
-   "article_url": "https://timeout.co.il/העיר-של-עומר-ורובל/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1764659954_1360570_17920-1140x641-1765699523.jpg",
-   "published": "2025-12-14T10:44:18+02:00",
-   "details_url": null,
-   "lat": 32.0443395,
-   "lon": 34.7509908,
-   "geo_precision": "area",
-   "is_sponsored": false,
-   "enrichment": {
-    "address": "Dizingof senter, דיזנגוף 50, תל אביב-יפו, 6433222, ישראל",
-    "google_name": "ורובל אופטיק - משקפי בוטיק בתל אביב",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl4bhRgk8ISVDn8sNRAKbgYOOx6K7p8YMLfvzvbN45WiAV5SVgHwfhzAQN7Ao7JqkZ_z6BY6n3jzLq4c1_IlkMG7OyIZx2VBt6u3DG4S81qyitHbtpSOqqdrweyfjeh1TOTPdVJTLa_YeDG=w800-h500-k-no",
-    "hours": "ד' 10:00-19:00, ה' 10:00-19:00, ו' 09:30-14:00, ש' סגור, א' 10:00-19:00, ב' 10:00-19:00, ג' 10:00-19:00",
-    "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "10:00",
-      "to": "19:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "10:00",
-      "to": "19:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "09:30",
-      "to": "14:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "10:00",
-      "to": "19:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "10:00",
-      "to": "19:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "10:00",
-      "to": "19:00"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-19",
-    "v": 3
-   },
-   "closed_permanently": false
-  },
-  {
-   "id": "https://timeout.co.il/העיר-של-עומר-ורובל/#גדעון קלאס תאורה",
-   "name": "גדעון קלאס תאורה",
-   "type": "לא צוין",
-   "what_to_eat": "לא צוין",
-   "owner": null,
-   "hours": "לא צוין",
-   "schedule": null,
-   "city": "תל אביב",
-   "location": "וולפסון 23, תל אביב, לוינסקי",
-   "region": "tlv",
-   "is_new": true,
-   "closing_soon": false,
-   "is_popup": false,
-   "opening_info": null,
-   "article_title": "תאורה וינטג’ ואותה פתיחת שולחן כבר 20 שנה. העיר של עומר ורובל",
-   "article_url": "https://timeout.co.il/העיר-של-עומר-ורובל/",
-   "article_image": "https://medias.timeout.co.il/www/uploads/2025/12/1764659954_1360570_17920-1140x641-1765699523.jpg",
-   "published": "2025-12-14T10:44:18+02:00",
-   "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
-   "is_sponsored": false,
-   "enrichment": {
-    "address": "וולפסון 22, תל אביב-יפו, 6606802, ישראל",
-    "google_name": "גדעון קלאס תאורה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnvjSJj0ry_o2ShitrTGk025ZcIY7f0gH8ABV3RqQjEwnaI3F2mVT27rprgVPKqJbzzD2p4wm6VxsT_MRs5hPs8jObPmD7lqm6NCrmvaqmmtrir1QXydskZ9M__FaE_S9X6R6Qh=w800-h500-k-no",
-    "hours": "ג' 10:30-19:30, ד' 10:30-19:30, ה' 10:30-19:30, ו' 10:00-14:30, ש' סגור, א' 10:30-19:30, ב' 10:30-19:30",
-    "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "10:30",
-      "to": "19:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "10:30",
-      "to": "19:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "10:30",
-      "to": "19:30"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "10:00",
-      "to": "14:30"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "10:30",
-      "to": "19:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "10:30",
-      "to": "19:30"
-     }
-    ],
-    "source": "גוגל",
-    "date": "2026-08-18",
-    "v": 3
-   },
-   "closed_permanently": false
-  },
-  {
    "id": "https://timeout.co.il/%d7%90%d7%9c%d7%95%d7%a3-%d7%91%d7%a6%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-2/#גינת אלוף בצלות",
    "name": "גינת אלוף בצלות",
    "type": "בית קפה",
@@ -96229,9 +95865,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/11/1763021240_1358895_27206-1140x641.jpg",
    "published": "2025-11-13T09:51:55+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0680003,
+   "lon": 34.7670792,
+   "geo_precision": "address",
    "is_sponsored": false
   },
   {
@@ -101819,9 +101455,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/10/1761821859_1358466_79476-1140x641-1761858410.jpg",
    "published": "2025-10-30T23:31:18+02:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.0659832,
+   "lon": 34.7722291,
+   "geo_precision": "address",
    "is_sponsored": false,
    "enrichment": {
     "address": "אלנבי 87, תל אביב-יפו, 6513427, ישראל",
@@ -126626,9 +126262,9 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/1754814311_1353629_99612-1140x641-1754894252.jpg",
    "published": "2025-08-11T10:04:50+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.077232,
+   "lon": 34.777406,
+   "geo_precision": "address",
    "is_sponsored": false,
    "enrichment": {
     "address": "המלך ג'ורג' 97, תל אביב-יפו, 6433830, ישראל",
@@ -139590,7 +139226,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-08-18T18:32:19.723700+03:00",
+ "last_run": "2026-08-22T14:13:09.481182+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
