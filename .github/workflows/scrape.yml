@@ -24,7 +24,9 @@ jobs:
           python-version: "3.12"
 
       - name: התקנת תלויות
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
 
       - name: הרצת הסורק
         run: python scraper.py

@@ -81,6 +81,22 @@
     background: var(--card); color: var(--text); font-size: 1rem; margin-bottom: 10px;
   }
   #search:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  /* בחירה ברורה בין GPS להקלדת כתובת */
+  #gpsBtn {
+    width: 100%; display: flex; align-items: center; justify-content: center; gap: 7px;
+    border: 1px solid var(--accent); background: var(--accent-soft); color: var(--accent);
+    border-radius: 12px; padding: 12px 15px; cursor: pointer;
+    font-size: .95rem; font-weight: 700; font-family: inherit; margin-bottom: 10px;
+  }
+  #gpsBtn:hover { background: var(--accent); color: #fff; }
+  #gpsBtn:disabled { opacity: .6; cursor: wait; }
+  .geo-or {
+    display: flex; align-items: center; gap: 10px;
+    color: var(--muted); font-size: .8rem; margin-bottom: 10px;
+  }
+  .geo-or::before, .geo-or::after {
+    content: ""; flex: 1; height: 1px; background: var(--border);
+  }
   .geo-row { display: flex; gap: 8px; margin-bottom: 10px; }
   #addr {
     flex: 1; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
@@ -356,9 +372,11 @@
   <button id="searchToggle" hidden><span>🔎</span><span class="st-text">חיפוש מסעדה או מנה · מיון לפי כתובת</span><span class="st-chev">▾</span></button>
   <div id="searchBox">
     <input id="search" type="search" placeholder="חיפוש מקום, מנה, שף, רחוב...">
+    <button id="gpsBtn">📍 מיין לפי המיקום שלי עכשיו</button>
+    <div class="geo-or"><span>או לפי כתובת</span></div>
     <div class="geo-row">
-      <input id="addr" type="text" placeholder="📍 כתובת למיון לפי קרבה (למשל: דיזנגוף 100 תל אביב)">
-      <button id="geoBtn">מיין לפי קרבה</button>
+      <input id="addr" type="text" placeholder="דיזנגוף 100 תל אביב">
+      <button id="geoBtn">מיין</button>
     </div>
     <div id="geoStatus" hidden></div>
   </div>
@@ -541,6 +559,38 @@ geoBtn.onclick = locateAddress;
 addrInput.onkeydown = e => { if (e.key === "Enter") locateAddress(); };
 
 function geoStatusEl() { return document.getElementById("geoStatus"); }
+
+// --- מיון לפי המיקום הנוכחי (GPS של הדפדפן) ---
+const gpsBtn = document.getElementById("gpsBtn");
+gpsBtn.onclick = () => {
+  if (!navigator.geolocation) {
+    showGeoStatus("הדפדפן הזה לא תומך באיתור מיקום", true);
+    return;
+  }
+  gpsBtn.disabled = true;
+  gpsBtn.textContent = "מאתר את המיקום שלך...";
+  navigator.geolocation.getCurrentPosition(
+    pos => {
+      geoPoint = { lat: pos.coords.latitude, lon: pos.coords.longitude, label: "המיקום שלך" };
+      addrInput.value = "";
+      showGeoStatus("ממוין לפי המיקום שלך עכשיו 📍");
+      resetGpsBtn();
+      rerender();
+    },
+    err => {
+      const msg = err.code === err.PERMISSION_DENIED
+        ? "לא ניתן אישור למיקום. אפשר לאשר בהגדרות הדפדפן, או להקליד כתובת."
+        : "לא הצלחתי לאתר את המיקום. נסה שוב או הקלד כתובת.";
+      showGeoStatus(msg, true);
+      resetGpsBtn();
+    },
+    { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 }
+  );
+};
+function resetGpsBtn() {
+  gpsBtn.disabled = false;
+  gpsBtn.textContent = "📍 מיין לפי המיקום שלי עכשיו";
+}
 
 async function locateAddress() {
   const q = addrInput.value.trim();

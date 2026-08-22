@@ -120,10 +120,44 @@ HE_MONTHS = {
 NOT_SPECIFIED = "לא צוין"
 
 
-def fetch(url):
-    resp = requests.get(url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    return resp.text
+def _fetch_with_browser(url):
+    """נפילה חזרה: דפדפן אמיתי. TimeOut חוסמת מדי פעם בקשות משרתי ענן (403)."""
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(headless=True)
+        ctx = browser.new_context(locale="he-IL", user_agent=HEADERS["User-Agent"],
+                                  viewport={"width": 1280, "height": 900})
+        page = ctx.new_page()
+        try:
+            page.goto(url, timeout=45000, wait_until="domcontentloaded")
+            page.wait_for_timeout(2500)
+            return page.content()
+        finally:
+            browser.close()
+
+
+def fetch(url, attempts=3):
+    last = None
+    for i in range(attempts):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=30)
+            resp.raise_for_status()
+            return resp.text
+        except Exception as exc:
+            last = exc
+            status = getattr(getattr(exc, "response", None), "status_code", None)
+            if status in (403, 429) or status is None:
+                if i < attempts - 1:
+                    time.sleep(15 * (i + 1))
+                    continue
+                # נחסמנו שוב ושוב — מנסים דרך דפדפן אמיתי
+                try:
+                    print(f"נחסם ({status}), מנסה בדפדפן: {url[:60]}", file=sys.stderr)
+                    return _fetch_with_browser(url)
+                except Exception as exc2:
+                    last = exc2
+            break
+    raise last
 
 
 # ---------- גיאוקודינג (OpenStreetMap Nominatim, חינמי, מקס' בקשה לשנייה) ----------
