@@ -12021,8 +12021,11 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "לילינבלום 21, תל אביב-יפו, 6513213, ישראל",
+    "google_name": "אהן תאי",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlGO3xiOvb97mvTIhhh00M3_S6gZq13QKAc87mOUzO4GqsduS9jOVSDsLufxADlDWM-9Csz_-6bh-iaibK4ofLeQF79GLCK4XLYQyZHNr4olfhqkV4wRSIUmIvrDEvbdnIprp4CHA=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-07"
+    "date": "2026-08-23",
+    "v": 3
    },
    "closed_permanently": true
   },
@@ -30888,8 +30891,11 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "לילינבלום 21, תל אביב-יפו, 6513213, ישראל",
+    "google_name": "אהן תאי",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlGO3xiOvb97mvTIhhh00M3_S6gZq13QKAc87mOUzO4GqsduS9jOVSDsLufxADlDWM-9Csz_-6bh-iaibK4ofLeQF79GLCK4XLYQyZHNr4olfhqkV4wRSIUmIvrDEvbdnIprp4CHA=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-07"
+    "date": "2026-08-23",
+    "v": 3
    },
    "closed_permanently": true
   },
@@ -91681,8 +91687,11 @@
    "geo_precision": null,
    "enrichment": {
     "address": "לילינבלום 21, תל אביב-יפו, 6513213, ישראל",
+    "google_name": "אהן תאי",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlGO3xiOvb97mvTIhhh00M3_S6gZq13QKAc87mOUzO4GqsduS9jOVSDsLufxADlDWM-9Csz_-6bh-iaibK4ofLeQF79GLCK4XLYQyZHNr4olfhqkV4wRSIUmIvrDEvbdnIprp4CHA=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-07"
+    "date": "2026-08-23",
+    "v": 3
    },
    "closed_permanently": true
   },
@@ -99900,8 +99909,11 @@
    "geo_precision": null,
    "enrichment": {
     "address": "לילינבלום 21, תל אביב-יפו, 6513213, ישראל",
+    "google_name": "אהן תאי",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlGO3xiOvb97mvTIhhh00M3_S6gZq13QKAc87mOUzO4GqsduS9jOVSDsLufxADlDWM-9Csz_-6bh-iaibK4ofLeQF79GLCK4XLYQyZHNr4olfhqkV4wRSIUmIvrDEvbdnIprp4CHA=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-07"
+    "date": "2026-08-23",
+    "v": 3
    },
    "closed_permanently": true
   },
@@ -144037,5 +144049,5 @@
   "וייצמן 45, גבעתיים, ישראל, ישראל": null,
   "קהילת ציון 26, עפולה, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-22T05:13:37.562208+03:00"
+ "last_google_run": "2026-08-23T05:22:22.961895+03:00"
 }
