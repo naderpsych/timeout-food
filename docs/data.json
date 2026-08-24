@@ -34579,7 +34579,16 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "enrichment": {
+    "address": "אחד העם 1, תל אביב-יפו, ישראל",
+    "google_name": "7to1 Lab",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3xNh6B8z8MJZFIb5-Wz-gqHOxVNRhc0LPhxC4t7JQCWcgrMh76KetSv3oz79U1HMCYJZb24DFudP0zzefEXKJ7lPcm0ROidG3JjfveTBHQYlkPKYh4UuE_k1TCaQTwjPQbUFu=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-08-24",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-101/#נופר זוהר Fruits&co",
@@ -73571,54 +73580,55 @@
    "lon": 35.2170777,
    "geo_precision": "address",
    "enrichment": {
-    "address": "אגריפס 80, ירושלים, 9451304, ישראל",
-    "hours": "ה' 18:00-24:00, ו' סגור, ש' 21:00-24:00, א' 18:00-23:00, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00",
+    "google_name": "אוירון חגיגה באויר",
+    "hours": "ב' 09:00-14:30, ג' 09:00-14:30, ד' 09:00-14:30, ה' 09:00-14:30, ו' 09:00-14:30, ש' סגור, א' 09:00-14:30",
     "schedule": [
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "21:00",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
      {
       "days": [
        1
       ],
-      "from": "18:00",
-      "to": "23:00"
+      "from": "09:00",
+      "to": "14:30"
      },
      {
       "days": [
        2
       ],
-      "from": "18:00",
-      "to": "23:00"
+      "from": "09:00",
+      "to": "14:30"
      },
      {
       "days": [
        3
       ],
-      "from": "18:00",
-      "to": "23:00"
+      "from": "09:00",
+      "to": "14:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "14:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "14:30"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "09:00",
+      "to": "14:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-07-30"
+    "date": "2026-08-24",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -144049,5 +144059,5 @@
   "וייצמן 45, גבעתיים, ישראל, ישראל": null,
   "קהילת ציון 26, עפולה, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-24T05:20:25.080321+03:00"
+ "last_google_run": "2026-08-24T10:52:04.557745+03:00"
 }
