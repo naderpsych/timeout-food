@@ -20921,10 +20921,9 @@
    "enrichment": {
     "address": "תובל 2, תל אביב-יפו, ישראל",
     "google_name": "WineHouse by Yaffo Tel Aviv",
-    "photo": "https://lh3.googleusercontent.com/a-/ALV-UjXaVWiYmiRBzbs6AqihlBs-_KAwS5RvvLhzTx8U_ZZUUCg0OE6cDg=w800-h500-p-rp-mo-ba12-br100",
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-25",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -28186,10 +28185,9 @@
    "enrichment": {
     "address": "תובל 2, תל אביב-יפו, ישראל",
     "google_name": "WineHouse by Yaffo Tel Aviv",
-    "photo": "https://lh3.googleusercontent.com/a-/ALV-UjXaVWiYmiRBzbs6AqihlBs-_KAwS5RvvLhzTx8U_ZZUUCg0OE6cDg=w800-h500-p-rp-mo-ba12-br100",
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-25",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -28494,10 +28492,9 @@
    "enrichment": {
     "address": "תובל 2, תל אביב-יפו, ישראל",
     "google_name": "WineHouse by Yaffo Tel Aviv",
-    "photo": "https://lh3.googleusercontent.com/a-/ALV-UjXaVWiYmiRBzbs6AqihlBs-_KAwS5RvvLhzTx8U_ZZUUCg0OE6cDg=w800-h500-p-rp-mo-ba12-br100",
     "source": "גוגל",
-    "date": "2026-08-15",
-    "v": 2
+    "date": "2026-08-25",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -144059,5 +144056,5 @@
   "וייצמן 45, גבעתיים, ישראל, ישראל": null,
   "קהילת ציון 26, עפולה, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-24T10:52:04.557745+03:00"
+ "last_google_run": "2026-08-25T05:15:28.621012+03:00"
 }
