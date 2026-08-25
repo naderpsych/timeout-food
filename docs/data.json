@@ -39424,8 +39424,12 @@
    "geo_precision": "address",
    "enrichment": {
     "address": "מסילת וולפסון 28, תל אביב-יפו, ישראל",
+    "google_name": "סיפורו של גרגר",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlD1_b3dSNAOSIVS0TaRn8sedD3SelkorX51FTBV1cQJsdHHDYbvzgexVx8qOV30sejRi0-cEIoqAMXhT_NKYDeZfhpntVcdL2k0xQuUqefBCk7uPJ53Sg3d-kOqiOxgxjx9tcf=w800-h500-p-k-no",
     "source": "גוגל",
-    "date": "2026-07-29"
+    "date": "2026-08-25",
+    "v": 3,
+    "fixed_name": "סיפורו של גרגר"
    },
    "closed_permanently": false
   },
@@ -144059,5 +144063,5 @@
   "וייצמן 45, גבעתיים, ישראל, ישראל": null,
   "קהילת ציון 26, עפולה, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-25T16:35:37.951865+03:00"
+ "last_google_run": "2026-08-25T22:23:18.162589+03:00"
 }
