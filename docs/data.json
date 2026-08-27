@@ -66486,7 +66486,67 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "enrichment": {
+    "google_name": "קרקס בראבו-חנוכה 2025-הרפתקאות היער האבוד",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkLFRTrorlko00fUhYlHnnxInm0ztseJZzLtxGOk6jADJAfuzTHl3_01pxV_b0r59nOxDEY_GMLYybcmF46sBYRU3mphx0XPEqntomQnAjhQkKn6h3c2ZkzZq_kKV5p5vkBtiompnaH6kfy=w800-h500-k-no",
+    "hours": "ו' 09:00-17:00, ש' 09:00-17:00, א' 09:00-17:00, ב' 09:00-17:00, ג' 09:00-17:00, ד' 09:00-17:00, ה' 09:00-17:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-28",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%99%d7%91%d7%9c-vin-yard-%d7%aa%d7%93%d7%a8/#>> Vin Yard: ולנטיינ'ס בתדר",
@@ -144063,5 +144123,5 @@
   "וייצמן 45, גבעתיים, ישראל, ישראל": null,
   "קהילת ציון 26, עפולה, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-25T22:23:18.162589+03:00"
+ "last_google_run": "2026-08-28T01:44:22.821701+03:00"
 }
