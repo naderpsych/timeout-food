@@ -109,18 +109,18 @@
     padding: 0 4px; flex-shrink: 0;
   }
   #addr {
-    width: 100%; padding: 12px 15px; padding-inline-end: 46px;
+    width: 100%; padding: 12px 15px; padding-inline-end: 70px;
     border-radius: 12px; border: 1px solid var(--border);
     background: var(--card); color: var(--text); font-size: .92rem; min-width: 0;
   }
   /* כפתור חיפוש קטן בתוך שדה הכתובת — כדי שלא יידרש Enter */
   #addrGo {
-    position: absolute; inset-inline-end: 6px; top: 50%; transform: translateY(-50%);
-    width: 32px; height: 32px; border: none; border-radius: 8px; cursor: pointer;
-    background: none; color: var(--muted); font-size: 1rem; line-height: 1;
-    display: flex; align-items: center; justify-content: center; padding: 0;
+    position: absolute; inset-inline-end: 5px; top: 50%; transform: translateY(-50%);
+    border: none; border-radius: 9px; cursor: pointer; padding: 7px 14px;
+    background: var(--chip); color: var(--text); font-family: inherit;
+    font-size: .85rem; font-weight: 600; line-height: 1;
   }
-  #addrGo:hover { background: var(--chip); color: var(--text); }
+  #addrGo:hover { background: var(--chip-active); color: var(--chip-active-text); }
   #addr:focus { outline: 2px solid var(--accent); border-color: transparent; }
   #geoStatus {
     display: inline-flex; align-items: center; gap: 8px; margin-bottom: 10px;
@@ -389,7 +389,7 @@
     <div class="addr-wrap">
       <input id="addr" type="text" autocomplete="off"
              placeholder="📍 מיין לפי קרבה — כתובת או המיקום שלי">
-      <button id="addrGo" title="חפש">🔍</button>
+      <button id="addrGo">חפש</button>
       <div id="addrMenu" hidden>
         <button class="addr-opt gps" id="gpsOpt">
           <span class="ico">◎</span>
