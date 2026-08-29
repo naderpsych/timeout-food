@@ -115,12 +115,12 @@
   }
   /* כפתור חיפוש קטן בתוך שדה הכתובת — כדי שלא יידרש Enter */
   #addrGo {
-    position: absolute; inset-inline-end: 5px; top: 50%; transform: translateY(-50%);
-    width: 34px; height: 34px; border: none; border-radius: 9px; cursor: pointer;
-    background: var(--accent); color: #fff; font-size: .95rem; line-height: 1;
+    position: absolute; inset-inline-end: 6px; top: 50%; transform: translateY(-50%);
+    width: 32px; height: 32px; border: none; border-radius: 8px; cursor: pointer;
+    background: none; color: var(--muted); font-size: 1rem; line-height: 1;
     display: flex; align-items: center; justify-content: center; padding: 0;
   }
-  #addrGo:hover { filter: brightness(1.08); }
+  #addrGo:hover { background: var(--chip); color: var(--text); }
   #addr:focus { outline: 2px solid var(--accent); border-color: transparent; }
   #geoStatus {
     display: inline-flex; align-items: center; gap: 8px; margin-bottom: 10px;
@@ -641,17 +641,18 @@ function useMyLocation() {
       rerender();
     },
     err => {
-      const diag = `[code=${err.code}]`;
       if (err.code === err.PERMISSION_DENIED) {
         navigator.permissions?.query({ name: "geolocation" }).then(st => {
           showGeoStatus(st.state === "denied"
-            ? `הדפדפן חוסם את המיקום ${diag}[state=${st.state}]. הקש על האייקון ` +
-              "שמשמאל לכתובת האתר ← הרשאות ← מיקום ← אפשר."
-            : `נדחתה גישה למיקום ${diag}[state=${st.state}]. נסה שוב או הקלד כתובת.`, true);
-        }).catch(() => showGeoStatus(`נדחתה גישה למיקום ${diag}.`, true));
+            ? "הדפדפן חוסם את המיקום לאתר הזה. הקש על האייקון שמשמאל לכתובת " +
+              "האתר ← הרשאות ← מיקום ← אפשר."
+            : "החלונית נסגרה בלי אישור. הקש שוב על “השתמש במיקום שלי” " +
+              "ובחר “אפשר”.", true);
+        }).catch(() => showGeoStatus("לא אושרה גישה למיקום. נסה שוב.", true));
+      } else if (err.code === err.POSITION_UNAVAILABLE) {
+        showGeoStatus("לא הצלחתי לאתר אותך. בדוק ששירותי המיקום בטלפון מופעלים.", true);
       } else {
-        showGeoStatus(`לא הצלחתי לאתר את המיקום ${diag} — ${err.message || ""}. ` +
-                      "ייתכן ששירותי המיקום בטלפון כבויים.", true);
+        showGeoStatus("איתור המיקום לוקח יותר מדי זמן. נסה שוב או הקלד כתובת.", true);
       }
     },
     { enableHighAccuracy: true, timeout: 15000, maximumAge: 60000 }
