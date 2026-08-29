@@ -1488,11 +1488,18 @@
    "geo_precision": "address",
    "is_sponsored": true,
    "enrichment": {
-    "address": "שדרות שאול המלך 39, תל אביב-יפו, ישראל",
+    "address": "Sderot Sha'ul HaMelech 39, Tel Aviv-Yafo, ישראל",
     "google_name": "Zutt TLV - Pizza & Hub | פיצה זוט",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMPxBhF2p4G1iPB8pxmaFD4gt6HzRKfTDM2qYKVqLYlGGiQY4wZIovLJQAfTfSb27S3Uxl4v3fmnObJuGaitIxHJ51yy40zsJFaQ40CZUwm7HKUmpym9i5aIdbehYayKKZZYUGnkX6ENlb=w800-h500-p-k-no",
-    "hours": "א' 12:00-22:00, ב' 12:00-22:00, ג' 12:00-22:00, ד' 12:00-22:00, ה' 12:00-22:00, ו' 17:30-23:00, ש' 17:30-23:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmnEeFzuNcWuG3D02DtOPRjOn--JuCZArpAivvxmRzb_LGj5gcu-0lwTDSJJm1ik7a1yYfS9PEb12e10JiUbD4ISyqMAts8f_tCNvi630F3t92uaN0-0tnUYBux13BocIonXjT3QOzi--tT=w800-h500-k-no",
+    "hours": "ש' 17:30-23:00, א' 12:00-22:00, ב' 12:00-22:00, ג' 12:00-22:00, ד' 12:00-22:00, ה' 12:00-22:00, ו' 17:30-23:00",
     "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "17:30",
+      "to": "23:00"
+     },
      {
       "days": [
        0
@@ -1534,18 +1541,11 @@
       ],
       "from": "17:30",
       "to": "23:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "17:30",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
+    "date": "2026-08-29",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -2273,8 +2273,11 @@
    "geo_precision": null,
    "enrichment": {
     "address": "מל\"ן 47, תל אביב-יפו, 6560693, ישראל",
+    "google_name": "הקוקטייליה של Fruits & Co.",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlcPavRB8v2drnWbYr8ipLj4Y6Dlx4cV1VGzfiqEAnSeNSvsguvtKnVFSUOazdltD_gb5VXDWx0ElEMtSEM1gTauY6JvxlheSgSOpxmUSBObnMdbNvCExvODltZzkQ0jeiHMjt3G-SGlyo=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-07-30"
+    "date": "2026-08-29",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -55277,11 +55280,18 @@
    "lon": 34.790694,
    "geo_precision": "address",
    "enrichment": {
-    "address": "שדרות שאול המלך 39, תל אביב-יפו, ישראל",
+    "address": "Sderot Sha'ul HaMelech 39, Tel Aviv-Yafo, ישראל",
     "google_name": "Zutt TLV - Pizza & Hub | פיצה זוט",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMPxBhF2p4G1iPB8pxmaFD4gt6HzRKfTDM2qYKVqLYlGGiQY4wZIovLJQAfTfSb27S3Uxl4v3fmnObJuGaitIxHJ51yy40zsJFaQ40CZUwm7HKUmpym9i5aIdbehYayKKZZYUGnkX6ENlb=w800-h500-p-k-no",
-    "hours": "א' 12:00-22:00, ב' 12:00-22:00, ג' 12:00-22:00, ד' 12:00-22:00, ה' 12:00-22:00, ו' 17:30-23:00, ש' 17:30-23:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmnEeFzuNcWuG3D02DtOPRjOn--JuCZArpAivvxmRzb_LGj5gcu-0lwTDSJJm1ik7a1yYfS9PEb12e10JiUbD4ISyqMAts8f_tCNvi630F3t92uaN0-0tnUYBux13BocIonXjT3QOzi--tT=w800-h500-k-no",
+    "hours": "ש' 17:30-23:00, א' 12:00-22:00, ב' 12:00-22:00, ג' 12:00-22:00, ד' 12:00-22:00, ה' 12:00-22:00, ו' 17:30-23:00",
     "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "17:30",
+      "to": "23:00"
+     },
      {
       "days": [
        0
@@ -55323,18 +55333,11 @@
       ],
       "from": "17:30",
       "to": "23:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "17:30",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
+    "date": "2026-08-29",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -60008,29 +60011,10 @@
    "geo_precision": null,
    "enrichment": {
     "address": "מזא\"ה 7, תל אביב-יפו, ישראל",
-    "hours": "ד' 07:30-20:00, ה' 07:30-20:00, ו' 07:30-16:00, ש' 09:00-16:00, א' 07:30-20:00, ב' 07:30-20:00, ג' 07:30-20:00",
+    "google_name": "תמוז Tamuz",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk3bq7lUuhxQe2RXW-nyN4x7bbC-pMbkZto2UThiG9YPWGHpr0NveNyLD0GUyGaYL3i5TU7eOy6atOeVo3_eJycicfjk-oG456tjLxFFuPU0v5Gep25guEN-HhHjTFbOPIvP69i=w800-h500-k-no",
+    "hours": "ש' 09:00-16:00, א' 07:30-20:00, ב' 07:30-20:00, ג' 07:30-20:00, ד' 07:30-20:00, ה' 07:30-20:00, ו' 07:30-16:00",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "07:30",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "07:30",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "07:30",
-      "to": "16:00"
-     },
      {
       "days": [
        6
@@ -60058,10 +60042,32 @@
       ],
       "from": "07:30",
       "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:30",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:30",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "07:30",
+      "to": "16:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-07-29"
+    "date": "2026-08-29",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -77081,11 +77087,18 @@
    "lon": 34.790694,
    "geo_precision": "address",
    "enrichment": {
-    "address": "שדרות שאול המלך 39, תל אביב-יפו, ישראל",
+    "address": "Sderot Sha'ul HaMelech 39, Tel Aviv-Yafo, ישראל",
     "google_name": "Zutt TLV - Pizza & Hub | פיצה זוט",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMPxBhF2p4G1iPB8pxmaFD4gt6HzRKfTDM2qYKVqLYlGGiQY4wZIovLJQAfTfSb27S3Uxl4v3fmnObJuGaitIxHJ51yy40zsJFaQ40CZUwm7HKUmpym9i5aIdbehYayKKZZYUGnkX6ENlb=w800-h500-p-k-no",
-    "hours": "א' 12:00-22:00, ב' 12:00-22:00, ג' 12:00-22:00, ד' 12:00-22:00, ה' 12:00-22:00, ו' 17:30-23:00, ש' 17:30-23:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmnEeFzuNcWuG3D02DtOPRjOn--JuCZArpAivvxmRzb_LGj5gcu-0lwTDSJJm1ik7a1yYfS9PEb12e10JiUbD4ISyqMAts8f_tCNvi630F3t92uaN0-0tnUYBux13BocIonXjT3QOzi--tT=w800-h500-k-no",
+    "hours": "ש' 17:30-23:00, א' 12:00-22:00, ב' 12:00-22:00, ג' 12:00-22:00, ד' 12:00-22:00, ה' 12:00-22:00, ו' 17:30-23:00",
     "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "17:30",
+      "to": "23:00"
+     },
      {
       "days": [
        0
@@ -77127,18 +77140,11 @@
       ],
       "from": "17:30",
       "to": "23:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "17:30",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
+    "date": "2026-08-29",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -106729,9 +106735,23 @@
    "enrichment": {
     "address": "רציף הרברט סמואל 3, תל אביב-יפו, ישראל",
     "google_name": "Chacoli",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwYqRGRxuK87hoQ1rp6THuWyPwbRn36OLZd1kghkrnpr8LyTy6rqdBR4A4IdK0vRrnJF9ej7NwshdZxQj2xRu7tv13efTWBgMD4haORr8hYGcCSH9Yzw-HrcAXzfAjQPeTr65HLe8A7Lwb=w800-h500-p-k-no",
-    "hours": "א' 18:00-23:00, ב' 12:00-16:00, 18:00-23:00, ג' 12:00-16:00, 18:00-23:00, ד' 12:00-16:00, 18:00-23:00, ה' 12:00-16:00, 18:00-23:00, ו' 12:00-23:00, ש' 12:00-23:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn5fmvr6PL9JrB64rHxdrPOEkHHpk0bNqU3DT7bZ7B7eliomr8JYZqmQXeXD2JhgdTgd5NJ9Z7cy2zd6L3q-S02VMLcm30LrnEgZ9alCg6gGUaas4PJSXeEr3ZKuh5co1fJHDXFXx-rThGN=w800-h500-k-no",
+    "hours": "ש' 12:00-23:00, א' 12:00-16:00, 18:00-23:00, ב' 12:00-16:00, 18:00-23:00, ג' 12:00-16:00, 18:00-23:00, ד' 12:00-16:00, 18:00-23:00, ה' 12:00-16:00, 18:00-23:00, ו' 12:00-23:00",
     "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "16:00"
+     },
      {
       "days": [
        0
@@ -106801,18 +106821,11 @@
       ],
       "from": "12:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "12:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-16",
-    "v": 2
+    "date": "2026-08-29",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -107491,54 +107504,57 @@
    "lon": null,
    "geo_precision": null,
    "enrichment": {
-    "address": "דיזנגוף 276, תל אביב-יפו, ישראל",
-    "hours": "א' 16:00-23:00, ב' 16:00-23:00, ג' 16:00-23:00, ד' 16:00-23:30, ה' 16:00-23:30, ו' סגור, ש' 15:00-23:30",
+    "address": "יהודה הלוי 45, תל אביב-יפו, 6515704, ישראל",
+    "google_name": "ברוקלין פיצה סניף יהודה הלוי",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlG_SH-RF_aPtVandO0DgqUX-2Sp_PCxEdx_awDRlSeKo0hPDOBHzEYlMVopAmlogoOUpSypO1_9AHY9IXbUFWcypGn2We6cqFxF36p5-Z9EOLFSuCj-P5G6yVvG6MEusZdLPUx=w800-h500-k-no",
+    "hours": "ש' 16:00-23:30, א' 09:30-23:30, ב' 09:30-23:30, ג' 09:30-23:30, ד' 09:30-23:30, ה' 09:30-01:00, ו' סגור",
     "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "16:00",
+      "to": "23:30"
+     },
      {
       "days": [
        0
       ],
-      "from": "16:00",
-      "to": "23:00"
+      "from": "09:30",
+      "to": "23:30"
      },
      {
       "days": [
        1
       ],
-      "from": "16:00",
-      "to": "23:00"
+      "from": "09:30",
+      "to": "23:30"
      },
      {
       "days": [
        2
       ],
-      "from": "16:00",
-      "to": "23:00"
+      "from": "09:30",
+      "to": "23:30"
      },
      {
       "days": [
        3
       ],
-      "from": "16:00",
+      "from": "09:30",
       "to": "23:30"
      },
      {
       "days": [
        4
       ],
-      "from": "16:00",
-      "to": "23:30"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "15:00",
-      "to": "23:30"
+      "from": "09:30",
+      "to": "01:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-29",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -146077,7 +146093,9 @@
   "Prof. Pnina Salzman, תל אביב-יפו, 6969000, ישראל, ישראל": null,
   "קדם 85, תל אביב-יפו, 6814331, ישראל, ישראל": null,
   "שוק האיכרים (שוק הנמל, נמל תל אביב 12, תל אביב-יפו, ישראל, ישראל": null,
-  "לשם, קרית גת, ישראל, ישראל": null
+  "לשם, קרית גת, ישראל, ישראל": null,
+  "Sderot Sha'ul HaMelech 39, Tel Aviv-Yafo, ישראל, ישראל": null,
+  "יהודה הלוי 45, תל אביב-יפו, 6515704, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-29T13:31:13.444651+03:00"
+ "last_google_run": "2026-08-29T16:54:36.333297+03:00"
 }
