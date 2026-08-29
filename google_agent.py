@@ -12,6 +12,7 @@ import random
 import re
 import sys
 import urllib.parse
+from difflib import SequenceMatcher
 from datetime import datetime
 
 from playwright.sync_api import sync_playwright
@@ -79,27 +80,68 @@ def parse_google_hours(rows):
 NAME_ECHO_ENABLED = True
 
 
+# מיפוי עברית -> עיצורים לטיניים, לזיהוי תעתיק (ויטרינה <-> Vitrina).
+# ו' עברית היא גם עיצור (v) וגם תנועה (o/u), ולכן נבנים שני שלדים.
+_HEB2LAT = {'א':'', 'ע':'', 'ה':'', 'י':'', 'ב':'b', 'ג':'g', 'ד':'d', 'ז':'s',
+            'ח':'h', 'ט':'t', 'כ':'k', 'ך':'k', 'ל':'l', 'מ':'m', 'ם':'m',
+            'נ':'n', 'ן':'n', 'ס':'s', 'פ':'p', 'ף':'p', 'צ':'c', 'ץ':'c',
+            'ק':'k', 'ר':'r', 'ש':'s', 'ת':'t'}
+_LAT_EQUIV = {'v':'b', 'f':'p', 'k':'c', 'q':'c', 'z':'s', 'w':'b', 'g':'k'}
+_NOT_NAME_STARTERS = {"האם", "איך", "למה", "מה", "כמה", "מתי", "איפה", "זה", "אלה"}
+
+
 def _norm_name(s):
     return re.sub(r"[^a-zא-ת0-9]+", " ", (s or "").lower()).strip()
 
 
+def _skeletons(s):
+    """שני שלדי עיצורים: אחד שבו ו'=v ואחד שבו היא תנועה."""
+    outs = [[], []]
+    for ch in _norm_name(s):
+        if ch == "ו":
+            outs[0].append("v"); outs[1].append("")
+        elif ch in _HEB2LAT:
+            outs[0].append(_HEB2LAT[ch]); outs[1].append(_HEB2LAT[ch])
+        elif ch.isalpha() and ch not in "aeiouy":
+            outs[0].append(ch); outs[1].append(ch)
+    res = set()
+    for o in outs:
+        t = "".join(_LAT_EQUIV.get(c, c) for c in "".join(o))
+        res.add(re.sub(r"(.)+", r"", t))   # מכווץ אותיות כפולות
+    return res
+
+
+def looks_like_place_name(name):
+    """שם שהוא משפט ('האם הנשנוש הישראלי') אינו שם מקום."""
+    words = _norm_name(name).split()
+    return bool(words) and words[0] not in _NOT_NAME_STARTERS and len(words) <= 5
+
+
 def name_echoes(ours, candidates):
-    """האם השם שחיפשנו חוזר באחת מתוצאות גוגל."""
+    """האם השם שחיפשנו חוזר באחת מתוצאות גוגל — כולל תעתיק לועזי."""
     a = _norm_name(ours)
     if len(a) < 2:
         return False
+    sa = _skeletons(ours)
+    aw = {w for w in a.split() if len(w) > 2}
     for cand in candidates:
         b = _norm_name(cand)
         if not b:
             continue
         if a in b or b in a:
             return True
-        if len(a) >= 4 and b.startswith(a[:4]):
+        if aw & {w for w in b.split() if len(w) > 2}:
             return True
+        for x in sa:
+            for y in _skeletons(cand):
+                if len(x) >= 3 and (x in y or y in x):
+                    return True
+                if len(x) >= 3 and len(y) >= 3 and                         SequenceMatcher(None, x, y).ratio() >= 0.72:
+                    return True
     return False
 
 
-def scrape_place(page, query):
+def scrape_place(page, query, place_name=None):
     """מחזיר dict עם מה שנמצא, או None אם גוגל חסמה."""
     url = "https://www.google.com/maps/search/" + urllib.parse.quote(query) + "?hl=he"
     page.goto(url, timeout=45000, wait_until="domcontentloaded")
@@ -120,7 +162,7 @@ def scrape_place(page, query):
         names = [(el.get_attribute("aria-label") or "").strip() for el in links]
         names = [n for n in names if n]
         result["result_names"] = names
-        base = query.split(" ")[0] if " " in query else query
+        base = place_name or query
         if NAME_ECHO_ENABLED and names:
             result["name_echo"] = name_echoes(base, names)
             if result["name_echo"]:
@@ -326,7 +368,7 @@ def main():
             lead = group[0]
             query = build_query(lead)
             try:
-                found = scrape_place(page, query)
+                found = scrape_place(page, query, lead["name"])
             except Exception as exc:
                 print(f"  ERR {lead['name'][:22]}: {type(exc).__name__}")
                 continue
@@ -351,7 +393,7 @@ def main():
             if not found.get("address") and not found.get("hours"):
                 # רישום הניסיון הכושל, כדי לא לחזור עליו כל ריצה
                 for card in group:
-                    if found.get("name_echo") is False:
+                    if found.get("name_echo") is False and looks_like_place_name(card["name"]):
                         card["not_a_place"] = True   # גוגל הציגה תוצאות, אף אחת לא בשם שלנו
                     miss = card.get("google_miss") or {"tries": 0}
                     miss["tries"] = miss.get("tries", 0) + 1
