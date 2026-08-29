@@ -10,13 +10,15 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: נקודת קצה 1 (azure)
+      - name: מה הפעולה הרשמית מציעה
         continue-on-error: true
-        run: python ai_test.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AI_ENDPOINT: https://models.inference.ai.azure.com/chat/completions
-          AI_MODEL: gpt-4o-mini
+        uses: actions/ai-inference@v1
+        id: ai
+        with:
+          prompt: 'בכתבת אוכל הוזכר "ויטרינה". בגוגל נמצא "Vitrina" באבן גבירול 36 תל אביב. אותו מקום? ענה כן או לא.'
+      - name: תוצאה
+        continue-on-error: true
+        run: echo "תשובת המודל = ${{ steps.ai.outputs.response }}"
       - name: נקודת קצה 2 (models.github.ai)
         continue-on-error: true
         run: python ai_test.py
