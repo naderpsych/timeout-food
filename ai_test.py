@@ -5,6 +5,8 @@ for s in (sys.stdout, sys.stderr):
     if hasattr(s,"reconfigure"): s.reconfigure(encoding="utf-8", errors="replace")
 
 TOKEN = os.environ["GITHUB_TOKEN"]
+ENDPOINT = os.environ.get("AI_ENDPOINT", "https://models.inference.ai.azure.com/chat/completions")
+MODEL = os.environ.get("AI_MODEL", "gpt-4o-mini")
 PAIRS = [
     ("ויטרינה", "Vitrina", "אבן גבירול 36, תל אביב", "כן"),
     ("קאסה מאיה", "CASMAYA", "שדרות רוטשילד 24, תל אביב", "כן"),
@@ -18,10 +20,10 @@ def ask(ours, theirs, addr):
     prompt = (f'בכתבת אוכל הוזכר מקום בשם "{ours}". בגוגל מפות נמצא עסק בשם '
               f'"{theirs}" בכתובת {addr}. האם זה אותו מקום? '
               f'שים לב שהשם עשוי להיות בתעתיק לועזי. ענה מילה אחת: כן או לא.')
-    body = json.dumps({"model": "openai/gpt-4o-mini",
+    body = json.dumps({"model": MODEL,
                        "messages": [{"role":"user","content":prompt}],
                        "temperature": 0}).encode()
-    req = urllib.request.Request("https://models.github.ai/inference/chat/completions",
+    req = urllib.request.Request(ENDPOINT,
         data=body, headers={"Authorization": f"Bearer {TOKEN}",
                             "Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=45) as r:

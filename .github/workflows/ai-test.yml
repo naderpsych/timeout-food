@@ -10,6 +10,17 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: python ai_test.py
+      - name: נקודת קצה 1 (azure)
+        continue-on-error: true
+        run: python ai_test.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_ENDPOINT: https://models.inference.ai.azure.com/chat/completions
+          AI_MODEL: gpt-4o-mini
+      - name: נקודת קצה 2 (models.github.ai)
+        continue-on-error: true
+        run: python ai_test.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_ENDPOINT: https://models.github.ai/inference/chat/completions
+          AI_MODEL: openai/gpt-4o-mini
