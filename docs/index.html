@@ -81,33 +81,38 @@
     background: var(--card); color: var(--text); font-size: 1rem; margin-bottom: 10px;
   }
   #search:focus { outline: 2px solid var(--accent); border-color: transparent; }
-  /* בחירה ברורה בין GPS להקלדת כתובת */
-  #gpsBtn {
-    width: 100%; display: flex; align-items: center; justify-content: center; gap: 7px;
-    border: 1px solid var(--accent); background: var(--accent-soft); color: var(--accent);
-    border-radius: 12px; padding: 12px 15px; cursor: pointer;
-    font-size: .95rem; font-weight: 700; font-family: inherit; margin-bottom: 10px;
+  /* שדה כתובת אחד; בלחיצה נפתחת רשימה עם GPS וחיפושים אחרונים */
+  .addr-wrap { position: relative; margin-bottom: 10px; }
+  #addrMenu {
+    position: absolute; inset-inline: 0; top: calc(100% + 6px); z-index: 30;
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    box-shadow: 0 6px 22px rgba(0,0,0,.14); overflow: hidden;
   }
-  #gpsBtn:hover { background: var(--accent); color: #fff; }
-  #gpsBtn:disabled { opacity: .6; cursor: wait; }
-  .geo-or {
-    display: flex; align-items: center; gap: 10px;
-    color: var(--muted); font-size: .8rem; margin-bottom: 10px;
+  #addrMenu[hidden] { display: none; }
+  .addr-opt {
+    width: 100%; display: flex; align-items: center; gap: 11px; text-align: start;
+    border: none; background: none; color: var(--text); cursor: pointer;
+    padding: 11px 14px; font-family: inherit; font-size: .9rem;
   }
-  .geo-or::before, .geo-or::after {
-    content: ""; flex: 1; height: 1px; background: var(--border);
+  .addr-opt:hover { background: var(--chip); }
+  .addr-opt .ico { font-size: 1.05rem; color: var(--accent); flex-shrink: 0; }
+  .addr-opt .txt { display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
+  .addr-opt .txt small { color: var(--muted); font-size: .76rem; }
+  .addr-opt .txt b { font-weight: 600; }
+  .addr-opt.gps { border-bottom: 1px solid var(--border); }
+  .addr-recent-title {
+    color: var(--muted); font-size: .74rem; font-weight: 700;
+    padding: 9px 14px 4px;
   }
-  .geo-row { display: flex; gap: 8px; margin-bottom: 10px; }
+  .addr-opt .del {
+    margin-inline-start: auto; color: var(--muted); font-size: .95rem;
+    padding: 0 4px; flex-shrink: 0;
+  }
   #addr {
-    flex: 1; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+    width: 100%; padding: 12px 15px; border-radius: 12px; border: 1px solid var(--border);
     background: var(--card); color: var(--text); font-size: .92rem; min-width: 0;
   }
   #addr:focus { outline: 2px solid var(--accent); border-color: transparent; }
-  #geoBtn {
-    border: none; background: var(--accent); color: #fff; border-radius: 12px;
-    padding: 10px 16px; cursor: pointer; font-size: .9rem; font-weight: 600; white-space: nowrap;
-  }
-  #geoBtn:disabled { opacity: .6; cursor: wait; }
   #geoStatus {
     display: inline-flex; align-items: center; gap: 8px; margin-bottom: 10px;
     background: var(--new-bg); color: var(--new); border-radius: 12px;
@@ -371,12 +376,17 @@
 
   <button id="searchToggle" hidden><span>🔎</span><span class="st-text">חיפוש מסעדה או מנה · מיון לפי כתובת</span><span class="st-chev">▾</span></button>
   <div id="searchBox">
-    <input id="search" type="search" placeholder="חיפוש מקום, מנה, שף, רחוב...">
-    <button id="gpsBtn">📍 מיין לפי המיקום שלי עכשיו</button>
-    <div class="geo-or"><span>או לפי כתובת</span></div>
-    <div class="geo-row">
-      <input id="addr" type="text" placeholder="דיזנגוף 100 תל אביב">
-      <button id="geoBtn">מיין</button>
+    <input id="search" type="search" placeholder="חיפוש מסעדה, מנה, שף או רחוב...">
+    <div class="addr-wrap">
+      <input id="addr" type="text" autocomplete="off"
+             placeholder="📍 מיין לפי קרבה — כתובת או המיקום שלי">
+      <div id="addrMenu" hidden>
+        <button class="addr-opt gps" id="gpsOpt">
+          <span class="ico">◎</span>
+          <span class="txt"><b>השתמש במיקום שלי</b><small>מיון לפי מרחק ממך עכשיו</small></span>
+        </button>
+        <div id="addrRecent"></div>
+      </div>
     </div>
     <div id="geoStatus" hidden></div>
   </div>
@@ -552,29 +562,66 @@ chipsToggle.onclick = () => {
   chipsToggle.textContent = collapsed ? "עוד ▾" : "פחות ▴";
 };
 
-// --- חיפוש לפי כתובת (OpenStreetMap Nominatim) ---
+// --- מיון לפי קרבה: שדה אחד עם תפריט (מיקום נוכחי + חיפושים אחרונים) ---
 const addrInput = document.getElementById("addr");
-const geoBtn = document.getElementById("geoBtn");
-geoBtn.onclick = locateAddress;
-addrInput.onkeydown = e => { if (e.key === "Enter") locateAddress(); };
+const addrMenu = document.getElementById("addrMenu");
+const addrRecentBox = document.getElementById("addrRecent");
+let recentAddrs = JSON.parse(localStorage.getItem("recentAddrs") || "[]");
+
+function saveRecent(q) {
+  recentAddrs = [q, ...recentAddrs.filter(x => x !== q)].slice(0, 5);
+  localStorage.setItem("recentAddrs", JSON.stringify(recentAddrs));
+}
+function removeRecent(q) {
+  recentAddrs = recentAddrs.filter(x => x !== q);
+  localStorage.setItem("recentAddrs", JSON.stringify(recentAddrs));
+  buildRecent();
+}
+function buildRecent() {
+  const typed = addrInput.value.trim();
+  const list = recentAddrs.filter(a => !typed || a.includes(typed));
+  addrRecentBox.innerHTML = list.length
+    ? '<div class="addr-recent-title">חיפושים אחרונים</div>' + list.map(a =>
+        `<button class="addr-opt recent" data-addr="${esc(a)}">
+           <span class="ico">🕐</span><span class="txt">${esc(a)}</span>
+           <span class="del" data-del="${esc(a)}" title="הסר">✕</span>
+         </button>`).join("")
+    : "";
+}
+function openAddrMenu() { buildRecent(); addrMenu.hidden = false; }
+function closeAddrMenu() { addrMenu.hidden = true; }
+
+addrInput.addEventListener("focus", openAddrMenu);
+addrInput.addEventListener("input", buildRecent);
+addrInput.addEventListener("keydown", e => {
+  if (e.key === "Enter") { closeAddrMenu(); locateAddress(); }
+  if (e.key === "Escape") closeAddrMenu();
+});
+document.addEventListener("click", e => {
+  if (!e.target.closest(".addr-wrap")) closeAddrMenu();
+});
+addrMenu.addEventListener("click", e => {
+  const del = e.target.closest("[data-del]");
+  if (del) { e.stopPropagation(); removeRecent(del.dataset.del); return; }
+  const opt = e.target.closest(".addr-opt.recent");
+  if (opt) { addrInput.value = opt.dataset.addr; closeAddrMenu(); locateAddress(); }
+});
+document.getElementById("gpsOpt").onclick = () => { closeAddrMenu(); useMyLocation(); };
 
 function geoStatusEl() { return document.getElementById("geoStatus"); }
 
 // --- מיון לפי המיקום הנוכחי (GPS של הדפדפן) ---
-const gpsBtn = document.getElementById("gpsBtn");
-gpsBtn.onclick = () => {
+function useMyLocation() {
   if (!navigator.geolocation) {
     showGeoStatus("הדפדפן הזה לא תומך באיתור מיקום", true);
     return;
   }
-  gpsBtn.disabled = true;
-  gpsBtn.textContent = "מאתר את המיקום שלך...";
+  showGeoStatus("מאתר את המיקום שלך...");
   navigator.geolocation.getCurrentPosition(
     pos => {
       geoPoint = { lat: pos.coords.latitude, lon: pos.coords.longitude, label: "המיקום שלך" };
       addrInput.value = "";
       showGeoStatus("ממוין לפי המיקום שלך עכשיו 📍");
-      resetGpsBtn();
       rerender();
     },
     err => {
@@ -582,20 +629,15 @@ gpsBtn.onclick = () => {
         ? "לא ניתן אישור למיקום. אפשר לאשר בהגדרות הדפדפן, או להקליד כתובת."
         : "לא הצלחתי לאתר את המיקום. נסה שוב או הקלד כתובת.";
       showGeoStatus(msg, true);
-      resetGpsBtn();
     },
     { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 }
   );
-};
-function resetGpsBtn() {
-  gpsBtn.disabled = false;
-  gpsBtn.textContent = "📍 מיין לפי המיקום שלי עכשיו";
 }
 
 async function locateAddress() {
   const q = addrInput.value.trim();
   if (!q) return;
-  geoBtn.disabled = true; geoBtn.textContent = "מאתר...";
+  showGeoStatus("מאתר את הכתובת...");
   try {
     const url = "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=il&accept-language=he&q="
       + encodeURIComponent(q);
@@ -605,13 +647,13 @@ async function locateAddress() {
       geoPoint = null;
     } else {
       geoPoint = { lat: +res[0].lat, lon: +res[0].lon, label: q };
+      saveRecent(q);
       showGeoStatus("ממוין לפי קרבה אל: " + q);
     }
   } catch {
     showGeoStatus("שירות הכתובות לא זמין כרגע, נסה שוב עוד רגע", true);
     geoPoint = null;
   }
-  geoBtn.disabled = false; geoBtn.textContent = "מיין לפי קרבה";
   rerender();
 }
 
