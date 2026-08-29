@@ -611,11 +611,20 @@ document.getElementById("gpsOpt").onclick = () => { closeAddrMenu(); useMyLocati
 function geoStatusEl() { return document.getElementById("geoStatus"); }
 
 // --- מיון לפי המיקום הנוכחי (GPS של הדפדפן) ---
-function useMyLocation() {
+async function useMyLocation() {
   if (!navigator.geolocation) {
     showGeoStatus("הדפדפן הזה לא תומך באיתור מיקום", true);
     return;
   }
+  // אם ההרשאה נחסמה בעבר הדפדפן לא ישאל שוב — מסבירים איך לפתוח אותה
+  try {
+    const st = await navigator.permissions.query({ name: "geolocation" });
+    if (st.state === "denied") {
+      showGeoStatus("הגישה למיקום חסומה. בטלפון: הקש על 🔒 ליד כתובת האתר ← " +
+                    "הרשאות ← מיקום ← אפשר. או פשוט הקלד כתובת כאן.", true);
+      return;
+    }
+  } catch { /* דפדפנים ישנים — ממשיכים ישר לבקשה */ }
   showGeoStatus("מאתר את המיקום שלך...");
   navigator.geolocation.getCurrentPosition(
     pos => {
@@ -626,7 +635,7 @@ function useMyLocation() {
     },
     err => {
       const msg = err.code === err.PERMISSION_DENIED
-        ? "לא ניתן אישור למיקום. אפשר לאשר בהגדרות הדפדפן, או להקליד כתובת."
+        ? "לא אישרת את הגישה למיקום. אפשר להקיש שוב ולאשר, או להקליד כתובת."
         : "לא הצלחתי לאתר את המיקום. נסה שוב או הקלד כתובת.";
       showGeoStatus(msg, true);
     },
