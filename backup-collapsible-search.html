@@ -317,7 +317,9 @@
     .chips.collapsed .chip:nth-child(n+4) { display: none; }
     .period-row { display: none; }   /* סינון תאריך — במחשב בלבד */
     /* אזור: הכפתור האדום הוא תפריט — לחיצה עליו פותחת את שאר האזורים */
-    #searchToggle { display: none; }   /* שני השדות מוצגים ישר */
+    #searchToggle { display: flex; }
+    #searchBox { display: none; }
+    #searchBox.open { display: block; }
     .tabs { position: relative; flex-direction: column; align-items: stretch; gap: 0; }
     .tabs .tab { width: 100%; text-align: start; }
     .tabs.collapsed .tab:not(.active) { display: none; }
