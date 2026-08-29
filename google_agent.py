@@ -67,6 +67,38 @@ def parse_google_hours(rows):
     return (segments or None), (", ".join(human) if human else None)
 
 
+# ============================================================
+#  כלל "שם חוזר" (NAME_ECHO)
+#  ------------------------------------------------------------
+#  כשגוגל מציגה רשימת תוצאות במקום מקום יחיד, בודקים אם השם
+#  שחיפשנו חוזר בשמות התוצאות:
+#    "רולדין"  -> רולדין / רולדין רוטשילד ...  => מקום אמיתי (רשת)
+#    "עוואמה"  -> The Old Man and the Sea      => לא מקום, גוגל ניחשה
+#  כדי לבטל את הכלל: NAME_ECHO_ENABLED = False
+# ============================================================
+NAME_ECHO_ENABLED = True
+
+
+def _norm_name(s):
+    return re.sub(r"[^a-zא-ת0-9]+", " ", (s or "").lower()).strip()
+
+
+def name_echoes(ours, candidates):
+    """האם השם שחיפשנו חוזר באחת מתוצאות גוגל."""
+    a = _norm_name(ours)
+    if len(a) < 2:
+        return False
+    for cand in candidates:
+        b = _norm_name(cand)
+        if not b:
+            continue
+        if a in b or b in a:
+            return True
+        if len(a) >= 4 and b.startswith(a[:4]):
+            return True
+    return False
+
+
 def scrape_place(page, query):
     """מחזיר dict עם מה שנמצא, או None אם גוגל חסמה."""
     url = "https://www.google.com/maps/search/" + urllib.parse.quote(query) + "?hl=he"
@@ -78,18 +110,41 @@ def scrape_place(page, query):
         return None
 
     result = {}
+
+    # אם גוגל הציגה רשימת תוצאות (רשת עם סניפים) — מחילים את כלל "שם חוזר"
+    # ונכנסים לתוצאה התואמת, כדי שהכתובת והשעות ייקראו ממנה ולא מהרשימה.
+    h1 = page.query_selector("h1")
+    title = h1.inner_text().strip() if h1 else ""
+    if title == "תוצאות" or not title:
+        links = page.query_selector_all('a[href*="/maps/place/"]')[:10]
+        names = [(el.get_attribute("aria-label") or "").strip() for el in links]
+        names = [n for n in names if n]
+        result["result_names"] = names
+        base = query.split(" ")[0] if " " in query else query
+        if NAME_ECHO_ENABLED and names:
+            result["name_echo"] = name_echoes(base, names)
+            if result["name_echo"]:
+                for el in links:
+                    label = (el.get_attribute("aria-label") or "").strip()
+                    if label and name_echoes(base, [label]):
+                        try:
+                            el.click(timeout=5000)
+                            page.wait_for_timeout(3500)
+                        except Exception:
+                            pass
+                        break
+
+    # השם הרשמי של העסק (נקרא אחרי כניסה לתוצאה, אם הייתה רשימה)
+    h1 = page.query_selector("h1")
+    title = h1.inner_text().strip() if h1 else ""
+    if title and title != "תוצאות" and len(title) < 60:
+        result["google_name"] = title
+
     el = page.query_selector('button[data-item-id="address"]')
     if el:
-        addr = el.inner_text().strip().split("\n")[-1].strip()
+        addr = el.inner_text().strip().split(chr(10))[-1].strip()
         if addr:
             result["address"] = addr
-
-    # השם הרשמי של העסק בגוגל — משמש לתיקון שמות שבורים
-    h1 = page.query_selector("h1")
-    if h1:
-        gname = h1.inner_text().strip()
-        if gname and len(gname) < 60:
-            result["google_name"] = gname
 
     # תמונת המקום — בוחרים את הגדולה ביותר, ומעלים את הרזולוציה בכתובת עצמה
     # (גוגל מקודדת את הגודל בסוף ה-URL, למשל "=w32-h32" -> "=w800-h500")
@@ -284,9 +339,20 @@ def main():
                 print(f"  ✗   {lead['name'][:20]} (גוגל החזירה {found['address'][:26]} — עיר אחרת)")
                 found = {"closed_permanently": False}
 
+            # כלל "שם חוזר": גוגל הראתה סניפים בשם שחיפשנו — המקום אמיתי,
+            # גם אם לא הצלחנו לשלוף ממנו כתובת. לא מסמנים ככישלון.
+            if found.get("name_echo") and not found.get("address") and not found.get("hours"):
+                for card in group:
+                    card.pop("google_miss", None)
+                    card["place_verified"] = "name_echo"
+                print(f"  ~   {lead['name'][:20]} (אומת לפי שם חוזר, בלי פרטים)")
+                continue
+
             if not found.get("address") and not found.get("hours"):
                 # רישום הניסיון הכושל, כדי לא לחזור עליו כל ריצה
                 for card in group:
+                    if found.get("name_echo") is False:
+                        card["not_a_place"] = True   # גוגל הציגה תוצאות, אף אחת לא בשם שלנו
                     miss = card.get("google_miss") or {"tries": 0}
                     miss["tries"] = miss.get("tries", 0) + 1
                     miss["last"] = datetime.now(TZ).isoformat()
