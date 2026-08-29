@@ -173,9 +173,45 @@ def needs_enrichment(card):
     return _retry_due(card)
 
 
+CITY_EN = {
+    "תל אביב": "tel aviv", "חיפה": "haifa", "ירושלים": "jerusalem",
+    "רמת גן": "ramat gan", "גבעתיים": "givatayim", "הרצליה": "herzliya",
+    "רמת השרון": "ramat hasharon", "בת ים": "bat yam", "חולון": "holon",
+    "באר שבע": "beer sheva", "נתניה": "netanya", "רעננה": "raanana",
+    "פתח תקווה": "petah tikva", "ראשון לציון": "rishon", "בני ברק": "bnei brak",
+}
+
+
 def build_query(card):
+    """שם + שכונה (אם יש) + עיר. בלי לשתול 'לא צוין' בתוך החיפוש."""
+    parts = [card["name"]]
+    loc = card.get("location")
+    if loc and loc != NOT_SPECIFIED:
+        parts.append(loc)
     city = card["city"] if card["city"] != NOT_SPECIFIED else "תל אביב"
-    return f"{card['name']} {city}"
+    if city not in " ".join(parts):
+        parts.append(city)
+    return " ".join(parts)
+
+
+def city_conflicts(card, address):
+    """התשובה של גוגל בעיר אחרת מזו שבכתבה = עסק אחר, לא לקחת.
+    רחוב שונה באותה עיר דווקא כן מתקבל — המקום כנראה עבר."""
+    if not address or card["city"] == NOT_SPECIFIED:
+        return False
+    addr = address.lower()
+    flat = address.replace(" ", "").replace("-", "")
+    if card["city"].replace(" ", "") in flat:
+        return False
+    en = CITY_EN.get(card["city"])
+    if en and en in addr:
+        return False
+    # כתובת בלי שום שם עיר (רק "ישראל") — אין ראיה, לא פוסלים
+    body = address.replace("ישראל", "")
+    if not re.search(r"[א-ת]{3,}", body) and not any(v in addr for v in CITY_EN.values()):
+        return False
+    # כתובת שאינה בישראל
+    return True
 
 
 SENTENCE_WORDS = {"של", "את", "עם", "אצל", "כדי", "היא", "הוא", "הם", "שגדלו", "חוזרים",
@@ -243,6 +279,11 @@ def main():
                 blocked += 1
                 print(f"  BLOCKED at {lead['name'][:22]} — עוצר, ננסה בריצה הבאה")
                 break
+            # תשובה מעיר אחרת = עסק אחר. מוותרים עליה ומשאירים את מידע הכתבה.
+            if found.get("address") and city_conflicts(lead, found["address"]):
+                print(f"  ✗   {lead['name'][:20]} (גוגל החזירה {found['address'][:26]} — עיר אחרת)")
+                found = {"closed_permanently": False}
+
             if not found.get("address") and not found.get("hours"):
                 # רישום הניסיון הכושל, כדי לא לחזור עליו כל ריצה
                 for card in group:
