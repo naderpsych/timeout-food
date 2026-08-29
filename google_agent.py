@@ -146,11 +146,31 @@ def scrape_place(page, query):
 ENRICH_VERSION = 3
 
 
+# מרווחי ניסיון חוזר למקום שלא נמצא בגוגל: מסעדה חדשה נרשמת תוך ימים,
+# דוכן זמני לא יירשם לעולם — לכן המרווח גדל בהדרגה במקום לנסות כל 6 שעות.
+RETRY_DAYS = [3, 14, 30]
+
+
+def _retry_due(card):
+    miss = card.get("google_miss")
+    if not miss:
+        return True
+    tries = miss.get("tries", 1)
+    wait = RETRY_DAYS[min(tries, len(RETRY_DAYS)) - 1]
+    try:
+        last = datetime.fromisoformat(miss["last"])
+    except Exception:
+        return True
+    return (datetime.now(TZ) - last).days >= wait
+
+
 def needs_enrichment(card):
     enr = card.get("enrichment") or {}
     if enr.get("source") == "גוגל":
         return enr.get("v", 1) < ENRICH_VERSION
-    return card.get("hours") == NOT_SPECIFIED or card.get("location") == NOT_SPECIFIED
+    if card.get("hours") != NOT_SPECIFIED and card.get("location") != NOT_SPECIFIED:
+        return False
+    return _retry_due(card)
 
 
 def build_query(card):
@@ -204,6 +224,7 @@ def main():
     # "טלאי" נפרד: מאפשר להחיל את התוצאות על גרסה עדכנית של data.json
     # גם אם מישהו אחר עדכן אותה בינתיים (מונע התנגשויות git)
     patch = {}
+    misses = {}
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
@@ -223,7 +244,14 @@ def main():
                 print(f"  BLOCKED at {lead['name'][:22]} — עוצר, ננסה בריצה הבאה")
                 break
             if not found.get("address") and not found.get("hours"):
-                print(f"  -   {lead['name'][:22]} (לא נמצא בגוגל)")
+                # רישום הניסיון הכושל, כדי לא לחזור עליו כל ריצה
+                for card in group:
+                    miss = card.get("google_miss") or {"tries": 0}
+                    miss["tries"] = miss.get("tries", 0) + 1
+                    miss["last"] = datetime.now(TZ).isoformat()
+                    card["google_miss"] = miss
+                    misses["|".join(place_key(card))] = miss
+                print(f"  -   {lead['name'][:22]} (לא נמצא, ניסיון {group[0]['google_miss']['tries']})")
                 continue
             enr = {k: v for k, v in found.items() if k != "closed_permanently"}
             enr["source"] = "גוגל"
@@ -242,6 +270,7 @@ def main():
                 coords = geocode(found["address"] + ", ישראל", geocache)
             # אותו מידע חל על כל הכרטיסים של אותה מסעדה
             for card in group:
+                card.pop("google_miss", None)
                 card["enrichment"] = enr
                 card["closed_permanently"] = found["closed_permanently"]
                 if coords and card.get("lat") is None:
@@ -259,7 +288,8 @@ def main():
     data["last_google_run"] = datetime.now(TZ).isoformat()
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA_PATH.parent.parent / "enrich_patch.json").write_text(
-        json.dumps({"geocache": geocache, "places": patch}, ensure_ascii=False, indent=1),
+        json.dumps({"geocache": geocache, "places": patch, "misses": misses},
+                   ensure_ascii=False, indent=1),
         encoding="utf-8")
     remaining = sum(1 for c in data["cards"] if needs_enrichment(c))
     print(f"\nfilled {filled}, blocked {blocked}, remaining {remaining}")

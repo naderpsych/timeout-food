@@ -23,7 +23,9 @@ def main():
         return
     patch = json.loads(PATCH_PATH.read_text(encoding="utf-8"))
     places = patch.get("places", {})
-    if not places:
+    misses = {tuple(k.split("|", 1)) if isinstance(k, str) else k: v
+              for k, v in (patch.get("misses") or {}).items()}
+    if not places and not misses:
         print("הטלאי ריק")
         return
 
@@ -34,6 +36,7 @@ def main():
         entry = places.get(key)
         if not entry:
             continue
+        card.pop("google_miss", None)
         card["enrichment"] = entry["enrichment"]
         card["closed_permanently"] = entry["closed_permanently"]
         coords = entry.get("coords")
@@ -42,11 +45,19 @@ def main():
             card["geo_precision"] = "address"
         applied += 1
 
+    # סימוני "נוסה ולא נמצא" — כדי שלא ננסה שוב כל ריצה
+    applied_miss = 0
+    for card in data["cards"]:
+        k = (card["name"].strip().lower(), card["city"])
+        if k in misses and not (card.get("enrichment") or {}).get("source"):
+            card["google_miss"] = misses[k]
+            applied_miss += 1
+
     cache = data.setdefault("geocache", {})
     cache.update(patch.get("geocache", {}))
     data["last_google_run"] = datetime.now(TZ).isoformat()
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"הוחל על {applied} כרטיסים ({len(places)} מקומות)")
+    print(f"הוחל על {applied} כרטיסים ({len(places)} מקומות), ו-{applied_miss} סומנו כלא-נמצאו")
 
 
 if __name__ == "__main__":

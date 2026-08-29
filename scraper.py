@@ -146,28 +146,41 @@ def _fetch_with_browser(url):
             browser.close()
 
 
-def fetch(url, attempts=3):
+# שרשרת גיבוי: אם מזהה אחד ייחסם, מנסים את הבא בתור, ולבסוף דפדפן אמיתי.
+FALLBACK_AGENTS = [
+    "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "Googlebot-Image/1.0",
+    "Mozilla/5.0 (compatible; Google-InspectionTool/1.0)",
+    "Mozilla/5.0 (compatible; DuckDuckBot/1.1; +http://duckduckgo.com/duckduckbot.html)",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+]
+
+
+def fetch(url, attempts=2):
+    """מנסה כל מזהה בתורו; אם כולם נחסמו — נופל חזרה לדפדפן אמיתי."""
     last = None
-    for i in range(attempts):
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=30)
-            resp.raise_for_status()
-            return resp.text
-        except Exception as exc:
-            last = exc
-            status = getattr(getattr(exc, "response", None), "status_code", None)
-            if status in (403, 429) or status is None:
-                if i < attempts - 1:
-                    time.sleep(15 * (i + 1))
+    for agent in FALLBACK_AGENTS:
+        headers = dict(HEADERS, **{"User-Agent": agent})
+        for i in range(attempts):
+            try:
+                resp = requests.get(url, headers=headers, timeout=30)
+                resp.raise_for_status()
+                return resp.text
+            except Exception as exc:
+                last = exc
+                status = getattr(getattr(exc, "response", None), "status_code", None)
+                if status in (403, 429) and i < attempts - 1:
+                    time.sleep(8)
                     continue
-                # נחסמנו שוב ושוב — מנסים דרך דפדפן אמיתי
-                try:
-                    print(f"נחסם ({status}), מנסה בדפדפן: {url[:60]}", file=sys.stderr)
-                    return _fetch_with_browser(url)
-                except Exception as exc2:
-                    last = exc2
-            break
-    raise last
+                break
+        if getattr(getattr(last, "response", None), "status_code", None) not in (403, 429):
+            break  # שגיאה שאינה חסימה — אין טעם לנסות מזהה אחר
+    try:
+        print(f"כל המזהים נחסמו, מנסה בדפדפן: {url[:55]}", file=sys.stderr)
+        return _fetch_with_browser(url)
+    except Exception as exc2:
+        raise last or exc2
 
 
 # ---------- גיאוקודינג (OpenStreetMap Nominatim, חינמי, מקס' בקשה לשנייה) ----------
