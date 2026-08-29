@@ -606,25 +606,18 @@ addrMenu.addEventListener("click", e => {
   const opt = e.target.closest(".addr-opt.recent");
   if (opt) { addrInput.value = opt.dataset.addr; closeAddrMenu(); locateAddress(); }
 });
-document.getElementById("gpsOpt").onclick = () => { closeAddrMenu(); useMyLocation(); };
+document.getElementById("gpsOpt").onclick = () => { useMyLocation(); closeAddrMenu(); };
 
 function geoStatusEl() { return document.getElementById("geoStatus"); }
 
 // --- מיון לפי המיקום הנוכחי (GPS של הדפדפן) ---
-async function useMyLocation() {
+function useMyLocation() {
   if (!navigator.geolocation) {
     showGeoStatus("הדפדפן הזה לא תומך באיתור מיקום", true);
     return;
   }
-  // אם ההרשאה נחסמה בעבר הדפדפן לא ישאל שוב — מסבירים איך לפתוח אותה
-  try {
-    const st = await navigator.permissions.query({ name: "geolocation" });
-    if (st.state === "denied") {
-      showGeoStatus("הגישה למיקום חסומה. בטלפון: הקש על 🔒 ליד כתובת האתר ← " +
-                    "הרשאות ← מיקום ← אפשר. או פשוט הקלד כתובת כאן.", true);
-      return;
-    }
-  } catch { /* דפדפנים ישנים — ממשיכים ישר לבקשה */ }
+  // הבקשה יוצאת מיד בלחיצה — כך הדפדפן מציג את חלונית ההרשאה.
+  // כל בדיקה לפני כן שוברת את הקשר ללחיצה והחלונית לא תופיע.
   showGeoStatus("מאתר את המיקום שלך...");
   navigator.geolocation.getCurrentPosition(
     pos => {
@@ -634,12 +627,18 @@ async function useMyLocation() {
       rerender();
     },
     err => {
-      const msg = err.code === err.PERMISSION_DENIED
-        ? "לא אישרת את הגישה למיקום. אפשר להקיש שוב ולאשר, או להקליד כתובת."
-        : "לא הצלחתי לאתר את המיקום. נסה שוב או הקלד כתובת.";
-      showGeoStatus(msg, true);
+      if (err.code === err.PERMISSION_DENIED) {
+        // רק עכשיו, אחרי שנכשל, בודקים אם הדפדפן חוסם מראש
+        navigator.permissions?.query({ name: "geolocation" }).then(st => {
+          showGeoStatus(st.state === "denied"
+            ? "הגישה למיקום חסומה בדפדפן. הקש על 🔒 ליד כתובת האתר ← הרשאות ← מיקום ← אפשר."
+            : "לא אושרה גישה למיקום. אפשר להקיש שוב ולאשר, או להקליד כתובת.", true);
+        }).catch(() => showGeoStatus("לא אושרה גישה למיקום.", true));
+      } else {
+        showGeoStatus("לא הצלחתי לאתר את המיקום. נסה שוב או הקלד כתובת.", true);
+      }
     },
-    { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 }
+    { enableHighAccuracy: true, timeout: 15000, maximumAge: 60000 }
   );
 }
 
