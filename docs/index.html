@@ -627,16 +627,17 @@ function useMyLocation() {
       rerender();
     },
     err => {
+      const diag = `[code=${err.code}]`;
       if (err.code === err.PERMISSION_DENIED) {
-        // רק עכשיו, אחרי שנכשל, בודקים אם הדפדפן חוסם מראש
         navigator.permissions?.query({ name: "geolocation" }).then(st => {
           showGeoStatus(st.state === "denied"
-            ? "הדפדפן חוסם את המיקום. הקש על האייקון שמשמאל לכתובת האתר למעלה " +
-              "(⚙ או 🔒) ← הרשאות ← מיקום ← אפשר, ואז נסה שוב."
-            : "לא אושרה גישה למיקום. אפשר להקיש שוב ולאשר, או להקליד כתובת.", true);
-        }).catch(() => showGeoStatus("לא אושרה גישה למיקום.", true));
+            ? `הדפדפן חוסם את המיקום ${diag}[state=${st.state}]. הקש על האייקון ` +
+              "שמשמאל לכתובת האתר ← הרשאות ← מיקום ← אפשר."
+            : `נדחתה גישה למיקום ${diag}[state=${st.state}]. נסה שוב או הקלד כתובת.`, true);
+        }).catch(() => showGeoStatus(`נדחתה גישה למיקום ${diag}.`, true));
       } else {
-        showGeoStatus("לא הצלחתי לאתר את המיקום. נסה שוב או הקלד כתובת.", true);
+        showGeoStatus(`לא הצלחתי לאתר את המיקום ${diag} — ${err.message || ""}. ` +
+                      "ייתכן ששירותי המיקום בטלפון כבויים.", true);
       }
     },
     { enableHighAccuracy: true, timeout: 15000, maximumAge: 60000 }
