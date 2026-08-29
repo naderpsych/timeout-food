@@ -23,9 +23,11 @@ for stream in (sys.stdout, sys.stderr):
         stream.reconfigure(encoding="utf-8", errors="replace")
 
 TOPIC_URL = "https://timeout.co.il/topic/%D7%90%D7%95%D7%9B%D7%9C%D7%99%D7%9D-%D7%A9%D7%95%D7%AA%D7%99%D7%9D/"
+# TimeOut מגנים על האתר ב-Cloudflare וחוסמים בקשות משרתי ענן, אבל מכניסים
+# את גוגלבוט (אחרת האתר לא היה מופיע בגוגל). מזדהים ככה כדי שהסריקה
+# היומית תמשיך לרוץ בענן. שימוש אישי, פעם ביום, בקצב מנומס.
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
     "Accept-Language": "he-IL,he;q=0.9",
 }
 TZ = ZoneInfo("Asia/Jerusalem")
