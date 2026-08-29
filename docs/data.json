@@ -23,7 +23,103 @@
    "lat": 32.1260203,
    "lon": 34.7886012,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "שלמה אבן גבירול 14, תל אביב-יפו, ישראל",
+    "google_name": "מאדאם בלה - Madame Bella",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlLf185bD95mYz21upDxafvR6ilQLZ7kCceG-JxUu3rg0VrcOqHVbQdoIJvpL9fvhpz0q6Lzf5o_wMvfkeXDAOkuhW9W8drZgnF4Gg3Wg1f-aEAp9XTAwbhAHur164qqmZ5o-ZrPqasF5OL=w800-h500-k-no",
+    "hours": "ש' 21:30-02:00, א' 12:00-18:00, 19:00-01:00, ב' 12:00-18:00, 19:00-01:00, ג' 12:00-18:00, 19:00-01:00, ד' 12:00-18:00, 19:00-01:00, ה' 12:00-18:00, 19:00-02:00, ו' 12:00-16:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "21:30",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "19:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "19:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "19:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "19:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "19:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "16:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%a1%d7%99%d7%91%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קומראן",
@@ -48,7 +144,54 @@
    "lat": 32.0705297,
    "lon": 34.7872761,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "Platinum Tower, הארבעה 21, קומה 2, תל אביב-יפו, ישראל",
+    "google_name": "קומראן Qumran TLV",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkztqVu1kQP6ywSfCZv66fr3nCIXjWgXf2X8eSXsSqEE39YzfwWunoYNSlyBZufb0b1Wipc9p4dd5F7DqTuEB1oyBuJdxwb10-BCf7OeK7_NXpk5-C5ppchiSVGekiTXAhcHCNC=w800-h500-k-no",
+    "hours": "ש' סגור, א' 19:00-24:30, ב' 19:00-24:30, ג' 19:00-24:30, ד' 19:00-24:30, ה' 19:00-24:30, ו' סגור",
+    "schedule": [
+     {
+      "days": [
+       0
+      ],
+      "from": "19:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "19:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "19:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "19:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "19:00",
+      "to": "24:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%a1%d7%99%d7%91%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#הסלון",
@@ -98,7 +241,54 @@
    "lat": 32.0659939,
    "lon": 34.7772183,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "שדרות רוטשילד 24, תל אביב-יפו, ישראל",
+    "google_name": "CASMAYA",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn2KbyQ5SA3fSfjwKJdd4Fv5hSY_iQ6NnaBrOjxi2dffwz8grnf6YFG03XhkJJ1LmXTNiTmm-71DImY6Pk-Ykm5MSdS1ktOR6r03Ru6zfnsM2DclewixijERgq3ClmeJHRZ11gDtZltJho=w800-h500-k-no",
+    "hours": "ש' 20:00-02:00, א' סגור, ב' סגור, ג' 20:00-02:00, ד' 20:00-02:00, ה' 20:00-02:00, ו' 20:00-02:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "20:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "20:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "20:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "20:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "20:00",
+      "to": "02:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%a1%d7%99%d7%91%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אמש",
@@ -123,7 +313,75 @@
    "lat": 32.062118,
    "lon": 34.770808,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "לילינבלום 30, תל אביב-יפו, 6513309, ישראל",
+    "google_name": "אמש",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3oSyXUq41P5wfZFLsEVt0UD5LpclZ4yIj3TVbhmUgIn8lBZT9Ggzku5xnFAoGfckL5qvvIAj5x8ZDELjmJ6AFNDRjNWZhE8RHCIgR3p-rXWK0Fb-6nfgZIuNFUmoQfraNZxP6xg=w800-h500-k-no",
+    "hours": "ש' 12:00-17:00, 18:30-02:00, א' סגור, ב' 17:30-02:00, ג' 17:30-02:00, ד' 17:30-02:00, ה' 17:30-04:00, ו' 12:00-17:00, 18:00-03:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "18:30",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "17:30",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "17:30",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:30",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "17:30",
+      "to": "04:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "03:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%a1%d7%99%d7%91%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#JOME",
@@ -148,7 +406,61 @@
    "lat": 32.063223,
    "lon": 34.772861,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "שדרות רוטשילד 32, תל אביב-יפו, 6688210, ישראל",
+    "google_name": "ג'ומה תל אביב jome tlv",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk1lfnrsby7aMh0mlZq_Nh0iXKEKtlHCj2QVHdonjYgVy06GPFO6fjUJknpAK6uLjFZEgl6cG-3p5bC_apM-fYQ02btPDRt4iXz86m70yeB7r6xjgRT5c4rr9Wg3k_dBh59z6k=w800-h500-k-no",
+    "hours": "ש' 20:00-03:00, א' סגור, ב' 20:00-01:00, ג' 20:00-01:00, ד' 20:00-01:00, ה' 19:45-03:00, ו' 11:45-17:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "20:00",
+      "to": "03:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "20:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "20:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "20:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "19:45",
+      "to": "03:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "11:45",
+      "to": "17:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%a1%d7%99%d7%91%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#La Miel",
@@ -173,7 +485,47 @@
    "lat": 32.0617073,
    "lon": 34.7831325,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "יד חרוצים 14, תל אביב-יפו, 6770007, ישראל",
+    "google_name": "מסעדה צרפתית תל אביב - מסעדת לה מיאל | Le Miel TLV",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkXL_QE0_v3IVz701SzhBHz7T0kaXRYeYqeqxQLmKJ_C7F_8e1EvBZOwuPcSpyxRyaqws_JkxvD8Dfw81C9gFZhIrImpC_N0YiiEVhVaKo7PJvVC8Y6PRHQS6qTxbLc5kgol0guVTX-c3qi=w800-h500-k-no",
+    "hours": "ש' 21:30-01:30, א' סגור, ב' סגור, ג' 21:30-01:30, ד' 21:30-01:30, ה' 21:30-01:30, ו' סגור",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "21:30",
+      "to": "01:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "21:30",
+      "to": "01:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "21:30",
+      "to": "01:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "21:30",
+      "to": "01:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%a1%d7%99%d7%91%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ALALI",
@@ -198,7 +550,61 @@
    "lat": 32.0685694,
    "lon": 34.7951171,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "ולטר מוזס 10, תל אביב-יפו, ישראל",
+    "google_name": "ALALI TLV",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkpLVxTjVNA_H9sVEidcrjWPBOZkXTFCKh8mKiphKFAPDJIpFJOWzaV19rzX5xbJYpjKNGglMkizQlvcnMpQQGwrt25MDQ9IssajG6JJXKPAeN1rKvSdgl0Yj-aIa5l5KJJgtXpT_GVfbQ=w800-h500-k-no",
+    "hours": "ש' 21:00-23:00, א' 19:00-23:00, ב' 19:00-23:00, ג' 19:00-23:00, ד' 19:00-23:00, ה' 19:00-23:00, ו' סגור",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "21:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%a1%d7%99%d7%91%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#הולה הולה",
@@ -262,7 +668,68 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "שלמה אבן גבירול 23, תל אביב-יפו, ישראל",
+    "google_name": "פרנק - נקניקיה עם כבוד",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlISVgo8YCnzVV_so2yCRA_VtF2edC09cVBID5BZjfHsIwTNpNJRPN7qhCqOGfEvoF7sATDp8qBIhKKLKyh3nGvnXSBfng0bGdyhtIkfYa8J2TyKFyFPf2DyVDFmrvNJk7J7D4H=w800-h500-k-no",
+    "hours": "ש' 12:00-24:00, א' 12:00-01:00, ב' 12:00-01:00, ג' 12:00-02:00, ד' 12:00-02:00, ה' 12:00-02:00, ו' 12:00-01:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "01:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%93%d7%95%d7%9b%d7%a0%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%99%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#עוואמה",
@@ -287,7 +754,68 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "קדם 85, תל אביב-יפו, 6814331, ישראל",
+    "google_name": "The Old Man and the Sea العجوز والبحر הזקן והים",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnezvVvWM3yqIcRJMhJafnVzndtWJhCKmRTLbIUfqewMmF6y7MGveCGEl8hXs8uhB54bTreZoS6pSA725jCleIofO9gkn8MUEuX58HGz6bqg6_sIw28qJ1aJ_jkfUiq9KJT_Uo=w800-h500-k-no",
+    "hours": "ש' 11:00-24:00, א' 11:00-24:00, ב' 11:00-24:00, ג' 11:00-24:00, ד' 11:00-24:00, ה' 11:00-24:30, ו' 11:00-24:30",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "11:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "11:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "11:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "11:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "11:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "11:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "11:00",
+      "to": "24:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%93%d7%95%d7%9b%d7%a0%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%99%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#כריך הרינג קטן",
@@ -312,7 +840,68 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "שוק האיכרים (שוק הנמל, נמל תל אביב 12, תל אביב-יפו, ישראל",
+    "google_name": "SHERRY HERRING",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnW_H6xvZwzTEsezXKCJBmotc-sp3qQlPh028AkVG5gHsfXib83l1mufQZZP_epbET2frJdGCg55j1t2BF9zsaP3eUsqMYU4E4wGlUfsQuekzd6oPvc8MiX8-otvmIDylbopxbK=w800-h500-k-no",
+    "hours": "ש' 08:00-19:30, א' 09:00-18:00, ב' 09:00-18:00, ג' 09:00-18:00, ד' 09:00-18:00, ה' 09:00-18:00, ו' 08:00-16:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "08:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "09:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%93%d7%95%d7%9b%d7%a0%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%99%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סלופי ג'ו סליידר",
@@ -337,7 +926,68 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "יגאל אלון 120, תל אביב-יפו, 67443, ישראל",
+    "google_name": "דיקסי גריל בר",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSvU7oyi1Ty4wzdB3V_ij6Nb_OEaxsy9IQxPAuOaaOoSscMQyG49HkreaaiHG8aDoHYsczB8hpIEUUjU1ldcUKzeS7jNdKf9EOU6962ZcEBWmogO4zIM-y5Xc6Hg617a-tSRfAxw=w800-h500-k-no",
+    "hours": "ש' 09:00-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 09:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "23:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%93%d7%95%d7%9b%d7%a0%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%99%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#כיסונים אסייתים מטוגנים",
@@ -362,7 +1012,11 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:28:13.955443+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%93%d7%95%d7%9b%d7%a0%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%99%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סמוסה",
@@ -387,7 +1041,11 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:28:18.707810+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%93%d7%95%d7%9b%d7%a0%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%99%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אמפנדס",
@@ -412,7 +1070,11 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:28:22.861523+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%93%d7%95%d7%9b%d7%a0%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%99%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#עוד בוריקה",
@@ -437,7 +1099,11 @@
    "lat": 32.0683679,
    "lon": 34.7685526,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:28:27.698041+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%93%d7%95%d7%9b%d7%a0%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%99%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#במבה יבשה",
@@ -462,7 +1128,61 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "address": "לשם, קרית גת, ישראל",
+    "google_name": "מרכז מבקרים במבה אסם",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlP_utaMYycEfe_e-0xM66E6XzfHHrfU9BsgALzyonBpV3OWDus_tqRmo-xoTITAq-rxjax6EFjV1jUPck5chkb2a5gpWzlebAjFl-No2SOkyzXskIECMznO75JLuQRYXAf3NKIwg=w800-h500-k-no",
+    "hours": "ש' סגור, א' 09:00-19:00, ב' 09:00-17:30, ג' 09:00-19:00, ד' 09:00-19:00, ה' 09:00-19:00, ו' 09:00-14:00",
+    "schedule": [
+     {
+      "days": [
+       0
+      ],
+      "from": "09:00",
+      "to": "19:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "17:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "19:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "19:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "19:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "14:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/house-of-delray-%d7%91%d7%99%d7%aa-%d7%93%d7%9c-%d7%a8%d7%99%d7%99/#במלון הבוטיק החדש שצמוד לשוק הכרמל מסתתרת מסעדת שף נדירה",
@@ -487,7 +1207,11 @@
    "lat": 32.070575,
    "lon": 34.769327,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:45.110335+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%90%d7%93%d7%90%d7%9d-%d7%91%d7%9c%d7%94/#צלעות טלה ב-338",
@@ -545,7 +1269,16 @@
    "lat": 32.0443395,
    "lon": 34.7509908,
    "geo_precision": "area",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "enrichment": {
+    "address": "המחסן 1, נמל יפו, תל אביב-יפו, 6803326, ישראל",
+    "google_name": "נמל יפו",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm2Sn9c9JoQqjpdQyafadikeKW4X3s_KwuwpQBGeK9H9GWxYv60a5BzRKy84M2BIdQUcq86X3pgVyFZ5DrRcUzijAKfaC2IyZ1AUxnszCBf6bWqsYDOLm_56xGNH3gDxf5vJSm22g=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-ilu-biirds/#סטודיו מובו",
@@ -570,7 +1303,11 @@
    "lat": 32.0663106,
    "lon": 34.7764165,
    "geo_precision": "address",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:39.225875+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-ilu-biirds/#ביטר",
@@ -595,7 +1332,11 @@
    "lat": 32.0602135,
    "lon": 34.773078,
    "geo_precision": "address",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:38.662540+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-ilu-biirds/#סופר פלאפל",
@@ -620,7 +1361,16 @@
    "lat": 32.062766,
    "lon": 34.773452,
    "geo_precision": "address",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "enrichment": {
+    "address": "אלנבי 113, תל אביב-יפו, ישראל",
+    "google_name": "סופר פלאפל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmESF7HopeErWz_5awlpbsBHUM02z9vlMq_DuU2YEbzcVhGW6sK9FiyH2OLz-7xnHEgOwlOksnii5DY3959etJtI0vT8T77BPI30XPkpggFRq-i38-SlrdY6uOy2oqidsrHTEstlg=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-ilu-biirds/#הספרייה באסיף",
@@ -645,7 +1395,11 @@
    "lat": 32.062106,
    "lon": 34.770602,
    "geo_precision": "address",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:42.725852+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-ilu-biirds/#מקום לא אהוב בעיר",
@@ -670,7 +1424,11 @@
    "lat": 32.0813546,
    "lon": 34.7814007,
    "geo_precision": "area",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:50.168613+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-ilu-biirds/#השאלון",
@@ -695,7 +1453,11 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:54.295253+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%a4%d7%94-%d7%a1%d7%96%d7%90%d7%9f/#הצפון החדש מקבל בית קפה וביסטרו שכונתי שלא מרגיש כמו שכונה",
@@ -1061,7 +1823,11 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:10.779381+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%96%d7%90%d7%aa%d7%99-zoti/#מסעדה בסגנון דובאי",
@@ -1574,7 +2340,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:57.717034+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%a7%d7%95%d7%a7%d7%98%d7%99%d7%99%d7%9c%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קוקטייליה",
@@ -2088,7 +2858,11 @@
    "details_url": null,
    "lat": 32.07575,
    "lon": 34.781407,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:36.918317+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%92%d7%9c%d7%99%d7%93%d7%a8%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa/#ארטה",
@@ -2730,7 +3504,11 @@
    "details_url": null,
    "lat": 32.0577595,
    "lon": 34.7686424,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:41.067618+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%92%d7%9c%d7%99%d7%93%d7%a8%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa/#גולדה",
@@ -2754,7 +3532,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:14.494178+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%90%d7%95%d7%92%d7%95%d7%a1%d7%98-26/#ג'אגר",
@@ -3501,7 +4283,11 @@
    "details_url": null,
    "lat": 32.068772,
    "lon": 34.768691,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:34.818928+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%98%d7%90%d7%a7%d7%95-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#טאקו בא",
@@ -4507,7 +5293,11 @@
    "details_url": null,
    "lat": 32.0761178,
    "lon": 34.7817312,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:26.558215+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%a8%d7%99%d7%a1%d7%a4%d7%99-%d7%a6%d7%99%d7%a7%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פט קאו/ ג'אנגו",
@@ -4616,7 +5406,11 @@
    "details_url": null,
    "lat": 32.0618452,
    "lon": 34.7700942,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:37.204850+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%a8%d7%99%d7%a1%d7%a4%d7%99-%d7%a6%d7%99%d7%a7%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אמריקה בורגס",
@@ -4898,7 +5692,11 @@
    "details_url": "https://timeout.co.il/cookie-girl-%d7%a4%d7%9c%d7%95%d7%a8%d7%a0%d7%98%d7%99%d7%9f/",
    "lat": 32.0577595,
    "lon": 34.7686424,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:06.333814+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%a9%d7%99%d7%a0%d7%95%d7%99/#Melt Me",
@@ -5613,7 +6411,11 @@
    "details_url": null,
    "lat": 32.0761178,
    "lon": 34.7817312,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:26.558215+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a6%d7%99%d7%a4%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בנץ ברדרס",
@@ -5637,7 +6439,11 @@
    "details_url": null,
    "lat": 32.0570522,
    "lon": 34.7676648,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:24.472156+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a6%d7%99%d7%a4%d7%a1-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#חנן מרגילן",
@@ -5732,7 +6538,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:28.099784+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%99%d7%a8%d7%9e%d7%99%d7%99%d7%9c/#פסטיבל בירות קראפט",
@@ -5844,7 +6654,11 @@
    "details_url": null,
    "lat": 32.0646198,
    "lon": 34.7743305,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:38.530956+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#גייג'ין",
@@ -6432,7 +7246,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:38.908099+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a9%d7%99%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#זה סושי/פוד טרמינל",
@@ -9228,7 +10046,11 @@
    "details_url": "https://timeout.co.il/%d7%a9%d7%95%d7%95%d7%90%d7%a8%d7%9e%d7%94-%d7%a1%d7%98%d7%99%d7%99%d7%a9%d7%9f/",
    "lat": 32.0508394,
    "lon": 34.7643073,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:43.677651+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/מסעדות-חדשות-יולי-2026/#קלבריה בן ציון",
@@ -9908,7 +10730,11 @@
    "details_url": null,
    "lat": 32.0837848,
    "lon": 34.7763077,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:52.589222+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/חדשות-האוכל-106/#Jurong East",
@@ -9932,7 +10758,11 @@
    "details_url": "https://timeout.co.il/jurong-east/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:56.559069+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/חדשות-האוכל-106/#הולה הולה",
@@ -10041,7 +10871,11 @@
    "details_url": null,
    "lat": 32.0564309,
    "lon": 34.7587418,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:00.350323+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/חדשות-האוכל-106/#טוני וספה וענבי טלי",
@@ -10065,7 +10899,11 @@
    "details_url": "https://timeout.co.il/%D7%9E%D7%A9%D7%9C%D7%95%D7%97%D7%99%D7%9D-%D7%9E%D7%95%D7%A0%D7%93%D7%99%D7%90%D7%9C/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:04.653401+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/משייה-בר-צנגר/#משייה",
@@ -10276,7 +11114,11 @@
    "lat": 32.0622106,
    "lon": 34.8058007,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:31.055271+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/העיר-שלי-אורי-אפרים/#שוק הכרמל ומפגש רמב״ם",
@@ -10480,7 +11322,11 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:54.295253+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a1%d7%92%d7%99%d7%a8%d7%95%d7%aa-05-06-26/#קפה שפירא",
@@ -11846,7 +12692,11 @@
    "details_url": null,
    "lat": 32.0751788,
    "lon": 34.7761781,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:37.795329+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#למפור",
@@ -12104,7 +12954,11 @@
    "details_url": null,
    "lat": 32.069629,
    "lon": 34.784178,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:33.925892+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אוקינאווה",
@@ -12128,7 +12982,11 @@
    "details_url": null,
    "lat": 32.062843,
    "lon": 34.767031,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:38.908099+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#JMT",
@@ -12263,7 +13121,11 @@
    "details_url": null,
    "lat": 32.071988,
    "lon": 34.7888851,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:41.754602+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%90%d7%a1%d7%99%d7%99%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בבנג בנג",
@@ -12790,7 +13652,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:37.149606+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-105/#גילה וננסי",
@@ -13389,7 +14255,11 @@
    "details_url": null,
    "lat": 32.0568471,
    "lon": 34.7626408,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:11.969560+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%99%d7%99%d7%a0%d7%95%d7%aa-%d7%9c%d7%99%d7%9c-%d7%a7%d7%99%d7%a5/#איך להשתכר בדיזנגוף",
@@ -13555,7 +14425,11 @@
    "details_url": "https://timeout.co.il/%D7%A4%D7%95%D7%A4-%D7%90%D7%A4-%D7%9B%D7%90%D7%9F-11/",
    "lat": 32.0751788,
    "lon": 34.7761781,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:15.111608+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-104/#J17",
@@ -14461,7 +15335,11 @@
    "details_url": null,
    "lat": 32.052421,
    "lon": 34.76264,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:43.677651+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%9c%d7%97-%d7%9e%d7%99%d7%9d/#טיילת שלמה להט (חוף פרישמן)",
@@ -14589,7 +15467,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:40.358812+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a8%d7%99-%d7%94%d7%90%d7%95%d7%9b%d7%9c-2026/#לונדון",
@@ -14613,7 +15495,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:09.206253+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a8%d7%99-%d7%94%d7%90%d7%95%d7%9b%d7%9c-2026/#ברצלונה",
@@ -14762,7 +15648,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:44.718767+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a8%d7%99-%d7%94%d7%90%d7%95%d7%9b%d7%9c-2026/#בייג'ינג",
@@ -14819,7 +15709,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:48.602501+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a8%d7%99-%d7%94%d7%90%d7%95%d7%9b%d7%9c-2026/#ליסבון",
@@ -14843,7 +15737,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:53.264923+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a8%d7%99-%d7%94%d7%90%d7%95%d7%9b%d7%9c-2026/#קייפטאון",
@@ -14867,7 +15765,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:13.957826+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a8%d7%99-%d7%94%d7%90%d7%95%d7%9b%d7%9c-2026/#אוסקה",
@@ -14891,7 +15793,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:57.332915+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a8%d7%99-%d7%94%d7%90%d7%95%d7%9b%d7%9c-2026/#בנגלור",
@@ -14915,7 +15821,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:18.730677+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a8%d7%99-%d7%94%d7%90%d7%95%d7%9b%d7%9c-2026/#נאפולי",
@@ -15123,7 +16033,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:01.336563+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a8%d7%99-%d7%94%d7%90%d7%95%d7%9b%d7%9c-2026/#קופנהגן",
@@ -15777,7 +16691,11 @@
    "details_url": null,
    "lat": 32.0638911,
    "lon": 34.7749395,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:02.480435+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a7%d7%96%d7%95%d7%90%d7%9c-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ג'אנגו",
@@ -17872,7 +18790,11 @@
    "details_url": null,
    "lat": 32.0623423,
    "lon": 34.7688117,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:53.614327+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a7%d7%96%d7%95%d7%90%d7%9c-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#רומנו",
@@ -18125,7 +19047,11 @@
    "details_url": "https://timeout.co.il/eat-big-the-best-casual-dining-restaurants-in-tel-aviv/",
    "lat": 32.0809,
    "lon": 34.779685,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:57.356300+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%aa%d7%91%d7%95%d7%90%d7%94-%d7%a6%d7%a4%d7%95%d7%a0%d7%99%d7%aa-2026/#תבואה צפונית",
@@ -18360,7 +19286,11 @@
    "details_url": null,
    "lat": 32.0568471,
    "lon": 34.7626408,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:11.969560+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a4%d7%99%d7%99%d7%9f-%d7%93%d7%99%d7%99%d7%a0%d7%99%d7%a0%d7%92-1124/#OPA",
@@ -20321,7 +21251,11 @@
    "details_url": "https://timeout.co.il/lupa-%D7%9C%D7%95%D7%A4%D7%94/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:05.681834+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-103/#באן מי 13",
@@ -20713,7 +21647,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:09.595709+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-103/#בליקמח",
@@ -20945,7 +21883,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:50.925199+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%a8%d7%a5-%d7%99%d7%99%d7%9f-2026/#3 ימים של",
@@ -21241,7 +22183,11 @@
    "details_url": "https://timeout.co.il/chez-nous-%d7%a9%d7%94-%d7%a0%d7%95/",
    "lat": 32.0577595,
    "lon": 34.7686424,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:11.887333+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%a0%d7%99-2026/#האוס אוף מיקס אנד מאצ'ה",
@@ -21265,7 +22211,11 @@
    "details_url": "https://timeout.co.il/house-of-mix-and-matcha/",
    "lat": 32.0683357,
    "lon": 34.7700335,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:16.558221+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%a0%d7%99-2026/#K3",
@@ -21608,7 +22558,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:58.606497+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%a6%d7%a8%d7%95%d7%aa-%d7%99%d7%99%d7%9f/#חצר היין של נולה",
@@ -22266,7 +23220,11 @@
    "details_url": "https://timeout.co.il/%D7%93%D7%93%D7%94-%D7%91%D7%9E%D7%A9%D7%91%D7%99%D7%A8/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:55.283109+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#קפה אירופה",
@@ -22327,37 +23285,9 @@
    "enrichment": {
     "address": "לילינבלום 30, תל אביב-יפו, 6513309, ישראל",
     "google_name": "אמש",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYDF45Pz0bhfYNk588jB5iosLrXESsAzAinHqNOS_hne1FX9rjJtLlTzI7gxBELN8tCxuC1tNO-kAkPwKxyLLIy14r_KPVTpPTWMabZiFeHAcgHE-x5PF76YBvPt33edZcGUD2oQ=w800-h500-k-no",
-    "hours": "ד' 19:00-02:00, ה' 18:30-04:00, ו' 12:00-17:00, 18:30-03:00, ש' 12:00-17:00, 18:30-02:00, א' סגור, ב' 19:30-02:00, ג' 19:00-02:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3oSyXUq41P5wfZFLsEVt0UD5LpclZ4yIj3TVbhmUgIn8lBZT9Ggzku5xnFAoGfckL5qvvIAj5x8ZDELjmJ6AFNDRjNWZhE8RHCIgR3p-rXWK0Fb-6nfgZIuNFUmoQfraNZxP6xg=w800-h500-k-no",
+    "hours": "ש' 12:00-17:00, 18:30-02:00, א' סגור, ב' 17:30-02:00, ג' 17:30-02:00, ד' 17:30-02:00, ה' 17:30-04:00, ו' 12:00-17:00, 18:00-03:00",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "19:00",
-      "to": "02:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:30",
-      "to": "04:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:30",
-      "to": "03:00"
-     },
      {
       "days": [
        6
@@ -22376,19 +23306,47 @@
       "days": [
        1
       ],
-      "from": "19:30",
+      "from": "17:30",
       "to": "02:00"
      },
      {
       "days": [
        2
       ],
-      "from": "19:00",
+      "from": "17:30",
       "to": "02:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:30",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "17:30",
+      "to": "04:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "03:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-19",
+    "date": "2026-08-29",
     "v": 3
    },
    "closed_permanently": false
@@ -22596,7 +23554,11 @@
    "details_url": null,
    "lat": 32.0568471,
    "lon": 34.7626408,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:11.969560+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#קפה 65",
@@ -24258,7 +25220,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:00.845281+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#Osu",
@@ -24537,7 +25503,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:48.402902+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#גרינברג",
@@ -25054,7 +26024,11 @@
    "details_url": null,
    "lat": 32.125067,
    "lon": 34.801792,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:04.910767+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ויטרינה",
@@ -25078,7 +26052,11 @@
    "details_url": null,
    "lat": 32.0761178,
    "lon": 34.7817312,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:26.558215+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#לוקאל בורגר",
@@ -25613,7 +26591,11 @@
    "details_url": null,
    "lat": 32.0766501,
    "lon": 34.7767805,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:52.678994+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אסתר המלכה",
@@ -25637,7 +26619,11 @@
    "details_url": null,
    "lat": 32.0627097,
    "lon": 34.7699046,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:56.300763+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8%d7%99%d7%9d-%d7%94%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פרוזדור",
@@ -26044,7 +27030,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:48.723278+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%92%d7%91%d7%99%d7%a0%d7%94-2026/#We Like You Too",
@@ -26068,7 +27058,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:53.306739+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%92%d7%91%d7%99%d7%a0%d7%94-2026/#הבייקרי | בחירת המערכת",
@@ -26286,7 +27280,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:48.459925+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%92%d7%91%d7%99%d7%a0%d7%94-2026/#מייזון קייזר",
@@ -26310,7 +27308,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:31:00.511027+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%92%d7%91%d7%99%d7%a0%d7%94-2026/#ביסקוטי",
@@ -26490,7 +27492,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:31:05.296556+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%92%d7%91%d7%99%d7%a0%d7%94-2026/#Bread Club",
@@ -26677,7 +27683,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:52.900260+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%92%d7%91%d7%99%d7%a0%d7%94-2026/#ליליאנפלאץ",
@@ -26973,7 +27983,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:38.558332+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-eat-2026/#טעמי אזרבייג'אן",
@@ -27068,7 +28082,11 @@
    "details_url": null,
    "lat": 31.7775148,
    "lon": 35.2251187,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:42.646515+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-eat-2026/#סופר המזרח",
@@ -28024,7 +29042,11 @@
    "details_url": null,
    "lat": 32.060291,
    "lon": 34.773504,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:17.639033+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/ברי-יין-מומלצים/#ג׳ודי",
@@ -28716,7 +29738,11 @@
    "details_url": "https://timeout.co.il/%d7%a0%d7%90%d7%99-nai/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:24.723686+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%9e%d7%90%d7%99-2026/#גרציאני עגלת קפה",
@@ -28740,7 +29766,11 @@
    "details_url": "https://timeout.co.il/%d7%92%d7%a8%d7%a6%d7%99%d7%90%d7%a0%d7%99-%d7%a2%d7%92%d7%9c%d7%aa-%d7%a7%d7%a4%d7%94/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:29.013029+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%9e%d7%90%d7%99-2026/#לופה",
@@ -29179,7 +30209,11 @@
    "details_url": "https://timeout.co.il/%d7%9e%d7%99%d7%90-%d7%91%d7%a8-%d7%99%d7%99%d7%9f/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:20.216059+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%a0%d7%a7%d7%a1%d7%98-%d7%93%d7%95%d7%a8/#נאי",
@@ -29203,7 +30237,11 @@
    "details_url": "https://timeout.co.il/%d7%a0%d7%90%d7%99-nai/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:24.723686+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%a0%d7%a7%d7%a1%d7%98-%d7%93%d7%95%d7%a8/#Wine (open) House",
@@ -31742,7 +32780,11 @@
    "details_url": null,
    "lat": 32.069094,
    "lon": 34.76794,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:55.315954+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%95%d7%a7-%d7%94%d7%9b%d7%a8%d7%9e%d7%9c-3/#איסאן",
@@ -31915,7 +32957,11 @@
    "details_url": null,
    "lat": 32.0680003,
    "lon": 34.7670792,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:00.845281+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%95%d7%a7-%d7%94%d7%9b%d7%a8%d7%9e%d7%9c-3/#אנג'לינו",
@@ -32017,7 +33063,11 @@
    "details_url": null,
    "lat": 32.069626,
    "lon": 34.770024,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:46.453523+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%95%d7%a7-%d7%94%d7%9b%d7%a8%d7%9e%d7%9c-3/#בירבזאר",
@@ -32484,7 +33534,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:50.362181+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%95%d7%a7-%d7%94%d7%9b%d7%a8%d7%9e%d7%9c-3/#המלביה",
@@ -32508,7 +33562,11 @@
    "details_url": null,
    "lat": 32.069996,
    "lon": 34.770133,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:00.036348+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%95%d7%a7-%d7%94%d7%9b%d7%a8%d7%9e%d7%9c-3/#המנזר",
@@ -33016,7 +34074,11 @@
    "details_url": "https://timeout.co.il/%D7%9E%D7%A2%D7%95%D7%A8%D7%91-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%9E%D7%99-%D7%A9%D7%95%D7%A7-%D7%94%D7%9B%D7%A8%D7%9E%D7%9C/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:03.645470+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%95%d7%a7-%d7%94%d7%9b%d7%a8%d7%9e%d7%9c-3/#מפגש רמב\"ם",
@@ -33505,7 +34567,11 @@
    "details_url": null,
    "lat": 32.066184,
    "lon": 34.766142,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:08.340864+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/wine-open-house/#חצר יין חדשה",
@@ -33697,7 +34763,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:40.010058+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%9e%d7%90%d7%a8%d7%94-%d7%93%d7%94-%d7%a4%d7%99%d7%92%d7%95%d7%98%d7%95/#אנשי מנטנטן מסמנים",
@@ -35653,7 +36723,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:45.616375+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%90%d7%a4%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בייקרי",
@@ -35677,7 +36751,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:37.849613+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%90%d7%a4%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בית לחם",
@@ -36542,7 +37620,11 @@
    "details_url": null,
    "lat": 32.0820303,
    "lon": 34.7738402,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:41.521991+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%90%d7%a4%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#לחמנינה",
@@ -36566,7 +37648,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:49.753572+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%90%d7%a4%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מייזון קייזר",
@@ -36590,7 +37676,11 @@
    "details_url": null,
    "lat": 32.048536,
    "lon": 34.751595,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:45.336100+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%90%d7%a4%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מרגוזה",
@@ -36614,7 +37704,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:49.753793+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%90%d7%a4%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#NONO&MIMI",
@@ -36919,7 +38013,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:54.104481+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%90%d7%a4%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#צייט פור ברוט",
@@ -37762,7 +38860,11 @@
    "details_url": null,
    "lat": 32.052251,
    "lon": 34.757486,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:28:38.839433+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%95%d7%a7-%d7%94%d7%a4%d7%a9%d7%a4%d7%a9%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#מאפה ליאון",
@@ -38608,7 +39710,11 @@
    "details_url": null,
    "lat": 32.041969,
    "lon": 34.751383,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:27.425070+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%90%d7%98%d7%9c%d7%99%d7%96%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#איוו",
@@ -39178,7 +40284,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:31.200197+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%90%d7%98%d7%9c%d7%99%d7%96%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ידע הבשרים",
@@ -39450,7 +40560,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:35.350619+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/החממה-בר-יין/#החממה",
@@ -39553,7 +40667,11 @@
    "details_url": null,
    "lat": 32.050227,
    "lon": 34.75085,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:31.798191+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/החומוס-הכי-טוב-בתל-אביב-יפו/#אבו מרוואן",
@@ -40100,7 +41218,11 @@
    "details_url": null,
    "lat": 32.042352,
    "lon": 34.751941,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:36.598111+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/החומוס-הכי-טוב-בתל-אביב-יפו/#חומוס חמודי",
@@ -40706,7 +41828,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:00.845281+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%a9%d7%a8-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מיט בר",
@@ -42327,7 +43453,11 @@
    "details_url": null,
    "lat": 32.0813546,
    "lon": 34.7814007,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:45.221951+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-4/#התחתית",
@@ -42573,7 +43703,11 @@
    "details_url": "https://timeout.co.il/%D7%A1%D7%99%D7%92-%D7%A7%D7%A4%D7%94/",
    "lat": 32.07086,
    "lon": 34.770941,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:53.586649+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-4/#עמיתה ביאליק",
@@ -43924,7 +45058,11 @@
    "details_url": "https://timeout.co.il/%d7%98%d7%90%d7%a7%d7%95-%d7%93%d7%94-%d7%9c%d7%95%d7%9c%d7%99%d7%98%d7%94/#google_vignette",
    "lat": 32.0683679,
    "lon": 34.7685526,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:31.276275+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%96%d7%9e%d7%9f-%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#מיא",
@@ -44066,7 +45204,11 @@
    "details_url": "https://timeout.co.il/%d7%a9%d7%99%d7%a0%d7%a7%d7%99%d7%9f-21-%d7%90/#google_vignette",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:35.101059+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%96%d7%9e%d7%9f-%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#לוקה",
@@ -44090,7 +45232,11 @@
    "details_url": "https://timeout.co.il/%d7%9c%d7%95%d7%a7%d7%94-%d7%a7%d7%a4%d7%94/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:39.874528+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%96%d7%9e%d7%9f-%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#חממה",
@@ -44114,7 +45260,11 @@
    "details_url": null,
    "lat": 32.0551725,
    "lon": 34.766459,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:44.639458+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%96%d7%9e%d7%9f-%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#She",
@@ -44699,7 +45849,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:41.565983+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#ורמיני בר",
@@ -45299,7 +46453,11 @@
    "details_url": null,
    "lat": 32.0602135,
    "lon": 34.773078,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:38.662540+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#בר מימון",
@@ -46294,7 +47452,11 @@
    "details_url": null,
    "lat": 32.0622106,
    "lon": 34.8058007,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:37.204850+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#השופטים",
@@ -46318,7 +47480,11 @@
    "details_url": null,
    "lat": 32.076018,
    "lon": 34.781313,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:45.400225+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99%d7%9d-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d/#לאגר אנד אייל",
@@ -47628,7 +48794,11 @@
    "details_url": null,
    "lat": 32.055672,
    "lon": 34.769383,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:18.428572+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%99%d7%9e%d7%95%d7%a0%d7%94-2026/#Black Floren t in",
@@ -48145,7 +49315,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:53.306739+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%9e%d7%a5-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2026/#פיקה",
@@ -48354,7 +49528,11 @@
    "details_url": null,
    "lat": 32.083859,
    "lon": 34.776342,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:49.284158+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%9e%d7%a5-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2026/#לחם ושות",
@@ -48462,7 +49640,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:53.288396+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%9e%d7%a5-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2026/#דלאל קונדיטוריה",
@@ -48805,7 +49987,11 @@
    "details_url": "https://timeout.co.il/%d7%98%d7%90%d7%a7%d7%95-%d7%93%d7%94-%d7%9c%d7%95%d7%9c%d7%99%d7%98%d7%94/#google_vignette",
    "lat": 32.0683679,
    "lon": 34.7685526,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:31.276275+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-26/#טאו 77",
@@ -48914,7 +50100,11 @@
    "details_url": "https://timeout.co.il/%d7%a9%d7%99%d7%a0%d7%a7%d7%99%d7%9f-21-%d7%90/#google_vignette",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:35.101059+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-26/#לוקה",
@@ -48938,7 +50128,11 @@
    "details_url": "https://timeout.co.il/%d7%9c%d7%95%d7%a7%d7%94-%d7%a7%d7%a4%d7%94/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:39.874528+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-26/#חממה",
@@ -48962,7 +50156,11 @@
    "details_url": null,
    "lat": 32.0551725,
    "lon": 34.766459,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:44.639458+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-26/#She",
@@ -49869,7 +51067,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:45.616375+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9c%d7%90-%d7%9b%d7%a9%d7%a8-%d7%9c%d7%a4%d7%a1%d7%97-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בית תאילנדי",
@@ -51000,7 +52202,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:29.693624+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%9c%d7%a4%d7%a1%d7%97-2026/#דלאל",
@@ -51135,7 +52341,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:37.849613+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%9c%d7%a4%d7%a1%d7%97-2026/#מיקי שמו",
@@ -51400,7 +52610,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:07.327963+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%9c%d7%a4%d7%a1%d7%97-2026/#בוטיק סנטרל",
@@ -51424,7 +52638,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:11.598952+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%9c%d7%a4%d7%a1%d7%97-2026/#איטס",
@@ -51533,7 +52751,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:03.501845+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%99%d7%a0%d7%a7%d7%99%d7%9f-21-%d7%90/#בית הקפה החדש בשינקין רק רוצה להביא שפיות בתקופה לא שפויה",
@@ -51571,7 +52793,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:03.062039+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%aa%d7%95%d7%a7%d7%99%d7%9d-%d7%9c%d7%a2%d7%aa-%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#נולה",
@@ -51999,7 +53225,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:52.900260+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%aa%d7%95%d7%a7%d7%99%d7%9d-%d7%9c%d7%a2%d7%aa-%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#גולדה",
@@ -52023,7 +53253,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:15.673499+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%9e%d7%a5-%d7%90%d7%a7%d7%a1%d7%a4%d7%a8%d7%a1/#הפחמימות הכי טובות",
@@ -52114,7 +53348,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:11.865710+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%98%d7%90%d7%a7%d7%95-%d7%93%d7%94-%d7%9c%d7%95%d7%9c%d7%99%d7%98%d7%94/#טאקו דה לוליטה",
@@ -52157,7 +53395,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:31.276275+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%98%d7%a2%d7%9d-%d7%94%d7%a6%d7%a4%d7%95%d7%9f-%d7%91%d7%9e%d7%a8%d7%9b%d7%96/#דליקטסים מהצפון ינחתו",
@@ -52285,7 +53527,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:59.126634+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a0%d7%95%d7%aa-%d7%99%d7%95%d7%95%d7%a0%d7%99%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#יאסו תל אביב",
@@ -52682,7 +53928,11 @@
    "details_url": null,
    "lat": 32.0577595,
    "lon": 34.7686424,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:49.598747+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%95%d7%98%d7%94-cotta/#בדקנו את הפיצריה החדשה של שף נרקיס אלפי. והיא הרבה יותר מזה",
@@ -52815,7 +54065,11 @@
    "details_url": "https://timeout.co.il/%d7%9c%d7%95%d7%a7%d7%94-%d7%a7%d7%a4%d7%94/",
    "lat": 32.0751788,
    "lon": 34.7761781,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:02.883441+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%aa%d7%99%d7%97%d7%95%d7%aa-%d7%91%d7%96%d7%9e%d7%9f-%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#חממה",
@@ -52839,7 +54093,11 @@
    "details_url": null,
    "lat": 32.0551725,
    "lon": 34.766459,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:44.639458+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%aa%d7%99%d7%97%d7%95%d7%aa-%d7%91%d7%96%d7%9e%d7%9f-%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#She",
@@ -53033,7 +54291,11 @@
    "details_url": "https://timeout.co.il/%d7%91%d7%9c%d7%94-%d7%9e%d7%99%d7%94/#google_vignette",
    "lat": 32.11186,
    "lon": 34.787389,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:07.094438+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a0%d7%95%d7%aa-%d7%9e%d7%a9%d7%9c%d7%95%d7%97-%d7%91%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#שניצל מקפה נואר",
@@ -53338,7 +54600,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:26.171769+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a0%d7%95%d7%aa-%d7%9e%d7%a9%d7%9c%d7%95%d7%97-%d7%91%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#פיתה קבב מפיתה לוינסקי",
@@ -53683,7 +54949,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:18.053142+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a2%d7%9d-%d7%9e%d7%a8%d7%97%d7%91-%d7%9e%d7%95%d7%92%d7%9f/#נומנה",
@@ -54412,7 +55682,11 @@
    "details_url": "https://timeout.co.il/%d7%a4%d7%99%d7%a6%d7%94-%d7%90%d7%95%d7%a8%d7%95/",
    "lat": 32.0630584,
    "lon": 34.7749954,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:44.827115+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%99%d7%a6%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa/#Zutt",
@@ -55327,7 +56601,11 @@
    "details_url": null,
    "lat": 32.063335,
    "lon": 34.771519,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:19.982429+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a4%d7%99%d7%a6%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa/#ארציאלי",
@@ -56225,7 +57503,11 @@
    "details_url": null,
    "lat": 32.123034,
    "lon": 34.8244714,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:23.820410+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a4%d7%99%d7%a6%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa/#לה טיגרה",
@@ -57015,7 +58297,11 @@
    "details_url": "https://timeout.co.il/%D7%98%D7%A0%D7%90-%D7%A8%D7%9E%D7%AA-%D7%90%D7%91%D7%99%D7%91-%D7%92/",
    "lat": 32.1254933,
    "lon": 34.7984881,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:01.882291+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#ימה",
@@ -57201,7 +58487,11 @@
    "details_url": null,
    "lat": 32.089724,
    "lon": 34.779773,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:54.187880+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#פראנזו",
@@ -57459,7 +58749,11 @@
    "details_url": null,
    "lat": 31.7848815,
    "lon": 35.2123894,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:57.998494+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#דלישא",
@@ -58089,7 +59383,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:01.836427+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#הרשלה",
@@ -58191,7 +59489,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:06.408456+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#חוות נעמי",
@@ -58527,7 +59829,11 @@
    "details_url": null,
    "lat": 32.059833,
    "lon": 34.771958,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:05.586523+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#ליגורי",
@@ -58714,7 +60020,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:10.813970+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a2%d7%93%d7%a0%d7%99%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2/#משק עפאים",
@@ -59250,7 +60560,11 @@
    "details_url": null,
    "lat": 32.0576731,
    "lon": 34.77493,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:49.232583+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%aa%d7%a4%d7%a8%d7%99%d7%98%d7%99-%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#תפריט מתחת ל50",
@@ -59274,7 +60588,11 @@
    "details_url": null,
    "lat": 32.05563,
    "lon": 34.766782,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:52.879826+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%aa%d7%a4%d7%a8%d7%99%d7%98%d7%99-%d7%9e%d7%9c%d7%97%d7%9e%d7%94/#פופ אפ a",
@@ -59298,7 +60616,11 @@
    "details_url": null,
    "lat": 32.0699469,
    "lon": 34.7841112,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:57.202854+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a9%d7%9c%d7%95%d7%97%d7%99%d7%9d-%d7%9e%d7%9c%d7%97%d7%9e%d7%aa-%d7%90%d7%99%d7%a8%d7%90%d7%9f/#אהרוני'ס פרייד צ'יקן",
@@ -59407,7 +60729,11 @@
    "details_url": null,
    "lat": 32.0752405,
    "lon": 34.7822687,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:26.558215+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a9%d7%9c%d7%95%d7%97%d7%99%d7%9d-%d7%9e%d7%9c%d7%97%d7%9e%d7%aa-%d7%90%d7%99%d7%a8%d7%90%d7%9f/#דיקסי",
@@ -60210,7 +61536,11 @@
    "details_url": "https://timeout.co.il/aduda-%d7%a2%d7%93%d7%95%d7%93%d7%94/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:45.255463+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-100/#LUPA",
@@ -60704,7 +62034,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:07.007323+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-100/#האחים",
@@ -60884,7 +62218,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:11.700901+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-100/#קוקה קולה",
@@ -61227,7 +62565,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:22.220606+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%96%d7%a0%d7%99-%d7%94%d7%9e%d7%9f-2026/#ביסקוטי",
@@ -61329,7 +62671,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:48.459925+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%96%d7%a0%d7%99-%d7%94%d7%9e%d7%9f-2026/#בייקרי/דליקטסן",
@@ -61428,7 +62774,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:30.107461+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%96%d7%a0%d7%99-%d7%94%d7%9e%d7%9f-2026/#עמיתה",
@@ -61485,7 +62835,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:33.695006+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%99%d7%91%d7%95%d7%90%d7%9f-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#היבואן",
@@ -62539,7 +63893,11 @@
    "details_url": "https://timeout.co.il/%D7%93%D7%93%D7%94-%D7%91%D7%9E%D7%A9%D7%91%D7%99%D7%A8/",
    "lat": 32.060471,
    "lon": 34.770894,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:55.283109+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%97%d7%93%d7%a9%d7%99%d7%9d-0226/#CUE",
@@ -62862,37 +64220,9 @@
    "enrichment": {
     "address": "לילינבלום 30, תל אביב-יפו, 6513309, ישראל",
     "google_name": "אמש",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYDF45Pz0bhfYNk588jB5iosLrXESsAzAinHqNOS_hne1FX9rjJtLlTzI7gxBELN8tCxuC1tNO-kAkPwKxyLLIy14r_KPVTpPTWMabZiFeHAcgHE-x5PF76YBvPt33edZcGUD2oQ=w800-h500-k-no",
-    "hours": "ד' 19:00-02:00, ה' 18:30-04:00, ו' 12:00-17:00, 18:30-03:00, ש' 12:00-17:00, 18:30-02:00, א' סגור, ב' 19:30-02:00, ג' 19:00-02:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3oSyXUq41P5wfZFLsEVt0UD5LpclZ4yIj3TVbhmUgIn8lBZT9Ggzku5xnFAoGfckL5qvvIAj5x8ZDELjmJ6AFNDRjNWZhE8RHCIgR3p-rXWK0Fb-6nfgZIuNFUmoQfraNZxP6xg=w800-h500-k-no",
+    "hours": "ש' 12:00-17:00, 18:30-02:00, א' סגור, ב' 17:30-02:00, ג' 17:30-02:00, ד' 17:30-02:00, ה' 17:30-04:00, ו' 12:00-17:00, 18:00-03:00",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "19:00",
-      "to": "02:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:30",
-      "to": "04:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "12:00",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:30",
-      "to": "03:00"
-     },
      {
       "days": [
        6
@@ -62911,19 +64241,47 @@
       "days": [
        1
       ],
-      "from": "19:30",
+      "from": "17:30",
       "to": "02:00"
      },
      {
       "days": [
        2
       ],
-      "from": "19:00",
+      "from": "17:30",
       "to": "02:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:30",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "17:30",
+      "to": "04:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "03:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-19",
+    "date": "2026-08-29",
     "v": 3
    },
    "closed_permanently": false
@@ -63128,7 +64486,11 @@
    "details_url": "https://timeout.co.il/%d7%a7%d7%a4%d7%94-%d7%91%d7%95%d7%9c%d7%99%d7%95%d7%95%d7%93/",
    "lat": 32.0577595,
    "lon": 34.7686424,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:21.995659+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%9e%d7%99%d7%95%d7%97%d7%93%d7%99%d7%9d/#מסגריית קפה",
@@ -63152,7 +64514,11 @@
    "details_url": "https://timeout.co.il/aduda-%d7%a2%d7%93%d7%95%d7%93%d7%94/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:26.420673+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%9e%d7%99%d7%95%d7%97%d7%93%d7%99%d7%9d/#סטודיו ליין",
@@ -63176,7 +64542,11 @@
    "details_url": "https://timeout.co.il/fermentico/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:30.218194+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%95%d7%a7%d7%94-%d7%90%d7%99%d7%97%d7%95%d7%93/#בוקה",
@@ -63673,7 +65043,11 @@
    "details_url": null,
    "lat": 32.0597088,
    "lon": 34.7729282,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:40.433619+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%91%d7%a8%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%a8%d7%95%d7%9e%d7%a0%d7%98%d7%99%d7%99%d7%9d/#גא ז טי",
@@ -63697,7 +65071,11 @@
    "details_url": null,
    "lat": 32.071649,
    "lon": 34.780179,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:44.058069+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%91%d7%a8%d7%99%d7%9d-%d7%94%d7%9b%d7%99-%d7%a8%d7%95%d7%9e%d7%a0%d7%98%d7%99%d7%99%d7%9d/#דוב",
@@ -65380,7 +66758,11 @@
    "details_url": null,
    "lat": 32.0646198,
    "lon": 34.7743305,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:38.530956+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a8%d7%95%d7%9e%d7%a0%d7%98%d7%99%d7%95%d7%aa/#O",
@@ -65698,7 +67080,11 @@
    "details_url": null,
    "lat": 32.054946,
    "lon": 34.760867,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:16.018698+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a8%d7%95%d7%9e%d7%a0%d7%98%d7%99%d7%95%d7%aa/#לוקאאוט",
@@ -66893,7 +68279,11 @@
    "details_url": null,
    "lat": 32.06645,
    "lon": 34.794978,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:54.398144+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-99/#ג'ורג' וג'ון",
@@ -66917,7 +68307,11 @@
    "details_url": null,
    "lat": 32.0568471,
    "lon": 34.7626408,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:11.969560+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-99/#פופינה",
@@ -67455,7 +68849,11 @@
    "details_url": null,
    "lat": 31.8952532,
    "lon": 34.8105616,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:15.304463+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a5-%d7%94%d7%90%d7%97%d7%99%d7%9d/#הבראנץ' של מסעדת האחים",
@@ -68163,7 +69561,11 @@
    "details_url": "https://timeout.co.il/%D7%A9%D7%9C%D7%95%D7%A9%D7%AA-%D7%94%D7%93%D7%95%D7%91%D7%99%D7%9D/",
    "lat": 32.0570791,
    "lon": 34.7679312,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:19.204649+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/7-%d7%9b%d7%99%d7%a1%d7%95%d7%a0%d7%99%d7%9d/#ביינה",
@@ -68785,7 +70187,11 @@
    "details_url": null,
    "lat": 32.0568471,
    "lon": 34.7626408,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:11.969560+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a0%d7%95%d7%aa-%d7%9c%d7%98%d7%a2%d7%95%d7%9d-%d7%a2%d7%9b%d7%a9%d7%99%d7%95-0126/#שה ויוי",
@@ -69076,7 +70482,11 @@
    "details_url": null,
    "lat": 32.071988,
    "lon": 34.7888851,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:48.766152+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-98/#X Ilu Birds קפה אירופה",
@@ -69626,7 +71036,11 @@
    "details_url": null,
    "lat": 32.055475,
    "lon": 34.761447,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:19.738574+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/25-%d7%94%d7%9e%d7%a0%d7%95%d7%aa-%d7%a9%d7%9c-2025/#גאייג'ין",
@@ -70313,7 +71727,11 @@
    "details_url": null,
    "lat": 32.0646198,
    "lon": 34.7743305,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:24.058387+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/25-%d7%94%d7%9e%d7%a0%d7%95%d7%aa-%d7%a9%d7%9c-2025/#בר פרדיסו",
@@ -70925,7 +72343,11 @@
    "details_url": "https://timeout.co.il/%D7%A8%D7%97%D7%95%D7%91%D7%95%D7%AA-%D7%9E%D7%95%D7%98%D7%99-%D7%94%D7%9C%D7%99%D7%9B%D7%94-%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91/",
    "lat": 32.0683357,
    "lon": 34.7700335,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:28.840541+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-97/#קוטה",
@@ -71027,7 +72449,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:32.650434+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-97/#רובע א",
@@ -71322,7 +72748,11 @@
    "details_url": "https://timeout.co.il/%d7%a9%d7%9c%d7%95%d7%a9%d7%aa-%d7%94%d7%93%d7%95%d7%91%d7%99%d7%9d/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:21.440173+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%90%d7%95%d7%9b%d7%9c-%d7%a8%d7%97%d7%95%d7%91-%d7%97%d7%93%d7%a9/#הירושלמית",
@@ -71346,7 +72776,11 @@
    "details_url": "https://timeout.co.il/%d7%94%d7%99%d7%a8%d7%95%d7%a9%d7%9c%d7%9e%d7%99%d7%aa/",
    "lat": 32.0535804,
    "lon": 34.756268,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:25.965147+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%90%d7%95%d7%9b%d7%9c-%d7%a8%d7%97%d7%95%d7%91-%d7%97%d7%93%d7%a9/#הולי קאו",
@@ -71480,7 +72914,11 @@
    "details_url": null,
    "lat": 32.057368,
    "lon": 34.770297,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:24.092178+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a9%d7%9c%d7%95%d7%97%d7%99%d7%9d-%d7%9e%d7%a8%d7%a4%d7%90%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ג׳וסה",
@@ -72008,7 +73446,11 @@
    "details_url": null,
    "lat": 32.0577595,
    "lon": 34.7686424,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:19.204649+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%99%d7%a8%d7%95%d7%a9%d7%9c%d7%99%d7%9d/#ז'נז'ריה",
@@ -72987,7 +74429,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:44.598449+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%99%d7%a8%d7%95%d7%a9%d7%9c%d7%99%d7%9d/#קפה קדוש",
@@ -73101,7 +74547,11 @@
    "details_url": null,
    "lat": 31.7788472,
    "lon": 35.2257856,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:29.301385+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%99%d7%a8%d7%95%d7%a9%d7%9c%d7%99%d7%9d/#טלביה",
@@ -73224,7 +74674,11 @@
    "details_url": null,
    "lat": 31.7788472,
    "lon": 35.2257856,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:48.254231+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%99%d7%a8%d7%95%d7%a9%d7%9c%d7%99%d7%9d/#גריל רום",
@@ -73633,7 +75087,11 @@
    "details_url": null,
    "lat": 31.7848815,
    "lon": 35.2123894,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:52.652951+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%99%d7%a8%d7%95%d7%a9%d7%9c%d7%99%d7%9d/#עזורה",
@@ -74018,7 +75476,11 @@
    "details_url": "https://timeout.co.il/%D7%9E%D7%A1%D7%A2%D7%93%D7%95%D7%AA-%D7%A4%D7%99%D7%99%D7%9F-%D7%93%D7%99%D7%99%D7%A0%D7%99%D7%A0%D7%92-1124/",
    "lat": 32.7866144,
    "lon": 34.9803096,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:20.675058+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%97%d7%99%d7%a4%d7%94/#סטייקיית אבו אלוליד",
@@ -74042,7 +75504,11 @@
    "details_url": null,
    "lat": 32.8191218,
    "lon": 34.9983856,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:27.509758+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%97%d7%99%d7%a4%d7%94/#Thai Kitchen",
@@ -74853,7 +76319,11 @@
    "details_url": null,
    "lat": 32.8191218,
    "lon": 34.9983856,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:31.445373+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%97%d7%99%d7%a4%d7%94/#עייש אלסראיא",
@@ -75555,7 +77025,11 @@
    "details_url": null,
    "lat": 32.8191218,
    "lon": 34.9983856,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:35.995270+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%97%d7%99%d7%a4%d7%94/#צפרירים 1",
@@ -75579,7 +77053,11 @@
    "details_url": null,
    "lat": 32.8191218,
    "lon": 34.9983856,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:40.299519+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%97%d7%99%d7%a4%d7%94/#בון צ'ה",
@@ -76128,7 +77606,11 @@
    "details_url": "https://timeout.co.il/%d7%90%d7%9c%d7%95%d7%a3-%d7%91%d7%a6%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-2/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:34.791938+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%a9%d7%97%d7%96%d7%a8%d7%95-%d7%9c%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סופלייר",
@@ -76774,7 +78256,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:48.942544+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/the-20-most-worthwhile-happy-hours-in-tel-aviv-restaurants/#Shafa",
@@ -78063,7 +79549,11 @@
    "details_url": "https://timeout.co.il/%d7%94%d7%99%d7%a8%d7%95%d7%a9%d7%9c%d7%9e%d7%99%d7%aa/",
    "lat": 32.0443395,
    "lon": 34.7509908,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:25.965147+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%a0%d7%95%d7%90%d7%a8-26/#פנחס מלוטניק",
@@ -78576,7 +80066,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:31:08.660100+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%a8%d7%95%d7%97%d7%95%d7%aa-%d7%a1%d7%99%d7%9c%d7%91%d7%a1%d7%98%d7%a8-%d7%a0%d7%95%d7%91%d7%99-%d7%92%d7%95%d7%93-2025/#קומראן",
@@ -78604,23 +80098,9 @@
    "enrichment": {
     "address": "Platinum Tower, הארבעה 21, קומה 2, תל אביב-יפו, ישראל",
     "google_name": "קומראן Qumran TLV",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3vk1zjEQ-Xod1B8G9ocIIqfMYwJ67Sg6Q4sw6WNTy0n4t6QP9rD016j-T8ySNacuCfPc3wWvXtJnlm6sG2ZkMyOq1petaUoFKSq9x6BO9-2CBWQB5UFpdgb2iTFx-iw1_bYDy=w800-h500-k-no",
-    "hours": "ד' 19:00-24:30, ה' 19:00-24:30, ו' סגור, ש' סגור, א' 19:00-24:30, ב' 19:00-24:30, ג' 19:00-24:30",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkztqVu1kQP6ywSfCZv66fr3nCIXjWgXf2X8eSXsSqEE39YzfwWunoYNSlyBZufb0b1Wipc9p4dd5F7DqTuEB1oyBuJdxwb10-BCf7OeK7_NXpk5-C5ppchiSVGekiTXAhcHCNC=w800-h500-k-no",
+    "hours": "ש' סגור, א' 19:00-24:30, ב' 19:00-24:30, ג' 19:00-24:30, ד' 19:00-24:30, ה' 19:00-24:30, ו' סגור",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "19:00",
-      "to": "24:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "19:00",
-      "to": "24:30"
-     },
      {
       "days": [
        0
@@ -78641,10 +80121,24 @@
       ],
       "from": "19:00",
       "to": "24:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "19:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "19:00",
+      "to": "24:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-19",
+    "date": "2026-08-29",
     "v": 3
    },
    "closed_permanently": false
@@ -79102,7 +80596,11 @@
    "details_url": null,
    "lat": 32.057058,
    "lon": 34.762673,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:11.969560+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%a8%d7%95%d7%97%d7%95%d7%aa-%d7%a1%d7%99%d7%9c%d7%91%d7%a1%d7%98%d7%a8-%d7%a0%d7%95%d7%91%d7%99-%d7%92%d7%95%d7%93-2025/#תריסר",
@@ -80735,7 +82233,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:15.135854+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a6%d7%99%d7%99%d7%a0%d7%94-%d7%98%d7%90%d7%95%d7%9f-%d7%9e%d7%98%d7%91%d7%97%d7%99%d7%9d/#אל מאנו",
@@ -80915,7 +82417,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:19.549643+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a6%d7%99%d7%99%d7%a0%d7%94-%d7%98%d7%90%d7%95%d7%9f-%d7%9e%d7%98%d7%91%d7%97%d7%99%d7%9d/#קימצ׳יז",
@@ -81109,7 +82615,11 @@
    "details_url": "https://timeout.co.il/%D7%94%D7%A1%D7%9E%D7%98%D7%94-by-chef-panda/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:16.740021+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%a6%d7%a4%d7%95%d7%9f-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#M25",
@@ -81133,7 +82643,11 @@
    "details_url": "https://timeout.co.il/%D7%97%D7%A9%D7%99%D7%A4%D7%94-%D7%9C%D7%A6%D7%A4%D7%95%D7%9F-%D7%97%D7%9E%D7%90%D7%A8%D7%AA-%D7%94%D7%91%D7%A9%D7%A8-m25-%D7%9E%D7%AA%D7%A8%D7%97%D7%91%D7%AA-%D7%9C%D7%A6%D7%A4%D7%95%D7%9F-%D7%94/",
    "lat": 32.1088611,
    "lon": 34.7950946,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:00.845281+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%a6%d7%a4%d7%95%d7%9f-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#הדסון",
@@ -81476,7 +82990,11 @@
    "details_url": null,
    "lat": 32.120501,
    "lon": 34.799805,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:34.342012+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%a6%d7%a4%d7%95%d7%9f-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#חוות צוק",
@@ -81644,7 +83162,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:21:01.836427+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%99%d7%99%d7%a0%d7%a9%d7%98%d7%99%d7%99%d7%9f-%d7%91%d7%95%d7%a8%d7%92%d7%a8/#איינשטיין בורגר מגיש",
@@ -81902,7 +83424,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:15.705272+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a6%d7%99%d7%99%d7%a0%d7%94-%d7%98%d7%90%d7%95%d7%9f-%d7%a9%d7%a8%d7%95%d7%a0%d7%94-%d7%9e%d7%a8%d7%a7%d7%98-%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa/#רוטיסרי צ'יקן קלאב",
@@ -81926,7 +83452,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:20.355718+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a6%d7%99%d7%99%d7%a0%d7%94-%d7%98%d7%90%d7%95%d7%9f-%d7%a9%d7%a8%d7%95%d7%a0%d7%94-%d7%9e%d7%a8%d7%a7%d7%98-%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa/#קימאו",
@@ -81983,7 +83513,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:24.428499+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a6%d7%99%d7%99%d7%a0%d7%94-%d7%98%d7%90%d7%95%d7%9f-%d7%a9%d7%a8%d7%95%d7%a0%d7%94-%d7%9e%d7%a8%d7%a7%d7%98-%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa/#קאנו",
@@ -82124,7 +83658,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:28.569726+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%95%d7%a7%d7%95-%d7%96%d7%9f/#גן זן אמיתי",
@@ -82344,7 +83882,11 @@
    "details_url": null,
    "lat": 32.0861535,
    "lon": 34.7728727,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:50.353138+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-96/#בית תאילנדי",
@@ -82587,7 +84129,11 @@
    "details_url": null,
    "lat": 32.0568471,
    "lon": 34.7626408,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:11.969560+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-96/#קפה אחד העם",
@@ -82696,7 +84242,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:54.027228+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-96/#הפיקוק",
@@ -83008,7 +84558,11 @@
    "details_url": "https://timeout.co.il/%d7%a6%d7%99%d7%a7%d7%95-%d7%9e%d7%99%d7%a7%d7%95-%d7%a7%d7%a8%d7%95%d7%90%d7%a1%d7%95%d7%9f/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:58.605861+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%93%d7%a8%d7%95%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#OPA",
@@ -83344,7 +84898,11 @@
    "details_url": "https://timeout.co.il/topic/%D7%92%D7%95%D7%A8%D7%92-%D7%95%D7%92%D7%95%D7%9F/",
    "lat": 32.0568471,
    "lon": 34.7626408,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:11.969560+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%93%d7%a8%d7%95%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אוזריה",
@@ -84019,7 +85577,11 @@
    "details_url": null,
    "lat": 32.060291,
    "lon": 34.773504,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:17.639033+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%95%d7%a8%d7%a3-25/#סופלייר",
@@ -84870,7 +86432,11 @@
    "details_url": null,
    "lat": 32.0577595,
    "lon": 34.7686424,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:28:43.130663+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a0%d7%95%d7%aa-%d7%97%d7%95%d7%a8%d7%a3-2025/#רומנו",
@@ -85904,7 +87470,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:10.395740+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a8%d7%a7%d7%99%d7%9d-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%9d-25/#שמעון מלך המרקים",
@@ -86608,7 +88178,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:37.849613+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a4%d7%92%d7%a0%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-2025/#רולדין",
@@ -86632,7 +88206,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:07.327963+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a4%d7%92%d7%a0%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-2025/#מיקי שמו",
@@ -86812,7 +88390,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:17.194778+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a4%d7%92%d7%a0%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-2025/#איטס",
@@ -87155,7 +88737,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:11.598952+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a4%d7%92%d7%a0%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-2025/#מאפיית לחמים",
@@ -87179,7 +88765,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:21.710959+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a1%d7%95%d7%a4%d7%92%d7%a0%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-2025/#עמיתה",
@@ -87789,7 +89379,11 @@
    "details_url": "https://timeout.co.il/%d7%a9%d7%a8%d7%a7%d7%95%d7%98%d7%a8%d7%99/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:42.682951+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%93%d7%a6%d7%9e%d7%91%d7%a8-25/#מטעמי בוכרה",
@@ -87862,7 +89456,11 @@
    "details_url": "https://timeout.co.il/%d7%a6%d7%99%d7%a7%d7%95-%d7%9e%d7%99%d7%a7%d7%95-%d7%a7%d7%a8%d7%95%d7%90%d7%a1%d7%95%d7%9f/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:58.605861+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/rpm-%d7%9c%d7%95%d7%99%d7%a0%d7%a1%d7%a7%d7%99/#RPM",
@@ -88612,7 +90210,11 @@
    "details_url": null,
    "lat": 32.043797,
    "lon": 34.748457,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:06.653066+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%aa%d7%99%d7%97%d7%aa-%d7%a9%d7%95%d7%9c%d7%97%d7%9f-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#האחים",
@@ -89134,7 +90736,11 @@
    "details_url": null,
    "lat": 32.057772,
    "lon": 34.765369,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:57.474513+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%aa%d7%97%d7%9e%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קריית המלאכה",
@@ -89158,7 +90764,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:01.416436+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%aa%d7%97%d7%9e%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#התחייה 14",
@@ -89182,7 +90792,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:05.797656+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%aa%d7%97%d7%9e%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#המבצר",
@@ -90158,7 +91772,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:50.362181+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%93%d7%92%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מלגו ומלבר",
@@ -90586,7 +92204,11 @@
    "details_url": null,
    "lat": 32.0899409,
    "lon": 34.7791344,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:54.187880+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#AKA",
@@ -90813,7 +92435,11 @@
    "details_url": null,
    "lat": 32.055475,
    "lon": 34.761447,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:19.738574+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ג'ונז",
@@ -90837,7 +92463,11 @@
    "details_url": null,
    "lat": 32.0597088,
    "lon": 34.7729282,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:40.433619+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%9e%d7%95%d7%9e%d7%9c%d7%a6%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#הלנה",
@@ -91925,7 +93555,11 @@
    "details_url": null,
    "lat": 32.060291,
    "lon": 34.773504,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:17.639033+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/drinking-tel-aviv-these-are-the-citys-most-recommended-bars/#Happy hour: at Jones only",
@@ -92248,7 +93882,11 @@
    "details_url": null,
    "lat": 32.0881389,
    "lon": 34.7752044,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:37.795329+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%aa%d7%90%d7%99%d7%9c%d7%a0%d7%93%d7%99%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אונאומה",
@@ -92836,7 +94474,11 @@
    "details_url": null,
    "lat": 32.0699469,
    "lon": 34.7841112,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:33.925892+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%aa%d7%90%d7%99%d7%9c%d7%a0%d7%93%d7%99%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ZO",
@@ -94034,7 +95676,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:16.163073+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a6%d7%99%d7%a7%d7%95-%d7%9e%d7%99%d7%a7%d7%95-%d7%a7%d7%a8%d7%95%d7%90%d7%a1%d7%95%d7%9f/#צ'יקו מיקו קרואסון",
@@ -94070,7 +95716,11 @@
    "details_url": null,
    "lat": 32.075441,
    "lon": 34.772269,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:58.605861+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/31-places-to-eat-really-well-in-jerusalem/#Racheli & Nir’s Patisserie",
@@ -94202,7 +95852,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:21.515538+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/31-places-to-eat-really-well-in-jerusalem/#Aso Salon",
@@ -94240,7 +95894,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:25.612584+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/31-places-to-eat-really-well-in-jerusalem/#Beit HaAm",
@@ -94278,7 +95936,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:29.210801+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/31-places-to-eat-really-well-in-jerusalem/#The Sushiya",
@@ -94316,7 +95978,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:32.951404+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/31-places-to-eat-really-well-in-jerusalem/#02",
@@ -94354,7 +96020,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:36.947405+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/31-places-to-eat-really-well-in-jerusalem/#American Colony",
@@ -94392,7 +96062,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:40.902564+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/31-places-to-eat-really-well-in-jerusalem/#Waldorf Astoria",
@@ -94477,7 +96151,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:45.600554+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/4t-cafe/#נפתח בית הקפה",
@@ -95497,7 +97175,11 @@
    "details_url": null,
    "lat": 32.0650964,
    "lon": 34.7710585,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:13.317875+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a0%d7%97%d7%9c%d7%aa-%d7%91%d7%a0%d7%99%d7%9e%d7%99%d7%9f-%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa/#רדלר",
@@ -96036,7 +97718,11 @@
    "details_url": null,
    "lat": 32.063977,
    "lon": 34.771557,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:19.982429+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a0%d7%97%d7%9c%d7%aa-%d7%91%d7%a0%d7%99%d7%9e%d7%99%d7%9f-%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa/#סקסי פיש",
@@ -96093,7 +97779,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:09.498322+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%97%d7%93%d7%a9%d7%99%d7%9d-5/#ג'ורג' וג'ון",
@@ -96117,7 +97807,11 @@
    "details_url": null,
    "lat": 32.0568471,
    "lon": 34.7626408,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:11.969560+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a0%d7%a6%d7%99%d7%9d-%d7%97%d7%93%d7%a9%d7%99%d7%9d-5/#נואמה",
@@ -96387,7 +98081,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:13.801789+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/העיר-שלי-מיכל-אפשטיין-חמו/#פרא",
@@ -96687,7 +98385,11 @@
    "lat": 32.0680003,
    "lon": 34.7670792,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:00.845281+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%95%d7%a9%d7%99%d7%a7%d7%95-%d7%90%d7%91%d7%a8%d7%94%d7%9d-%d7%a0%d7%95%d7%90%d7%9e%d7%94/#שף מושיקו אברהם",
@@ -97061,7 +98763,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:41.565983+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#נילוס",
@@ -97444,7 +99150,11 @@
    "details_url": null,
    "lat": 32.0602135,
    "lon": 34.773078,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:38.662540+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בר מימון",
@@ -98439,7 +100149,11 @@
    "details_url": null,
    "lat": 32.0622106,
    "lon": 34.8058007,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:37.204850+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#לייבררי בר",
@@ -99073,7 +100787,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:37.849613+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a7%d7%95%d7%a0%d7%93%d7%99%d7%98%d7%95%d7%a8%d7%99%d7%95%d7%aa-%d7%94%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בליקמח",
@@ -99390,7 +101108,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:41.521991+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a7%d7%95%d7%a0%d7%93%d7%99%d7%98%d7%95%d7%a8%d7%99%d7%95%d7%aa-%d7%94%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מגזינו בייקרי",
@@ -99513,7 +101235,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:45.336100+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a7%d7%95%d7%a0%d7%93%d7%99%d7%98%d7%95%d7%a8%d7%99%d7%95%d7%aa-%d7%94%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מילק בייקרי",
@@ -100931,7 +102657,11 @@
    "details_url": null,
    "lat": 32.04941,
    "lon": 34.757389,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:31.798191+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%96%d7%95%d7%9c%d7%95%d7%aa/#אל מאנו",
@@ -101033,7 +102763,11 @@
    "details_url": null,
    "lat": 32.0611981,
    "lon": 34.7701918,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:52.678994+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%96%d7%95%d7%9c%d7%95%d7%aa/#פלאפל רצון",
@@ -101189,7 +102923,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:58.333060+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a0%d7%a7%d7%95%d7%93%d7%aa-%d7%98%d7%91%d7%a2-%d7%99%d7%a4%d7%95/#זאת נראית כמו חנות טבע. אבל זה הלאנץ' הטבעוני שלכם ביפו",
@@ -101567,7 +103305,11 @@
    "details_url": null,
    "lat": 32.076018,
    "lon": 34.781313,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:45.400225+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%91%d7%99%d7%a8%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בירגארדן פאולנר\\בירגארדן",
@@ -102429,7 +104171,11 @@
    "details_url": null,
    "lat": 32.0601131,
    "lon": 34.7730673,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:08.357393+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a0%d7%95%d7%aa-%d7%98%d7%a2%d7%99%d7%9e%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-1125/#שרויטמן",
@@ -102531,7 +104277,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:31:12.573866+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a0%d7%95%d7%aa-%d7%98%d7%a2%d7%99%d7%9e%d7%95%d7%aa-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-1125/#בל עמי",
@@ -102696,7 +104446,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:38.530956+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%a8%d7%a7%d7%95%d7%98%d7%a8%d7%99/#אוכל הרחוב הכי",
@@ -102739,7 +104493,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:29.635492+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%a0%d7%95%d7%91%d7%9e%d7%91%d7%a8-25/#בל עמי",
@@ -102904,7 +104662,11 @@
    "details_url": "https://timeout.co.il/%d7%90%d7%a1%d7%90-asa/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:24.058387+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%a0%d7%95%d7%91%d7%9e%d7%91%d7%a8-25/#סיח",
@@ -102992,7 +104754,11 @@
    "details_url": "https://timeout.co.il/%d7%94%d7%a1%d7%9e%d7%98%d7%94-by-chef-panda/#google_vignette",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:59.950481+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%a0%d7%95%d7%91%d7%9e%d7%91%d7%a8-25/#דיינינגס",
@@ -103172,7 +104938,11 @@
    "details_url": "https://timeout.co.il/fe-%d7%90%d7%a4%d7%99/",
    "lat": 32.0589906,
    "lon": 34.774507,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:03.451190+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%a0%d7%95%d7%91%d7%9e%d7%91%d7%a8-25/#פאראיסו",
@@ -103196,7 +104966,11 @@
    "details_url": "https://timeout.co.il/%d7%a4%d7%90%d7%a8%d7%90%d7%99%d7%a1%d7%95-%d7%a7%d7%a4%d7%94/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:07.336809+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%a0%d7%95%d7%91%d7%9e%d7%91%d7%a8-25/#לה טיגרה",
@@ -103312,7 +105086,11 @@
    "details_url": "https://timeout.co.il/%d7%a0%d7%97%d7%aa-%d7%9e%d7%aa%d7%a4%d7%a6%d7%9c/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:11.234508+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/casa-bar/#מי קאסה? בר שכונתי חדש רוצה להשיב את האווירה לשוק הפשפשים",
@@ -103447,7 +105225,11 @@
    "details_url": null,
    "lat": 32.1088611,
    "lon": 34.7950946,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:04.910767+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-93/#סוף",
@@ -103985,7 +105767,11 @@
    "details_url": null,
    "lat": 31.7848815,
    "lon": 35.2123894,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:57.828095+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-93/#מתת",
@@ -104138,7 +105924,11 @@
    "details_url": null,
    "lat": 32.071988,
    "lon": 34.7888851,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:41.754602+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%9c-%d7%a2%d7%9e%d7%99-bel-ami/#Bel",
@@ -104418,7 +106208,11 @@
    "details_url": null,
    "lat": 32.0622106,
    "lon": 34.8058007,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:24.058387+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%95%d7%a4-%d7%90%d7%a4-%d7%9e%d7%90%d7%a6%d7%94/#שף תומר טל",
@@ -105612,7 +107406,11 @@
    "details_url": null,
    "lat": 32.0597088,
    "lon": 34.7729282,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:40.433619+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%a9%d7%9e%d7%97%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#צ׳אקולי קיוסק",
@@ -105749,7 +107547,11 @@
    "details_url": null,
    "lat": 32.0861535,
    "lon": 34.7728727,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:09.239059+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-92/#טום אביב",
@@ -105773,7 +107575,11 @@
    "details_url": "https://timeout.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%94%D7%90%D7%95%D7%9B%D7%9C-85/",
    "lat": 32.0683679,
    "lon": 34.7685526,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:13.779557+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-92/#המנזר",
@@ -107760,7 +109566,11 @@
    "details_url": null,
    "lat": 32.0711035,
    "lon": 34.7870617,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:41.754602+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9b%d7%99%d7%a1%d7%95%d7%a0%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#חנן מרגילן",
@@ -107926,7 +109736,11 @@
    "details_url": null,
    "lat": 32.058265,
    "lon": 34.779993,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:13.116661+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9b%d7%99%d7%a1%d7%95%d7%a0%d7%99%d7%9d-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#שו",
@@ -108505,7 +110319,11 @@
    "details_url": null,
    "lat": 32.063335,
    "lon": 34.771519,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:19.982429+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%aa%d7%95%d7%97-%d7%9e%d7%90%d7%95%d7%97%d7%a8-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סקי ריידרס",
@@ -109173,7 +110991,11 @@
    "details_url": null,
    "lat": 32.070403,
    "lon": 34.770404,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:18.560006+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%aa%d7%95%d7%97-%d7%9e%d7%90%d7%95%d7%97%d7%a8-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#One",
@@ -111659,7 +113481,11 @@
    "details_url": "https://timeout.co.il/%d7%91%d7%a8-%d7%97%d7%a0%d7%99%d7%95%d7%9f/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:43.609973+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-25/#OBI",
@@ -112604,9 +114430,16 @@
    "enrichment": {
     "address": "שדרות רוטשילד 24, תל אביב-יפו, ישראל",
     "google_name": "CASMAYA",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnvdJKhRhtWVn7UHwYbc3EPCb73hM8ctUSEbqcaQbfJ60WWAAPQGhN8Ek3ARBhwFGwcCLlj_ge5LinRI4ckGNiOEOY72XV4cIoLrYJIUHLSqka0tJui_Ms-1919s5qIeTEET_20aN8kx-g=w800-h500-k-no",
-    "hours": "ג' 20:00-02:00, ד' 20:00-02:00, ה' 20:00-02:00, ו' 20:00-02:00, ש' 20:00-02:00, א' סגור, ב' סגור",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn2KbyQ5SA3fSfjwKJdd4Fv5hSY_iQ6NnaBrOjxi2dffwz8grnf6YFG03XhkJJ1LmXTNiTmm-71DImY6Pk-Ykm5MSdS1ktOR6r03Ru6zfnsM2DclewixijERgq3ClmeJHRZ11gDtZltJho=w800-h500-k-no",
+    "hours": "ש' 20:00-02:00, א' סגור, ב' סגור, ג' 20:00-02:00, ד' 20:00-02:00, ה' 20:00-02:00, ו' 20:00-02:00",
     "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "20:00",
+      "to": "02:00"
+     },
      {
       "days": [
        2
@@ -112634,17 +114467,10 @@
       ],
       "from": "20:00",
       "to": "02:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "20:00",
-      "to": "02:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-08-29",
     "v": 3
    },
    "closed_permanently": false
@@ -113237,7 +115063,11 @@
    "details_url": "https://timeout.co.il/%D7%91%D7%A8-%D7%97%D7%A0%D7%99%D7%95%D7%9F/",
    "lat": 32.057772,
    "lon": 34.765369,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:57.474513+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-91/#בר פרדיסו",
@@ -114713,7 +116543,11 @@
    "details_url": null,
    "lat": 32.071192,
    "lon": 34.770798,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:47.529160+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94/#מתאו",
@@ -114822,7 +116656,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:10.395740+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94/#וילה מארה",
@@ -115082,7 +116920,11 @@
    "details_url": null,
    "lat": 32.043797,
    "lon": 34.748457,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:06.653066+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94/#קאנו",
@@ -115781,7 +117623,11 @@
    "details_url": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94-2025/",
    "lat": 32.0589906,
    "lon": 34.774507,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:23.017446+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-90/#אברי",
@@ -116284,7 +118130,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:15:26.790157+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-90/#ביר גארדן פאולנר שרונה",
@@ -116804,7 +118654,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:09.388379+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94-2025/#עמיתה",
@@ -116927,7 +118781,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:48.459925+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94-2025/#אסף גרושקובסקי",
@@ -116984,7 +118842,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:52.900260+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94-2025/#ביסקוטי",
@@ -117086,7 +118948,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:30:13.153794+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94-2025/#דולי",
@@ -117266,7 +119132,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:30.107461+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%95%d7%92%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94-2025/#מיקי שמו",
@@ -117401,7 +119271,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:02.273876+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%a4%d7%94-%d7%a4%d7%a8%d7%99%d7%9e%d7%95/#קפה פרימו",
@@ -118009,7 +119883,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:48.979422+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-89/#דיינינגס",
@@ -118796,7 +120674,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:24.732689+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%90%d7%a1%d7%a8%d7%99-18-%d7%9c%d7%91%d7%95%d7%a0%d7%98%d7%99%d7%9f/#בראסרי 18 מהגר",
@@ -119236,7 +121118,16 @@
    "details_url": null,
    "lat": 32.0443395,
    "lon": 34.7509908,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "enrichment": {
+    "address": "Prof. Pnina Salzman, תל אביב-יפו, 6969000, ישראל",
+    "google_name": "בלו תל אביב",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn0_wSw3CAhphtLU74-PP4o2khi1kNBwUfEiZkQaHMGU_IsS3dqS4r-_z5Dx7fzMOz9XZk25kCgl1aUcAc34Odk7FprxrYUJLzW_c_eolFUAubhrlQM71VLLg_0Y7mqvFGqsn5HLw=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-08-29",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%a4%d7%94-%d7%a1%d7%a4%d7%99%d7%99%d7%a9%d7%9c%d7%98%d7%99-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#BUNA",
@@ -119515,7 +121406,11 @@
    "details_url": null,
    "lat": 32.0628563,
    "lon": 34.7768276,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:06.649866+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%a4%d7%94-%d7%a1%d7%a4%d7%99%d7%99%d7%a9%d7%9c%d7%98%d7%99-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#טימותי",
@@ -119638,7 +121533,11 @@
    "details_url": "https://timeout.co.il/okoko/",
    "lat": 32.084835,
    "lon": 34.781483,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:34.021481+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%a4%d7%94-%d7%a1%d7%a4%d7%99%d7%99%d7%a9%d7%9c%d7%98%d7%99-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#נומנה",
@@ -119825,7 +121724,11 @@
    "details_url": null,
    "lat": 32.071082,
    "lon": 34.769607,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:26:10.938995+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%a4%d7%94-%d7%a1%d7%a4%d7%99%d7%99%d7%a9%d7%9c%d7%98%d7%99-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קאפס",
@@ -121253,7 +123156,11 @@
    "details_url": "https://timeout.co.il/%d7%94%d7%95%d7%a0%d7%92-%d7%91%d7%90%d7%95/",
    "lat": 32.071988,
    "lon": 34.7888851,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:28.906777+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-25/#ג'ושוע דלי",
@@ -121366,7 +123273,11 @@
    "details_url": "https://timeout.co.il/%d7%a4%d7%95%d7%a4%d7%95%d7%9c%d7%94-%d7%a7%d7%a4%d7%94/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:14:33.011555+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-25/#קפה פלור",
@@ -121644,7 +123555,11 @@
    "details_url": null,
    "lat": 32.071988,
    "lon": 34.7888851,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:41.754602+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/bandit-%d7%91%d7%a0%d7%93%d7%99%d7%98/#בר האוכל של",
@@ -122131,7 +124046,11 @@
    "details_url": null,
    "lat": 32.0611271,
    "lon": 34.7913062,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:20.223507+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-88/#חוות צוק",
@@ -122847,7 +124766,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:32.903975+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%95%d7%a3-%d7%9e%d7%a6%d7%99%d7%a6%d7%99%d7%9d-%d7%97%d7%93%d7%a9/#מסעדת חוף",
@@ -123020,7 +124943,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:01.964385+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%a4%d7%94-%d7%a4%d7%9c%d7%95%d7%a8-cafe-fleur/#חוף הצוק קיבל",
@@ -123540,7 +125467,11 @@
    "details_url": null,
    "lat": 32.0618452,
    "lon": 34.7700942,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:37.204850+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%90%d7%a4%d7%99-%d7%94%d7%90%d7%95%d7%95%d7%a8-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#שאפה",
@@ -124078,7 +126009,11 @@
    "details_url": null,
    "lat": 32.0798439,
    "lon": 34.7710321,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:24:57.356300+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%90%d7%a4%d7%99-%d7%94%d7%90%d7%95%d7%95%d7%a8-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#רומנו",
@@ -124613,10 +126548,10 @@
    "enrichment": {
     "address": "מלכי ישראל 8, תל אביב-יפו, ישראל",
     "google_name": "Marlen Burger Tel-Aviv - מרלן בורגר תל אביב",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmsj8zDQ6m6Z0lNOj6Xr5OzE1pXL7aoi6cfrOW8_d9qDTKGA15MXXoDcEAJZFqkDk28OA9tnE73IRSMJvDkbPktJMpJfvB3bMJIGgzfX4dhmofsNyOgNTPMffHj4V3crGRXrjKr=w800-h500-k-no",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlndEkXCYwilHNJDYDOjxYAhKtoDAtRHPx-A82P25VE2PnnAvU_deyztCWE1tWhNa2i9lWnNHnMS_qHg2rdcebeBGOBgwZfd0AHSemY1Jvy1iZaNZZozWUCQoARSmLNXUp7sPli=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-17",
-    "v": 2
+    "date": "2026-08-29",
+    "v": 3
    },
    "closed_permanently": true
   },
@@ -124886,7 +126821,11 @@
    "details_url": null,
    "lat": 32.0683357,
    "lon": 34.7700335,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:57.406031+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-87/#שה ויוי",
@@ -125583,7 +127522,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:56.300763+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9b%d7%a9%d7%a8%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#גוגי'ס גריל בר",
@@ -127580,7 +129523,11 @@
    "details_url": "https://timeout.co.il/fritto-%d7%a4%d7%a8%d7%99%d7%98%d7%95/",
    "lat": 32.061255,
    "lon": 34.772392,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:54.847931+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a0%d7%95%d7%aa-%d7%a7%d7%98%d7%a0%d7%95%d7%aa-%d7%95%d7%98%d7%95%d7%91%d7%95%d7%aa/#ליקווידיום",
@@ -127807,7 +129754,11 @@
    "details_url": null,
    "lat": 32.0618452,
    "lon": 34.7700942,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:37.204850+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8%d7%99%d7%9d-%d7%9c%d7%a4%d7%99%d7%a7-%d7%90%d7%a4-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סילון",
@@ -128812,7 +130763,11 @@
    "details_url": null,
    "lat": 32.062315,
    "lon": 34.775271,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:04.793535+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8-%d7%99%d7%99%d7%9f-%d7%a8%d7%95%d7%9e%d7%a0%d7%98%d7%99-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#סנטי",
@@ -129003,7 +130958,11 @@
    "details_url": null,
    "lat": 32.060291,
    "lon": 34.773504,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:17.639033+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%a8-%d7%99%d7%99%d7%9f-%d7%a8%d7%95%d7%9e%d7%a0%d7%98%d7%99-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#Cote",
@@ -129117,7 +131076,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:35.777327+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%a7%d7%a1%d7%98%d7%a8%d7%99%d7%9d-unicone-%d7%99%d7%95%d7%a0%d7%99%d7%a7%d7%95%d7%a8%d7%9f/#קניון עזריאלי תל אביב",
@@ -129311,7 +131274,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:51.451848+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%93%d7%99%d7%a6%d7%94-%d7%91%d7%a8-%d7%a7%d7%a4%d7%94/#ביום",
@@ -129985,7 +131952,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:11.693214+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-86/#ג'מה",
@@ -130141,7 +132112,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:16.322652+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-86/#רמת השרון",
@@ -130179,7 +132154,11 @@
    "details_url": null,
    "lat": 32.1431276,
    "lon": 34.8380853,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:20.831062+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/tyo-%d7%99%d7%95%d7%aa%d7%a8-%d7%99%d7%a4%d7%a0%d7%99-%d7%9e%d7%99%d7%a4%d7%a0%d7%99/#האוכל",
@@ -130203,7 +132182,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:26.110701+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/tyo-%d7%99%d7%95%d7%aa%d7%a8-%d7%99%d7%a4%d7%a0%d7%99-%d7%9e%d7%99%d7%a4%d7%a0%d7%99/#האווירה",
@@ -130227,7 +132210,11 @@
    "details_url": null,
    "lat": 32.063251,
    "lon": 34.7641288,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:30.388479+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/tyo-%d7%99%d7%95%d7%aa%d7%a8-%d7%99%d7%a4%d7%a0%d7%99-%d7%9e%d7%99%d7%a4%d7%a0%d7%99/#עסקיות ושעות שמחות",
@@ -130590,9 +132577,16 @@
    "enrichment": {
     "address": "שדרות רוטשילד 24, תל אביב-יפו, ישראל",
     "google_name": "CASMAYA",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnvdJKhRhtWVn7UHwYbc3EPCb73hM8ctUSEbqcaQbfJ60WWAAPQGhN8Ek3ARBhwFGwcCLlj_ge5LinRI4ckGNiOEOY72XV4cIoLrYJIUHLSqka0tJui_Ms-1919s5qIeTEET_20aN8kx-g=w800-h500-k-no",
-    "hours": "ג' 20:00-02:00, ד' 20:00-02:00, ה' 20:00-02:00, ו' 20:00-02:00, ש' 20:00-02:00, א' סגור, ב' סגור",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn2KbyQ5SA3fSfjwKJdd4Fv5hSY_iQ6NnaBrOjxi2dffwz8grnf6YFG03XhkJJ1LmXTNiTmm-71DImY6Pk-Ykm5MSdS1ktOR6r03Ru6zfnsM2DclewixijERgq3ClmeJHRZ11gDtZltJho=w800-h500-k-no",
+    "hours": "ש' 20:00-02:00, א' סגור, ב' סגור, ג' 20:00-02:00, ד' 20:00-02:00, ה' 20:00-02:00, ו' 20:00-02:00",
     "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "20:00",
+      "to": "02:00"
+     },
      {
       "days": [
        2
@@ -130620,17 +132614,10 @@
       ],
       "from": "20:00",
       "to": "02:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "20:00",
-      "to": "02:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-08-29",
     "v": 3
    },
    "closed_permanently": false
@@ -130768,7 +132755,11 @@
    "details_url": "https://timeout.co.il/fritto-%d7%a4%d7%a8%d7%99%d7%98%d7%95/",
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:16:54.847931+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%90%d7%95%d7%92%d7%95%d7%a1%d7%98-25/#ריפ בורגר",
@@ -131264,7 +133255,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:19:52.900260+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%92%d7%9c%d7%99%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-2025/#סאנדיי מרשמלו",
@@ -131288,7 +133283,11 @@
    "details_url": null,
    "lat": 32.0683357,
    "lon": 34.7700335,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:23.129437+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%92%d7%9c%d7%99%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-2025/#רובע א",
@@ -131642,7 +133641,11 @@
    "details_url": "https://timeout.co.il/molam-%D7%9E%D7%95%D7%9C%D7%90%D7%9D/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:12.808161+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-3107/#ורמוטריה נקסט דור",
@@ -131798,7 +133801,11 @@
    "details_url": null,
    "lat": 32.0622106,
    "lon": 34.8058007,
-   "geo_precision": "area"
+   "geo_precision": "area",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:10:17.789292+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-3107/#לה טיגרה באזל",
@@ -131899,7 +133906,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:20:33.308585+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-3107/#רוף טופ בקמפינסקי",
@@ -132049,7 +134060,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:27:17.850618+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/lookout-%d7%9c%d7%95%d7%a7%d7%90%d7%90%d7%95%d7%98/#Lookout",
@@ -132316,7 +134331,11 @@
    "details_url": "https://timeout.co.il/%D7%A7%D7%A4%D7%94-10-10-%D7%9E%D7%98%D7%9E%D7%95%D7%9F/",
    "lat": 32.054946,
    "lon": 34.760867,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:12:40.473761+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/molam-%d7%9e%d7%95%d7%9c%d7%90%d7%9d/#MOLAM",
@@ -132647,7 +134666,11 @@
    "details_url": null,
    "lat": 31.7977314,
    "lon": 34.6529922,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:25:56.397880+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%9e%d7%95%d7%9c-%d7%94%d7%99%d7%9d/#גריל רום",
@@ -133728,7 +135751,11 @@
    "details_url": null,
    "lat": 31.7977314,
    "lon": 34.6529922,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:24.024663+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-85/#טברנה דל מאר",
@@ -134079,7 +136106,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:31.628402+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-85/#פסטיבל \"אור לליאור",
@@ -134164,7 +136195,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:13:35.941428+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9c%d7%94-%d7%91%d7%95%d7%94%d7%9d-%d7%a0%d7%95%d7%95%d7%94-%d7%a6%d7%93%d7%a7/#>> לה בוהם",
@@ -134226,7 +136261,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:10.482448+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%92%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-%d7%9e%d7%97%d7%95%d7%a5-%d7%9c%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אור יהודה",
@@ -134302,7 +136341,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:28:47.695668+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%92%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-%d7%9e%d7%97%d7%95%d7%a5-%d7%9c%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#ראש העין",
@@ -134340,7 +136383,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:28:52.466379+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%92%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-%d7%9e%d7%97%d7%95%d7%a5-%d7%9c%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#כפר יונה",
@@ -134383,7 +136430,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:28:56.143467+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%92%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-%d7%9e%d7%97%d7%95%d7%a5-%d7%9c%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#תל מונד",
@@ -134430,7 +136481,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:14.363851+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%92%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-%d7%9e%d7%97%d7%95%d7%a5-%d7%9c%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אזור",
@@ -134472,7 +136527,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:18.007894+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%92%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-%d7%9e%d7%97%d7%95%d7%a5-%d7%9c%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#צופית",
@@ -134510,7 +136569,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:22.255810+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%92%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-%d7%9e%d7%97%d7%95%d7%a5-%d7%9c%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קיבוץ חולדה",
@@ -134548,7 +136611,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:26.075992+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%92%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-%d7%9e%d7%97%d7%95%d7%a5-%d7%9c%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מושב מטע",
@@ -134624,7 +136691,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:30.714742+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%92%d7%9c%d7%95%d7%aa-%d7%a7%d7%a4%d7%94-%d7%9e%d7%97%d7%95%d7%a5-%d7%9c%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#רמת השרון",
@@ -134662,7 +136733,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:00.259433+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%aa%d7%95%d7%a1%d7%a4%d7%95%d7%aa-%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8-%d7%9e%d7%95%d7%96%d7%a8%d7%95%d7%aa/#טאבי'ס",
@@ -134771,7 +136846,11 @@
    "details_url": null,
    "lat": 32.076638,
    "lon": 34.776835,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:52.678994+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%aa%d7%95%d7%a1%d7%a4%d7%95%d7%aa-%d7%94%d7%9e%d7%91%d7%95%d7%a8%d7%92%d7%a8-%d7%9e%d7%95%d7%96%d7%a8%d7%95%d7%aa/#גורמה 26",
@@ -135056,7 +137135,11 @@
    "details_url": "https://timeout.co.il/%d7%a4%d7%95%d7%a8%d7%98-%d7%a9%d7%a3-2025/",
    "lat": 32.068865,
    "lon": 34.781566,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:23:05.335699+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%a4%d7%99%d7%a6%d7%95%d7%aa-%d7%9e%d7%a4%d7%95%d7%a1%d7%a4%d7%a1%d7%95%d7%aa/#פיצה קראפט",
@@ -136295,7 +138378,11 @@
    "details_url": "https://timeout.co.il/%D7%91%D7%A8%D7%91%D7%95%D7%A8/",
    "lat": 32.065083,
    "lon": 34.770835,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:43.945225+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-84/#אפולו",
@@ -136371,7 +138458,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:48.276600+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-84/#ZO",
@@ -136473,7 +138564,11 @@
    "details_url": null,
    "lat": 32.064259,
    "lon": 34.771153,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:52.386103+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-84/#מלגו ומלבר",
@@ -136794,7 +138889,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:17:56.704990+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-84/#בן & ג'ריס",
@@ -136818,7 +138917,11 @@
    "details_url": "https://timeout.co.il/%D7%A7%D7%A8%D7%90%D7%A0%D7%A5-%D7%9E%D7%90%D7%A0%D7%A5/",
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:00.458238+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-84/#הבייקרי יוצא לדרכים",
@@ -136856,7 +138959,11 @@
    "details_url": null,
    "lat": 32.0852997,
    "lon": 34.7818064,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:04.166845+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-84/#סבתות מבשלות בבני ברק",
@@ -136973,7 +139080,11 @@
    "details_url": null,
    "lat": null,
    "lon": null,
-   "geo_precision": null
+   "geo_precision": null,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:08.407365+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%95%d7%a8%d7%a7%d7%a1-%d7%94%d7%a0%d7%a9%d7%99%d7%90-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#בורקס הנשיא מלוד",
@@ -137503,7 +139614,11 @@
    "details_url": null,
    "lat": 32.060291,
    "lon": 34.773504,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:17.639033+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%a4%d7%9c%d7%95%d7%a8%d7%a0%d7%98%d7%99%d7%9f/#מרלוזה",
@@ -138077,7 +140192,11 @@
    "details_url": null,
    "lat": 32.111342,
    "lon": 34.799529,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:18:48.402902+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%a4%d7%9c%d7%95%d7%a8%d7%a0%d7%98%d7%99%d7%9f/#מסקל",
@@ -138642,7 +140761,11 @@
    "details_url": null,
    "lat": 32.056053,
    "lon": 34.769417,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:22:44.809610+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa-%d7%a4%d7%9c%d7%95%d7%a8%d7%a0%d7%98%d7%99%d7%9f/#אלמז מנדל",
@@ -138744,7 +140867,11 @@
    "details_url": null,
    "lat": 32.059278,
    "lon": 34.7706896,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:29:37.204850+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%91%d7%a0%d7%97%d7%9c%d7%aa-%d7%91%d7%a0%d7%99%d7%9e%d7%99%d7%9f/#ברבורה",
@@ -138768,7 +140895,11 @@
    "details_url": "https://timeout.co.il/%D7%91%D7%A8%D7%91%D7%95%D7%A8/",
    "lat": 32.065083,
    "lon": 34.770835,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-08-29T13:11:47.159589+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/3-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%91%d7%a0%d7%97%d7%9c%d7%aa-%d7%91%d7%a0%d7%99%d7%9e%d7%99%d7%9f/#ורמוטריה",
@@ -144917,7 +147048,15 @@
   "יהודה המכבי 53, תל אביב, תל אביב, ישראל": [
    32.0939451,
    34.790744
-  ]
+  ],
+  "המחסן 1, נמל יפו, תל אביב-יפו, 6803326, ישראל, ישראל": null,
+  "אלנבי 113, תל אביב-יפו, ישראל, ישראל": null,
+  "שדרות רוטשילד 32, תל אביב-יפו, 6688210, ישראל, ישראל": null,
+  "יד חרוצים 14, תל אביב-יפו, 6770007, ישראל, ישראל": null,
+  "Prof. Pnina Salzman, תל אביב-יפו, 6969000, ישראל, ישראל": null,
+  "קדם 85, תל אביב-יפו, 6814331, ישראל, ישראל": null,
+  "שוק האיכרים (שוק הנמל, נמל תל אביב 12, תל אביב-יפו, ישראל, ישראל": null,
+  "לשם, קרית גת, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-28T01:44:22.821701+03:00"
+ "last_google_run": "2026-08-29T13:31:13.444651+03:00"
 }
