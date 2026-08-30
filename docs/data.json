@@ -4115,17 +4115,17 @@
    "enrichment": {
     "result_names": [
      "Taco BA טאקו בא",
-     "הטאקו תל אביב",
      "טאקריה",
+     "הטאקו תל אביב",
      "שוק לוינסקי",
      "מסקל",
      "טאקריה יד אליהו- טייק אווי ומשלוחים",
      "לה קטרינה"
     ],
     "name_echo": true,
-    "address": "מרחביה 11, תל אביב-יפו, ישראל",
+    "address": "מרחביה 11, תל אביב-יפו",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMHchjUIJ_BJp16Z9SS8K-shnGEMoyJpqJj1Z8CuEHMAtG57ayrOHHbfwOqyWFLl1l9ckDoCxWqf4liYU9vozXfTHo2dJ1wJBfXmvUefHH0T0jJIRPpjP86p-HmTHnlIhqTZGM9vR8Cfk=w800-h500-k-no",
-    "hours": "ש' 17:00-24:00",
+    "hours": "ש' 17:00-24:00, א' 11:30-24:00, ב' 11:30-24:00, ג' 11:30-24:00, ד' 11:30-24:00, ה' 11:30-24:00, ו' 11:00-17:00",
     "schedule": [
      {
       "days": [
@@ -4133,6 +4133,48 @@
       ],
       "from": "17:00",
       "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "11:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "11:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "11:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "11:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "11:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "11:00",
+      "to": "17:00"
      }
     ],
     "source": "גוגל",
@@ -34460,8 +34502,8 @@
    },
    "closed_permanently": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T19:13:46.645589+03:00"
+    "tries": 2,
+    "last": "2026-08-29T19:22:46.647904+03:00"
    }
   },
   {
@@ -45565,67 +45607,9 @@
      "ורמוטריה"
     ],
     "name_echo": true,
-    "address": "נחלת בנימין 20, תל אביב-יפו, 6516122, ישראל",
+    "google_name": "בר ורמיני",
+    "address": "נחלת בנימין 20, תל אביב-יפו, 6516122",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlsdD4vW6bWqhkcUjjEX9wbGwXirqvDuUS--f2nDvm62uTfYBvezjUEjtxcWNMChdzUwTA4fhg2GEPl1Y6Zcb6dMD_v0dPKD90gSmQCLRnGV94Kdv5YhC797B_c_d1RLOKtCKNN1VN0uULA=w800-h500-k-no",
-    "hours": "ש' 14:00-01:00, א' 18:00-01:00, ב' 18:00-01:00, ג' 18:00-01:00, ד' 18:00-01:00, ה' 18:00-01:00, ו' 18:00-01:00, ש' סגור, א' 18:00-19:00",
-    "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "14:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "18:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       5
-      ],
-      "from": "18:00",
-      "to": "01:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "18:00",
-      "to": "19:00"
-     }
-    ],
     "source": "גוגל",
     "date": "2026-08-29",
     "v": 3
@@ -48572,60 +48556,75 @@
    "lon": 34.767099,
    "geo_precision": "address",
    "enrichment": {
-    "address": "ג׳ורג׳ וייס 20, תל אביב-יפו, ישראל",
-    "hours": "ו' 17:00-02:00, ש' 14:00-01:00, א' סגור, ב' 17:00-01:00, ג' 17:00-01:00, ד' 17:00-01:00, ה' 17:00-01:00",
+    "result_names": [
+     "פלורנטינה",
+     "הודנא פלורנטין",
+     "ברלין בפלורנטין",
+     "הברבנאל",
+     "מרכז קהילתי פלורנטין",
+     "סטודיו שף פלורנטין",
+     "שאפל בר - בר בתל אביב | בר מסעדה תל אביב | פאב בתל אביב | קוקטיילים"
+    ],
+    "name_echo": true,
+    "address": "אברבנאל 56, תל אביב-יפו",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwixyizZfcRAnJXUxAhNqHt9dxeDoqLVMCcb4rBoCI3RJgsAby9mE5RMk67o6WZyzVXATxOogXKEdOQQfb07cKrtf8koUdXpS1LbK14PCKOWrizldOehwhmohhhr_pl-elIxVh=w800-h500-k-no",
+    "hours": "ש' 21:15-24:00, א' 11:00-23:00, ב' 11:00-23:00, ג' 11:00-23:00, ד' 11:00-23:00, ה' 11:00-24:00, ו' 08:30-15:00",
     "schedule": [
-     {
-      "days": [
-       5
-      ],
-      "from": "17:00",
-      "to": "02:00"
-     },
      {
       "days": [
        6
       ],
-      "from": "14:00",
-      "to": "01:00"
+      "from": "21:15",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "11:00",
+      "to": "23:00"
      },
      {
       "days": [
        1
       ],
-      "from": "17:00",
-      "to": "01:00"
+      "from": "11:00",
+      "to": "23:00"
      },
      {
       "days": [
        2
       ],
-      "from": "17:00",
-      "to": "01:00"
+      "from": "11:00",
+      "to": "23:00"
      },
      {
       "days": [
        3
       ],
-      "from": "17:00",
-      "to": "01:00"
+      "from": "11:00",
+      "to": "23:00"
      },
      {
       "days": [
        4
       ],
-      "from": "17:00",
-      "to": "01:00"
+      "from": "11:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:30",
+      "to": "15:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-07-31"
+    "date": "2026-08-29",
+    "v": 3
    },
-   "closed_permanently": false,
-   "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T19:14:49.764421+03:00"
-   }
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%9e%d7%a5-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2026/#תופין",
@@ -62403,87 +62402,61 @@
    "lon": null,
    "geo_precision": null,
    "enrichment": {
-    "result_names": [
-     "בייקרי צפון דיזנגוף - Bakery",
-     "בייקרי",
-     "Bakery - בייקרי צינה כיכר דיזנגוף",
-     "בייקרי יד חרוצים",
-     "בייקרי 58"
-    ],
-    "name_echo": true,
-    "address": "דיזנגוף 260, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlt87Tp1xhK_ZqdYHy3mBEVkXT13ved9kzimPia5dkBrOruxPEKsvawfaLgv-bdJiGY47ZXOXvCyONGd6L-Zm_-B1bZ7H-vdn715_8uVaFkG-6z3qn3qwsGLJ_y5luJov7t3s31=w800-h500-k-no",
-    "hours": "ש' 08:00-14:00, א' 07:00-20:00, ב' 07:00-20:00, ג' 07:00-20:00, ד' 07:00-20:00, ה' 07:00-20:00, ו' 07:30-16:00, ש' 08:00-13:00, א' 08:00-13:00",
+    "address": "8359 N 7th St, Phoenix, AZ 85020",
+    "hours": "ב' 08:30-17:00, ג' 08:30-17:00, ד' 08:30-17:00, ה' 08:30-17:00, ו' 08:30-14:30, ש' סגור, א' 09:30-17:00",
     "schedule": [
-     {
-      "days": [
-       6
-      ],
-      "from": "08:00",
-      "to": "14:00"
-     },
-     {
-      "days": [
-       0
-      ],
-      "from": "07:00",
-      "to": "20:00"
-     },
      {
       "days": [
        1
       ],
-      "from": "07:00",
-      "to": "20:00"
+      "from": "08:30",
+      "to": "17:00"
      },
      {
       "days": [
        2
       ],
-      "from": "07:00",
-      "to": "20:00"
+      "from": "08:30",
+      "to": "17:00"
      },
      {
       "days": [
        3
       ],
-      "from": "07:00",
-      "to": "20:00"
+      "from": "08:30",
+      "to": "17:00"
      },
      {
       "days": [
        4
       ],
-      "from": "07:00",
-      "to": "20:00"
+      "from": "08:30",
+      "to": "17:00"
      },
      {
       "days": [
        5
       ],
-      "from": "07:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "08:00",
-      "to": "13:00"
+      "from": "08:30",
+      "to": "14:30"
      },
      {
       "days": [
        0
       ],
-      "from": "08:00",
-      "to": "13:00"
+      "from": "09:30",
+      "to": "17:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-29",
-    "v": 3
+    "date": "2026-08-03"
    },
-   "closed_permanently": false
+   "closed_permanently": false,
+   "google_miss": {
+    "tries": 2,
+    "last": "2026-08-29T19:23:54.663729+03:00"
+   },
+   "not_a_place": true
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%96%d7%a0%d7%99-%d7%94%d7%9e%d7%9f-2026/#מאפיית לחמים",
@@ -71936,15 +71909,7 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "result_names": [
-     "מסעדת כלת הים",
-     "יפו-תל אביב",
-     "רובע"
-    ],
-    "name_echo": true,
-    "google_name": "מסעדת כלת הים",
     "address": "שתי האחיות 2, תל אביב-יפו, 6805316, ישראל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlJ5KDIzzsST5hG44QmvVUf5QgITI_-J-mr6XPNkKf62oENdpfjrKRKfyHVEOsfEYFbbqyEjKNkEMbWtdz1TINaPO5dklDngCtBktKDMina_xjIaQjy7e8GqlsBpxtts-uf8Ww=w800-h500-k-no",
     "hours": "א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:00, ו' 12:00-23:00, ש' 12:00-23:00",
     "schedule": [
      {
@@ -71998,10 +71963,13 @@
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-30",
-    "v": 3
+    "date": "2026-08-02"
    },
-   "closed_permanently": false
+   "closed_permanently": false,
+   "google_miss": {
+    "tries": 2,
+    "last": "2026-08-29T19:23:58.403029+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-97/#דה פיג'וטו",
@@ -132192,17 +132160,17 @@
    "enrichment": {
     "result_names": [
      "Taco BA טאקו בא",
-     "הטאקו תל אביב",
      "טאקריה",
+     "הטאקו תל אביב",
      "שוק לוינסקי",
      "מסקל",
      "טאקריה יד אליהו- טייק אווי ומשלוחים",
      "לה קטרינה"
     ],
     "name_echo": true,
-    "address": "מרחביה 11, תל אביב-יפו, ישראל",
+    "address": "מרחביה 11, תל אביב-יפו",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMHchjUIJ_BJp16Z9SS8K-shnGEMoyJpqJj1Z8CuEHMAtG57ayrOHHbfwOqyWFLl1l9ckDoCxWqf4liYU9vozXfTHo2dJ1wJBfXmvUefHH0T0jJIRPpjP86p-HmTHnlIhqTZGM9vR8Cfk=w800-h500-k-no",
-    "hours": "ש' 17:00-24:00",
+    "hours": "ש' 17:00-24:00, א' 11:30-24:00, ב' 11:30-24:00, ג' 11:30-24:00, ד' 11:30-24:00, ה' 11:30-24:00, ו' 11:00-17:00",
     "schedule": [
      {
       "days": [
@@ -132210,6 +132178,48 @@
       ],
       "from": "17:00",
       "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "11:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "11:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "11:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "11:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "11:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "11:00",
+      "to": "17:00"
      }
     ],
     "source": "גוגל",
@@ -135095,17 +135105,18 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/07/1753094010_1352448_23865-1140x641.jpg",
    "published": "2025-07-21T14:22:31+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.117031,
+   "lon": 34.81649,
+   "geo_precision": "address",
    "enrichment": {
     "result_names": [
      "זזה ספורט",
+     "פיצה זזה Pizza ZaZa",
      "זוזא ZUZA תל אביב"
     ],
     "name_echo": true,
-    "address": "עומרי 29, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk10jF33EKAt25JvFCOqSy3K_MLTaMpzG9rUZv2pNFvfi_xUGLWs_i63QCretce8pKwGnx9QA6eftQhEEJMVPUb-hVXEf5r-sr2CnzrAjqFhojYO7Z8aOHPCiOvWHDt-xCOcsIC1A=w800-h500-k-no",
+    "address": "עומרי 29, תל אביב-יפו",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlWc_-W1VS51rb7riYzfZ_zwpJCGOTqfz3IKrAyXbLE4OoE7Tu10-s4rcjPcJnxPhLJWysM_mcJ7S7GpWYAaZAL49vl-8yqCjPmnE5koDWdnPsJEAdYX55ihExFKEQcJdNB0vwA=w800-h500-k-no",
     "source": "גוגל",
     "date": "2026-08-29",
     "v": 3
@@ -146280,7 +146291,22 @@
    34.789801
   ],
   "שלמה אבן גבירול 30, תל אביב-יפו, ישראל": null,
-  "דיזנגוף 260, תל אביב-יפו, ישראל, ישראל": null
+  "עומרי 29, תל אביב-יפו, ישראל": [
+   32.117031,
+   34.81649
+  ],
+  "מרחביה 11, תל אביב-יפו, ישראל": [
+   32.059847,
+   34.772171
+  ],
+  "נחלת בנימין 20, תל אביב-יפו, 6516122, ישראל": [
+   32.066906,
+   34.770092
+  ],
+  "אברבנאל 56, תל אביב-יפו, ישראל": [
+   32.057006,
+   34.767038
+  ]
  },
- "last_google_run": "2026-08-30T08:32:45.037918+03:00"
+ "last_google_run": "2026-08-29T19:24:01.578947+03:00"
 }

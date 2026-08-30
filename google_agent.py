@@ -77,7 +77,8 @@ def parse_google_hours(rows):
 #    "עוואמה"  -> The Old Man and the Sea      => לא מקום, גוגל ניחשה
 #  כדי לבטל את הכלל: NAME_ECHO_ENABLED = False
 # ============================================================
-NAME_ECHO_ENABLED = True
+NAME_ECHO_ENABLED = True        # זיהוי מקומות אמיתיים — פעיל
+NAME_ECHO_NEGATIVE = False      # פסילת מקומות — כבוי (לא אמין)
 
 
 # מיפוי עברית -> עיצורים לטיניים, לזיהוי תעתיק (ויטרינה <-> Vitrina).
@@ -393,8 +394,9 @@ def main():
             if not found.get("address") and not found.get("hours"):
                 # רישום הניסיון הכושל, כדי לא לחזור עליו כל ריצה
                 for card in group:
-                    if found.get("name_echo") is False and looks_like_place_name(card["name"]):
-                        card["not_a_place"] = True   # גוגל הציגה תוצאות, אף אחת לא בשם שלנו
+                    # הצד השלילי כבוי: בבדיקה על 150 מקומות הוא פסל בטעות
+                    # ~44% מסעדות אמיתיות (מתאו/Matteo, קוט/CÔTE) בגלל תעתיק.
+                    # להפעלה מחדש רק אחרי שיפור ההשוואה: NAME_ECHO_NEGATIVE = True
                     miss = card.get("google_miss") or {"tries": 0}
                     miss["tries"] = miss.get("tries", 0) + 1
                     miss["last"] = datetime.now(TZ).isoformat()
