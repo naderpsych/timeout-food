@@ -34451,18 +34451,20 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "בניין בריטניה ע\"ש משפחת כהן–פורטר, אוניברסיטת תל אביב, חיים לבנון 30, תל אביב-יפו, ישראל",
-    "google_name": "בניין בריטניה מדעי החיים",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnmv4YMzH-X6xlooUqZfsijIirZg71x1pKgprbf4EZSFTVSURIfDAVUwLXot8p5lK4uxVjX2lwQ4FYLsfMR1IEx64Pu8SphgyJpgFyj_z0vse2_HCfBsO_lsl_a-ENRQQgUtOyE=w800-h500-k-no",
+    "result_names": [
+     "ביצ'יקלטה",
+     "מסעדת תמנע - שף ניר מסיקה",
+     "שיינע"
+    ],
+    "name_echo": true,
+    "google_name": "שיינע",
+    "address": "אחד העם 19, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm2cmt3M7aCxI0inlyy5_d5XvggfSSgb4Ohefy5xr_uxoeQQ8gsTphd8V4yK0zhhNWXoeflm4j3-hJ0YflKdYj-cmDII_sRT3PtkrWVVlK2s8s3Vi0DuoO0YI4Jhv5yylE-53ic=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-17",
-    "v": 2
+    "date": "2026-08-30",
+    "v": 3
    },
-   "closed_permanently": false,
-   "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T19:13:46.645589+03:00"
-   }
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/sabra/#בית הקפה הקר",
@@ -48572,60 +48574,74 @@
    "lon": 34.767099,
    "geo_precision": "address",
    "enrichment": {
-    "address": "ג׳ורג׳ וייס 20, תל אביב-יפו, ישראל",
-    "hours": "ו' 17:00-02:00, ש' 14:00-01:00, א' סגור, ב' 17:00-01:00, ג' 17:00-01:00, ד' 17:00-01:00, ה' 17:00-01:00",
+    "result_names": [
+     "פלורנטינה",
+     "הודנא פלורנטין",
+     "הברבנאל",
+     "מרכז קהילתי פלורנטין",
+     "שאפל בר - בר בתל אביב | בר מסעדה תל אביב | פאב בתל אביב | קוקטיילים",
+     "סטודיו שף פלורנטין"
+    ],
+    "name_echo": true,
+    "address": "אברבנאל 56, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk3KKEz43rEqlbHPK1j66wLWjUq6IVhCVmCNkqHGIr6xa7n7M4x74ryGbr4zm51lRCY0oB2ixnbiqRCEz-vC3VOMDuVoak02wZ4CMFsnki4RkLvfLGJlw1pjK0fSUx48Q3rpYBk=w800-h500-k-no",
+    "hours": "א' 11:00-23:00, ב' 11:00-23:00, ג' 11:00-23:00, ד' 11:00-23:00, ה' 11:00-24:00, ו' 08:30-15:00, ש' 21:15-24:00",
     "schedule": [
      {
       "days": [
-       5
+       0
       ],
-      "from": "17:00",
-      "to": "02:00"
-     },
-     {
-      "days": [
-       6
-      ],
-      "from": "14:00",
-      "to": "01:00"
+      "from": "11:00",
+      "to": "23:00"
      },
      {
       "days": [
        1
       ],
-      "from": "17:00",
-      "to": "01:00"
+      "from": "11:00",
+      "to": "23:00"
      },
      {
       "days": [
        2
       ],
-      "from": "17:00",
-      "to": "01:00"
+      "from": "11:00",
+      "to": "23:00"
      },
      {
       "days": [
        3
       ],
-      "from": "17:00",
-      "to": "01:00"
+      "from": "11:00",
+      "to": "23:00"
      },
      {
       "days": [
        4
       ],
-      "from": "17:00",
-      "to": "01:00"
+      "from": "11:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:30",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "21:15",
+      "to": "24:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-07-31"
+    "date": "2026-08-30",
+    "v": 3
    },
-   "closed_permanently": false,
-   "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T19:14:49.764421+03:00"
-   }
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%9e%d7%a5-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-2026/#תופין",
@@ -146280,7 +146296,8 @@
    34.789801
   ],
   "שלמה אבן גבירול 30, תל אביב-יפו, ישראל": null,
-  "דיזנגוף 260, תל אביב-יפו, ישראל, ישראל": null
+  "דיזנגוף 260, תל אביב-יפו, ישראל, ישראל": null,
+  "אברבנאל 56, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-30T08:32:45.037918+03:00"
+ "last_google_run": "2026-08-30T15:01:44.337844+03:00"
 }
