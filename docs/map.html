@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>המלצות קרובות אליי</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root { --bg:#f2f3f4; --card:#fff; --text:#1d1d1d; --muted:#6d7075;
+          --accent:#d13438; --border:#e1e3e5; --chip:#e9eaec; }
+  [data-theme="dark"] { --bg:#171717; --card:#202020; --text:#efefec; --muted:#a0a0a0;
+          --accent:#ff6b6e; --border:#303030; --chip:#2a2a2a; }
+  * { box-sizing:border-box; }
+  html, body { margin:0; height:100%; font-family:"Segoe UI","Heebo",Arial,sans-serif;
+               background:var(--bg); color:var(--text); }
+  #map { position:absolute; inset:0; }
+  .topbar {
+    position:absolute; top:0; inset-inline:0; z-index:500;
+    display:flex; align-items:center; gap:8px; padding:10px 12px;
+    background:linear-gradient(var(--bg), transparent);
+  }
+  .topbar a, .topbar button {
+    border:1px solid var(--border); background:var(--card); color:var(--text);
+    border-radius:11px; padding:9px 13px; font-size:.88rem; font-weight:600;
+    text-decoration:none; cursor:pointer; font-family:inherit; white-space:nowrap;
+    box-shadow:0 1px 4px rgba(0,0,0,.12);
+  }
+  #locate { background:var(--accent); color:#fff; border-color:var(--accent); }
+  #count { margin-inline-start:auto; color:var(--muted); font-size:.8rem;
+           background:var(--card); border:1px solid var(--border);
+           border-radius:11px; padding:8px 11px; }
+  .leaflet-popup-content { margin:12px 14px; direction:rtl; text-align:right;
+                           font-family:inherit; min-width:190px; }
+  .pop-name { font-size:1.02rem; font-weight:700; margin-bottom:3px; }
+  .pop-type { color:var(--accent); font-size:.8rem; font-weight:600; }
+  .pop-row { font-size:.82rem; margin-top:5px; line-height:1.45; }
+  .pop-links { margin-top:9px; display:flex; gap:9px; font-size:.8rem; }
+  .pop-links a { color:var(--accent); font-weight:600; text-decoration:none; }
+  .me-dot { background:#1a73e8; border:3px solid #fff; border-radius:50%;
+            width:16px; height:16px; box-shadow:0 0 0 5px rgba(26,115,232,.25); }
+  .toast {
+    position:absolute; bottom:18px; inset-inline:14px; z-index:600;
+    background:var(--card); border:1px solid var(--border); border-radius:12px;
+    padding:11px 14px; font-size:.87rem; box-shadow:0 3px 14px rgba(0,0,0,.16);
+  }
+  .toast[hidden] { display:none; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="topbar">
+  <a href="./">← לרשימה</a>
+  <button id="locate">📍 מה קרוב אליי</button>
+  <span id="count"></span>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<script>
+const NS = "לא צוין";
+const saved = localStorage.getItem("theme");
+document.documentElement.dataset.theme =
+  saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+
+const map = L.map("map", { zoomControl: false }).setView([32.0776, 34.7745], 13);
+L.control.zoom({ position: "bottomleft" }).addTo(map);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19, attribution: "© OpenStreetMap"
+}).addTo(map);
+
+const esc = s => String(s).replace(/[&<>"']/g, m =>
+  ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[m]));
+const toast = (msg, ms = 5000) => {
+  const t = document.getElementById("toast");
+  t.textContent = msg; t.hidden = false;
+  clearTimeout(toast._t); toast._t = setTimeout(() => t.hidden = true, ms);
+};
+const km = (a, b, c, d) => {
+  const R = 6371, r = x => x * Math.PI / 180;
+  const dLat = r(c - a), dLon = r(d - b);
+  const h = Math.sin(dLat/2)**2 + Math.cos(r(a)) * Math.cos(r(c)) * Math.sin(dLon/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+};
+const fmtKm = d => d < 1 ? Math.round(d*1000/10)*10 + " מ'" : d.toFixed(1) + ' ק"מ';
+
+let places = [], cluster = L.markerClusterGroup({ maxClusterRadius: 45 }), meMarker = null;
+
+fetch("data.json?t=" + Date.now()).then(r => r.json()).then(data => {
+  // מאחדים כרטיסים של אותו מקום — נקודה אחת לכל מסעדה
+  const byPlace = new Map();
+  data.cards.filter(c => c.lat).forEach(c => {
+    const key = c.name.trim().toLowerCase() + "|" + c.city;
+    const cur = byPlace.get(key);
+    const score = [c.type, c.what_to_eat, c.hours, c.location]
+      .filter(v => v && v !== NS).length + (c.enrichment ? 3 : 0);
+    if (!cur || score > cur.score) byPlace.set(key, { card: c, score });
+  });
+  places = [...byPlace.values()].map(v => v.card);
+  document.getElementById("count").textContent = places.length + " מקומות";
+
+  places.forEach(c => {
+    const e = c.enrichment || {};
+    const hours = (c.hours !== NS ? c.hours : e.hours) || "";
+    const loc = [c.location !== NS ? c.location : e.address, c.city !== NS ? c.city : ""]
+      .filter(Boolean).join(", ");
+    const g = "https://www.google.com/maps/search/" +
+      encodeURIComponent(c.name + " " + (c.city !== NS ? c.city : "ישראל"));
+    const html =
+      `<div class="pop-name">${esc(e.fixed_name || c.name)}</div>` +
+      (c.type !== NS ? `<div class="pop-type">${esc(c.type)}</div>` : "") +
+      (c.what_to_eat !== NS ? `<div class="pop-row">🍴 ${esc(c.what_to_eat)}</div>` : "") +
+      (hours ? `<div class="pop-row">🕐 ${esc(hours)}</div>` : "") +
+      (loc ? `<div class="pop-row">📍 ${esc(loc)}</div>` : "") +
+      `<div class="pop-links"><a href="${esc(c.article_url)}" target="_blank">לכתבה ↗</a>` +
+      `<a href="${g}" target="_blank">גוגל מפות ↗</a></div>`;
+    const m = L.marker([c.lat, c.lon]).bindPopup(html);
+    m._card = c;
+    cluster.addLayer(m);
+  });
+  map.addLayer(cluster);
+}).catch(() => toast("לא הצלחתי לטעון את הנתונים"));
+
+document.getElementById("locate").onclick = () => {
+  if (!navigator.geolocation) { toast("הדפדפן לא תומך באיתור מיקום"); return; }
+  toast("מאתר את המיקום שלך...", 12000);
+  navigator.geolocation.getCurrentPosition(pos => {
+    const { latitude: lat, longitude: lon } = pos.coords;
+    if (meMarker) map.removeLayer(meMarker);
+    meMarker = L.marker([lat, lon], {
+      icon: L.divIcon({ className: "", html: '<div class="me-dot"></div>', iconSize: [16,16] })
+    }).addTo(map).bindPopup("אתה כאן");
+    map.setView([lat, lon], 15);
+    const near = places.map(c => ({ c, d: km(lat, lon, c.lat, c.lon) }))
+      .sort((a, b) => a.d - b.d).slice(0, 5);
+    toast(near.length
+      ? "הכי קרוב: " + near.map(n => `${n.c.name} (${fmtKm(n.d)})`).join(" · ")
+      : "לא נמצאו מקומות בקרבתך", 9000);
+  }, err => {
+    if (err.code === err.PERMISSION_DENIED) {
+      navigator.permissions?.query({ name: "geolocation" }).then(st => {
+        toast(st.state === "denied"
+          ? "הדפדפן חוסם את המיקום. הקש על האייקון שמשמאל לכתובת ← הרשאות ← מיקום ← אפשר."
+          : "החלונית נסגרה בלי אישור. הקש שוב ובחר “אפשר”.", 9000);
+      }).catch(() => toast("לא אושרה גישה למיקום"));
+    } else {
+      toast("לא הצלחתי לאתר אותך. בדוק ששירותי המיקום מופעלים.", 8000);
+    }
+  }, { enableHighAccuracy: true, timeout: 15000, maximumAge: 60000 });
+};
+</script>
+</body>
+</html>

@@ -141,7 +141,8 @@
   .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
   .tab .count { font-weight: 400; font-size: .8rem; opacity: .75; }
   .views { display: flex; gap: 8px; margin-bottom: 10px; }
-  .viewbtn {
+  .viewbtn, a.viewbtn {
+    text-decoration: none;
     border: 1px solid var(--border); background: var(--card); color: var(--text);
     padding: 8px 16px; border-radius: 12px; cursor: pointer; font-size: .88rem;
   }
@@ -374,6 +375,7 @@
     <button class="viewbtn" data-view="cards">🍽️ לפי מסעדה</button>
     <button class="viewbtn" data-view="cityof">🏙️ העיר של</button>
     <button class="viewbtn" data-view="favs">❤️ מועדפים <span id="favCount"></span></button>
+    <a class="viewbtn" id="mapLink" href="map.html">🗺️ מפה</a>
   </div>
   <div class="tabs" id="tabs">
     <button class="tab active" data-region="tlv">תל אביב והמרכז <span class="count"></span><span class="chev">▾</span></button>
