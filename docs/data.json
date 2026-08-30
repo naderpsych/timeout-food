@@ -71936,7 +71936,15 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
+    "result_names": [
+     "מסעדת כלת הים",
+     "יפו-תל אביב",
+     "רובע"
+    ],
+    "name_echo": true,
+    "google_name": "מסעדת כלת הים",
     "address": "שתי האחיות 2, תל אביב-יפו, 6805316, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlJ5KDIzzsST5hG44QmvVUf5QgITI_-J-mr6XPNkKf62oENdpfjrKRKfyHVEOsfEYFbbqyEjKNkEMbWtdz1TINaPO5dklDngCtBktKDMina_xjIaQjy7e8GqlsBpxtts-uf8Ww=w800-h500-k-no",
     "hours": "א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:00, ו' 12:00-23:00, ש' 12:00-23:00",
     "schedule": [
      {
@@ -71990,13 +71998,10 @@
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-02"
+    "date": "2026-08-30",
+    "v": 3
    },
-   "closed_permanently": false,
-   "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T19:14:55.049407+03:00"
-   }
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-97/#דה פיג'וטו",
@@ -146277,5 +146282,5 @@
   "שלמה אבן גבירול 30, תל אביב-יפו, ישראל": null,
   "דיזנגוף 260, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-08-30T00:00:02.115143+03:00"
+ "last_google_run": "2026-08-30T08:32:45.037918+03:00"
 }
