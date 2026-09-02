@@ -43,7 +43,76 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": true
+   "is_sponsored": true,
+   "enrichment": {
+    "result_names": [
+     "קפה בוקה | אחד העם",
+     "קפה בוקה | מכבי",
+     "בוקה 57 | Bucke 57",
+     "קפה בוקה",
+     "קפה בוקה"
+    ],
+    "name_echo": true,
+    "google_name": "קפה בוקה | אחד העם",
+    "address": "אחד העם 91, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmk-kpvBBvtZMpKFC9FX3u7h8A4y0dBzs4dsI6ryAG656S1ZpfxFxve7PZLGwMDFaTUvF2TOMwY58kdAHpfIxReUNnJ7SbnZWv5sihIVLuxzZjFB0zwbE8lxETpG8eHNCiZGICsE0UrcPng=w800-h500-k-no",
+    "hours": "ד' 07:30-22:00, ה' 07:30-22:00, ו' 07:30-16:00, ש' 07:30-16:00, א' 07:30-22:00, ב' 07:30-22:00, ג' 07:30-22:00",
+    "schedule": [
+     {
+      "days": [
+       3
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "07:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "07:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-02",
+    "v": 3
+   },
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/%d7%95%d7%95%d7%99%d7%a1%d7%a7%d7%99-%d7%99%d7%a9%d7%a8%d7%90%d7%9c%d7%99-%d7%98%d7%95%d7%a8/#מה זה וויסקי ישראלי?",
@@ -68,7 +137,67 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "The Milk & Honey Distillery",
+     "וויסקי בר מוזיאון",
+     "The M&H whisky Distillery",
+     "Potion Bar בר וויסקי בתל אביב"
+    ],
+    "name_echo": true,
+    "address": "מתחם שרונה, רב אלוף דוד אלעזר 27, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkezJB6uXC3dysGJfYVygEcdXi_BKSEqevGEOuW8kcMlfuw4Ig7P5N3fb_p4kJoSbHqaqKzkQFxtpWSziBNWaPjLgWqHu3ZhMQI5CwT6WdOVRnYaJvjvltcjCoVMvmxciEq70jb=w800-h500-k-no",
+    "hours": "ד' 12:00-24:00, ה' 12:00-24:30, ו' סגור, ש' 19:00-24:00, א' 12:00-24:00, ב' 12:00-24:00, ג' 12:00-24:00",
+    "schedule": [
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "19:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-02",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/anor-%d7%90%d7%a0%d7%95%d7%a8/#מסעדה בוכרית חדשה",
@@ -16586,8 +16715,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T13:13:44.718767+03:00"
+    "tries": 2,
+    "last": "2026-09-02T07:45:43.696911+03:00"
    }
   },
   {
@@ -157552,7 +157681,8 @@
   "נחלת יצחק 22, תל אביב-יפו, ישראל, ישראל": null,
   "שלמה אבן גבירול 48, תל אביב-יפו, 6436409, ישראל, ישראל": null,
   "בארט 2, תל אביב-יפו, 6910402, ישראל, ישראל": null,
-  "השחר 8, תל אביב, נווה צדק, תל אביב, ישראל": null
+  "השחר 8, תל אביב, נווה צדק, תל אביב, ישראל": null,
+  "אחד העם 91, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-09-01T19:46:52.193437+03:00"
+ "last_google_run": "2026-09-02T07:47:00.124386+03:00"
 }
