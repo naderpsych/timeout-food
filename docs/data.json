@@ -1491,8 +1491,8 @@
    "geo_precision": "address",
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T13:12:45.110335+03:00"
+    "tries": 2,
+    "last": "2026-09-03T07:41:19.668664+03:00"
    }
   },
   {
@@ -11981,10 +11981,62 @@
    "lon": 34.8058007,
    "geo_precision": "area",
    "is_sponsored": false,
-   "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T13:30:31.055271+03:00"
-   }
+   "enrichment": {
+    "result_names": [
+     "מזא\"ה 9 - בית הצעירים של עיריית תל אביב-יפו",
+     "פולי בר רוטשילד תל אביב",
+     "Maza tlv",
+     "בר",
+     "בירבזאר",
+     "Speakeasy",
+     "סופרים רום Supreme Room"
+    ],
+    "name_echo": true,
+    "address": "מזא\"ה 9, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWms73TpUZd2gZJPi_nbXqN_mgQbbvsgGQDB0iq3olt7UvB3puD-LO8thiheFTcqrCV5KOo1G8X6a9Rlpy523ToC8T6PQi6MGfr2hXrmlBGzaN9szops76EzF6o2tMnnsqSZG-oE=w800-h500-k-no",
+    "hours": "ה' 09:00-22:00, ו' סגור, ש' סגור, א' 09:00-22:00, ב' 09:00-22:00, ג' 09:00-22:00, ד' 09:00-22:00",
+    "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "09:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "22:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/העיר-שלי-אורי-אפרים/#שוק הכרמל ומפגש רמב״ם",
@@ -16803,10 +16855,67 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T13:13:53.264923+03:00"
-   }
+   "enrichment": {
+    "google_name": "בורגר סטיישן תל אביב BURGER STATION TEL AVIV",
+    "address": "דיזנגוף 269, תל אביב-יפו, 6311707, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn9lssz5kCON0aqtksBwrJusFkROKTphhenUsNJjbdPensujfwSwt4DAVYjpV82n-TqG7aSHYJe6B7crwqDLm1LJekmv1LZ4d6yT5TPn0f5DGrqDV8C5MMi95ex-zHVGNE7j2tx4mjA1Rrh=w800-h500-k-no",
+    "hours": "ה' 10:00-02:00, ו' 10:00-16:00, ש' 21:00-01:00, א' 10:00-01:00, ב' 10:00-01:00, ג' 10:00-01:00, ד' 10:00-01:00",
+    "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "10:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "10:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "21:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "10:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "10:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "10:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "10:00",
+      "to": "01:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a8%d7%99-%d7%94%d7%90%d7%95%d7%9b%d7%9c-2026/#קייפטאון",
@@ -123910,8 +124019,8 @@
    "geo_precision": "city",
    "closed_permanently": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T12:00:00+03:00"
+    "tries": 2,
+    "last": "2026-09-03T07:41:39.024214+03:00"
    }
   },
   {
@@ -141777,8 +141886,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T13:12:16.322652+03:00"
+    "tries": 2,
+    "last": "2026-09-03T07:41:43.239802+03:00"
    }
   },
   {
@@ -157682,7 +157791,9 @@
   "שלמה אבן גבירול 48, תל אביב-יפו, 6436409, ישראל, ישראל": null,
   "בארט 2, תל אביב-יפו, 6910402, ישראל, ישראל": null,
   "השחר 8, תל אביב, נווה צדק, תל אביב, ישראל": null,
-  "אחד העם 91, תל אביב-יפו, ישראל, ישראל": null
+  "אחד העם 91, תל אביב-יפו, ישראל, ישראל": null,
+  "דיזנגוף 269, תל אביב-יפו, 6311707, ישראל, ישראל": null,
+  "מזא\"ה 9, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-09-02T07:47:00.124386+03:00"
+ "last_google_run": "2026-09-03T07:42:27.047728+03:00"
 }
