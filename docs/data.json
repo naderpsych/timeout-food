@@ -37,7 +37,54 @@
    "lat": 32.0873899,
    "lon": 34.8324376,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "יסמין",
+    "address": "מצדה 9, בני ברק, 5120109, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkfVwulPZ5LBVCjW9rGPfU5lJt6hA5iRS1K8P4Q1_hnKedWFWDvBTW0YKgeSSTJSIzT3GTP7ashmpeHaKtyZNl-Iynonv05S0VU5x5TP7_vZKhf5DnT_0a85qPcMmTyNmZxKenUJjFikvnm=w800-h500-k-no",
+    "hours": "ו' סגור, ש' סגור, א' 10:30-17:00, ב' 10:30-17:00, ג' 10:30-17:00, ד' 10:30-17:00, ה' 10:30-17:00",
+    "schedule": [
+     {
+      "days": [
+       0
+      ],
+      "from": "10:30",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "10:30",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "10:30",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "10:30",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "10:30",
+      "to": "17:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-04",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-108/#אפולו",
@@ -165,7 +212,61 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "מסעדת פאסטל",
+    "address": "Sderot Sha'ul HaMelech St 27, Tel Aviv-Yafo, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkyk284DJCr11TVCqi_2Myf4_x5PwuDJ1OjnF1N9BA1JLjyskB5CH3xE1KHPGthtTZLcpdvC_Mev1KPvgbvmb1Z7Bv89Y2N3lar9YY6opk7-415k3FETFEqzkL1d17ZC9qRfRKn=w800-h500-k-no",
+    "hours": "ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-04",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-108/#קפה טאיזו",
@@ -190,7 +291,86 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "טאיזו",
+     "Cafe Taizu - קפה טאיזו"
+    ],
+    "name_echo": true,
+    "address": "דרך מנחם בגין 23, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWni-Il5E3_q7H6hzOLRTtE7A228z0Rsg-AVKYITwhASrZ-ixjrJ6WoAJ9yqgkvo_nvbl1_36CjHxBQmxvpon-onoYVA9d6BMeDtyIcIgbG0ZDzElMbhtvfc6rAoqlXUXkBTQRhB=w800-h500-k-no",
+    "hours": "ו' 12:00-15:00, 17:30-23:00, ש' 12:00-15:30, 18:30-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "17:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "15:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "18:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-04",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-108/#פאלה דה תה",
@@ -251,10 +431,75 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/09/1788348434_1375434_85420-1140x641.jpg",
    "published": "2026-09-03T11:24:49+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
-   "is_sponsored": false
+   "lat": 31.863871,
+   "lon": 34.74222,
+   "geo_precision": "address",
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "בן & ג'ריס - חנות המפעל יבנה",
+     "בן & ג'ריס - מפעל + חנות המפעל"
+    ],
+    "name_echo": true,
+    "address": "המיסב 5, יבנה, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmcXLXS-Gwxb-yOcHXdhz-1Lt5mZwPwMj1VdXmdH7mOLsG8R9T2XcKVV8fqZv7MHF1jQZr-dc0XC2Uv5pAwxz3Qq3Wzte_EhxIv6DTLzKIyDow-ypzvi1LTjkBGnrMVz6tN0zOJ=w800-h500-k-no",
+    "hours": "ו' 09:00-15:00, ש' 21:00-23:30, א' 09:30-23:00, ב' 09:30-23:00, ג' 09:30-23:00, ד' 09:30-23:00, ה' 09:30-23:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "21:00",
+      "to": "23:30"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "09:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "09:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:30",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-04",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%95%d7%93%d7%a9-%d7%94%d7%93%d7%99%d7%99%d7%a0%d7%a8/#הדיינר של קוקה-קולה",
@@ -21543,32 +21788,11 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות שאול המלך 27, תל אביב-יפו, ישראל",
     "google_name": "מסעדת פאסטל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkqXqP8jhdd5Dw5-4Om-iS69GZQQlLPqFF4L_jFHYigFl4RKAko5mbU-Z0cClwUczVt6U5JpeL9rhreLIvLEoJIaG9Av--rYcW1Id6qDVOgrztkDApIBj4xBWGaFZ9VbbF1xRFiGMUfmA=w800-h500-k-no",
-    "hours": "ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30, ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30",
+    "address": "Sderot Sha'ul HaMelech St 27, Tel Aviv-Yafo, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkyk284DJCr11TVCqi_2Myf4_x5PwuDJ1OjnF1N9BA1JLjyskB5CH3xE1KHPGthtTZLcpdvC_Mev1KPvgbvmb1Z7Bv89Y2N3lar9YY6opk7-415k3FETFEqzkL1d17ZC9qRfRKn=w800-h500-k-no",
+    "hours": "ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30",
     "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
      {
       "days": [
        5
@@ -21589,10 +21813,31 @@
       ],
       "from": "12:00",
       "to": "22:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "22:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-09-04",
     "v": 3
    },
    "closed_permanently": false
@@ -73106,32 +73351,11 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות שאול המלך 27, תל אביב-יפו, ישראל",
     "google_name": "מסעדת פאסטל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkqXqP8jhdd5Dw5-4Om-iS69GZQQlLPqFF4L_jFHYigFl4RKAko5mbU-Z0cClwUczVt6U5JpeL9rhreLIvLEoJIaG9Av--rYcW1Id6qDVOgrztkDApIBj4xBWGaFZ9VbbF1xRFiGMUfmA=w800-h500-k-no",
-    "hours": "ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30, ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30",
+    "address": "Sderot Sha'ul HaMelech St 27, Tel Aviv-Yafo, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkyk284DJCr11TVCqi_2Myf4_x5PwuDJ1OjnF1N9BA1JLjyskB5CH3xE1KHPGthtTZLcpdvC_Mev1KPvgbvmb1Z7Bv89Y2N3lar9YY6opk7-415k3FETFEqzkL1d17ZC9qRfRKn=w800-h500-k-no",
+    "hours": "ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30",
     "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
      {
       "days": [
        5
@@ -73152,10 +73376,31 @@
       ],
       "from": "12:00",
       "to": "22:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "22:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-09-04",
     "v": 3
    },
    "closed_permanently": false
@@ -75402,32 +75647,11 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות שאול המלך 27, תל אביב-יפו, ישראל",
     "google_name": "מסעדת פאסטל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkqXqP8jhdd5Dw5-4Om-iS69GZQQlLPqFF4L_jFHYigFl4RKAko5mbU-Z0cClwUczVt6U5JpeL9rhreLIvLEoJIaG9Av--rYcW1Id6qDVOgrztkDApIBj4xBWGaFZ9VbbF1xRFiGMUfmA=w800-h500-k-no",
-    "hours": "ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30, ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30",
+    "address": "Sderot Sha'ul HaMelech St 27, Tel Aviv-Yafo, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkyk284DJCr11TVCqi_2Myf4_x5PwuDJ1OjnF1N9BA1JLjyskB5CH3xE1KHPGthtTZLcpdvC_Mev1KPvgbvmb1Z7Bv89Y2N3lar9YY6opk7-415k3FETFEqzkL1d17ZC9qRfRKn=w800-h500-k-no",
+    "hours": "ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30",
     "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
      {
       "days": [
        5
@@ -75448,10 +75672,31 @@
       ],
       "from": "12:00",
       "to": "22:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "22:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-09-04",
     "v": 3
    },
    "closed_permanently": false
@@ -86711,32 +86956,11 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות שאול המלך 27, תל אביב-יפו, ישראל",
     "google_name": "מסעדת פאסטל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkqXqP8jhdd5Dw5-4Om-iS69GZQQlLPqFF4L_jFHYigFl4RKAko5mbU-Z0cClwUczVt6U5JpeL9rhreLIvLEoJIaG9Av--rYcW1Id6qDVOgrztkDApIBj4xBWGaFZ9VbbF1xRFiGMUfmA=w800-h500-k-no",
-    "hours": "ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30, ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30",
+    "address": "Sderot Sha'ul HaMelech St 27, Tel Aviv-Yafo, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkyk284DJCr11TVCqi_2Myf4_x5PwuDJ1OjnF1N9BA1JLjyskB5CH3xE1KHPGthtTZLcpdvC_Mev1KPvgbvmb1Z7Bv89Y2N3lar9YY6opk7-415k3FETFEqzkL1d17ZC9qRfRKn=w800-h500-k-no",
+    "hours": "ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30",
     "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
      {
       "days": [
        5
@@ -86757,10 +86981,31 @@
       ],
       "from": "12:00",
       "to": "22:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "22:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-09-04",
     "v": 3
    },
    "closed_permanently": false
@@ -114449,32 +114694,11 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות שאול המלך 27, תל אביב-יפו, ישראל",
     "google_name": "מסעדת פאסטל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkqXqP8jhdd5Dw5-4Om-iS69GZQQlLPqFF4L_jFHYigFl4RKAko5mbU-Z0cClwUczVt6U5JpeL9rhreLIvLEoJIaG9Av--rYcW1Id6qDVOgrztkDApIBj4xBWGaFZ9VbbF1xRFiGMUfmA=w800-h500-k-no",
-    "hours": "ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30, ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30",
+    "address": "Sderot Sha'ul HaMelech St 27, Tel Aviv-Yafo, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkyk284DJCr11TVCqi_2Myf4_x5PwuDJ1OjnF1N9BA1JLjyskB5CH3xE1KHPGthtTZLcpdvC_Mev1KPvgbvmb1Z7Bv89Y2N3lar9YY6opk7-415k3FETFEqzkL1d17ZC9qRfRKn=w800-h500-k-no",
+    "hours": "ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30",
     "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
      {
       "days": [
        5
@@ -114495,10 +114719,31 @@
       ],
       "from": "12:00",
       "to": "22:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "22:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-09-04",
     "v": 3
    },
    "closed_permanently": false
@@ -149248,32 +149493,11 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות שאול המלך 27, תל אביב-יפו, ישראל",
     "google_name": "מסעדת פאסטל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkqXqP8jhdd5Dw5-4Om-iS69GZQQlLPqFF4L_jFHYigFl4RKAko5mbU-Z0cClwUczVt6U5JpeL9rhreLIvLEoJIaG9Av--rYcW1Id6qDVOgrztkDApIBj4xBWGaFZ9VbbF1xRFiGMUfmA=w800-h500-k-no",
-    "hours": "ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30, ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30",
+    "address": "Sderot Sha'ul HaMelech St 27, Tel Aviv-Yafo, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkyk284DJCr11TVCqi_2Myf4_x5PwuDJ1OjnF1N9BA1JLjyskB5CH3xE1KHPGthtTZLcpdvC_Mev1KPvgbvmb1Z7Bv89Y2N3lar9YY6opk7-415k3FETFEqzkL1d17ZC9qRfRKn=w800-h500-k-no",
+    "hours": "ו' 12:00-22:30, ש' 12:00-22:30, א' סגור, ב' 12:00-22:30, ג' 12:00-22:30, ד' 12:00-22:30, ה' 12:00-22:30",
     "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "22:30"
-     },
      {
       "days": [
        5
@@ -149294,10 +149518,31 @@
       ],
       "from": "12:00",
       "to": "22:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "22:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "22:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-09-04",
     "v": 3
    },
    "closed_permanently": false
@@ -149423,30 +149668,9 @@
     ],
     "name_echo": true,
     "address": "המיסב 5, יבנה, ישראל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWniJ486PmxGsd0QMTTK2QJDjRAZ90pjGQ_mNUPpD0fsRZ7mXHlepFIlUa-epSXNaQB9TjQkVMi6VbO9osrEiTZQWrXZicafrNggFow1H2o8GhvyCzFxVFJ1GYypgErsI__Lb7B9=w800-h500-k-no",
-    "hours": "ג' 09:30-23:00, ד' 09:30-23:00, ה' 09:30-23:00, ו' 09:00-15:00, ש' 21:00-23:30, א' 09:30-23:00, ב' 09:30-23:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmcXLXS-Gwxb-yOcHXdhz-1Lt5mZwPwMj1VdXmdH7mOLsG8R9T2XcKVV8fqZv7MHF1jQZr-dc0XC2Uv5pAwxz3Qq3Wzte_EhxIv6DTLzKIyDow-ypzvi1LTjkBGnrMVz6tN0zOJ=w800-h500-k-no",
+    "hours": "ו' 09:00-15:00, ש' 21:00-23:30, א' 09:30-23:00, ב' 09:30-23:00, ג' 09:30-23:00, ד' 09:30-23:00, ה' 09:30-23:00",
     "schedule": [
-     {
-      "days": [
-       2
-      ],
-      "from": "09:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "09:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "09:30",
-      "to": "23:00"
-     },
      {
       "days": [
        5
@@ -149474,10 +149698,31 @@
       ],
       "from": "09:30",
       "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:30",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-09-01",
+    "date": "2026-09-04",
     "v": 3
    },
    "closed_permanently": false
@@ -158089,7 +158334,9 @@
    32.063391,
    34.768381
   ],
-  "דיזנגוף 131, תל אביב, פלורנטין, תל אביב, ישראל": null
+  "דיזנגוף 131, תל אביב, פלורנטין, תל אביב, ישראל": null,
+  "מצדה 9, בני ברק, 5120109, ישראל, ישראל": null,
+  "Sderot Sha'ul HaMelech St 27, Tel Aviv-Yafo, ישראל, ישראל": null
  },
- "last_google_run": "2026-09-03T14:26:11.925079+03:00"
+ "last_google_run": "2026-09-04T14:29:24.822807+03:00"
 }
