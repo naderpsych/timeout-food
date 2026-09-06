@@ -526,8 +526,8 @@
    "geo_precision": "area",
    "is_sponsored": true,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-03T14:25:31.398508+03:00"
+    "tries": 2,
+    "last": "2026-09-06T18:33:40.301221+03:00"
    }
   },
   {
@@ -158339,5 +158339,5 @@
   "מצדה 9, בני ברק, 5120109, ישראל, ישראל": null,
   "Sderot Sha'ul HaMelech St 27, Tel Aviv-Yafo, ישראל, ישראל": null
  },
- "last_google_run": "2026-09-05T07:40:03.470715+03:00"
+ "last_google_run": "2026-09-06T18:34:03.762398+03:00"
 }
