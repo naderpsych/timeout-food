@@ -48,7 +48,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-09-11T14:33:12.385693+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%aa%d7%9b%d7%95%d7%a0%d7%99%d7%9d-%d7%91%d7%95%d7%90%d7%95-%d7%9c%d7%90%d7%9b%d7%95%d7%9c-%d7%90%d7%99%d7%aa%d7%99/#שפלה, חלק ב' (פרק 7)",
@@ -1263,8 +1267,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-08T14:30:34.388637+03:00"
+    "tries": 2,
+    "last": "2026-09-11T14:33:00.652845+03:00"
    }
   },
   {
@@ -159404,5 +159408,5 @@
    34.771261
   ]
  },
- "last_google_run": "2026-09-08T14:30:35.390539+03:00"
+ "last_google_run": "2026-09-11T14:33:20.340893+03:00"
 }
