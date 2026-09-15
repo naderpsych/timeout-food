@@ -23,7 +23,20 @@
    "lat": 32.065278,
    "lon": 34.770989,
    "geo_precision": "address",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "enrichment": {
+    "result_names": [
+     "בר פרדיסו - bar paradiso",
+     "אריא"
+    ],
+    "name_echo": true,
+    "address": "נחלת בנימין 66, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkyPSftMJOEHC95GNeIdIA2Jc7oZBe4yQ-aS-_kWrihTgkfgTdO8kbSLb9et210HPw7HQQg9IA-TLy00BVQsyixZ-BOFAHKwclurnbgZbx20_s-ticOs_u6QUfg1ED_x0i0oqGgLQ=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-09-15",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%aa%d7%9b%d7%95%d7%a0%d7%99%d7%9d-%d7%91%d7%95%d7%90%d7%95-%d7%9c%d7%90%d7%9b%d7%95%d7%9c-%d7%90%d7%99%d7%aa%d7%99/#אילת חלק ד' (פרק 19)",
@@ -12711,8 +12724,8 @@
    "geo_precision": "city",
    "closed_permanently": false,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:47:36.233295+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:54:06.100476+03:00"
    }
   },
   {
@@ -18640,8 +18653,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:49:29.795618+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:22.597162+03:00"
    }
   },
   {
@@ -25540,8 +25553,8 @@
    "lon": 34.7700335,
    "geo_precision": "area",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:50:24.075771+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:31.345227+03:00"
    }
   },
   {
@@ -39220,8 +39233,8 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:51:37.626238+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:10.153585+03:00"
    }
   },
   {
@@ -50069,8 +50082,8 @@
    "lon": 34.7685526,
    "geo_precision": "area",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:47:40.470656+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:47.892599+03:00"
    }
   },
   {
@@ -50215,8 +50228,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:47:44.091746+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:52.117421+03:00"
    }
   },
   {
@@ -50282,8 +50295,8 @@
    "lon": 34.766459,
    "geo_precision": "address",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:48:01.482760+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:54:00.585176+03:00"
    }
   },
   {
@@ -55395,8 +55408,8 @@
    "lon": 34.7685526,
    "geo_precision": "area",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:47:40.470656+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:47.892599+03:00"
    }
   },
   {
@@ -55508,8 +55521,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:47:44.091746+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:52.117421+03:00"
    }
   },
   {
@@ -55575,8 +55588,8 @@
    "lon": 34.766459,
    "geo_precision": "address",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:48:01.482760+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:54:00.585176+03:00"
    }
   },
   {
@@ -59013,8 +59026,8 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:50:27.786609+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:43.092981+03:00"
    }
   },
   {
@@ -59060,8 +59073,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:47:40.470656+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:47.892599+03:00"
    }
   },
   {
@@ -59830,8 +59843,8 @@
    "lon": 34.766459,
    "geo_precision": "address",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:48:01.482760+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:54:00.585176+03:00"
    }
   },
   {
@@ -76633,8 +76646,8 @@
    "lon": 34.7679312,
    "geo_precision": "address",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:51:56.544013+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:26.782164+03:00"
    }
   },
   {
@@ -80904,8 +80917,8 @@
    "lon": 34.7686424,
    "geo_precision": "area",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:51:56.544013+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:26.782164+03:00"
    }
   },
   {
@@ -134072,8 +134085,8 @@
    "lon": 34.7888851,
    "geo_precision": "area",
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:52:40.668647+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:54:18.907157+03:00"
    }
   },
   {
@@ -150156,8 +150169,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:48:18.538475+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:35.517549+03:00"
    }
   },
   {
@@ -150953,8 +150966,8 @@
    "geo_precision": "city",
    "closed_permanently": false,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-01T14:49:02.492688+03:00"
+    "tries": 3,
+    "last": "2026-09-15T14:53:38.884444+03:00"
    }
   },
   {
@@ -159434,5 +159447,5 @@
    34.771261
   ]
  },
- "last_google_run": "2026-09-14T16:02:28.418806+03:00"
+ "last_google_run": "2026-09-15T14:55:06.021143+03:00"
 }
