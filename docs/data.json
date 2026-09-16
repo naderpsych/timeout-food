@@ -67,7 +67,15 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": true
+   "is_sponsored": true,
+   "enrichment": {
+    "google_name": "כל מה שמעניין",
+    "address": "החשמונאים, תל אביב-יפו, ישראל",
+    "source": "גוגל",
+    "date": "2026-09-16",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/tiramissu-di-paradiso-%d7%98%d7%99%d7%a8%d7%9e%d7%99%d7%a1%d7%95-%d7%93%d7%99-%d7%a4%d7%a8%d7%93%d7%99%d7%a1%d7%95/#הטירמיסרייה הראשונה נולדה",
@@ -159869,5 +159877,5 @@
   "לוינסקי, תל אביב-יפו, ישראל, ישראל": null,
   "סמטת אהרון שלוש 11, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-09-15T20:18:19.729980+03:00"
+ "last_google_run": "2026-09-16T14:49:10.221190+03:00"
 }
