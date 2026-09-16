@@ -1,6 +1,75 @@
 {
  "cards": [
   {
+   "id": "https://timeout.co.il/%d7%a7%d7%99%d7%a0%d7%95%d7%97%d7%99-%d7%a4%d7%99%d7%a8%d7%95%d7%aa-%d7%a9%d7%a8%d7%95%d7%a0%d7%94-%d7%9e%d7%a8%d7%a7%d7%98/#שרונה מרקט",
+   "name": "שרונה מרקט",
+   "type": "קונדיטוריה",
+   "what_to_eat": "פול, קקאו",
+   "owner": "פטיסרי הצרפתי",
+   "hours": "שרונה מרקט, יום א'-ה' 10:00-20:00, ו' 8:00-14:00.",
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "from": "10:00",
+     "to": "20:00"
+    },
+    {
+     "days": [
+      5
+     ],
+     "from": "08:00",
+     "to": "14:00"
+    }
+   ],
+   "city": "תל אביב",
+   "location": "שרונה",
+   "region": "tlv",
+   "is_new": false,
+   "closing_soon": false,
+   "is_popup": true,
+   "opening_info": null,
+   "article_title": "זה רק נראה בריא: הקינוחים דמויי הפירות מפריז נחתו בשרונה מרקט",
+   "article_url": "https://timeout.co.il/%d7%a7%d7%99%d7%a0%d7%95%d7%97%d7%99-%d7%a4%d7%99%d7%a8%d7%95%d7%aa-%d7%a9%d7%a8%d7%95%d7%a0%d7%94-%d7%9e%d7%a8%d7%a7%d7%98/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/09/IMG_1685-1140x641.jpg",
+   "published": "2026-09-15T13:24:46+03:00",
+   "details_url": null,
+   "lat": 32.071988,
+   "lon": 34.7888851,
+   "geo_precision": "area",
+   "is_sponsored": true
+  },
+  {
+   "id": "https://timeout.co.il/%d7%94%d7%93%d7%99%d7%99%d7%a0%d7%a8-%d7%a9%d7%9c-%d7%a7%d7%95%d7%a7%d7%94-%d7%a7%d7%95%d7%9c%d7%94-2026/#כל מה שתטרפו",
+   "name": "כל מה שתטרפו",
+   "type": "המבורגרייה",
+   "what_to_eat": "המבורגר, טאקו, בריוש, טירמיסו, גלידה, סלט",
+   "owner": "קונדיטור מורן",
+   "hours": "לא צוין",
+   "schedule": null,
+   "city": "לא צוין",
+   "location": "לא צוין",
+   "region": "tlv",
+   "is_new": false,
+   "closing_soon": true,
+   "is_popup": true,
+   "opening_info": null,
+   "article_title": "כמו באמריקה: כל מה שתטרפו באירוע הדיינר הענק של קוקה-קולה",
+   "article_url": "https://timeout.co.il/%d7%94%d7%93%d7%99%d7%99%d7%a0%d7%a8-%d7%a9%d7%9c-%d7%a7%d7%95%d7%a7%d7%94-%d7%a7%d7%95%d7%9c%d7%94-2026/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/09/1789453564_1376355_6082-1140x641.jpg",
+   "published": "2026-09-15T10:32:36+03:00",
+   "details_url": null,
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
+   "is_sponsored": true
+  },
+  {
    "id": "https://timeout.co.il/tiramissu-di-paradiso-%d7%98%d7%99%d7%a8%d7%9e%d7%99%d7%a1%d7%95-%d7%93%d7%99-%d7%a4%d7%a8%d7%93%d7%99%d7%a1%d7%95/#הטירמיסרייה הראשונה נולדה",
    "name": "הטירמיסרייה הראשונה נולדה",
    "type": "מסעדה",
@@ -154373,6 +154442,7 @@
   "https://timeout.co.il/הגלריה-למכונות-לקפה/",
   "https://timeout.co.il/הגריל-רום-חוזרת/",
   "https://timeout.co.il/הדוב-שפים/",
+  "https://timeout.co.il/הדיינר-של-קוקה-קולה-2026/",
   "https://timeout.co.il/ההמבורגרים-הטובים-בתל-אביב/",
   "https://timeout.co.il/ההמבורגרים-הכי-טובים-בעולם/",
   "https://timeout.co.il/הולי-מוזס/",
@@ -154667,6 +154737,7 @@
   "https://timeout.co.il/קונתאי-סגירה/",
   "https://timeout.co.il/קוקו-זן/",
   "https://timeout.co.il/קוקו-נקו-צומת-הפיל/",
+  "https://timeout.co.il/קינוחי-פירות-שרונה-מרקט/",
   "https://timeout.co.il/קלאביס-קלאב-סוגר/",
   "https://timeout.co.il/קלארו-טור/",
   "https://timeout.co.il/קלארו-לונדון-מישלן/",
@@ -154749,7 +154820,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-09-15T11:49:53.361064+03:00",
+ "last_run": "2026-09-16T11:43:56.622877+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
