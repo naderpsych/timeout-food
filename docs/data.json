@@ -23,7 +23,15 @@
    "lat": 32.06482,
    "lon": 34.7726469,
    "geo_precision": "address",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "enrichment": {
+    "google_name": "רמלה",
+    "address": "אלנבי 97, תל אביב-יפו, ישראל",
+    "source": "גוגל",
+    "date": "2026-09-17",
+    "v": 3
+   },
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-%d7%a1%d7%9c%d7%99%d7%9f-%d7%a7%d7%95%d7%a8%d7%a5/#מיט בר",
@@ -48,7 +56,54 @@
    "lat": 32.079145,
    "lon": 34.780243,
    "geo_precision": "address",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "enrichment": {
+    "google_name": "מיטבר",
+    "address": "שדרות ח\"ן 52, תל אביב-יפו, 64167, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlvvn_G7bA87HMcTaQRjXfT1wzxqyBgNAIcRAEEIopHC-1AwzcnCDMFuF96GP4aVqPm89bPoBOypCqe58wvorJ7RojQ6sJ1rQdiXl_5haiW1T1adx0-WJDwVas7pP1b2iq3yM64boAmT4av=w800-h500-k-no",
+    "hours": "ה' 12:00-24:00, ו' 12:00-23:30, ש' 12:00-23:00, א' סגור, ב' סגור, ג' 12:00-23:00, ד' 12:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "23:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-17",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-%d7%a1%d7%9c%d7%99%d7%9f-%d7%a7%d7%95%d7%a8%d7%a5/#קפה שניאור",
@@ -73,7 +128,16 @@
    "lat": 32.074515,
    "lon": 34.770522,
    "geo_precision": "address",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "enrichment": {
+    "google_name": "קפה שניאור",
+    "address": "פינסקר 20, תל אביב-יפו, 63421, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRv_zlstYzGerVR8shlI5WjyoT8LBLLCuQvw0xA6cGFY5uCfmy9e60E0vk-5RA-AiOT2KFCFdixz4jxo7r5zTeQVYysU4J3Go7WAG7otbi0c7ILdJXSi8MRONEntRE2vSMdyNckQ=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-09-17",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-%d7%a1%d7%9c%d7%99%d7%9f-%d7%a7%d7%95%d7%a8%d7%a5/#כיכר ביאליק",
@@ -98,7 +162,21 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": true
+   "is_sponsored": true,
+   "enrichment": {
+    "result_names": [
+     "כיכר ביאליק",
+     "כיכר ביאליק"
+    ],
+    "name_echo": true,
+    "google_name": "כיכר ביאליק",
+    "address": "ביאליק 27, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWluGBzKhabClV4KqUvKvFcLFRDW-B816GNaXQBvGuGzbwTnd-ygkXKCsXuCB6D3CiOBuECFGWsUuTHthdkfaTRazqnYCcLlJ3B3e_zlX4N5JeCwrrUyeZAPNMJnEaBav8JJ_9mV=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-09-17",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-%d7%a1%d7%9c%d7%99%d7%9f-%d7%a7%d7%95%d7%a8%d7%a5/#מקום לא אהוב בעיר",
@@ -123,7 +201,11 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-09-17T14:52:51.017967+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a2%d7%99%d7%a8-%d7%a9%d7%9c-%d7%a1%d7%9c%d7%99%d7%9f-%d7%a7%d7%95%d7%a8%d7%a5/#השאלון",
@@ -148,7 +230,11 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-09-17T14:52:54.784645+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%99%d7%a0%d7%95%d7%97%d7%99-%d7%a4%d7%99%d7%a8%d7%95%d7%aa-%d7%a9%d7%a8%d7%95%d7%a0%d7%94-%d7%9e%d7%a8%d7%a7%d7%98/#שרונה מרקט",
@@ -3823,8 +3909,8 @@
    "geo_precision": "area",
    "is_sponsored": true,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T20:16:55.710908+03:00"
+    "tries": 1,
+    "last": "2026-09-17T14:52:51.017967+03:00"
    }
   },
   {
@@ -3852,8 +3938,8 @@
    "geo_precision": "city",
    "is_sponsored": true,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T20:16:59.903124+03:00"
+    "tries": 1,
+    "last": "2026-09-17T14:52:54.784645+03:00"
    }
   },
   {
@@ -14344,8 +14430,8 @@
    "geo_precision": "city",
    "is_sponsored": false,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T20:16:59.903124+03:00"
+    "tries": 1,
+    "last": "2026-09-17T14:52:54.784645+03:00"
    }
   },
   {
@@ -47090,18 +47176,11 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות ח\"ן 52, תל אביב-יפו, 64167, ישראל",
     "google_name": "מיטבר",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkcMW7R1wdYwgjBwY0-friwVLyN5XZ55hNSzbM3fhZ5lt332AubQVtlzOCCOFuUh2EF2k92SXjzXtEsPrAfbTj3jKNz9EIOIaSypUa-HZd1-VkCwuzxxH2_RP3jw-QNOCoffw64Ag=w800-h500-k-no",
-    "hours": "ד' 12:00-23:00, ה' 12:00-24:00, ו' 12:00-23:30, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00",
+    "address": "שדרות ח\"ן 52, תל אביב-יפו, 64167, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlvvn_G7bA87HMcTaQRjXfT1wzxqyBgNAIcRAEEIopHC-1AwzcnCDMFuF96GP4aVqPm89bPoBOypCqe58wvorJ7RojQ6sJ1rQdiXl_5haiW1T1adx0-WJDwVas7pP1b2iq3yM64boAmT4av=w800-h500-k-no",
+    "hours": "ה' 12:00-24:00, ו' 12:00-23:30, ש' 12:00-23:00, א' סגור, ב' סגור, ג' 12:00-23:00, ד' 12:00-23:00",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
      {
       "days": [
        4
@@ -47125,28 +47204,21 @@
      },
      {
       "days": [
-       0
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
        2
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
       ],
       "from": "12:00",
       "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-19",
+    "date": "2026-09-17",
     "v": 3
    },
    "closed_permanently": false
@@ -160035,7 +160107,9 @@
   "פינסקר 20, תל אביב, תל אביב, ישראל": [
    32.074515,
    34.770522
-  ]
+  ],
+  "ביאליק 27, תל אביב-יפו, ישראל, ישראל": null,
+  "אלנבי 97, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-09-17T08:01:49.896494+03:00"
+ "last_google_run": "2026-09-17T14:53:24.178027+03:00"
 }
