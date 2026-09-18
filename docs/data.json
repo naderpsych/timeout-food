@@ -23,7 +23,61 @@
    "lat": 32.068482,
    "lon": 34.767898,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "San Mai Gyoza Bar",
+    "address": "יום טוב 17, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmPe-sEI26xKGJY7jzbBusqCzoMnKFblAdtFgvSoEdrKOWXFnSaIcjbNsYPfRTltYPof7nmvqcjr5slK7kvXBJ2PSi62Rx5a3ENhHhtEXsBXqscqPHjQ3oI8_hkwazkT-0la0O8Zg7YR3BNC=w800-h500-k-no",
+    "hours": "ו' 11:00-15:00, ש' סגור, א' 12:00-17:00, ב' 12:00-17:00, ג' 12:00-17:00, ד' 12:00-21:00, ה' 12:00-21:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "11:00",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "21:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "21:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-18",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-109/#בוב",
@@ -48,7 +102,70 @@
    "lat": 32.0622106,
    "lon": 34.8058007,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "Bob Wine Cantine",
+     "BuXa",
+     "פולי בר רוטשילד תל אביב",
+     "בר",
+     "רוטשילד תל אביב",
+     "Twenty two 22 Bar",
+     "בר רוטשילד 22"
+    ],
+    "name_echo": true,
+    "address": "בן יהודה 17, תל אביב-יפו, 6329302, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmM_vI8GRYXIy0Y-FZ-yuWjQovfsTUg6I0nu9IaT8H7yICmo-D9YglDsjo98iuqHb6gp7_tEZH4EK8hV747Jc8xiRrykIvw8v7GrH3EfD91xE6d0OMIYxLAvFLN_iXAuZ1yjcQYSUUHCYbaO=w800-h500-k-no",
+    "hours": "ו' סגור, ש' 12:30-23:00, א' 18:00-23:00, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "12:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-18",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-109/#תריסר",
@@ -73,7 +190,16 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "תריסר",
+    "address": "שוק הנמל, האנגר 12, קומה שניה, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmO-ogmBv0UogNvLml2ykparbThG71hTzVSB6sjfVS3GNkLJIVcPs4Y1QtOAzOlV2vwWcSRGD0-084UxlI_TnkbbET8PDUxs3hYsWBapkmy0ToTgFEpbua8oszfVCOs5BGCQTIuV4Sz-F27f=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-09-18",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-109/#אפי (fe)",
@@ -98,7 +224,65 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "Fē",
+     "פלאפל בן חור"
+    ],
+    "name_echo": true,
+    "google_name": "Fē",
+    "address": "שדרות וושינגטון 26, תל אביב-יפו, ישראל",
+    "hours": "ו' סגור, ש' 18:00-24:00, א' 18:00-24:00, ב' 18:00-24:00, ג' 18:00-24:00, ד' 18:00-24:00, ה' 18:00-24:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-18",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-109/#6 במאי",
@@ -123,7 +307,16 @@
    "lat": 32.0820303,
    "lon": 34.7738402,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "May 6",
+    "address": "Dizengoff, 143 דיזנגוף 141, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmNET1NWvGxAkkwNLYah8DMGoAdhLE8fp7tkRWOnYqOigfuCXCNCnoeu0N34ktNnEC7rFts-nsoP8HPew61DksWGm7Y2zo3gXx5JA5k0q4difY3l_t7rEb8dhsVWfuDIh5YRaMU=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-09-18",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-109/#יובל בן נריה ואבי ביטון",
@@ -148,7 +341,68 @@
    "lat": 32.0683357,
    "lon": 34.7700335,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "רדלר",
+    "address": "נחלת בנימין 48, תל אביב-יפו, 6516307, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmNVR9ll3il47LX8cbSj5vPr59Ex3vO4SnS6Qgq09A1qLJvLCXVT7ZWH70VqAWdvTTpmZyGHe8XyN5kOA32ZTxLG90nFa0uAbPd2pun-vXS9EavLVP6xu1lgADlotb2m_swIVeLzCw=w800-h500-k-no",
+    "hours": "ו' 18:30-23:00, ש' 19:00-23:00, א' 19:00-23:00, ב' 19:00-23:00, ג' 19:00-23:00, ד' 19:00-23:00, ה' 19:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "18:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "19:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-18",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-109/#גן העיר",
@@ -173,7 +427,61 @@
    "lat": 32.0813546,
    "lon": 34.7814007,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "גן העיר",
+    "address": "שלמה אבן גבירול 71, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmPfpLLa3yEevL8uMLXQu06Yk7V2u1mUjSJ8veioSUWAnj5LfUed9QlwpgkmLLs3MOgVQePq71cPWGqGo6jo-w3gQy5crAF9vgM_63NShzp0tmtXuo724OEnnuXlnIZV0uUZJpL-Dg=w800-h500-k-no",
+    "hours": "ו' 10:00-14:30, ש' סגור, א' 10:00-20:00, ב' 10:00-20:00, ג' 10:00-20:00, ד' 10:00-20:00, ה' 10:00-20:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "10:00",
+      "to": "14:30"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "10:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "10:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "10:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "10:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "10:00",
+      "to": "20:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-18",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-109/#כיכר גבעון",
@@ -32940,7 +33248,70 @@
    "details_url": "https://timeout.co.il/%d7%91%d7%a8%d7%99-%d7%a7%d7%95%d7%a7%d7%98%d7%99%d7%99%d7%9c%d7%99%d7%9d-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
    "lat": 32.075246,
    "lon": 34.767753,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "enrichment": {
+    "result_names": [
+     "Bob Wine Cantine",
+     "BuXa",
+     "פולי בר רוטשילד תל אביב",
+     "בר",
+     "רוטשילד תל אביב",
+     "Twenty two 22 Bar",
+     "בר רוטשילד 22"
+    ],
+    "name_echo": true,
+    "address": "בן יהודה 17, תל אביב-יפו, 6329302, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmM_vI8GRYXIy0Y-FZ-yuWjQovfsTUg6I0nu9IaT8H7yICmo-D9YglDsjo98iuqHb6gp7_tEZH4EK8hV747Jc8xiRrykIvw8v7GrH3EfD91xE6d0OMIYxLAvFLN_iXAuZ1yjcQYSUUHCYbaO=w800-h500-k-no",
+    "hours": "ו' סגור, ש' 12:30-23:00, א' 18:00-23:00, ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "12:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-18",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/ברי-יין-מומלצים/#בוסר",
@@ -48595,11 +48966,11 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "Dizengoff, 143 דיזנגוף 141, תל אביב-יפו, ישראל",
     "google_name": "May 6",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk5B2-crGJLjTc_U9pvmy_7gmYjY3mHL-eEk15CJWCn3W2JPGSrtTzO93oaPDdnUcXJpsyNFEoKaXCq_EJ6ocIc6Uxf_yuicr4Kk1z3YfuDCcxu0aiiC5UqFD7BB5R-ThTws5k=w800-h500-k-no",
+    "address": "Dizengoff, 143 דיזנגוף 141, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmNET1NWvGxAkkwNLYah8DMGoAdhLE8fp7tkRWOnYqOigfuCXCNCnoeu0N34ktNnEC7rFts-nsoP8HPew61DksWGm7Y2zo3gXx5JA5k0q4difY3l_t7rEb8dhsVWfuDIh5YRaMU=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-09-18",
     "v": 3
    },
    "closed_permanently": false
@@ -160325,7 +160696,8 @@
   ],
   "ביאליק 27, תל אביב-יפו, ישראל, ישראל": null,
   "אלנבי 97, תל אביב-יפו, ישראל, ישראל": null,
-  "שד' וושינגטון 26, ישראל": null
+  "שד' וושינגטון 26, ישראל": null,
+  "שלמה אבן גבירול 71, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-09-17T14:53:24.178027+03:00"
+ "last_google_run": "2026-09-18T14:29:16.458152+03:00"
 }
