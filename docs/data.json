@@ -725,8 +725,8 @@
    "geo_precision": "city",
    "is_sponsored": true,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-17T14:52:51.017967+03:00"
+    "tries": 2,
+    "last": "2026-09-20T19:16:26.445138+03:00"
    }
   },
   {
@@ -754,8 +754,8 @@
    "geo_precision": "city",
    "is_sponsored": true,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-17T14:52:54.784645+03:00"
+    "tries": 2,
+    "last": "2026-09-20T19:16:29.933439+03:00"
    }
   },
   {
@@ -2670,8 +2670,8 @@
    "geo_precision": "area",
    "is_sponsored": true,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-06T18:33:40.301221+03:00"
+    "tries": 3,
+    "last": "2026-09-20T19:15:59.205286+03:00"
    }
   },
   {
@@ -4431,8 +4431,8 @@
    "geo_precision": "area",
    "is_sponsored": true,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-17T14:52:51.017967+03:00"
+    "tries": 2,
+    "last": "2026-09-20T19:16:26.445138+03:00"
    }
   },
   {
@@ -4460,8 +4460,8 @@
    "geo_precision": "city",
    "is_sponsored": true,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-17T14:52:54.784645+03:00"
+    "tries": 2,
+    "last": "2026-09-20T19:16:29.933439+03:00"
    }
   },
   {
@@ -14952,8 +14952,8 @@
    "geo_precision": "city",
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-17T14:52:54.784645+03:00"
+    "tries": 2,
+    "last": "2026-09-20T19:16:29.933439+03:00"
    }
   },
   {
@@ -160699,5 +160699,5 @@
   "שד' וושינגטון 26, ישראל": null,
   "שלמה אבן גבירול 71, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-09-19T07:46:41.835784+03:00"
+ "last_google_run": "2026-09-20T19:16:45.820979+03:00"
 }
