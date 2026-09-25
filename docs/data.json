@@ -48,7 +48,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-09-25T15:00:08.677841+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8%d7%a4%d7%a1%d7%98-2026/#Spaten Oktoberfest",
@@ -73,7 +77,16 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "ביר גארדן",
+    "address": "אלוף אלברט מנדלר 3 street, תל אביב-יפו, 6107038, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnKjSdbCBNbdjqafZWcB3j3ynYPXMO_eb2SR_-z48YeDV2uC4eSWByLdKOTmRvScU4onXraOSjRso8vsgC82KJva1HohAgkCT-Me7dg3W-uyfIwiugIdrs_QInRA7iThDoJLo0nEEPPbt8=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-09-25",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8%d7%a4%d7%a1%d7%98-2026/#Spaten Hell",
@@ -98,7 +111,59 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "Spaten-Franziskaner-Bräu",
+     "תל אביב-יפו"
+    ],
+    "name_echo": true,
+    "google_name": "Spaten-Franziskaner-Bräu",
+    "address": "Marsstraße 46-48, 80335 München-Maxvorstadt, גרמניה",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmDPZoJ6KzPIU89qJxE6JYkp-0GBJlm2uwknoVojB58ztpJhW3GrEpKNy6wCP_sdIW8s9FTbdPxdm5H5KL6JqpFZOVn9CbYZK1R8M8VD9spCxQ9UYnIdE7aN5M5vrHgBYLwd2zpxKeiH_I=w800-h500-k-no",
+    "hours": "ו' 07:00-16:00, ש' סגור, א' סגור, ב' 07:00-16:00, ג' 07:00-16:00, ד' 07:00-16:00, ה' 07:00-16:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "07:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "07:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:00",
+      "to": "16:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-25",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8%d7%a4%d7%a1%d7%98-2026/#Löwenbräu",
@@ -123,7 +188,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-09-25T15:00:23.462134+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8%d7%a4%d7%a1%d7%98-2026/#Franziskaner Hefe Weissbier",
@@ -148,7 +217,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-09-25T15:00:27.096161+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8%d7%a4%d7%a1%d7%98-2026/#Benediktiner Hell",
@@ -173,7 +246,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-09-25T15:00:31.112404+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%9e%d7%9c%d7%a6%d7%95%d7%aa-%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8%d7%a4%d7%a1%d7%98-2026/#Oranjeboom",
@@ -198,7 +275,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-09-25T14:59:10.666308+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/coffee-lane/#קופי ליין",
@@ -2378,10 +2459,60 @@
    "lon": null,
    "geo_precision": null,
    "is_sponsored": false,
-   "google_miss": {
-    "tries": 2,
-    "last": "2026-09-11T14:33:00.652845+03:00"
-   }
+   "enrichment": {
+    "google_name": "SHEMO הקונדיטוריה | סניף יהודה המכבי תל אביב",
+    "address": "יהודה המכבי 60, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkgVgCCnQMOIjB8-ZtshE0vwLCb5LeNBUQAXEQv7Vs7K10S-hw0ISrwBf9fl36dgGMlyIcw0qgovB_qUmiCvjhhEg-xVoKTR689M19lO6GQQhPHIgKOBwKnTrsWgxndOHjXM7oi=w800-h500-k-no",
+    "hours": "ו' 08:00-14:30, ש' סגור, א' 08:00-20:00, ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00, ה' 08:00-20:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "14:30"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-25",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-108/#יסמין",
@@ -32420,25 +32551,11 @@
    "lon": null,
    "geo_precision": null,
    "enrichment": {
+    "google_name": "SHEMO הקונדיטוריה | סניף יהודה המכבי תל אביב",
     "address": "יהודה המכבי 60, תל אביב-יפו, ישראל",
-    "google_name": "SHEMO הקונדיטוריה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn-qeL1N7uGINWxJMW2wEM9cd80hh6EelTYtFBa7SMugFJA9_kHc-FxytY5lpDFfKzUr-wxUg6aULGHGyOCFCeG8udJ4o1_KXTQ8AvSsvFmnr5ZKxFUswRfoc2_ubvfkrJAc3iW=w800-h500-k-no",
-    "hours": "ד' 08:00-20:00, ה' 08:00-20:00, ו' 08:00-14:30, ש' סגור, א' 08:00-20:00, ב' 08:00-20:00, ג' 08:00-20:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkgVgCCnQMOIjB8-ZtshE0vwLCb5LeNBUQAXEQv7Vs7K10S-hw0ISrwBf9fl36dgGMlyIcw0qgovB_qUmiCvjhhEg-xVoKTR689M19lO6GQQhPHIgKOBwKnTrsWgxndOHjXM7oi=w800-h500-k-no",
+    "hours": "ו' 08:00-14:30, ש' סגור, א' 08:00-20:00, ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00, ה' 08:00-20:00",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
      {
       "days": [
        5
@@ -32466,10 +32583,24 @@
       ],
       "from": "08:00",
       "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "20:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-19",
+    "date": "2026-09-25",
     "v": 3
    },
    "closed_permanently": false
@@ -160939,7 +161070,8 @@
   "ביאליק 27, תל אביב-יפו, ישראל, ישראל": null,
   "אלנבי 97, תל אביב-יפו, ישראל, ישראל": null,
   "שד' וושינגטון 26, ישראל": null,
-  "שלמה אבן גבירול 71, תל אביב-יפו, ישראל, ישראל": null
+  "שלמה אבן גבירול 71, תל אביב-יפו, ישראל, ישראל": null,
+  "Marsstraße 46-48, 80335 München-Maxvorstadt, גרמניה, ישראל": null
  },
- "last_google_run": "2026-09-23T00:28:47.818251+03:00"
+ "last_google_run": "2026-09-25T15:00:47.262830+03:00"
 }
