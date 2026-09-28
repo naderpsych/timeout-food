@@ -23,7 +23,77 @@
    "lat": 32.121743,
    "lon": 34.834761,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "קפה פסאז׳",
+     "שופרסל שלי",
+     "הפסאז' - מסעדת המבורגר",
+     "צמרת צהלה",
+     "מרכז קהילתי צהלה",
+     "רביבה וסיליה",
+     "בוסתן השכונה צהלה"
+    ],
+    "name_echo": true,
+    "address": "ארלוזורוב 64, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RfcuFUN1muNo0Z6wmLCUkWR7h-ChrdTwi3SBtuIPwOPaZyLa5W_TVrAUy_v1OwdO_4k8PwDUzxPpYylHeft9rPCEoi0AseLodFlnD_ZWAhCWBXXMtPCL1jUfXyS250iwqWRIkEkn3eBJQ=w800-h500-k-no",
+    "hours": "ב' 07:00-19:30, ג' 07:00-19:30, ד' 07:00-19:30, ה' 07:00-19:30, ו' 07:00-19:30, ש' 08:30-19:30, א' 07:00-19:30",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "08:30",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-28",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-110/#פיצה יואב",
@@ -48,7 +118,75 @@
    "lat": 32.089661,
    "lon": 34.780328,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "פיצה יואב",
+     "PIzza Yoav",
+     "פיצה יואב PIZZA YOAV פלורנטין",
+     "פיצה יואב PIZZA YOAV צים אורבן",
+     "פיצה יואב"
+    ],
+    "name_echo": true,
+    "address": "משה סנה 54, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnQ_HE1-IqVGlqaEGzSVatcaQVeVqOW2rMZF88sHQoUtmLPDGjoOszmkJvinHskLV23KqILzPYNlB9tssz27wAAZjFwPNjGKlp22F_vspaB3KKKS97OPQO0dCG3rUl1KVLlzw9n=w800-h500-k-no",
+    "hours": "ב' 11:00-24:00, ג' 11:00-24:00, ד' 11:00-24:00, ה' 11:00-02:00, ו' 11:00-02:00, ש' 10:00-01:00, א' 11:00-24:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "11:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "11:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "11:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "11:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "11:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "10:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "11:00",
+      "to": "24:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-28",
+    "v": 3
+   },
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-110/#קפה טלק",
@@ -73,7 +211,15 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "טלק - קפה בבזל",
+    "address": "דיזנגוף 248, בזל 1, תל אביב-יפו, 6311532, ישראל",
+    "source": "גוגל",
+    "date": "2026-09-28",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-110/#קוקולו",
@@ -98,7 +244,61 @@
    "lat": 32.1040829,
    "lon": 34.791758,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "קוקולו | עוף בגריל",
+    "address": "בראלי 18, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlak1qsC7Io3groQnXLtdrFDqvna1ZPQMZf1TgDTcEKEfWqKzuFwg7joM96033NM8j4tpS5nEwi76JCW8wBZs6vBKupFhKeUsNAzCG1s_h-7Tom9pfIyn-e7onAoOL6BvJcRUrm-QvnlJpA=w800-h500-k-no",
+    "hours": "ב' 11:00-17:00, ג' 11:00-17:00, ד' 11:00-17:00, ה' 11:00-17:00, ו' 08:00-13:00, ש' סגור, א' 11:00-17:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "11:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "11:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "11:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "11:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "13:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "11:00",
+      "to": "17:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-28",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-110/#דיקסי",
@@ -162,7 +362,40 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "Fifi's",
+    "address": "הרכבת 2, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm98Cld-AOQe87urE68vYVkSuDu5J9T5BuYZ2IVx0cWVYd-NnuPhzOcp1Le1UXWK-FYtOY0L2K0rDFp2w41MwoPp3L27Uuc9kvbEV6M5WyCDr-LKu5heK9cF-l5ufXRF6kcwyy-8Q=w800-h500-k-no",
+    "hours": "ב' סגור, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' סגור, ש' סגור, א' סגור",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-28",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-110/#עומר טל",
@@ -187,7 +420,54 @@
    "lat": 32.060538,
    "lon": 34.785094,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "עומר טל - מטבח שף טבעוני",
+    "address": "המקצוע 4, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnfcSj_7KA_1QW5gPSwNLMEjqKM-mr9HFwTu5YcEUfvA9MMfR7CjcWYPgIOVtypWCaeh_fz7Uiw7MUbYL6peCMPFP9GFgp_Ekk9GHAD4ekDClm6XUeOsCGoMRJkJuAcJ54aU3OTLPJJD_jF=w800-h500-k-no",
+    "hours": "ב' 09:00-17:00, ג' 09:00-17:00, ד' 09:00-17:00, ה' 09:00-17:00, ו' סגור, ש' סגור, א' 09:00-17:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-09-28",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%96%d7%9c%d7%99%d7%92-%d7%91%d7%a8-%d7%99%d7%99%d7%9f/#ראש פינה",
@@ -239,8 +519,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-25T15:00:08.677841+03:00"
+    "tries": 2,
+    "last": "2026-09-28T17:12:46.167130+03:00"
    }
   },
   {
@@ -379,8 +659,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-25T15:00:23.462134+03:00"
+    "tries": 2,
+    "last": "2026-09-28T17:12:50.070342+03:00"
    }
   },
   {
@@ -408,8 +688,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-25T15:00:27.096161+03:00"
+    "tries": 2,
+    "last": "2026-09-28T17:12:54.828947+03:00"
    }
   },
   {
@@ -437,8 +717,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-25T15:00:31.112404+03:00"
+    "tries": 2,
+    "last": "2026-09-28T17:12:59.248850+03:00"
    }
   },
   {
@@ -466,8 +746,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-09-25T14:59:10.666308+03:00"
+    "tries": 2,
+    "last": "2026-09-28T17:12:07.618589+03:00"
    }
   },
   {
@@ -1432,8 +1712,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-14T16:02:20.268393+03:00"
+    "tries": 3,
+    "last": "2026-09-28T17:12:19.933802+03:00"
    }
   },
   {
@@ -65110,11 +65390,25 @@
    "lon": 34.8244714,
    "geo_precision": "address",
    "enrichment": {
-    "google_name": "פיצה יואב",
+    "result_names": [
+     "פיצה יואב",
+     "PIzza Yoav",
+     "פיצה יואב PIZZA YOAV פלורנטין",
+     "פיצה יואב PIZZA YOAV צים אורבן",
+     "פיצה יואב"
+    ],
+    "name_echo": true,
     "address": "משה סנה 54, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMR0VkPVeuE7-53tue5r8F8n53cNWDFV0Unlcuak0dlBHzA371qZ5bl6nz-ncuS_OHTV90D-_WkwWtsIlxg-qsxTQ7fx0R2LnriwTNyajtYBjszoMW0il2YwJ_SEZgkbyIGMP8=w800-h500-k-no",
-    "hours": "ג' 11:00-24:00, ד' 11:00-24:00, ה' 11:00-02:00, ו' 11:00-02:00, ש' 10:00-01:00, א' 11:00-24:00, ב' 11:00-24:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnQ_HE1-IqVGlqaEGzSVatcaQVeVqOW2rMZF88sHQoUtmLPDGjoOszmkJvinHskLV23KqILzPYNlB9tssz27wAAZjFwPNjGKlp22F_vspaB3KKKS97OPQO0dCG3rUl1KVLlzw9n=w800-h500-k-no",
+    "hours": "ב' 11:00-24:00, ג' 11:00-24:00, ד' 11:00-24:00, ה' 11:00-02:00, ו' 11:00-02:00, ש' 10:00-01:00, א' 11:00-24:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "11:00",
+      "to": "24:00"
+     },
      {
       "days": [
        2
@@ -65156,20 +65450,13 @@
       ],
       "from": "11:00",
       "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "11:00",
-      "to": "24:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-09-01",
+    "date": "2026-09-28",
     "v": 3
    },
-   "closed_permanently": false
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/%d7%94%d7%a4%d7%99%d7%a6%d7%95%d7%aa-%d7%94%d7%9b%d7%99-%d7%98%d7%95%d7%91%d7%95%d7%aa/#לה טיגרה",
@@ -136479,14 +136766,38 @@
    "lon": 34.7725201,
    "geo_precision": "area",
    "enrichment": {
-    "address": "הרכבת 2, תל אביב-יפו, ישראל",
     "google_name": "Fifi's",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkCX0gweceU28Xr_4KfBMuiFUPAWM0xAYWMZMmokpQxvKg2Mm14b7bsKLmAJzzF-XGubB1ch4lS9-noMVs5MljkrRyPy2GvpzgAJK8MFk1A9PQ_Nn4-oWiEYLiITutSRXphrSbPiA=w800-h500-k-no",
+    "address": "הרכבת 2, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm98Cld-AOQe87urE68vYVkSuDu5J9T5BuYZ2IVx0cWVYd-NnuPhzOcp1Le1UXWK-FYtOY0L2K0rDFp2w41MwoPp3L27Uuc9kvbEV6M5WyCDr-LKu5heK9cF-l5ufXRF6kcwyy-8Q=w800-h500-k-no",
+    "hours": "ב' סגור, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' סגור, ש' סגור, א' סגור",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     }
+    ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-09-28",
     "v": 3
    },
-   "closed_permanently": true
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%a9%d7%a9%d7%95%d7%a0%d7%95-0825/#שילה קפה",
@@ -161278,7 +161589,11 @@
   "המקצוע 4, תל אביב, תל אביב, ישראל": [
    32.060538,
    34.785094
-  ]
+  ],
+  "ארלוזורוב 64, תל אביב-יפו, ישראל, ישראל": null,
+  "דיזנגוף 248, בזל 1, תל אביב-יפו, 6311532, ישראל, ישראל": null,
+  "בראלי 18, תל אביב-יפו, ישראל, ישראל": null,
+  "המקצוע 4, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-09-25T15:00:47.262830+03:00"
+ "last_google_run": "2026-09-28T17:13:00.013271+03:00"
 }
