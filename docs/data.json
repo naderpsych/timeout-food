@@ -1,6 +1,51 @@
 {
  "cards": [
   {
+   "id": "https://timeout.co.il/%d7%a8%d7%95%d7%91%d7%99%d7%9f-%d7%a4%d7%90%d7%91/#רובין",
+   "name": "רובין",
+   "type": "בר יין",
+   "what_to_eat": "גלידה, קוקטייל, יין, בירה, סלט, טוסט",
+   "owner": null,
+   "hours": "שלמה המלך 2, א'-ה' ו-ש' 18:00-00:00, ו' 13:00-00:00, האפי אוור של 25% על הכל, למעט בקבוקי יין, עד השעה 19:30 בימי ראשון עד חמישי ובשבת",
+   "schedule": [
+    {
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+     ],
+     "from": "18:00",
+     "to": "00:00"
+    },
+    {
+     "days": [
+      5
+     ],
+     "from": "13:00",
+     "to": "00:00"
+    }
+   ],
+   "city": "תל אביב",
+   "location": "שוק הכרמל",
+   "region": "tlv",
+   "is_new": true,
+   "closing_soon": false,
+   "is_popup": true,
+   "opening_info": null,
+   "article_title": "לונדון קוראת: \"רובין\" הוא הפאב הסליזי המושלם שכל כך חיכיתם לו",
+   "article_url": "https://timeout.co.il/%d7%a8%d7%95%d7%91%d7%99%d7%9f-%d7%a4%d7%90%d7%91/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2026/10/IMG_1867-1140x641.jpg",
+   "published": "2026-10-04T13:11:46+03:00",
+   "details_url": null,
+   "lat": 32.0683679,
+   "lon": 34.7685526,
+   "geo_precision": "area",
+   "is_sponsored": true
+  },
+  {
    "id": "https://timeout.co.il/%d7%a4%d7%90%d7%a1%d7%99%d7%99%d7%94/#מקסיקנית חדשה בשוק",
    "name": "מקסיקנית חדשה בשוק",
    "type": "המבורגרייה",
@@ -156505,6 +156550,7 @@
   "https://timeout.co.il/קשטוטה/",
   "https://timeout.co.il/רביבה-וסיליה-צהלה/",
   "https://timeout.co.il/רדלר-אבי-ביטון/",
+  "https://timeout.co.il/רובין-פאב/",
   "https://timeout.co.il/רוז-רמת-הגולן/",
   "https://timeout.co.il/רופטופ-תל-אביב/",
   "https://timeout.co.il/רושפלד-בדנון/",
@@ -156552,7 +156598,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-10-04T12:58:16.945952+03:00",
+ "last_run": "2026-10-05T13:42:00.752782+03:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
