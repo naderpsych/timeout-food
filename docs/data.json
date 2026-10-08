@@ -23,7 +23,47 @@
    "lat": 32.0577595,
    "lon": 34.7686424,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "סיח",
+    "address": "רביעיית פלורנטין, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmOluiSCFKUHDm9pooYWHr2_k1KXvpX4d8hU9ywHjQu9jdmw69zZuUL0YJRKvBPFH2APC-D-x2dGli83R_KuxPoJl0bZdFzM-pqHi1Npc-M5XI-gv4d6sPtzkdzi0acNFJhc81PFjyvAd5mm=w800-h500-k-no",
+    "hours": "ה' 18:00-23:00, ו' 12:00-17:00, ש' 12:00-23:00, א' סגור, ב' סגור, ג' סגור, ד' 18:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-08",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%96%d7%9b%d7%a8%d7%9d-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8/#אמורה מיו",
@@ -48,7 +88,16 @@
    "lat": 32.0834474,
    "lon": 34.7816799,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "אמורה מיו",
+    "address": "שלמה אבן גבירול 100, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmMPZhJ3jyc1yL51zpeuMmHxNGMEWXEbh3QprdxxRSA7KlrvG8RnQoq9O3U1kJUldiaDt1jCZ0X2KueTTqfSzkcrrSweL9-GbSe9zxHgEWqygNBKgGZ8M8vHqKBCb-v67usw9oezZA=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-10-08",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%96%d7%9b%d7%a8%d7%9d-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8/#קפה גרג",
@@ -73,7 +122,82 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "גרג קפה",
+     "קפה גרג דיזנגוף סנטר",
+     "קפה גרג דיזינגוף בע\"מ",
+     "קפה גרג נמל תל אביב",
+     "קפה גרג"
+    ],
+    "name_echo": true,
+    "address": "קניון TLV, החשמונאים 100, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmOKc6xc28YnAa1uRUZ7maPdG8Fvu5u1Dh3qdfRGs65V6aK_QJIweVy_ZQQJ9K4x3Jl3mJx-nPrrbRUnV6oz3vTEY-1xl_WUBF59VHyQHdI-jhH9T8uwdob4fTwVK2j4YNgASsXv=w800-h500-k-no",
+    "hours": "ה' 09:00-20:30, ו' 09:00-14:00, ש' סגור, א' 09:00-20:30, ב' 09:00-20:30, ג' 09:00-20:30, ד' 09:00-20:30, ה' 09:00-21:00, ו' 09:00-14:00",
+    "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "20:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "14:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "09:00",
+      "to": "20:30"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "20:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "20:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "20:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "21:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "14:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-08",
+    "v": 3
+   },
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%96%d7%9b%d7%a8%d7%9d-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8/#בורגרים",
@@ -98,7 +222,66 @@
    "lat": 32.1088611,
    "lon": 34.7950946,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "בורגרים רמת אביב אוניברסיטת תל אביב",
+     "בורגרס בר | BurgersBar | רמת אביב כשר בהשגחת הרב מחפוד"
+    ],
+    "name_echo": true,
+    "google_name": "בורגרים רמת אביב אוניברסיטת תל אביב",
+    "address": "ד\"ר ג'ורג' וייז 20, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmPff79w2zpRLCqecjUgLSKaIbA8dxW_2W9j5yz6vtc3X6xx2I7JhvxJVPJ-jEzVvk-oCUOSSsReKgWSHjYfsLBivCpXeE5T2HUbdZGgKDMkMYlp770SqTziZSmtwBj4L8FTgXDHe0Tr94gc=w800-h500-k-no",
+    "hours": "ה' 11:00-23:00, ו' סגור, ש' סגור, א' 11:00-23:00, ב' 11:00-23:00, ג' 11:00-23:00, ד' 11:00-23:00, ה' 10:30-22:30, ו' סגור",
+    "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "10:30",
+      "to": "22:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-08",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%96%d7%9b%d7%a8%d7%9d-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8/#פיורי",
@@ -123,7 +306,68 @@
    "lat": 32.071988,
    "lon": 34.7888851,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "פיורי",
+    "address": "מתחם שרונה, אלוף קלמן מגן 3, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmOb64pYNh_9kTIxiSqIP9iNJT5egu-AWGMNbSVu86XgVIdu5JQOjV3oBmbnDnJHM84XyBwgHP8ypfczTCD--xtbaKzyqy_JjBcEP8SwcB8gqJA_CZiX8G6QBo5FKgusicPGYMc=w800-h500-k-no",
+    "hours": "ה' 10:30-22:00, ו' 11:00-16:00, ש' 10:30-22:00, א' 10:30-22:00, ב' 10:30-22:00, ג' 10:30-22:00, ד' 10:30-22:00",
+    "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "10:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "11:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "10:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "10:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "10:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "10:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "10:30",
+      "to": "22:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-08",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%96%d7%9b%d7%a8%d7%9d-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8/#קפה מיכאלי",
@@ -162,7 +406,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-10-08T16:46:24.829987+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%96%d7%9b%d7%a8%d7%9d-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8/#החצר של נוני",
@@ -201,7 +449,33 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "החצר של נוני",
+    "address": "דרך היסמין 62, בית נחמיה, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmN5dQnC_I502ivMLghfgB0S3bCtMYtnD-p_FCPW64I3HNUt8xSH5ydRzl3lcpgks-cUolNWAKIufnaM-RrVfw2vzFaqwOr7w7T7UDcSErhYeURiI76gB-_xJV8zfap7ZuuocmTvMARoEdRJ=w800-h500-k-no",
+    "hours": "ה' סגור, ו' 09:00-14:00, ש' 09:00-15:00, א' סגור, ב' סגור, ג' סגור, ד' סגור",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "14:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "09:00",
+      "to": "15:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-08",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a8%d7%a0%d7%a7%d7%95-%d7%a0%d7%a7%d7%a0%d7%99%d7%a7%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%a9%d7%99%d7%a7-%d7%a8%d7%95%d7%98-2/#פרנקו",
@@ -38499,11 +38773,11 @@
    "lon": 34.7816799,
    "geo_precision": "address",
    "enrichment": {
-    "address": "שלמה אבן גבירול 100, תל אביב-יפו, ישראל",
     "google_name": "אמורה מיו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm79pFAcnJFGbd33bwaI27TTJe41IXNX9qDRz9tJzN23sGgj3q3EeU_W6YV6YZacumI0ajHzK0ALS2-njYtHYMF9MFkWE2eXhMhQ9QO9DfFsI2sbvJjL_Wd8lsMS06NPlmFcrVv=w800-h500-k-no",
+    "address": "שלמה אבן גבירול 100, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmMPZhJ3jyc1yL51zpeuMmHxNGMEWXEbh3QprdxxRSA7KlrvG8RnQoq9O3U1kJUldiaDt1jCZ0X2KueTTqfSzkcrrSweL9-GbSe9zxHgEWqygNBKgGZ8M8vHqKBCb-v67usw9oezZA=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-08",
     "v": 3
    },
    "closed_permanently": false
@@ -117163,18 +117437,11 @@
    "lon": 34.7686424,
    "geo_precision": "area",
    "enrichment": {
-    "address": "רביעיית פלורנטין, תל אביב-יפו, ישראל",
     "google_name": "סיח",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkdNmAxe7fL44JIXOPQI-3QjDfyHUppCNsDkxLyELPUyISinN0O1C_BCiHWtmfWnjQ-nu21gH8n8Fcpdo2u_ioiGxdKkrKOEH0nab3LywFgkd_vfDz9xxwS-yUyDKhBkQnd8vetSHBD0JFU=w800-h500-k-no",
-    "hours": "ג' סגור, ד' 18:00-23:00, ה' 18:00-23:00, ו' 12:00-17:00, ש' 12:00-23:00, א' סגור, ב' סגור",
+    "address": "רביעיית פלורנטין, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmOluiSCFKUHDm9pooYWHr2_k1KXvpX4d8hU9ywHjQu9jdmw69zZuUL0YJRKvBPFH2APC-D-x2dGli83R_KuxPoJl0bZdFzM-pqHi1Npc-M5XI-gv4d6sPtzkdzi0acNFJhc81PFjyvAd5mm=w800-h500-k-no",
+    "hours": "ה' 18:00-23:00, ו' 12:00-17:00, ש' 12:00-23:00, א' סגור, ב' סגור, ג' סגור, ד' 18:00-23:00",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
      {
       "days": [
        4
@@ -117195,10 +117462,17 @@
       ],
       "from": "12:00",
       "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-08",
     "v": 3
    },
    "closed_permanently": false
@@ -117741,18 +118015,11 @@
    "lon": 34.7686424,
    "geo_precision": "area",
    "enrichment": {
-    "address": "רביעיית פלורנטין, תל אביב-יפו, ישראל",
     "google_name": "סיח",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkdNmAxe7fL44JIXOPQI-3QjDfyHUppCNsDkxLyELPUyISinN0O1C_BCiHWtmfWnjQ-nu21gH8n8Fcpdo2u_ioiGxdKkrKOEH0nab3LywFgkd_vfDz9xxwS-yUyDKhBkQnd8vetSHBD0JFU=w800-h500-k-no",
-    "hours": "ג' סגור, ד' 18:00-23:00, ה' 18:00-23:00, ו' 12:00-17:00, ש' 12:00-23:00, א' סגור, ב' סגור",
+    "address": "רביעיית פלורנטין, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmOluiSCFKUHDm9pooYWHr2_k1KXvpX4d8hU9ywHjQu9jdmw69zZuUL0YJRKvBPFH2APC-D-x2dGli83R_KuxPoJl0bZdFzM-pqHi1Npc-M5XI-gv4d6sPtzkdzi0acNFJhc81PFjyvAd5mm=w800-h500-k-no",
+    "hours": "ה' 18:00-23:00, ו' 12:00-17:00, ש' 12:00-23:00, א' סגור, ב' סגור, ג' סגור, ד' 18:00-23:00",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
      {
       "days": [
        4
@@ -117773,10 +118040,17 @@
       ],
       "from": "12:00",
       "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-08",
     "v": 3
    },
    "closed_permanently": false
@@ -162179,7 +162453,10 @@
   "המקצוע 4, תל אביב-יפו, ישראל, ישראל": null,
   "יום טוב 17, תל אביב, שוק הכרמל, תל אביב, ישראל": null,
   "שלמה המלך 2, תל אביב-יפו, 6438910, ישראל, ישראל": null,
-  "נחלת בנימין 41, תל אביב-יפו, 6516219, ישראל, ישראל": null
+  "נחלת בנימין 41, תל אביב-יפו, 6516219, ישראל, ישראל": null,
+  "קניון TLV, החשמונאים 100, תל אביב-יפו, ישראל, ישראל": null,
+  "ד\"ר ג'ורג' וייז 20, תל אביב-יפו, ישראל, ישראל": null,
+  "דרך היסמין 62, בית נחמיה, ישראל, ישראל": null
  },
- "last_google_run": "2026-10-06T21:30:23.989365+03:00"
+ "last_google_run": "2026-10-08T16:46:32.120053+03:00"
 }
