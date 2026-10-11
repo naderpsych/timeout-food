@@ -407,10 +407,67 @@
    "lon": null,
    "geo_precision": null,
    "is_sponsored": false,
-   "google_miss": {
-    "tries": 1,
-    "last": "2026-10-08T16:46:24.829987+03:00"
-   }
+   "enrichment": {
+    "google_name": "Michaeli",
+    "address": "הירקון 145, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe98bzvJAJx5E0KEAgEfKejTsPBES7eZIfYS9gslmpYP9YCZb6vlEx4Amnmo_ayqEU0dORRlgoy61x6pZm1icPKZ2T_NugqeM8tOyHHriRV5bWd8P84infIQ-D6VnuyX-1_UZYhK5WhR_1C=w800-h500-p-k-no",
+    "hours": "ב' 07:30-22:00, ג' 07:30-22:00, ד' 07:30-22:00, ה' 07:30-22:00, ו' 07:30-22:00, ש' 07:30-22:00, א' 07:30-22:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "07:30",
+      "to": "22:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%96%d7%9b%d7%a8%d7%9d-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8/#החצר של נוני",
@@ -162456,7 +162513,8 @@
   "נחלת בנימין 41, תל אביב-יפו, 6516219, ישראל, ישראל": null,
   "קניון TLV, החשמונאים 100, תל אביב-יפו, ישראל, ישראל": null,
   "ד\"ר ג'ורג' וייז 20, תל אביב-יפו, ישראל, ישראל": null,
-  "דרך היסמין 62, בית נחמיה, ישראל, ישראל": null
+  "דרך היסמין 62, בית נחמיה, ישראל, ישראל": null,
+  "הירקון 145, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-10-10T01:45:59.799388+03:00"
+ "last_google_run": "2026-10-12T01:09:16.345985+03:00"
 }
