@@ -87,7 +87,68 @@
    "lat": 32.075392,
    "lon": 34.766402,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "HOC - TRUMPELDOR",
+    "address": "טרומפלדור 6, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SYoxgmPFf8pW-9y4L_bzNqqet6RPlmc_4JfbbTn7vls5xmIzgv5eIOmxMBM3icNo82pQT3ZjFj6D7urKOEx1ZWUq1BU3gTL2sEROJamAp1duNhkgqMOWTh8bCuKPi9XodEnvQr=w800-h500-k-no",
+    "hours": "ב' 08:00-16:00, ג' 08:00-16:00, ד' 08:00-16:00, ה' 08:00-16:00, ו' 08:00-16:00, ש' 08:00-16:00, א' 08:00-16:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#וויילד בר",
@@ -112,7 +173,72 @@
    "lat": 32.057776,
    "lon": 34.773684,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "Wild bar cafe",
+     "בּר"
+    ],
+    "name_echo": true,
+    "address": "וולפסון 42, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLepR3615zN_avJsnR7AAt5L1_5Jg955C6yPNnsHYGcLa3nsVeivpm1Ajp2lpAWcoJIlZxHq3S3EQy0fpQfJ9Dp6T0tZg97EwJai1q8V6GcLe62VCh2bD_4tEZYi1qmLSxnzLseKSgU53rjK=w800-h500-k-no",
+    "hours": "ב' 07:30-19:00, ג' 07:30-19:00, ד' 07:30-19:00, ה' 07:30-19:00, ו' 08:30-16:00, ש' 09:30-16:00, א' 07:30-19:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:30",
+      "to": "19:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:30",
+      "to": "19:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:30",
+      "to": "19:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:30",
+      "to": "19:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "09:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "07:30",
+      "to": "19:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#P.O.C Cafe",
@@ -170,7 +296,68 @@
    "lat": 32.0569644,
    "lon": 34.7723085,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "קאנה",
+    "address": "הרב יצחק ידידיה פרנקל 56, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcATlHtxS7m0DmfN8C20YAMlqh7grUTzrC2Xnwbr7Ax5EZXcW9cCUM-SDGvpzkuZbVqtto4j6pt6WQOyoy6JO9mSLsqjxGc7RMJFHN_KGygf6rfDOveJfBSY_qvSB966DLPYZuWlTFJwLU=w800-h500-k-no",
+    "hours": "ב' 07:30-18:30, ג' 07:30-18:30, ד' 07:30-18:30, ה' 07:30-18:30, ו' 08:30-16:00, ש' 08:30-17:00, א' 07:30-18:30",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:30",
+      "to": "18:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:30",
+      "to": "18:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:30",
+      "to": "18:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:30",
+      "to": "18:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "08:30",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "07:30",
+      "to": "18:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#קפה blue",
@@ -398,7 +585,16 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "May 6",
+    "address": "Dizengoff, 143 דיזנגוף 141, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sr2W6AVKCyldm19GA7jR8ZtCL-ALb3eThF0CzvwdM6G_8Yp0Kb_u3h8CGShUhG262unAvCeUpp2TCAK4Q7Ui6jnW2sGDC4iHytxz958LWN1wHl7FEfI6HZ3Ils2W-J6Z_FR00=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#איטס",
@@ -462,7 +658,68 @@
    "lat": 32.073309,
    "lon": 34.771181,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "קפה אלג׳יר",
+    "address": "ביאליק 26, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q9scSjiMAVTNiZTiiP0mqXfjdPN7ixutRMAUUVxlsr_QCUpXCFbgXuJAnKrWFbPC524XV9hMOmhOeqk-33gnHufxA4qy0my81aALpjqvN4013VD3nKpvEMgUwwZnmqTKyQoBvWGG7d8KBU=w800-h500-k-no",
+    "hours": "ב' 08:00-20:30, ג' 08:00-21:00, ד' 08:00-21:00, ה' 08:00-21:00, ו' 08:00-17:30, ש' 09:00-20:00, א' 08:00-18:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "21:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "21:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "21:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "17:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "09:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#בוסר",
@@ -487,7 +744,68 @@
    "lat": 32.061073,
    "lon": 34.774615,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "Bosser",
+    "address": "החשמל 5, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcg3SUJ5os91sVKBXsOYIULcCiPnUDFwbJleimJG8ouYg4_AjpSZi26XR2GrTDN0kocxNex1Y23bPmvj8DN-KEhZXwsWJlERhLQE1VhwJh-RMd95w-t4svPYrXjUvdBDet49gDr=w800-h500-k-no",
+    "hours": "ב' 09:00-23:00, ג' 09:00-23:00, ד' 09:00-23:00, ה' 09:00-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 09:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "10:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#גודבוי",
@@ -590,7 +908,68 @@
    "lat": 32.0813546,
    "lon": 34.7814007,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "בייקרי אבן גבירול",
+    "address": "שלמה אבן גבירול 72, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SQQzy_2bKIAEhnS40T0mH68X4wv_JH8q2kg8eR162KNsvlNF4dqO1kKOb4d8yj9_NSJ9PF32sbwdSCGsB2A2lRSWMf9JRikn6SI7BQ6BZWQIXhKhazoftFysRvKnSU0yd8V9dY=w800-h500-k-no",
+    "hours": "ב' 07:00-18:00, ג' 07:00-18:00, ד' 07:00-18:00, ה' 07:00-18:00, ו' 07:00-16:00, ש' 08:00-14:00, א' 07:00-18:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "07:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "08:00",
+      "to": "14:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "07:00",
+      "to": "18:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#התחתית",
@@ -615,7 +994,68 @@
    "lat": 32.067078,
    "lon": 34.781747,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "התחתית",
+    "address": "לינקולן 9, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T7FINW5iTFoAqrlaIJhfi9iS15LymOB8OrFvCkuomsEXA5K2KfHODz0i4kHTWeShK2ts4YmRDQ9S9MHngb2ehRmBmWurPfqNaClGiDTW2aU6Nk8OnB77ui6zMQOd8gn7exq-2c=w800-h500-k-no",
+    "hours": "ב' 07:00-23:00, ג' 07:00-23:00, ד' 07:00-23:00, ה' 07:00-23:00, ו' 07:00-22:00, ש' 07:00-15:00, א' 07:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "07:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "07:00",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "07:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#קפה לב",
@@ -718,7 +1158,68 @@
    "lat": 32.073403,
    "lon": 34.77099,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "עמיתה בביאליק",
+    "address": "ביאליק 27, תל אביב-יפו, 6332433, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd8qxylOag99JeSkNihpFv3fDOsdximLHIsS-mEAoeE34Ab13uv5MmeaTwB_PqqjO9yipFT7_tYzHpceKy4F36-bYbOSIRJyH41smg7V57nhKshPSf-_Pl5Z76RaXO-0HdBw4wB=w800-h500-p-k-no",
+    "hours": "ב' 08:00-18:00, ג' 08:00-18:00, ד' 08:00-18:00, ה' 08:00-18:00, ו' 08:00-16:00, ש' 09:00-16:00, א' 08:00-18:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "09:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#קופר ופאקו",
@@ -1105,7 +1606,68 @@
    "lat": 32.0871766,
    "lon": 34.7747817,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "NOLA American Bakery נולה",
+    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7fi-E3gKihzSYbJIrEc-3e99JaFD2QPp6BMskMfbwM03PxyYwaohywclgT1W3MFXXY3HWO_jRlrrSJuxMEH5Q3NyJSPaoKTMiDboLLiXILsFpvxnZqv9KinrFc5Y36KxU8po=w800-h500-k-no",
+    "hours": "ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00, ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#פסיליטי",
@@ -1130,7 +1692,16 @@
    "lat": 32.092087,
    "lon": 34.776067,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "פסיליטי",
+    "address": "דיזנגוף 245, תל אביב-יפו, 6311615, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeZdqu2iRZel_TzrckzyMN-dQk52Z8D9otch0tRBoYeucEKwue3EKCek1kmfeheODmd0E75OYNQi8mmoY0PZ53HfUGdj-W6cvjmRixQW0MhpBN4YCLhiX2TvzhrHMGO5z3iW7y03Cq2wByH=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#קיו סק קפה",
@@ -1219,7 +1790,61 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "״שאולה״ - שאול המלך 39",
+    "address": "Sderot Sha'ul HaMelech St 39, Tel Aviv-Yafo, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnmoOOryaV7YcxGHTZNcnNSM2tWW6zfFt99fzvp8uN7jNbZol0MbSpyAEDBTwNMepcZBUwKlV02SFbXafrExPK6fsuvGdF_QttCnLu3bH-0r98F9gYUhTnPgHrynzmg-Cd8N_bwPCZhYo=w800-h500-k-no",
+    "hours": "ב' 07:30-20:00, ג' 07:30-20:00, ד' 07:30-20:00, ה' 07:30-20:00, ו' 07:30-14:00, ש' סגור, א' 07:30-20:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:30",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:30",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:30",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:30",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "07:30",
+      "to": "14:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "07:30",
+      "to": "20:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-12",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#קופישופ 51",
@@ -2724,8 +3349,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-28T17:12:46.167130+03:00"
+    "tries": 3,
+    "last": "2026-10-12T18:45:09.197687+03:00"
    }
   },
   {
@@ -2864,8 +3489,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-28T17:12:50.070342+03:00"
+    "tries": 3,
+    "last": "2026-10-12T18:45:12.782974+03:00"
    }
   },
   {
@@ -2893,8 +3518,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-28T17:12:54.828947+03:00"
+    "tries": 3,
+    "last": "2026-10-12T18:45:17.445697+03:00"
    }
   },
   {
@@ -2922,8 +3547,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-28T17:12:59.248850+03:00"
+    "tries": 3,
+    "last": "2026-10-12T18:45:21.844585+03:00"
    }
   },
   {
@@ -2951,8 +3576,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 2,
-    "last": "2026-09-28T17:12:07.618589+03:00"
+    "tries": 3,
+    "last": "2026-10-12T18:43:58.030130+03:00"
    }
   },
   {
@@ -3305,9 +3930,9 @@
    "enrichment": {
     "google_name": "May 6",
     "address": "Dizengoff, 143 דיזנגוף 141, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmNET1NWvGxAkkwNLYah8DMGoAdhLE8fp7tkRWOnYqOigfuCXCNCnoeu0N34ktNnEC7rFts-nsoP8HPew61DksWGm7Y2zo3gXx5JA5k0q4difY3l_t7rEb8dhsVWfuDIh5YRaMU=w800-h500-k-no",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sr2W6AVKCyldm19GA7jR8ZtCL-ALb3eThF0CzvwdM6G_8Yp0Kb_u3h8CGShUhG262unAvCeUpp2TCAK4Q7Ui6jnW2sGDC4iHytxz958LWN1wHl7FEfI6HZ3Ils2W-J6Z_FR00=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-09-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -16050,11 +16675,32 @@
    "lon": 34.7747817,
    "geo_precision": "address",
    "enrichment": {
-    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
     "google_name": "NOLA American Bakery נולה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkah4qlr0fAw4LXicYN1V8I6gpdRtzFBgGIvjtSQ4_uj6uPL9x4vw_mTjxSnMVedeVRhpmxnKgEj7gG89y9ZwdGwrmhOxJvnVTNJtNrnAW2UPB3qqtfxS9jkwMvA341Ws_aYts=w800-h500-k-no",
-    "hours": "ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00, ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00",
+    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7fi-E3gKihzSYbJIrEc-3e99JaFD2QPp6BMskMfbwM03PxyYwaohywclgT1W3MFXXY3HWO_jRlrrSJuxMEH5Q3NyJSPaoKTMiDboLLiXILsFpvxnZqv9KinrFc5Y36KxU8po=w800-h500-k-no",
+    "hours": "ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00, ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
      {
       "days": [
        4
@@ -16082,31 +16728,10 @@
       ],
       "from": "08:00",
       "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "20:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -36381,30 +37006,37 @@
    "lon": 34.774615,
    "geo_precision": "address",
    "enrichment": {
-    "address": "החשמל 5, תל אביב-יפו, ישראל",
     "google_name": "Bosser",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkonfblfiEQ7eqjPpFu_MjEbrerT0O9m0KTdQPA7pRhXlySR-P0LT9IxtEOZoTZQF5ZDh0LEHR4mUaupBEa4q0fxYzGkNNAal_CW8UiNIBm-8f2OxTdHv1KHuaKm9j2xCpywHvm=w800-h500-k-no",
-    "hours": "ג' 08:30-23:00, ד' 08:30-23:00, ה' 08:30-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 08:30-23:00, ב' 08:30-23:00",
+    "address": "החשמל 5, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcg3SUJ5os91sVKBXsOYIULcCiPnUDFwbJleimJG8ouYg4_AjpSZi26XR2GrTDN0kocxNex1Y23bPmvj8DN-KEhZXwsWJlERhLQE1VhwJh-RMd95w-t4svPYrXjUvdBDet49gDr=w800-h500-k-no",
+    "hours": "ב' 09:00-23:00, ג' 09:00-23:00, ד' 09:00-23:00, ה' 09:00-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 09:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
       "days": [
        3
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
       "days": [
        4
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
@@ -36425,19 +37057,12 @@
       "days": [
        0
       ],
-      "from": "08:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -43590,11 +44215,18 @@
    "lon": 34.7723085,
    "geo_precision": "address",
    "enrichment": {
-    "address": "הרב יצחק ידידיה פרנקל 56, תל אביב-יפו, ישראל",
     "google_name": "קאנה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0vQV9o8HMPqXjWrHp0uBnMd4gh3K_GSAeWyEbzfH_KEOnPzrRpUV7oUPK0AlS6Jx_wVnfi_GSNP3LhAem1GceOEMpF7kvtjGB4BVvCq3AtvOkXvIEoVohQ2V2ny9vANVPGrO78t48fnI=w800-h500-k-no",
-    "hours": "ג' 07:30-18:30, ד' 07:30-18:30, ה' 07:30-18:30, ו' 08:30-16:00, ש' 08:30-17:00, א' 07:30-18:30, ב' 07:30-18:30",
+    "address": "הרב יצחק ידידיה פרנקל 56, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcATlHtxS7m0DmfN8C20YAMlqh7grUTzrC2Xnwbr7Ax5EZXcW9cCUM-SDGvpzkuZbVqtto4j6pt6WQOyoy6JO9mSLsqjxGc7RMJFHN_KGygf6rfDOveJfBSY_qvSB966DLPYZuWlTFJwLU=w800-h500-k-no",
+    "hours": "ב' 07:30-18:30, ג' 07:30-18:30, ד' 07:30-18:30, ה' 07:30-18:30, ו' 08:30-16:00, ש' 08:30-17:00, א' 07:30-18:30",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:30",
+      "to": "18:30"
+     },
      {
       "days": [
        2
@@ -43636,17 +44268,10 @@
       ],
       "from": "07:30",
       "to": "18:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:30",
-      "to": "18:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -44249,11 +44874,32 @@
    "lon": 34.7747817,
    "geo_precision": "address",
    "enrichment": {
-    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
     "google_name": "NOLA American Bakery נולה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkah4qlr0fAw4LXicYN1V8I6gpdRtzFBgGIvjtSQ4_uj6uPL9x4vw_mTjxSnMVedeVRhpmxnKgEj7gG89y9ZwdGwrmhOxJvnVTNJtNrnAW2UPB3qqtfxS9jkwMvA341Ws_aYts=w800-h500-k-no",
-    "hours": "ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00, ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00",
+    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7fi-E3gKihzSYbJIrEc-3e99JaFD2QPp6BMskMfbwM03PxyYwaohywclgT1W3MFXXY3HWO_jRlrrSJuxMEH5Q3NyJSPaoKTMiDboLLiXILsFpvxnZqv9KinrFc5Y36KxU8po=w800-h500-k-no",
+    "hours": "ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00, ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
      {
       "days": [
        4
@@ -44281,31 +44927,10 @@
       ],
       "from": "08:00",
       "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "20:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -51465,11 +52090,18 @@
    "lon": 34.766402,
    "geo_precision": "address",
    "enrichment": {
-    "address": "התבור 2, תל אביב-יפו, ישראל",
-    "google_name": "HOC - House of Coffee",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl4IBdjDsALX8tj3lfhSLzxWsIfMNYHlWDtM95VvAginw-8yO5ch2Zn9lpjvy7YKJex5l-hU5B7yiEqDehaQ9U9ITDZ9nSoYWdCDPvjWQU6blzjnC02iP79b6YWUHWF759zUJbG=w800-h500-k-no",
-    "hours": "ג' 08:00-16:00, ד' 08:00-16:00, ה' 08:00-16:00, ו' 08:00-16:00, ש' 08:00-16:00, א' 08:00-16:00, ב' 08:00-16:00",
+    "google_name": "HOC - TRUMPELDOR",
+    "address": "טרומפלדור 6, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SYoxgmPFf8pW-9y4L_bzNqqet6RPlmc_4JfbbTn7vls5xmIzgv5eIOmxMBM3icNo82pQT3ZjFj6D7urKOEx1ZWUq1BU3gTL2sEROJamAp1duNhkgqMOWTh8bCuKPi9XodEnvQr=w800-h500-k-no",
+    "hours": "ב' 08:00-16:00, ג' 08:00-16:00, ד' 08:00-16:00, ה' 08:00-16:00, ו' 08:00-16:00, ש' 08:00-16:00, א' 08:00-16:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     },
      {
       "days": [
        2
@@ -51511,17 +52143,10 @@
       ],
       "from": "08:00",
       "to": "16:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "16:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -51666,11 +52291,18 @@
    "lon": 34.7723085,
    "geo_precision": "address",
    "enrichment": {
-    "address": "הרב יצחק ידידיה פרנקל 56, תל אביב-יפו, ישראל",
     "google_name": "קאנה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0vQV9o8HMPqXjWrHp0uBnMd4gh3K_GSAeWyEbzfH_KEOnPzrRpUV7oUPK0AlS6Jx_wVnfi_GSNP3LhAem1GceOEMpF7kvtjGB4BVvCq3AtvOkXvIEoVohQ2V2ny9vANVPGrO78t48fnI=w800-h500-k-no",
-    "hours": "ג' 07:30-18:30, ד' 07:30-18:30, ה' 07:30-18:30, ו' 08:30-16:00, ש' 08:30-17:00, א' 07:30-18:30, ב' 07:30-18:30",
+    "address": "הרב יצחק ידידיה פרנקל 56, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcATlHtxS7m0DmfN8C20YAMlqh7grUTzrC2Xnwbr7Ax5EZXcW9cCUM-SDGvpzkuZbVqtto4j6pt6WQOyoy6JO9mSLsqjxGc7RMJFHN_KGygf6rfDOveJfBSY_qvSB966DLPYZuWlTFJwLU=w800-h500-k-no",
+    "hours": "ב' 07:30-18:30, ג' 07:30-18:30, ד' 07:30-18:30, ה' 07:30-18:30, ו' 08:30-16:00, ש' 08:30-17:00, א' 07:30-18:30",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:30",
+      "to": "18:30"
+     },
      {
       "days": [
        2
@@ -51712,17 +52344,10 @@
       ],
       "from": "07:30",
       "to": "18:30"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:30",
-      "to": "18:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -52012,9 +52637,9 @@
    "enrichment": {
     "google_name": "May 6",
     "address": "Dizengoff, 143 דיזנגוף 141, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmNET1NWvGxAkkwNLYah8DMGoAdhLE8fp7tkRWOnYqOigfuCXCNCnoeu0N34ktNnEC7rFts-nsoP8HPew61DksWGm7Y2zo3gXx5JA5k0q4difY3l_t7rEb8dhsVWfuDIh5YRaMU=w800-h500-k-no",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sr2W6AVKCyldm19GA7jR8ZtCL-ALb3eThF0CzvwdM6G_8Yp0Kb_u3h8CGShUhG262unAvCeUpp2TCAK4Q7Ui6jnW2sGDC4iHytxz958LWN1wHl7FEfI6HZ3Ils2W-J6Z_FR00=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-09-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -52147,11 +52772,18 @@
    "lon": 34.771181,
    "geo_precision": "address",
    "enrichment": {
-    "address": "ביאליק 26, תל אביב-יפו, ישראל",
     "google_name": "קפה אלג׳יר",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm1sXeNQkj3hxcSxXvVIewKIDrxrHYwE8Q7C1ynVtKjbj3Qojki9zFzX6dnHCEe8QNkryk6Z2t3AK-hD2JgZWkPG93CdNIPQKBPsbugjcuBrvPi8TQ2jyMFbf3etgvpuUJQgMDS_lIk8IHw=w800-h500-k-no",
-    "hours": "ג' 08:00-21:00, ד' 08:00-21:00, ה' 08:00-21:00, ו' 08:00-17:30, ש' 09:00-20:00, א' 08:00-18:00, ב' 08:00-20:30",
+    "address": "ביאליק 26, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q9scSjiMAVTNiZTiiP0mqXfjdPN7ixutRMAUUVxlsr_QCUpXCFbgXuJAnKrWFbPC524XV9hMOmhOeqk-33gnHufxA4qy0my81aALpjqvN4013VD3nKpvEMgUwwZnmqTKyQoBvWGG7d8KBU=w800-h500-k-no",
+    "hours": "ב' 08:00-20:30, ג' 08:00-21:00, ד' 08:00-21:00, ה' 08:00-21:00, ו' 08:00-17:30, ש' 09:00-20:00, א' 08:00-18:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:30"
+     },
      {
       "days": [
        2
@@ -52193,17 +52825,10 @@
       ],
       "from": "08:00",
       "to": "18:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "20:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -52232,30 +52857,37 @@
    "lon": 34.774615,
    "geo_precision": "address",
    "enrichment": {
-    "address": "החשמל 5, תל אביב-יפו, ישראל",
     "google_name": "Bosser",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkonfblfiEQ7eqjPpFu_MjEbrerT0O9m0KTdQPA7pRhXlySR-P0LT9IxtEOZoTZQF5ZDh0LEHR4mUaupBEa4q0fxYzGkNNAal_CW8UiNIBm-8f2OxTdHv1KHuaKm9j2xCpywHvm=w800-h500-k-no",
-    "hours": "ג' 08:30-23:00, ד' 08:30-23:00, ה' 08:30-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 08:30-23:00, ב' 08:30-23:00",
+    "address": "החשמל 5, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcg3SUJ5os91sVKBXsOYIULcCiPnUDFwbJleimJG8ouYg4_AjpSZi26XR2GrTDN0kocxNex1Y23bPmvj8DN-KEhZXwsWJlERhLQE1VhwJh-RMd95w-t4svPYrXjUvdBDet49gDr=w800-h500-k-no",
+    "hours": "ב' 09:00-23:00, ג' 09:00-23:00, ד' 09:00-23:00, ה' 09:00-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 09:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
       "days": [
        3
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
       "days": [
        4
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
@@ -52276,19 +52908,12 @@
       "days": [
        0
       ],
-      "from": "08:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -52395,9 +53020,16 @@
    "enrichment": {
     "google_name": "בייקרי אבן גבירול",
     "address": "שלמה אבן גבירול 72, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmvQvrNKrJY8AvVweI6bUAZl0i8P01ryR7yMdZyM0pE5PxL5J6NdbSNXmbrtnjrMzAqBTKrhDAFtX-uKryIt9TiYQcoh6I-zXOLGaG225Zed1MvrqQCuA9CpcCJsVCcITBPQuc8=w800-h500-k-no",
-    "hours": "ג' 07:00-18:00, ד' 07:00-18:00, ה' 07:00-18:00, ו' 07:00-16:00, ש' 08:00-14:00, א' 07:00-18:00, ב' 07:00-18:00",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SQQzy_2bKIAEhnS40T0mH68X4wv_JH8q2kg8eR162KNsvlNF4dqO1kKOb4d8yj9_NSJ9PF32sbwdSCGsB2A2lRSWMf9JRikn6SI7BQ6BZWQIXhKhazoftFysRvKnSU0yd8V9dY=w800-h500-k-no",
+    "hours": "ב' 07:00-18:00, ג' 07:00-18:00, ד' 07:00-18:00, ה' 07:00-18:00, ו' 07:00-16:00, ש' 08:00-14:00, א' 07:00-18:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:00",
+      "to": "18:00"
+     },
      {
       "days": [
        2
@@ -52439,17 +53071,10 @@
       ],
       "from": "07:00",
       "to": "18:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:00",
-      "to": "18:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-09-01",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -52478,11 +53103,32 @@
    "lon": 34.781747,
    "geo_precision": "address",
    "enrichment": {
-    "address": "לינקולן 9, תל אביב-יפו, ישראל",
     "google_name": "התחתית",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmPe0lClCeQ-V2A1jNiFwkEkYn41yypnScb-sjoyQTJ1YzgowyB_kuXH7KBCF1yyMByJSrMicwJEJO_09Z0Wu6gGtuEAW1WSAtWRnOOMAdZFBlrpaF0PqnXNn6gkQhgoaeBXAaJ=w800-h500-k-no",
-    "hours": "ה' 07:00-23:00, ו' 07:00-22:00, ש' 07:00-15:00, א' 07:00-23:00, ב' 07:00-23:00, ג' 07:00-23:00, ד' 07:00-23:00",
+    "address": "לינקולן 9, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T7FINW5iTFoAqrlaIJhfi9iS15LymOB8OrFvCkuomsEXA5K2KfHODz0i4kHTWeShK2ts4YmRDQ9S9MHngb2ehRmBmWurPfqNaClGiDTW2aU6Nk8OnB77ui6zMQOd8gn7exq-2c=w800-h500-k-no",
+    "hours": "ב' 07:00-23:00, ג' 07:00-23:00, ד' 07:00-23:00, ה' 07:00-23:00, ו' 07:00-22:00, ש' 07:00-15:00, א' 07:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:00",
+      "to": "23:00"
+     },
      {
       "days": [
        4
@@ -52510,31 +53156,10 @@
       ],
       "from": "07:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "07:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "07:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -52733,11 +53358,32 @@
    "lon": 34.77099,
    "geo_precision": "address",
    "enrichment": {
-    "address": "ביאליק 27, תל אביב-יפו, 6332433, ישראל",
     "google_name": "עמיתה בביאליק",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlI8gAbJGHD54E2a-6i--88Upa03kbOuJYCDQdXtVbjJE35ZbfBdD-Zo4obnbdRvYqs9s0AhzWQRJBT-fbkbltCQBfiEKQIQmKiPk41pZ44RS8KaAPtzsbb12Y_7SbIqcHtF68g=w800-h500-p-k-no",
-    "hours": "ה' 08:00-18:00, ו' 08:00-16:00, ש' 09:00-16:00, א' 08:00-18:00, ב' 08:00-18:00, ג' 08:00-18:00, ד' 08:00-18:00",
+    "address": "ביאליק 27, תל אביב-יפו, 6332433, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd8qxylOag99JeSkNihpFv3fDOsdximLHIsS-mEAoeE34Ab13uv5MmeaTwB_PqqjO9yipFT7_tYzHpceKy4F36-bYbOSIRJyH41smg7V57nhKshPSf-_Pl5Z76RaXO-0HdBw4wB=w800-h500-p-k-no",
+    "hours": "ב' 08:00-18:00, ג' 08:00-18:00, ד' 08:00-18:00, ה' 08:00-18:00, ו' 08:00-16:00, ש' 09:00-16:00, א' 08:00-18:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
      {
       "days": [
        4
@@ -52765,31 +53411,10 @@
       ],
       "from": "08:00",
       "to": "18:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "18:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "18:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "18:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -53457,11 +54082,32 @@
    "lon": 34.7747817,
    "geo_precision": "address",
    "enrichment": {
-    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
     "google_name": "NOLA American Bakery נולה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkah4qlr0fAw4LXicYN1V8I6gpdRtzFBgGIvjtSQ4_uj6uPL9x4vw_mTjxSnMVedeVRhpmxnKgEj7gG89y9ZwdGwrmhOxJvnVTNJtNrnAW2UPB3qqtfxS9jkwMvA341Ws_aYts=w800-h500-k-no",
-    "hours": "ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00, ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00",
+    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7fi-E3gKihzSYbJIrEc-3e99JaFD2QPp6BMskMfbwM03PxyYwaohywclgT1W3MFXXY3HWO_jRlrrSJuxMEH5Q3NyJSPaoKTMiDboLLiXILsFpvxnZqv9KinrFc5Y36KxU8po=w800-h500-k-no",
+    "hours": "ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00, ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
      {
       "days": [
        4
@@ -53489,31 +54135,10 @@
       ],
       "from": "08:00",
       "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "20:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -53542,11 +54167,11 @@
    "lon": 34.776067,
    "geo_precision": "address",
    "enrichment": {
-    "address": "דיזנגוף 245, תל אביב-יפו, 6311615, ישראל",
     "google_name": "פסיליטי",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmumOX1QN-YHA6z_cpFur0k-lLTgIHA5CqGgmvjvv-UeWv9-FCM6dMvgs7fDq3EE9jreqKpPW5vmDXaMT92XI_5m5Ki7RsFkDY-rp_wXpdrpLRFKbYl9prpjIa6BADsCmjtYkgPNYdvjMSe=w800-h500-k-no",
+    "address": "דיזנגוף 245, תל אביב-יפו, 6311615, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeZdqu2iRZel_TzrckzyMN-dQk52Z8D9otch0tRBoYeucEKwue3EKCek1kmfeheODmd0E75OYNQi8mmoY0PZ53HfUGdj-W6cvjmRixQW0MhpBN4YCLhiX2TvzhrHMGO5z3iW7y03Cq2wByH=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -53698,11 +54323,18 @@
    "lon": null,
    "geo_precision": null,
    "enrichment": {
-    "address": "שדרות שאול המלך 39, תל אביב-יפו, ישראל",
     "google_name": "״שאולה״ - שאול המלך 39",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWneE3syXk0LwwEZmqtP8pmc16CjaXxLUGYiL2OvwrFl8eC_YPtJxZcel98rA2hNkcOWhte05ONsp1zXbws0c_V0RyR51Lazz8y6UE6p4WHEEbiLnY7-pPtMAGKyqwmCoW-HI3tMCvHPCSo=w800-h500-k-no",
-    "hours": "ג' 07:30-20:00, ד' 07:30-20:00, ה' 07:30-20:00, ו' 07:30-14:00, ש' סגור, א' 07:30-20:00, ב' 07:30-20:00",
+    "address": "Sderot Sha'ul HaMelech St 39, Tel Aviv-Yafo, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnmoOOryaV7YcxGHTZNcnNSM2tWW6zfFt99fzvp8uN7jNbZol0MbSpyAEDBTwNMepcZBUwKlV02SFbXafrExPK6fsuvGdF_QttCnLu3bH-0r98F9gYUhTnPgHrynzmg-Cd8N_bwPCZhYo=w800-h500-k-no",
+    "hours": "ב' 07:30-20:00, ג' 07:30-20:00, ד' 07:30-20:00, ה' 07:30-20:00, ו' 07:30-14:00, ש' סגור, א' 07:30-20:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:30",
+      "to": "20:00"
+     },
      {
       "days": [
        2
@@ -53737,17 +54369,10 @@
       ],
       "from": "07:30",
       "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:30",
-      "to": "20:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -54574,30 +55199,37 @@
    "lon": 34.774615,
    "geo_precision": "address",
    "enrichment": {
-    "address": "החשמל 5, תל אביב-יפו, ישראל",
     "google_name": "Bosser",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkonfblfiEQ7eqjPpFu_MjEbrerT0O9m0KTdQPA7pRhXlySR-P0LT9IxtEOZoTZQF5ZDh0LEHR4mUaupBEa4q0fxYzGkNNAal_CW8UiNIBm-8f2OxTdHv1KHuaKm9j2xCpywHvm=w800-h500-k-no",
-    "hours": "ג' 08:30-23:00, ד' 08:30-23:00, ה' 08:30-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 08:30-23:00, ב' 08:30-23:00",
+    "address": "החשמל 5, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcg3SUJ5os91sVKBXsOYIULcCiPnUDFwbJleimJG8ouYg4_AjpSZi26XR2GrTDN0kocxNex1Y23bPmvj8DN-KEhZXwsWJlERhLQE1VhwJh-RMd95w-t4svPYrXjUvdBDet49gDr=w800-h500-k-no",
+    "hours": "ב' 09:00-23:00, ג' 09:00-23:00, ד' 09:00-23:00, ה' 09:00-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 09:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
       "days": [
        3
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
       "days": [
        4
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
@@ -54618,19 +55250,12 @@
       "days": [
        0
       ],
-      "from": "08:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -58192,11 +58817,32 @@
    "lon": 34.7747817,
    "geo_precision": "address",
    "enrichment": {
-    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
     "google_name": "NOLA American Bakery נולה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkah4qlr0fAw4LXicYN1V8I6gpdRtzFBgGIvjtSQ4_uj6uPL9x4vw_mTjxSnMVedeVRhpmxnKgEj7gG89y9ZwdGwrmhOxJvnVTNJtNrnAW2UPB3qqtfxS9jkwMvA341Ws_aYts=w800-h500-k-no",
-    "hours": "ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00, ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00",
+    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7fi-E3gKihzSYbJIrEc-3e99JaFD2QPp6BMskMfbwM03PxyYwaohywclgT1W3MFXXY3HWO_jRlrrSJuxMEH5Q3NyJSPaoKTMiDboLLiXILsFpvxnZqv9KinrFc5Y36KxU8po=w800-h500-k-no",
+    "hours": "ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00, ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
      {
       "days": [
        4
@@ -58224,31 +58870,10 @@
       ],
       "from": "08:00",
       "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "20:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -62391,11 +63016,32 @@
    "lon": 34.7747817,
    "geo_precision": "address",
    "enrichment": {
-    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
     "google_name": "NOLA American Bakery נולה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkah4qlr0fAw4LXicYN1V8I6gpdRtzFBgGIvjtSQ4_uj6uPL9x4vw_mTjxSnMVedeVRhpmxnKgEj7gG89y9ZwdGwrmhOxJvnVTNJtNrnAW2UPB3qqtfxS9jkwMvA341Ws_aYts=w800-h500-k-no",
-    "hours": "ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00, ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00",
+    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7fi-E3gKihzSYbJIrEc-3e99JaFD2QPp6BMskMfbwM03PxyYwaohywclgT1W3MFXXY3HWO_jRlrrSJuxMEH5Q3NyJSPaoKTMiDboLLiXILsFpvxnZqv9KinrFc5Y36KxU8po=w800-h500-k-no",
+    "hours": "ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00, ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
      {
       "days": [
        4
@@ -62423,31 +63069,10 @@
       ],
       "from": "08:00",
       "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "20:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -73025,11 +73650,32 @@
    "lon": 34.7747817,
    "geo_precision": "address",
    "enrichment": {
-    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
     "google_name": "NOLA American Bakery נולה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkah4qlr0fAw4LXicYN1V8I6gpdRtzFBgGIvjtSQ4_uj6uPL9x4vw_mTjxSnMVedeVRhpmxnKgEj7gG89y9ZwdGwrmhOxJvnVTNJtNrnAW2UPB3qqtfxS9jkwMvA341Ws_aYts=w800-h500-k-no",
-    "hours": "ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00, ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00",
+    "address": "דיזנגוף 197, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7fi-E3gKihzSYbJIrEc-3e99JaFD2QPp6BMskMfbwM03PxyYwaohywclgT1W3MFXXY3HWO_jRlrrSJuxMEH5Q3NyJSPaoKTMiDboLLiXILsFpvxnZqv9KinrFc5Y36KxU8po=w800-h500-k-no",
+    "hours": "ב' 08:00-20:00, ג' 08:00-20:00, ד' 08:00-20:00, ה' 08:00-20:00, ו' 08:00-17:00, ש' 08:00-20:00, א' 08:00-20:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "20:00"
+     },
      {
       "days": [
        4
@@ -73057,31 +73703,10 @@
       ],
       "from": "08:00",
       "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "08:00",
-      "to": "20:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "20:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -112127,30 +112752,37 @@
    "lon": 34.774615,
    "geo_precision": "address",
    "enrichment": {
-    "address": "החשמל 5, תל אביב-יפו, ישראל",
     "google_name": "Bosser",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkonfblfiEQ7eqjPpFu_MjEbrerT0O9m0KTdQPA7pRhXlySR-P0LT9IxtEOZoTZQF5ZDh0LEHR4mUaupBEa4q0fxYzGkNNAal_CW8UiNIBm-8f2OxTdHv1KHuaKm9j2xCpywHvm=w800-h500-k-no",
-    "hours": "ג' 08:30-23:00, ד' 08:30-23:00, ה' 08:30-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 08:30-23:00, ב' 08:30-23:00",
+    "address": "החשמל 5, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcg3SUJ5os91sVKBXsOYIULcCiPnUDFwbJleimJG8ouYg4_AjpSZi26XR2GrTDN0kocxNex1Y23bPmvj8DN-KEhZXwsWJlERhLQE1VhwJh-RMd95w-t4svPYrXjUvdBDet49gDr=w800-h500-k-no",
+    "hours": "ב' 09:00-23:00, ג' 09:00-23:00, ד' 09:00-23:00, ה' 09:00-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 09:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
       "days": [
        3
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
       "days": [
        4
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
@@ -112171,19 +112803,12 @@
       "days": [
        0
       ],
-      "from": "08:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -121309,30 +121934,37 @@
    "lon": 34.774615,
    "geo_precision": "address",
    "enrichment": {
-    "address": "החשמל 5, תל אביב-יפו, ישראל",
     "google_name": "Bosser",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkonfblfiEQ7eqjPpFu_MjEbrerT0O9m0KTdQPA7pRhXlySR-P0LT9IxtEOZoTZQF5ZDh0LEHR4mUaupBEa4q0fxYzGkNNAal_CW8UiNIBm-8f2OxTdHv1KHuaKm9j2xCpywHvm=w800-h500-k-no",
-    "hours": "ג' 08:30-23:00, ד' 08:30-23:00, ה' 08:30-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 08:30-23:00, ב' 08:30-23:00",
+    "address": "החשמל 5, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcg3SUJ5os91sVKBXsOYIULcCiPnUDFwbJleimJG8ouYg4_AjpSZi26XR2GrTDN0kocxNex1Y23bPmvj8DN-KEhZXwsWJlERhLQE1VhwJh-RMd95w-t4svPYrXjUvdBDet49gDr=w800-h500-k-no",
+    "hours": "ב' 09:00-23:00, ג' 09:00-23:00, ד' 09:00-23:00, ה' 09:00-23:00, ו' 09:00-18:00, ש' 10:00-23:00, א' 09:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
       "days": [
        3
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
       "days": [
        4
       ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      },
      {
@@ -121353,19 +121985,12 @@
       "days": [
        0
       ],
-      "from": "08:30",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:30",
+      "from": "09:00",
       "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -136317,11 +136942,18 @@
    "lon": null,
    "geo_precision": null,
    "enrichment": {
-    "address": "התבור 2, תל אביב-יפו, ישראל",
-    "google_name": "HOC - House of Coffee",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl4IBdjDsALX8tj3lfhSLzxWsIfMNYHlWDtM95VvAginw-8yO5ch2Zn9lpjvy7YKJex5l-hU5B7yiEqDehaQ9U9ITDZ9nSoYWdCDPvjWQU6blzjnC02iP79b6YWUHWF759zUJbG=w800-h500-k-no",
-    "hours": "ג' 08:00-16:00, ד' 08:00-16:00, ה' 08:00-16:00, ו' 08:00-16:00, ש' 08:00-16:00, א' 08:00-16:00, ב' 08:00-16:00",
+    "google_name": "HOC - TRUMPELDOR",
+    "address": "טרומפלדור 6, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SYoxgmPFf8pW-9y4L_bzNqqet6RPlmc_4JfbbTn7vls5xmIzgv5eIOmxMBM3icNo82pQT3ZjFj6D7urKOEx1ZWUq1BU3gTL2sEROJamAp1duNhkgqMOWTh8bCuKPi9XodEnvQr=w800-h500-k-no",
+    "hours": "ב' 08:00-16:00, ג' 08:00-16:00, ד' 08:00-16:00, ה' 08:00-16:00, ו' 08:00-16:00, ש' 08:00-16:00, א' 08:00-16:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     },
      {
       "days": [
        2
@@ -136363,17 +136995,10 @@
       ],
       "from": "08:00",
       "to": "16:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "16:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -137106,11 +137731,18 @@
    "lon": 34.771181,
    "geo_precision": "address",
    "enrichment": {
-    "address": "ביאליק 26, תל אביב-יפו, ישראל",
     "google_name": "קפה אלג׳יר",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm1sXeNQkj3hxcSxXvVIewKIDrxrHYwE8Q7C1ynVtKjbj3Qojki9zFzX6dnHCEe8QNkryk6Z2t3AK-hD2JgZWkPG93CdNIPQKBPsbugjcuBrvPi8TQ2jyMFbf3etgvpuUJQgMDS_lIk8IHw=w800-h500-k-no",
-    "hours": "ג' 08:00-21:00, ד' 08:00-21:00, ה' 08:00-21:00, ו' 08:00-17:30, ש' 09:00-20:00, א' 08:00-18:00, ב' 08:00-20:30",
+    "address": "ביאליק 26, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q9scSjiMAVTNiZTiiP0mqXfjdPN7ixutRMAUUVxlsr_QCUpXCFbgXuJAnKrWFbPC524XV9hMOmhOeqk-33gnHufxA4qy0my81aALpjqvN4013VD3nKpvEMgUwwZnmqTKyQoBvWGG7d8KBU=w800-h500-k-no",
+    "hours": "ב' 08:00-20:30, ג' 08:00-21:00, ד' 08:00-21:00, ה' 08:00-21:00, ו' 08:00-17:30, ש' 09:00-20:00, א' 08:00-18:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "20:30"
+     },
      {
       "days": [
        2
@@ -137152,17 +137784,10 @@
       ],
       "from": "08:00",
       "to": "18:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "08:00",
-      "to": "20:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -137644,11 +138269,18 @@
    "lon": null,
    "geo_precision": null,
    "enrichment": {
-    "address": "שדרות שאול המלך 39, תל אביב-יפו, ישראל",
     "google_name": "״שאולה״ - שאול המלך 39",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWneE3syXk0LwwEZmqtP8pmc16CjaXxLUGYiL2OvwrFl8eC_YPtJxZcel98rA2hNkcOWhte05ONsp1zXbws0c_V0RyR51Lazz8y6UE6p4WHEEbiLnY7-pPtMAGKyqwmCoW-HI3tMCvHPCSo=w800-h500-k-no",
-    "hours": "ג' 07:30-20:00, ד' 07:30-20:00, ה' 07:30-20:00, ו' 07:30-14:00, ש' סגור, א' 07:30-20:00, ב' 07:30-20:00",
+    "address": "Sderot Sha'ul HaMelech St 39, Tel Aviv-Yafo, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnmoOOryaV7YcxGHTZNcnNSM2tWW6zfFt99fzvp8uN7jNbZol0MbSpyAEDBTwNMepcZBUwKlV02SFbXafrExPK6fsuvGdF_QttCnLu3bH-0r98F9gYUhTnPgHrynzmg-Cd8N_bwPCZhYo=w800-h500-k-no",
+    "hours": "ב' 07:30-20:00, ג' 07:30-20:00, ד' 07:30-20:00, ה' 07:30-20:00, ו' 07:30-14:00, ש' סגור, א' 07:30-20:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:30",
+      "to": "20:00"
+     },
      {
       "days": [
        2
@@ -137683,17 +138315,10 @@
       ],
       "from": "07:30",
       "to": "20:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "07:30",
-      "to": "20:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-12",
     "v": 3
    },
    "closed_permanently": false
@@ -163820,7 +164445,9 @@
    34.7982036
   ],
   "יהודה מכבי 53, תל אביב, תל אביב, ישראל": null,
-  "יהודה מכבי 57, תל אביב, תל אביב, ישראל": null
+  "יהודה מכבי 57, תל אביב, תל אביב, ישראל": null,
+  "טרומפלדור 6, תל אביב-יפו, ישראל, ישראל": null,
+  "Sderot Sha'ul HaMelech St 39, Tel Aviv-Yafo, ישראל, ישראל": null
  },
- "last_google_run": "2026-10-12T01:09:16.345985+03:00"
+ "last_google_run": "2026-10-12T18:46:09.392787+03:00"
 }
