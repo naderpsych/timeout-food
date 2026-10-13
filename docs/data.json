@@ -4544,7 +4544,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-10-14T01:56:02.748731+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%aa%d7%9b%d7%95%d7%a0%d7%99%d7%9d-%d7%91%d7%95%d7%90%d7%95-%d7%9c%d7%90%d7%9b%d7%95%d7%9c-%d7%90%d7%99%d7%aa%d7%99/#מרכז, חלק ג (פרק 23)",
@@ -164481,5 +164485,5 @@
   "Sderot Sha'ul HaMelech St 39, Tel Aviv-Yafo, ישראל, ישראל": null,
   "רחוב דיזנגוף משלכם במחיר של 45, נחלת בנימין, תל אביב, ישראל": null
  },
- "last_google_run": "2026-10-13T17:24:18.677780+03:00"
+ "last_google_run": "2026-10-14T01:56:11.674030+03:00"
 }
