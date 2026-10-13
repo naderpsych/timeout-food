@@ -23,7 +23,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": true
+   "is_sponsored": true,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-10-13T17:23:21.453737+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%91%d7%aa%d7%99-%d7%a7%d7%a4%d7%94-%d7%a4%d7%aa%d7%95%d7%97%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-49/#אדא חנינא",
@@ -164477,5 +164481,5 @@
   "Sderot Sha'ul HaMelech St 39, Tel Aviv-Yafo, ישראל, ישראל": null,
   "רחוב דיזנגוף משלכם במחיר של 45, נחלת בנימין, תל אביב, ישראל": null
  },
- "last_google_run": "2026-10-12T18:46:09.392787+03:00"
+ "last_google_run": "2026-10-13T17:24:18.677780+03:00"
 }
