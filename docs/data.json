@@ -17311,8 +17311,8 @@
    "geo_precision": "city",
    "closed_permanently": false,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:54:06.100476+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:10:39.437351+03:00"
    }
   },
   {
@@ -23240,8 +23240,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:22.597162+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:10:30.097287+03:00"
    }
   },
   {
@@ -30139,10 +30139,32 @@
    "lat": 32.0683357,
    "lon": 34.7700335,
    "geo_precision": "area",
-   "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:31.345227+03:00"
-   }
+   "enrichment": {
+    "google_name": "House of Mix and Matcha",
+    "address": "נחלת בנימין 5, תל אביב-יפו, 6516105, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeaoRfu4eIg6qkVYNydH5ncGU3u5iLU9iMZqax--gdXbVYjvCw7Qonob9OCevaLnQKDq-NYg35paoJQLdYf33lSP4toYAS6Qm5jZBiTfqvHXz0AfTPhFICaLq0eyPmiYEFbhepjXhGHo9QA=w800-h500-k-no",
+    "hours": "ה' 09:00-17:00, ו' 09:00-15:00, ש' סגור, א' סגור, ב' סגור, ג' סגור, ד' סגור",
+    "schedule": [
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "15:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-15",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%99%d7%95%d7%a0%d7%99-2026/#K3",
@@ -43883,8 +43905,8 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:10.153585+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:46.562375+03:00"
    }
   },
   {
@@ -54718,8 +54740,8 @@
    "lon": 34.7685526,
    "geo_precision": "area",
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:47.892599+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:25.634290+03:00"
    }
   },
   {
@@ -54864,8 +54886,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:52.117421+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:29.886010+03:00"
    }
   },
   {
@@ -54931,8 +54953,8 @@
    "lon": 34.766459,
    "geo_precision": "address",
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:54:00.585176+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:38.584574+03:00"
    }
   },
   {
@@ -60044,8 +60066,8 @@
    "lon": 34.7685526,
    "geo_precision": "area",
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:47.892599+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:25.634290+03:00"
    }
   },
   {
@@ -60157,8 +60179,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:52.117421+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:29.886010+03:00"
    }
   },
   {
@@ -60224,8 +60246,8 @@
    "lon": 34.766459,
    "geo_precision": "address",
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:54:00.585176+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:38.584574+03:00"
    }
   },
   {
@@ -63662,8 +63684,8 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:43.092981+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:42.772144+03:00"
    }
   },
   {
@@ -63709,8 +63731,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:47.892599+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:25.634290+03:00"
    }
   },
   {
@@ -64545,8 +64567,8 @@
    "lon": 34.766459,
    "geo_precision": "address",
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:54:00.585176+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:38.584574+03:00"
    }
   },
   {
@@ -81355,8 +81377,8 @@
    "lon": 34.7679312,
    "geo_precision": "address",
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:26.782164+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:16.862374+03:00"
    }
   },
   {
@@ -85626,8 +85648,8 @@
    "lon": 34.7686424,
    "geo_precision": "area",
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:26.782164+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:16.862374+03:00"
    }
   },
   {
@@ -138916,8 +138938,8 @@
    "lon": 34.7888851,
    "geo_precision": "area",
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:54:18.907157+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:10:34.486621+03:00"
    }
   },
   {
@@ -155133,8 +155155,8 @@
    "lon": null,
    "geo_precision": null,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:35.517549+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:00.473129+03:00"
    }
   },
   {
@@ -155930,8 +155952,8 @@
    "geo_precision": "city",
    "closed_permanently": false,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-09-15T14:53:38.884444+03:00"
+    "tries": 4,
+    "last": "2026-10-15T20:11:05.177813+03:00"
    }
   },
   {
@@ -164486,5 +164508,5 @@
   "Sderot Sha'ul HaMelech St 39, Tel Aviv-Yafo, ישראל, ישראל": null,
   "רחוב דיזנגוף משלכם במחיר של 45, נחלת בנימין, תל אביב, ישראל": null
  },
- "last_google_run": "2026-10-14T01:56:11.674030+03:00"
+ "last_google_run": "2026-10-15T20:12:11.700712+03:00"
 }
