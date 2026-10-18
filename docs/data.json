@@ -133829,8 +133829,8 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T13:15:26.790157+03:00"
+    "tries": 2,
+    "last": "2026-10-18T07:45:53.812603+03:00"
    }
   },
   {
@@ -140955,13 +140955,25 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2025/08/1756103778_1354808_46575-1140x641.jpg",
    "published": "2025-08-25T12:57:24+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
-   "google_miss": {
-    "tries": 1,
-    "last": "2026-08-29T13:12:32.903975+03:00"
-   }
+   "lat": 31.3845851,
+   "lon": 34.8112424,
+   "geo_precision": "address",
+   "enrichment": {
+    "result_names": [
+     "תחנת להבים - רהט",
+     "רהט",
+     "ת.מרכזית תל אביב קומה 6/הורדה",
+     "רהט א.פ. בע\"מ"
+    ],
+    "name_echo": true,
+    "google_name": "תחנת להבים - רהט",
+    "address": "להבים, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfH6-xO7e9h6Yly9Ij7TKo8IsN7MjPQxg1MCluE6Nq-0h-Upq_5GuzvIcETEtnkbs2dtYvl1XBDwgGAgjKd2yYXE16xg31m9aavpf_uAbDUjPTAIxaS9ea2vsz6evf55XGW4H7yA=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-10-18",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%95%d7%a3-%d7%9e%d7%a6%d7%99%d7%a6%d7%99%d7%9d-%d7%97%d7%93%d7%a9/#מסעדת חוף",
@@ -164891,7 +164903,11 @@
    32.06645,
    34.794978
   ],
-  "שדרות וושינגטון 20, תל אביב-יפו, 6608607, ישראל, ישראל": null
+  "שדרות וושינגטון 20, תל אביב-יפו, 6608607, ישראל, ישראל": null,
+  "להבים, ישראל, ישראל": [
+   31.3845851,
+   34.8112424
+  ]
  },
- "last_google_run": "2026-10-17T13:57:19.295051+03:00"
+ "last_google_run": "2026-10-18T07:46:42.630864+03:00"
 }
