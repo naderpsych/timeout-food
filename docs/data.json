@@ -23,7 +23,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-10-23T14:49:59.418207+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%95%d7%95%d7%99%d7%a1%d7%a7%d7%99-%d7%97%d7%93%d7%a9/#Weller Special Reserve",
@@ -48,7 +52,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-10-23T14:50:04.037492+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%95%d7%95%d7%99%d7%a1%d7%a7%d7%99-%d7%97%d7%93%d7%a9/#Sazerac Rye",
@@ -73,7 +81,16 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "וויסקי בר מוזיאון",
+    "address": "מתחם שרונה, רב אלוף דוד אלעזר 27, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc39gP8VnvWKg1i093Gd6lnguhDkJo4ALmAllrhDSHs_ie7Txtfbbxm5DhA_sqNxoAsTK9A74k_XWYQi3zUD_aXM55qRru8DEX4Bq_LufsdgUDwrz0PAcMx9le3XurTbqTILspr=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-10-23",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%95%d7%95%d7%99%d7%a1%d7%a7%d7%99-%d7%97%d7%93%d7%a9/#Founder's Choice Cotswolds Single Malt",
@@ -98,7 +115,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-10-23T14:50:12.028242+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%95%d7%95%d7%99%d7%a1%d7%a7%d7%99-%d7%97%d7%93%d7%a9/#Aultmore 18",
@@ -123,7 +144,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-10-23T14:50:15.795234+03:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a2%d7%a4%d7%a8%d7%99%d7%98/#עפריט",
@@ -162,7 +187,64 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": true
+   "is_sponsored": true,
+   "enrichment": {
+    "result_names": [
+     "AFRIT",
+     "עפריט"
+    ],
+    "name_echo": true,
+    "address": "לאונרדו דה וינצ׳י 12, תל אביב-יפו, 6473117, ישראל",
+    "hours": "ו' 12:00-23:00, ש' 12:00-23:00, א' סגור, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-23",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9c%d7%99%d7%9c%d7%94-%d7%91%d7%99%d7%a1%d7%98%d7%a8%d7%95/#פיצה לילה",
@@ -165115,7 +165197,8 @@
   "להבים, ישראל, ישראל": [
    31.3845851,
    34.8112424
-  ]
+  ],
+  "לאונרדו דה וינצ׳י 12, תל אביב-יפו, 6473117, ישראל, ישראל": null
  },
- "last_google_run": "2026-10-23T00:45:43.946930+03:00"
+ "last_google_run": "2026-10-23T14:51:10.139920+03:00"
 }
