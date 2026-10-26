@@ -23,7 +23,68 @@
    "lat": 32.0740381,
    "lon": 34.7756635,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "Calabria trattoria del'sud",
+    "address": "Ben Tsiyon Blvd 1, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLedZJ1SxacCjucne3PZC28Xoip_qK37h5IXBO9DWj-MfqDKq8n9ageJhRqbod3kR-UQKQfXIh__cRmMugzzG9W6Fx3KH3Z1pLBAMjpUp13izFF_dE7b5pdQqGfVMnT26IpOZJdv=w800-h500-k-no",
+    "hours": "ב' 17:00-23:00, ג' 17:00-23:00, ד' 17:00-23:00, ה' 17:00-23:00, ו' 17:00-23:00, ש' 12:00-23:00, א' 17:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%94-%d7%a9%d7%95%d7%95%d7%94-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#לאבה",
@@ -48,7 +109,68 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "Lava",
+    "address": "סמטת בית הבד 7, תל אביב-יפו, 6684208, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLffvmdSkHB5Y4fY_1SMuBR6kMu3wo6kKKNGZmoykZXiMDxdQKdTUBRxjwsFhiE_Cof6CyoRSJ3U14FjL_4R0bNwwMI_HJxPMNvgqOVdwFCrCQVsH9gWvXnQUttlfIFZAsWOyeVx=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-24:00, ה' 18:00-24:00, ו' 16:00-24:00, ש' 16:00-24:00, א' 18:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "16:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "16:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%94-%d7%a9%d7%95%d7%95%d7%94-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#גווידו",
@@ -73,7 +195,68 @@
    "lat": 32.0843804,
    "lon": 34.7737603,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "גווידו",
+    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJZKmV_2eD7u-iIZmwxIwgV2q4wnlM7glrHhHoI9AGj7difWYQP8on1MYB5gpr76cHw_2i6mjH9a7-XU_GmDUm1itjyZA4P5KN3rz0tZ760c4QfPGDyoidWXgVyCLoG48bQP-X=w800-h500-k-no",
+    "hours": "ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "23:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%94-%d7%a9%d7%95%d7%95%d7%94-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#קוצ'ינה הס 4",
@@ -98,7 +281,40 @@
    "lat": 32.071848,
    "lon": 34.769701,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "הס 4",
+    "address": "הס 4, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdSzEPBX1sXymt2_vSEEuJQ7qVGlojH49pzAWdb9oDcDa0Ob3msO_kpx4m-igzoHslV3hM1EpUcnSmOfdaIpH28kpnBbjOlHGyrC3Hmi5pcoWAK5-bv25Ev4f2E8lvEK-ecaAgRbg=w800-h500-k-no",
+    "hours": "ב' סגור, ג' 17:30-23:00, ד' 17:30-23:00, ה' 17:30-23:00, ו' סגור, ש' סגור, א' סגור",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "17:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "17:30",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%94-%d7%a9%d7%95%d7%95%d7%94-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פיפטי אנד וואן",
@@ -123,7 +339,61 @@
    "lat": 32.06461,
    "lon": 34.771304,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "Fifty and one",
+    "address": "Nahalat Binyamin St 51, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4XW7BBZrJdzNVnEX3kHqinqeOBLBAZzTxuh-wRvpw_Q7r0EQ467TWZNibq6yDtMaKKs71gU3-shUcUQDMdGy_cqvMdxtenfAf-_mNIgaZlgJCAG5AFv3YkUTWHxXuXVyPg7OJWw=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-24:00, ו' סגור, ש' 20:30-24:00, א' 18:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "20:30",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%94-%d7%a9%d7%95%d7%95%d7%94-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אמורה מיו",
@@ -148,7 +418,16 @@
    "lat": 32.0834474,
    "lon": 34.7816799,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "אמורה מיו",
+    "address": "Shlomo Ibn Gabirol St 100, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcrNfseIDFlgRT3wwkVB8V2HrQ59U_7jMFP8R2PZlZZHibrvfeNVqwtejQfL7BOCvqUZ1bmXIGJ3veBNHhbaGFLP7EvfXHLjSeJ8a2OqhwOke1tlTJVWDz4DLGTQyUB2S2Gs65J6g=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%94-%d7%a9%d7%95%d7%95%d7%94-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פופינה",
@@ -173,7 +452,61 @@
    "lat": 32.063391,
    "lon": 34.768381,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "פופינה",
+    "address": "אחד העם 3, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezxMlmjzM6IKZ0Dz8YItzCkx_sP0qxWblLSI6d7KSxOYK_KruxM18qarCUKf9hquY8hjHdevxpxsmgGrbjNmZ0JAdQjN9koBt_Bk0rtgPzuRNcHFZFvRLENC9dqVHfh3zxlfrQ=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%94-%d7%a9%d7%95%d7%95%d7%94-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#פסאז",
@@ -198,7 +531,77 @@
    "lat": 32.121743,
    "lon": 34.834761,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "קפה פסאז׳",
+     "שופרסל שלי",
+     "הפסאז' - מסעדת המבורגר",
+     "בנ'ס פיצה צהלה (כשר)",
+     "ארקפה",
+     "צמרת צהלה",
+     "בוסתן השכונה צהלה"
+    ],
+    "name_echo": true,
+    "address": "ארלוזורוב 64, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdjewXC_AFV5CIIHNAjaoFNb4wTl7LhJ28KAGUwIf6piu08Ljl-mYr1KWBuN9JfWmywX53A2qaDdT0EpWZIC0zvGGvjBuvMyU_zRzHBixHK7RmqlG9ShndejqJDlzauxCGlbxf-C5bnskap=w800-h500-k-no",
+    "hours": "ב' 07:00-19:30, ג' 07:00-19:30, ד' 07:00-19:30, ה' 07:00-19:30, ו' 07:00-19:30, ש' 08:30-19:30, א' 07:00-19:30",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "08:30",
+      "to": "19:30"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "07:00",
+      "to": "19:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%94-%d7%a9%d7%95%d7%95%d7%94-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#MI VA",
@@ -223,7 +626,82 @@
    "lat": 32.096871,
    "lon": 34.775888,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "Mi va מי וה",
+    "address": "Dizengoff St 122, תל אביב-יפו, 6439721, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfIaACZXNOgTOs4Kw3qf1S5pMaQ890JEh5Jay4qtUZDc_gnNFH6Hfjy0QaiJU6trBYveTG8ySF16Im2LfbKVN3SvUr7efBLdBpk603k5uwns-43nWJZDliaOGb_OhZ3dDnRSjlGhcvCw6aQ=w800-h500-k-no",
+    "hours": "ב' 17:00-24:00, ג' 17:00-24:00, ד' 17:00-24:00, ה' 17:00-01:00, ו' 10:30-15:30, 17:00-01:00, ש' 10:30-15:30, 17:00-24:00, א' 17:00-24:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "17:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "10:30",
+      "to": "15:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "17:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "10:30",
+      "to": "15:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%a4%d7%a1%d7%98%d7%94-%d7%a9%d7%95%d7%95%d7%94-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#טרטוריה אונה",
@@ -248,7 +726,77 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "Trattoria Una",
+     "אונאומה מטבח תאילנדי - Onauma Thai kitchen",
+     "רוסטיקו רוטשילד",
+     "טונינו",
+     "A.K.A",
+     "מסעדה איטלקית ג'מה",
+     "טאיזו"
+    ],
+    "name_echo": true,
+    "address": "Bart St 2, תל אביב-יפו, 6910402, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVEmPcx1J3-b9PHRAVYbH70LA0VY7llefDPR0r4vaogQJdYk1j3T9aYuiXd1zFxj9zk2_9XUM-oMsY3eLupinoEI9WmejJY6pmYIbpFCbqflgiab_z9JxH-E2bS7myDO2xil8c=w800-h500-k-no",
+    "hours": "ב' 17:00-23:00, ג' 17:00-23:00, ד' 17:00-23:00, ה' 17:00-23:00, ו' 17:00-23:00, ש' 16:00-23:00, א' 17:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "16:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%95%d7%95%d7%99%d7%a1%d7%a7%d7%99-%d7%97%d7%93%d7%a9/#Glendalough Double Barrel",
@@ -275,8 +823,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-10-23T14:49:59.418207+03:00"
+    "tries": 2,
+    "last": "2026-10-26T15:31:12.807097+02:00"
    }
   },
   {
@@ -304,8 +852,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-10-23T14:50:04.037492+03:00"
+    "tries": 2,
+    "last": "2026-10-26T15:31:16.819389+02:00"
    }
   },
   {
@@ -367,8 +915,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-10-23T14:50:12.028242+03:00"
+    "tries": 2,
+    "last": "2026-10-26T15:31:21.261430+02:00"
    }
   },
   {
@@ -396,8 +944,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-10-23T14:50:15.795234+03:00"
+    "tries": 2,
+    "last": "2026-10-26T15:31:24.691137+02:00"
    }
   },
   {
@@ -2579,10 +3127,10 @@
    "is_sponsored": false,
    "enrichment": {
     "google_name": "אמורה מיו",
-    "address": "שלמה אבן גבירול 100, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmMPZhJ3jyc1yL51zpeuMmHxNGMEWXEbh3QprdxxRSA7KlrvG8RnQoq9O3U1kJUldiaDt1jCZ0X2KueTTqfSzkcrrSweL9-GbSe9zxHgEWqygNBKgGZ8M8vHqKBCb-v67usw9oezZA=w800-h500-k-no",
+    "address": "Shlomo Ibn Gabirol St 100, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcrNfseIDFlgRT3wwkVB8V2HrQ59U_7jMFP8R2PZlZZHibrvfeNVqwtejQfL7BOCvqUZ1bmXIGJ3veBNHhbaGFLP7EvfXHLjSeJ8a2OqhwOke1tlTJVWDz4DLGTQyUB2S2Gs65J6g=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-10-08",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -3423,14 +3971,14 @@
      "קפה פסאז׳",
      "שופרסל שלי",
      "הפסאז' - מסעדת המבורגר",
+     "בנ'ס פיצה צהלה (כשר)",
+     "ארקפה",
      "צמרת צהלה",
-     "מרכז קהילתי צהלה",
-     "רביבה וסיליה",
      "בוסתן השכונה צהלה"
     ],
     "name_echo": true,
     "address": "ארלוזורוב 64, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RfcuFUN1muNo0Z6wmLCUkWR7h-ChrdTwi3SBtuIPwOPaZyLa5W_TVrAUy_v1OwdO_4k8PwDUzxPpYylHeft9rPCEoi0AseLodFlnD_ZWAhCWBXXMtPCL1jUfXyS250iwqWRIkEkn3eBJQ=w800-h500-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdjewXC_AFV5CIIHNAjaoFNb4wTl7LhJ28KAGUwIf6piu08Ljl-mYr1KWBuN9JfWmywX53A2qaDdT0EpWZIC0zvGGvjBuvMyU_zRzHBixHK7RmqlG9ShndejqJDlzauxCGlbxf-C5bnskap=w800-h500-k-no",
     "hours": "ב' 07:00-19:30, ג' 07:00-19:30, ד' 07:00-19:30, ה' 07:00-19:30, ו' 07:00-19:30, ש' 08:30-19:30, א' 07:00-19:30",
     "schedule": [
      {
@@ -3484,7 +4032,7 @@
      }
     ],
     "source": "גוגל",
-    "date": "2026-09-28",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -6572,7 +7120,61 @@
    "lat": 32.063391,
    "lon": 34.768381,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "פופינה",
+    "address": "אחד העם 3, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezxMlmjzM6IKZ0Dz8YItzCkx_sP0qxWblLSI6d7KSxOYK_KruxM18qarCUKf9hquY8hjHdevxpxsmgGrbjNmZ0JAdQjN9koBt_Bk0rtgPzuRNcHFZFvRLENC9dqVHfh3zxlfrQ=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-26",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-108/#פאסטל",
@@ -16457,11 +17059,18 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
     "google_name": "גווידו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkwGUcXe_KLdX_U40fLZPLwMeq3P9XEsLiTu1Zj7S-sV52cio0CDBt4lMeA4pFqpJ8lWwGfc5ky6eHPuuyf2XwIMpmvvXsiZy659iMn-STW1fPGp0DuczX679uMX8eF_IxGy8Oomw=w800-h500-k-no",
-    "hours": "ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00",
+    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJZKmV_2eD7u-iIZmwxIwgV2q4wnlM7glrHhHoI9AGj7difWYQP8on1MYB5gpr76cHw_2i6mjH9a7-XU_GmDUm1itjyZA4P5KN3rz0tZ760c4QfPGDyoidWXgVyCLoG48bQP-X=w800-h500-k-no",
+    "hours": "ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -16503,17 +17112,10 @@
       ],
       "from": "12:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -17464,18 +18066,24 @@
     "result_names": [
      "Trattoria Una",
      "אונאומה מטבח תאילנדי - Onauma Thai kitchen",
+     "רוסטיקו רוטשילד",
      "טונינו",
-     "איטלקיה בפשפשים",
-     "פסטלה - פסטה ויין - Pastella",
-     "Kapara mio",
-     "אונה",
-     "גויה תל אביב כשר"
+     "A.K.A",
+     "מסעדה איטלקית ג'מה",
+     "טאיזו"
     ],
     "name_echo": true,
-    "google_name": "Trattoria Una",
-    "address": "בארט 2, תל אביב-יפו, 6910402, ישראל",
-    "hours": "ג' 17:00-23:00, ד' 17:00-23:00, ה' 17:00-23:00, ו' 17:00-23:00, ש' 16:00-23:00, א' 17:00-23:00, ב' 17:00-23:00",
+    "address": "Bart St 2, תל אביב-יפו, 6910402, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVEmPcx1J3-b9PHRAVYbH70LA0VY7llefDPR0r4vaogQJdYk1j3T9aYuiXd1zFxj9zk2_9XUM-oMsY3eLupinoEI9WmejJY6pmYIbpFCbqflgiab_z9JxH-E2bS7myDO2xil8c=w800-h500-k-no",
+    "hours": "ב' 17:00-23:00, ג' 17:00-23:00, ד' 17:00-23:00, ה' 17:00-23:00, ו' 17:00-23:00, ש' 16:00-23:00, א' 17:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -17517,20 +18125,13 @@
       ],
       "from": "17:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "17:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-09-01",
+    "date": "2026-10-26",
     "v": 3
    },
-   "closed_permanently": true
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/מסעדות-חדשות-יולי-2026/#פוגאזי",
@@ -25892,56 +26493,63 @@
    "lon": 34.7761781,
    "geo_precision": "address",
    "enrichment": {
-    "address": "שד' בן ציון 1, תל אביב-יפו, ישראל",
     "google_name": "Calabria trattoria del'sud",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk_yCGQqLhbsHI6kGgucpxHTqbX5bEQ10prErmtABSgSpKR9SaonFJS8e6zV5YU7K_1--y2Ck3DS2Lj-5tlwm6ruAeLZQ7306-8f-VjSVvg3AVGj8qeG5qla8YAclQcYKHEvK8Q=w800-h500-k-no",
-    "hours": "ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' 18:00-23:00, א' סגור, ב' 18:00-23:00",
+    "address": "Ben Tsiyon Blvd 1, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLedZJ1SxacCjucne3PZC28Xoip_qK37h5IXBO9DWj-MfqDKq8n9ageJhRqbod3kR-UQKQfXIh__cRmMugzzG9W6Fx3KH3Z1pLBAMjpUp13izFF_dE7b5pdQqGfVMnT26IpOZJdv=w800-h500-k-no",
+    "hours": "ב' 17:00-23:00, ג' 17:00-23:00, ד' 17:00-23:00, ה' 17:00-23:00, ו' 17:00-23:00, ש' 12:00-23:00, א' 17:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "17:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
       ],
-      "from": "18:00",
+      "from": "17:00",
       "to": "23:00"
      },
      {
       "days": [
        3
       ],
-      "from": "18:00",
+      "from": "17:00",
       "to": "23:00"
      },
      {
       "days": [
        4
       ],
-      "from": "18:00",
+      "from": "17:00",
       "to": "23:00"
      },
      {
       "days": [
        5
       ],
-      "from": "18:00",
+      "from": "17:00",
       "to": "23:00"
      },
      {
       "days": [
        6
       ],
-      "from": "18:00",
+      "from": "12:00",
       "to": "23:00"
      },
      {
       "days": [
-       1
+       0
       ],
-      "from": "18:00",
+      "from": "17:00",
       "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -29187,11 +29795,18 @@
    "lon": 34.768381,
    "geo_precision": "address",
    "enrichment": {
-    "address": "אחד העם 3, תל אביב-יפו, ישראל",
     "google_name": "פופינה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmboCzK8WvelS3tUO0JPAtwvDEZdZISQREfIoBIYsNbl3fYXp8p79w7WIZX3Kn9WwCCPY2_VuEjfG6UeCYb_vFmX9rkjuvMqhNdAf3tggKG8x1GowIXapK2yZPfIxDfpaXxGV8=w800-h500-k-no",
-    "hours": "ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00, ב' 18:00-23:00",
+    "address": "אחד העם 3, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezxMlmjzM6IKZ0Dz8YItzCkx_sP0qxWblLSI6d7KSxOYK_KruxM18qarCUKf9hquY8hjHdevxpxsmgGrbjNmZ0JAdQjN9koBt_Bk0rtgPzuRNcHFZFvRLENC9dqVHfh3zxlfrQ=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -29226,17 +29841,10 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -40496,18 +41104,11 @@
    "lon": 34.769701,
    "geo_precision": "address",
    "enrichment": {
-    "address": "הס 4, תל אביב-יפו, ישראל",
     "google_name": "הס 4",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkDRRS185t_bzjlPhSofxjqcJHZbK4uhi974HgYDIYPvyeTAqks8sL7yT2KR3JMiovToLuQAvIvtOa-Q_qoW-by2dkKu1bWvcvzRNDYM2WcRl5KCXsYfmvHd09BHg3OfQthQnnd6w=w800-h500-k-no",
-    "hours": "ה' 17:30-23:00, ו' סגור, ש' סגור, א' סגור, ב' סגור, ג' 17:30-23:00, ד' 17:30-23:00",
+    "address": "הס 4, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdSzEPBX1sXymt2_vSEEuJQ7qVGlojH49pzAWdb9oDcDa0Ob3msO_kpx4m-igzoHslV3hM1EpUcnSmOfdaIpH28kpnBbjOlHGyrC3Hmi5pcoWAK5-bv25Ev4f2E8lvEK-ecaAgRbg=w800-h500-k-no",
+    "hours": "ב' סגור, ג' 17:30-23:00, ד' 17:30-23:00, ה' 17:30-23:00, ו' סגור, ש' סגור, א' סגור",
     "schedule": [
-     {
-      "days": [
-       4
-      ],
-      "from": "17:30",
-      "to": "23:00"
-     },
      {
       "days": [
        2
@@ -40521,10 +41122,17 @@
       ],
       "from": "17:30",
       "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "17:30",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -41273,11 +41881,18 @@
    "lon": 34.771304,
    "geo_precision": "address",
    "enrichment": {
-    "address": "נחלת בנימין 51, תל אביב-יפו, ישראל",
     "google_name": "Fifty and one",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlY_dFgZgOmwgPiQRk3B2Nn2J-JWwqwqqnbRCK-N3MxqEEWQhK_3wAntaVRk_2KDDNjFGu4JhXk8QbrDKUB9JjmVEuTezb_MGODP8lmqNKTaOC_0SXqiVNR-mJSl1QyP7236S_r8w=w800-h500-k-no",
-    "hours": "ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-24:00, ו' סגור, ש' 20:30-24:00, א' 18:00-23:00, ב' 18:00-23:00",
+    "address": "Nahalat Binyamin St 51, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4XW7BBZrJdzNVnEX3kHqinqeOBLBAZzTxuh-wRvpw_Q7r0EQ467TWZNibq6yDtMaKKs71gU3-shUcUQDMdGy_cqvMdxtenfAf-_mNIgaZlgJCAG5AFv3YkUTWHxXuXVyPg7OJWw=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-24:00, ו' סגור, ש' 20:30-24:00, א' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -41312,17 +41927,10 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -41477,10 +42085,10 @@
    "geo_precision": "address",
    "enrichment": {
     "google_name": "אמורה מיו",
-    "address": "שלמה אבן גבירול 100, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/ACvplmMPZhJ3jyc1yL51zpeuMmHxNGMEWXEbh3QprdxxRSA7KlrvG8RnQoq9O3U1kJUldiaDt1jCZ0X2KueTTqfSzkcrrSweL9-GbSe9zxHgEWqygNBKgGZ8M8vHqKBCb-v67usw9oezZA=w800-h500-k-no",
+    "address": "Shlomo Ibn Gabirol St 100, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcrNfseIDFlgRT3wwkVB8V2HrQ59U_7jMFP8R2PZlZZHibrvfeNVqwtejQfL7BOCvqUZ1bmXIGJ3veBNHhbaGFLP7EvfXHLjSeJ8a2OqhwOke1tlTJVWDz4DLGTQyUB2S2Gs65J6g=w800-h500-k-no",
     "source": "גוגל",
-    "date": "2026-10-08",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -41509,11 +42117,18 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
     "google_name": "גווידו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkwGUcXe_KLdX_U40fLZPLwMeq3P9XEsLiTu1Zj7S-sV52cio0CDBt4lMeA4pFqpJ8lWwGfc5ky6eHPuuyf2XwIMpmvvXsiZy659iMn-STW1fPGp0DuczX679uMX8eF_IxGy8Oomw=w800-h500-k-no",
-    "hours": "ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00",
+    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJZKmV_2eD7u-iIZmwxIwgV2q4wnlM7glrHhHoI9AGj7difWYQP8on1MYB5gpr76cHw_2i6mjH9a7-XU_GmDUm1itjyZA4P5KN3rz0tZ760c4QfPGDyoidWXgVyCLoG48bQP-X=w800-h500-k-no",
+    "hours": "ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -41555,17 +42170,10 @@
       ],
       "from": "12:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -42076,16 +42684,37 @@
    "lon": 34.775888,
    "geo_precision": "address",
    "enrichment": {
-    "address": "דיזנגוף 122, תל אביב-יפו, 6439721, ישראל",
     "google_name": "Mi va מי וה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzg5I5wtT9i5wrOKvz8c1wt-tkwnnXm8X2KblenqO3nG6bvHhP-qSvaFxRF0gJQTQqkJ_BxeM82jQVL-1A-1u6koPzKcoZavMU7HBBbHUACqZnDR51WHKvFGTSZOlpixvtqxvaRRODM9bJ=w800-h500-k-no",
-    "hours": "ה' 16:30-01:00, ו' 10:30-01:00, ש' 10:30-24:00, א' 17:00-24:00, ב' 16:30-24:00, ג' 16:30-24:00, ד' 16:30-24:00",
+    "address": "Dizengoff St 122, תל אביב-יפו, 6439721, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfIaACZXNOgTOs4Kw3qf1S5pMaQ890JEh5Jay4qtUZDc_gnNFH6Hfjy0QaiJU6trBYveTG8ySF16Im2LfbKVN3SvUr7efBLdBpk603k5uwns-43nWJZDliaOGb_OhZ3dDnRSjlGhcvCw6aQ=w800-h500-k-no",
+    "hours": "ב' 17:00-24:00, ג' 17:00-24:00, ד' 17:00-24:00, ה' 17:00-01:00, ו' 10:30-15:30, 17:00-01:00, ש' 10:30-15:30, 17:00-24:00, א' 17:00-24:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     },
      {
       "days": [
        4
       ],
-      "from": "16:30",
+      "from": "17:00",
       "to": "01:00"
      },
      {
@@ -42093,6 +42722,13 @@
        5
       ],
       "from": "10:30",
+      "to": "15:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "17:00",
       "to": "01:00"
      },
      {
@@ -42100,6 +42736,13 @@
        6
       ],
       "from": "10:30",
+      "to": "15:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "17:00",
       "to": "24:00"
      },
      {
@@ -42108,31 +42751,10 @@
       ],
       "from": "17:00",
       "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "16:30",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "16:30",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "16:30",
-      "to": "24:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -61562,11 +62184,25 @@
    "lon": null,
    "geo_precision": null,
    "enrichment": {
-    "address": "סמטת בית הבד 7, תל אביב-יפו, 6684208, ישראל",
     "google_name": "Lava",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWliu_sCdMrbxvZv0CIDke0BoRyXu_TTLWPU0b-uYkurFnqioYBglkm0BVBen2U9SB8qAp7kpre6m4oa46A4VZFYhBTAtS-MvYuZKjiDcQSDjb8RNVpAUdQJSk5ZvtXJMr759lBJ=w800-h500-k-no",
-    "hours": "ד' 18:00-24:00, ה' 18:00-24:00, ו' 16:00-24:00, ש' 16:00-24:00, א' 18:00-23:00, ב' 18:00-23:00, ג' 18:00-23:00",
+    "address": "סמטת בית הבד 7, תל אביב-יפו, 6684208, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLffvmdSkHB5Y4fY_1SMuBR6kMu3wo6kKKNGZmoykZXiMDxdQKdTUBRxjwsFhiE_Cof6CyoRSJ3U14FjL_4R0bNwwMI_HJxPMNvgqOVdwFCrCQVsH9gWvXnQUttlfIFZAsWOyeVx=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-24:00, ה' 18:00-24:00, ו' 16:00-24:00, ש' 16:00-24:00, א' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        3
@@ -61601,24 +62237,10 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-19",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -80119,11 +80741,18 @@
    "lon": 34.768381,
    "geo_precision": "address",
    "enrichment": {
-    "address": "אחד העם 3, תל אביב-יפו, ישראל",
     "google_name": "פופינה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmboCzK8WvelS3tUO0JPAtwvDEZdZISQREfIoBIYsNbl3fYXp8p79w7WIZX3Kn9WwCCPY2_VuEjfG6UeCYb_vFmX9rkjuvMqhNdAf3tggKG8x1GowIXapK2yZPfIxDfpaXxGV8=w800-h500-k-no",
-    "hours": "ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00, ב' 18:00-23:00",
+    "address": "אחד העם 3, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezxMlmjzM6IKZ0Dz8YItzCkx_sP0qxWblLSI6d7KSxOYK_KruxM18qarCUKf9hquY8hjHdevxpxsmgGrbjNmZ0JAdQjN9koBt_Bk0rtgPzuRNcHFZFvRLENC9dqVHfh3zxlfrQ=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -80158,17 +80787,10 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -81019,11 +81641,18 @@
    "lon": 34.768381,
    "geo_precision": "address",
    "enrichment": {
-    "address": "אחד העם 3, תל אביב-יפו, ישראל",
     "google_name": "פופינה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmboCzK8WvelS3tUO0JPAtwvDEZdZISQREfIoBIYsNbl3fYXp8p79w7WIZX3Kn9WwCCPY2_VuEjfG6UeCYb_vFmX9rkjuvMqhNdAf3tggKG8x1GowIXapK2yZPfIxDfpaXxGV8=w800-h500-k-no",
-    "hours": "ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00, ב' 18:00-23:00",
+    "address": "אחד העם 3, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezxMlmjzM6IKZ0Dz8YItzCkx_sP0qxWblLSI6d7KSxOYK_KruxM18qarCUKf9hquY8hjHdevxpxsmgGrbjNmZ0JAdQjN9koBt_Bk0rtgPzuRNcHFZFvRLENC9dqVHfh3zxlfrQ=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -81058,17 +81687,10 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -84086,18 +84708,11 @@
    "lon": 34.769701,
    "geo_precision": "address",
    "enrichment": {
-    "address": "הס 4, תל אביב-יפו, ישראל",
     "google_name": "הס 4",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkDRRS185t_bzjlPhSofxjqcJHZbK4uhi974HgYDIYPvyeTAqks8sL7yT2KR3JMiovToLuQAvIvtOa-Q_qoW-by2dkKu1bWvcvzRNDYM2WcRl5KCXsYfmvHd09BHg3OfQthQnnd6w=w800-h500-k-no",
-    "hours": "ה' 17:30-23:00, ו' סגור, ש' סגור, א' סגור, ב' סגור, ג' 17:30-23:00, ד' 17:30-23:00",
+    "address": "הס 4, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdSzEPBX1sXymt2_vSEEuJQ7qVGlojH49pzAWdb9oDcDa0Ob3msO_kpx4m-igzoHslV3hM1EpUcnSmOfdaIpH28kpnBbjOlHGyrC3Hmi5pcoWAK5-bv25Ev4f2E8lvEK-ecaAgRbg=w800-h500-k-no",
+    "hours": "ב' סגור, ג' 17:30-23:00, ד' 17:30-23:00, ה' 17:30-23:00, ו' סגור, ש' סגור, א' סגור",
     "schedule": [
-     {
-      "days": [
-       4
-      ],
-      "from": "17:30",
-      "to": "23:00"
-     },
      {
       "days": [
        2
@@ -84111,10 +84726,17 @@
       ],
       "from": "17:30",
       "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "17:30",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -94265,11 +94887,18 @@
    "lon": 34.768381,
    "geo_precision": "address",
    "enrichment": {
-    "address": "אחד העם 3, תל אביב-יפו, ישראל",
     "google_name": "פופינה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmboCzK8WvelS3tUO0JPAtwvDEZdZISQREfIoBIYsNbl3fYXp8p79w7WIZX3Kn9WwCCPY2_VuEjfG6UeCYb_vFmX9rkjuvMqhNdAf3tggKG8x1GowIXapK2yZPfIxDfpaXxGV8=w800-h500-k-no",
-    "hours": "ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00, ב' 18:00-23:00",
+    "address": "אחד העם 3, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezxMlmjzM6IKZ0Dz8YItzCkx_sP0qxWblLSI6d7KSxOYK_KruxM18qarCUKf9hquY8hjHdevxpxsmgGrbjNmZ0JAdQjN9koBt_Bk0rtgPzuRNcHFZFvRLENC9dqVHfh3zxlfrQ=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -94304,17 +94933,10 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -112227,11 +112849,18 @@
    "lon": 34.771304,
    "geo_precision": "address",
    "enrichment": {
-    "address": "נחלת בנימין 51, תל אביב-יפו, ישראל",
     "google_name": "Fifty and one",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlY_dFgZgOmwgPiQRk3B2Nn2J-JWwqwqqnbRCK-N3MxqEEWQhK_3wAntaVRk_2KDDNjFGu4JhXk8QbrDKUB9JjmVEuTezb_MGODP8lmqNKTaOC_0SXqiVNR-mJSl1QyP7236S_r8w=w800-h500-k-no",
-    "hours": "ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-24:00, ו' סגור, ש' 20:30-24:00, א' 18:00-23:00, ב' 18:00-23:00",
+    "address": "Nahalat Binyamin St 51, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4XW7BBZrJdzNVnEX3kHqinqeOBLBAZzTxuh-wRvpw_Q7r0EQ467TWZNibq6yDtMaKKs71gU3-shUcUQDMdGy_cqvMdxtenfAf-_mNIgaZlgJCAG5AFv3YkUTWHxXuXVyPg7OJWw=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-24:00, ו' סגור, ש' 20:30-24:00, א' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -112266,17 +112895,10 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -117550,11 +118172,18 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
     "google_name": "גווידו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkwGUcXe_KLdX_U40fLZPLwMeq3P9XEsLiTu1Zj7S-sV52cio0CDBt4lMeA4pFqpJ8lWwGfc5ky6eHPuuyf2XwIMpmvvXsiZy659iMn-STW1fPGp0DuczX679uMX8eF_IxGy8Oomw=w800-h500-k-no",
-    "hours": "ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00",
+    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJZKmV_2eD7u-iIZmwxIwgV2q4wnlM7glrHhHoI9AGj7difWYQP8on1MYB5gpr76cHw_2i6mjH9a7-XU_GmDUm1itjyZA4P5KN3rz0tZ760c4QfPGDyoidWXgVyCLoG48bQP-X=w800-h500-k-no",
+    "hours": "ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -117596,17 +118225,10 @@
       ],
       "from": "12:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -127930,11 +128552,18 @@
    "lon": 34.768381,
    "geo_precision": "address",
    "enrichment": {
-    "address": "אחד העם 3, תל אביב-יפו, ישראל",
     "google_name": "פופינה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmboCzK8WvelS3tUO0JPAtwvDEZdZISQREfIoBIYsNbl3fYXp8p79w7WIZX3Kn9WwCCPY2_VuEjfG6UeCYb_vFmX9rkjuvMqhNdAf3tggKG8x1GowIXapK2yZPfIxDfpaXxGV8=w800-h500-k-no",
-    "hours": "ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00, ב' 18:00-23:00",
+    "address": "אחד העם 3, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezxMlmjzM6IKZ0Dz8YItzCkx_sP0qxWblLSI6d7KSxOYK_KruxM18qarCUKf9hquY8hjHdevxpxsmgGrbjNmZ0JAdQjN9koBt_Bk0rtgPzuRNcHFZFvRLENC9dqVHfh3zxlfrQ=w800-h500-k-no",
+    "hours": "ב' 18:00-23:00, ג' 18:00-23:00, ד' 18:00-23:00, ה' 18:00-23:00, ו' 18:00-23:00, ש' סגור, א' 18:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -127969,17 +128598,10 @@
       ],
       "from": "18:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -131298,11 +131920,18 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
     "google_name": "גווידו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkwGUcXe_KLdX_U40fLZPLwMeq3P9XEsLiTu1Zj7S-sV52cio0CDBt4lMeA4pFqpJ8lWwGfc5ky6eHPuuyf2XwIMpmvvXsiZy659iMn-STW1fPGp0DuczX679uMX8eF_IxGy8Oomw=w800-h500-k-no",
-    "hours": "ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00",
+    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJZKmV_2eD7u-iIZmwxIwgV2q4wnlM7glrHhHoI9AGj7difWYQP8on1MYB5gpr76cHw_2i6mjH9a7-XU_GmDUm1itjyZA4P5KN3rz0tZ760c4QfPGDyoidWXgVyCLoG48bQP-X=w800-h500-k-no",
+    "hours": "ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -131344,17 +131973,10 @@
       ],
       "from": "12:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -133472,16 +134094,37 @@
    "lon": 34.775888,
    "geo_precision": "address",
    "enrichment": {
-    "address": "דיזנגוף 122, תל אביב-יפו, 6439721, ישראל",
     "google_name": "Mi va מי וה",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzg5I5wtT9i5wrOKvz8c1wt-tkwnnXm8X2KblenqO3nG6bvHhP-qSvaFxRF0gJQTQqkJ_BxeM82jQVL-1A-1u6koPzKcoZavMU7HBBbHUACqZnDR51WHKvFGTSZOlpixvtqxvaRRODM9bJ=w800-h500-k-no",
-    "hours": "ה' 16:30-01:00, ו' 10:30-01:00, ש' 10:30-24:00, א' 17:00-24:00, ב' 16:30-24:00, ג' 16:30-24:00, ד' 16:30-24:00",
+    "address": "Dizengoff St 122, תל אביב-יפו, 6439721, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfIaACZXNOgTOs4Kw3qf1S5pMaQ890JEh5Jay4qtUZDc_gnNFH6Hfjy0QaiJU6trBYveTG8ySF16Im2LfbKVN3SvUr7efBLdBpk603k5uwns-43nWJZDliaOGb_OhZ3dDnRSjlGhcvCw6aQ=w800-h500-k-no",
+    "hours": "ב' 17:00-24:00, ג' 17:00-24:00, ד' 17:00-24:00, ה' 17:00-01:00, ו' 10:30-15:30, 17:00-01:00, ש' 10:30-15:30, 17:00-24:00, א' 17:00-24:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:00",
+      "to": "24:00"
+     },
      {
       "days": [
        4
       ],
-      "from": "16:30",
+      "from": "17:00",
       "to": "01:00"
      },
      {
@@ -133489,6 +134132,13 @@
        5
       ],
       "from": "10:30",
+      "to": "15:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "17:00",
       "to": "01:00"
      },
      {
@@ -133496,6 +134146,13 @@
        6
       ],
       "from": "10:30",
+      "to": "15:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "17:00",
       "to": "24:00"
      },
      {
@@ -133504,31 +134161,10 @@
       ],
       "from": "17:00",
       "to": "24:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "16:30",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "16:30",
-      "to": "24:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "16:30",
-      "to": "24:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-20",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -154998,11 +155634,18 @@
    "lon": 34.7818064,
    "geo_precision": "city",
    "enrichment": {
-    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
     "google_name": "גווידו",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkwGUcXe_KLdX_U40fLZPLwMeq3P9XEsLiTu1Zj7S-sV52cio0CDBt4lMeA4pFqpJ8lWwGfc5ky6eHPuuyf2XwIMpmvvXsiZy659iMn-STW1fPGp0DuczX679uMX8eF_IxGy8Oomw=w800-h500-k-no",
-    "hours": "ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00",
+    "address": "שדרות בן גוריון 34, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJZKmV_2eD7u-iIZmwxIwgV2q4wnlM7glrHhHoI9AGj7difWYQP8on1MYB5gpr76cHw_2i6mjH9a7-XU_GmDUm1itjyZA4P5KN3rz0tZ760c4QfPGDyoidWXgVyCLoG48bQP-X=w800-h500-k-no",
+    "hours": "ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:30, ו' 12:00-23:00, ש' 12:00-23:00, א' 12:00-23:00",
     "schedule": [
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
      {
       "days": [
        2
@@ -155044,17 +155687,10 @@
       ],
       "from": "12:00",
       "to": "23:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-08-18",
+    "date": "2026-10-26",
     "v": 3
    },
    "closed_permanently": false
@@ -165460,7 +166096,12 @@
    32.0740381,
    34.7756635
   ],
-  "איינשטיין 69, תל אביב, נחלת בנימין, תל אביב, ישראל": null
+  "איינשטיין 69, תל אביב, נחלת בנימין, תל אביב, ישראל": null,
+  "Nahalat Binyamin St 51, תל אביב-יפו, ישראל, ישראל": null,
+  "Bart St 2, תל אביב-יפו, 6910402, ישראל, ישראל": null,
+  "Ben Tsiyon Blvd 1, תל אביב-יפו, ישראל, ישראל": null,
+  "Shlomo Ibn Gabirol St 100, תל אביב-יפו, ישראל, ישראל": null,
+  "Dizengoff St 122, תל אביב-יפו, 6439721, ישראל, ישראל": null
  },
- "last_google_run": "2026-10-26T06:59:35.009457+02:00"
+ "last_google_run": "2026-10-26T15:32:51.124809+02:00"
 }
