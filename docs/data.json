@@ -4887,7 +4887,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-10-26T06:59:34.236409+02:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%a0%d7%a1%d7%98%d7%a1%d7%99%d7%94-300/#הטבעונית האהובה פותחת",
@@ -165200,5 +165204,5 @@
   ],
   "לאונרדו דה וינצ׳י 12, תל אביב-יפו, 6473117, ישראל, ישראל": null
  },
- "last_google_run": "2026-10-24T07:48:41.796272+03:00"
+ "last_google_run": "2026-10-26T06:59:35.009457+02:00"
 }
