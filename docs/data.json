@@ -54,7 +54,77 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "שימו לב (Simulev)",
+     "Suf - סוף",
+     "קולנוע לב תל אביב",
+     "Lai fu ליי פו דים סאם וסושי בר",
+     "סימו גריל בשרים - SIMO GRIL",
+     "MUMA kubane",
+     "המלביה"
+    ],
+    "name_echo": true,
+    "address": "יהודה הלוי 21, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe_rvDcHFYWCB_zA_3x1Am5epHOa9tkTu_IWLEQQDpU05ouDRIA5dqLoiaMC8PUUZtGs_FGb1n1G6A0FtqZNbHgY8KbNKmujd3ZWlF4GOgaNa0jYYPmA44f9sxDk8uiBykjh-wnyYMDkvkJ=w800-h500-k-no",
+    "hours": "ו' 09:00-02:00, ש' 09:00-24:30, א' 09:00-24:30, ב' 09:00-24:30, ג' 09:00-24:30, ד' 09:00-24:30, ה' 09:00-02:00, ו' סגור, ש' סגור",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "02:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "09:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "09:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "02:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-10-30",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%a1%d7%a2%d7%93%d7%95%d7%aa-%d7%91%d7%99%d7%95%d7%9d-%d7%94%d7%91%d7%97%d7%99%d7%a8%d7%95%d7%aa/#בנוסף",
@@ -166186,7 +166256,8 @@
   "Ben Tsiyon Blvd 1, תל אביב-יפו, ישראל, ישראל": null,
   "Shlomo Ibn Gabirol St 100, תל אביב-יפו, ישראל, ישראל": null,
   "Dizengoff St 122, תל אביב-יפו, 6439721, ישראל, ישראל": null,
-  "שד' רוקח 104, נחלת בנימין, תל אביב, ישראל": null
+  "שד' רוקח 104, נחלת בנימין, תל אביב, ישראל": null,
+  "יהודה הלוי 21, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-10-29T00:42:33.604026+02:00"
+ "last_google_run": "2026-10-30T15:11:41.570164+02:00"
 }
