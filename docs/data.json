@@ -23,7 +23,66 @@
    "lat": 32.0443395,
    "lon": 34.7509908,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "דגים אדי בטשון",
+     "דגי בטשון"
+    ],
+    "name_echo": true,
+    "google_name": "דגים אדי בטשון",
+    "address": "קדם 63, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcdNtrJZ-hURa02pUgyKw6_-kMNaRHQzIW3Y-mYQmaOruUqGyfmJ0ZOo1cwq8OYy5PK0gaN0BCxjJq0pgI6MZyLZuKft5uvamp9PN24E6UzBjT59nQH4sFHOzEIIsjREpZMWoI=w800-h500-k-no",
+    "hours": "ג' 08:00-18:00, ד' 08:00-18:00, ה' 08:00-18:00, ו' 08:00-18:00, ש' 08:00-16:00, א' סגור, ב' 08:00-18:00",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "08:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "18:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/11-%d7%91%d7%aa%d7%99-%d7%a2%d7%a1%d7%a7-%d7%a2%d7%a8%d7%91%d7%99%d7%9d-%d7%9c%d7%93%d7%95-%d7%a7%d7%99%d7%95%d7%9d/#מאפיית אבולעפיה",
@@ -48,7 +107,16 @@
    "lat": 32.0683357,
    "lon": 34.7700335,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "אבולעפיה נחלת בנימין",
+    "address": "נחלת בנימין 75, תל אביב-יפו, 6515417, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcBKfJ5aUp5pskCdljF5I4xSQpXBMiTx8KilnYF2lhQFx7jvcQdya6gfVShkIHuEXkCx_ATO0Hci1WeKWa-DWp5bd_8lGTc1Xt8G0TQuP1omYt2ig_E37dWTdQr7HWDME3TRPVhB1ruFbE=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/11-%d7%91%d7%aa%d7%99-%d7%a2%d7%a1%d7%a7-%d7%a2%d7%a8%d7%91%d7%99%d7%9d-%d7%9c%d7%93%d7%95-%d7%a7%d7%99%d7%95%d7%9d/#קפה נאס",
@@ -73,7 +141,68 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "Café Nas",
+    "address": "עזה 55, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLejDmdow450FQG_wBTS-uh7Z6w1QvAYOyciZnSp5mPAOpbmTCnP31d_4rcWLl_jyXkhlmaQuPWwUnSmg4Vfus64Kg_RymFy7OtjpF0e_PmbA4pE0sBRTrl55N8hY9tJys3kO0oEWHZhk2M=w800-h500-k-no",
+    "hours": "ג' 08:00-23:00, ד' 08:00-23:00, ה' 08:00-23:00, ו' 08:00-23:00, ש' 08:00-23:00, א' 08:00-23:00, ב' 08:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/11-%d7%91%d7%aa%d7%99-%d7%a2%d7%a1%d7%a7-%d7%a2%d7%a8%d7%91%d7%99%d7%9d-%d7%9c%d7%93%d7%95-%d7%a7%d7%99%d7%95%d7%9d/#אבו חסן",
@@ -98,7 +227,66 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "אבו חסן",
+     "אבו חסן- עלי קרוואן"
+    ],
+    "name_echo": true,
+    "google_name": "אבו חסן",
+    "address": "הדולפין 1, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfYwuUAkXbQwOW3HRcHMTY89u8hroRxqVBsS5M1YQxpV56aA_zAguD_RmJJNYUMJVDhmKpqXRYevtELSmZ4uOXiVcFIiasInKhhxrXyMYLu2FsuHfAWJ_9FP3882Lr7awSBZngZ=w800-h500-k-no",
+    "hours": "ג' 08:00-15:00, ד' 08:00-15:00, ה' 08:00-15:00, ו' 08:00-15:00, ש' סגור, א' 08:00-15:00, ב' 08:00-15:00",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:00",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "15:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/11-%d7%91%d7%aa%d7%99-%d7%a2%d7%a1%d7%a7-%d7%a2%d7%a8%d7%91%d7%99%d7%9d-%d7%9c%d7%93%d7%95-%d7%a7%d7%99%d7%95%d7%9d/#סופרא",
@@ -123,7 +311,61 @@
    "lat": 32.055053,
    "lon": 34.760257,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "סופרא",
+    "address": "דרך שלמה 3, תל אביב-יפו, 6811113, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf3HJPMRiWbQz9UWH6iwl1axyOFT4cFDpcY3z3RnR3-ZEONHqbtsM_l2bXYxYgdNpICtqYkhcJQH2j-IbE_sWUSwZnqaxUdZnBCfNkJPDRH7Hvfntb_gEcfG4No6LbtLwEFkFDVXg=w800-h500-k-no",
+    "hours": "ג' 10:00-22:00, ד' 10:00-22:00, ה' 10:00-22:00, ו' 10:00-22:00, ש' סגור, א' 10:00-22:00, ב' 10:00-22:00",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "10:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "10:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "10:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "10:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "10:00",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "10:00",
+      "to": "22:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/11-%d7%91%d7%aa%d7%99-%d7%a2%d7%a1%d7%a7-%d7%a2%d7%a8%d7%91%d7%99%d7%9d-%d7%9c%d7%93%d7%95-%d7%a7%d7%99%d7%95%d7%9d/#90's דיינר",
@@ -148,7 +390,68 @@
    "lat": 32.0443395,
    "lon": 34.7509908,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "דיינר 90's מבית חצר גולדמן",
+    "address": "יפת 9, תל אביב-יפו, 6802814, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfbWG0OcvYk1RFRWSaP6yfmei9iX5PIokSqEO-bxo-uucODbCKdORtZ8jCijeiMqiFSlFuRkNugCr-fz8-0S6dOhLgxKzMlrJSQtjgRMtEc5o3-hCy_k9xlxQiYTfMf8GXxLlfFkIofRsva=w800-h500-k-no",
+    "hours": "ג' 12:00-24:00, ד' 12:00-24:00, ה' 12:00-01:00, ו' 12:00-03:00, ש' 12:00-24:00, א' 12:00-24:00, ב' 12:00-24:00",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "01:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "03:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/11-%d7%91%d7%aa%d7%99-%d7%a2%d7%a1%d7%a7-%d7%a2%d7%a8%d7%91%d7%99%d7%9d-%d7%9c%d7%93%d7%95-%d7%a7%d7%99%d7%95%d7%9d/#אל קלחה",
@@ -173,7 +476,61 @@
    "lat": 32.055053,
    "lon": 34.760257,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "الكلحة يافا-אלקלחה יאפא",
+    "address": "דרך שלמה 3, תל אביב-יפו, 6811113, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeV5xRLJiLnDYZeH43DwwYdyQsmmEHa3AnxvDyaPTrC5dE-NYZ5uac-1wJfFdoTdSV2hFatNmC1pvAnJS10iceuN-NcGytgMv4Y5-A_nxEzHz7CCH5eQiJvnP64UD2iKD5l2TXy=w800-h500-k-no",
+    "hours": "ג' 10:00-17:00, ד' 10:00-17:00, ה' 10:00-17:00, ו' 10:00-17:00, ש' 10:00-17:00, א' סגור, ב' 10:00-17:00",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "10:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "10:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "10:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "10:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "10:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "10:00",
+      "to": "17:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/11-%d7%91%d7%aa%d7%99-%d7%a2%d7%a1%d7%a7-%d7%a2%d7%a8%d7%91%d7%99%d7%9d-%d7%9c%d7%93%d7%95-%d7%a7%d7%99%d7%95%d7%9d/#יאפא כנאפה",
@@ -198,7 +555,68 @@
    "lat": 32.0820303,
    "lon": 34.7738402,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "יאפה כנאפה",
+    "address": "דיזנגוף 175, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfq4oFidM1d4JRzYqn1Jq_1z3ft1j2E9H9Rpr7sTIGxYN-y2hkfmkNlmdhdggzuvKd5L9DTy8frGk_vi77_J6V6jfx57cGrqPnbiyY9hjmBvKw9BmTMDuXvz0kZWi8qbB_2xBlp=w800-h500-k-no",
+    "hours": "ג' 08:00-01:30, ד' 08:00-01:30, ה' 08:00-03:00, ו' 08:00-03:00, ש' 08:00-01:30, א' 08:00-01:30, ב' 08:00-01:30",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "01:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "01:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:00",
+      "to": "03:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:00",
+      "to": "03:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "08:00",
+      "to": "01:30"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:00",
+      "to": "01:30"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "01:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/11-%d7%91%d7%aa%d7%99-%d7%a2%d7%a1%d7%a7-%d7%a2%d7%a8%d7%91%d7%99%d7%9d-%d7%9c%d7%93%d7%95-%d7%a7%d7%99%d7%95%d7%9d/#יונס אלדיוואן",
@@ -223,7 +641,68 @@
    "lat": 32.104824,
    "lon": 34.792871,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "יונס אלדיוואן",
+    "address": "‫דרך נמיר מרדכי 170, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe8ODjmvdyIo7DYl2v7StAU4wYRC39HD7oRQKJ8tpls9WRViKJ4KdsAK5SvYRGhakmUPVwKgSQvxLtVXfnM8qC7YOZFllxArUtxCnsy92CPrfxF_83dBv-SrqdywsSa359lT7mi=w800-h500-k-no",
+    "hours": "ג' 11:00-23:00, ד' 11:00-23:00, ה' 11:00-23:00, ו' 11:00-23:00, ש' 11:00-23:00, א' 11:00-23:00, ב' 11:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "11:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/11-%d7%91%d7%aa%d7%99-%d7%a2%d7%a1%d7%a7-%d7%a2%d7%a8%d7%91%d7%99%d7%9d-%d7%9c%d7%93%d7%95-%d7%a7%d7%99%d7%95%d7%9d/#חומוס אמיר",
@@ -248,7 +727,66 @@
    "lat": 32.1088611,
    "lon": 34.7950946,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "חומוס אמיר",
+     "חומוס יוסף רמת אביב"
+    ],
+    "name_echo": true,
+    "google_name": "חומוס אמיר",
+    "address": "אבא אחימאיר 33, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcvTlmpxc89OWL6CesCEK3ntqufNzcuOKldP21WlWTzuZBoZC42VptQr2k3S5p3ZDzY4p50VEPcwo2__FUk-xwS3osNnWCr1chxFjIJbyn1H5cbbTVvl4WFiJloESyBdgaQuvcpe4fIvlOS=w800-h500-k-no",
+    "hours": "ג' 09:00-17:00, ד' 09:00-17:00, ה' 09:00-17:00, ו' 09:00-17:00, ש' סגור, א' 09:00-17:00, ב' 09:00-17:00",
+    "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/11-%d7%91%d7%aa%d7%99-%d7%a2%d7%a1%d7%a7-%d7%a2%d7%a8%d7%91%d7%99%d7%9d-%d7%9c%d7%93%d7%95-%d7%a7%d7%99%d7%95%d7%9d/#פלאפל עספור",
@@ -273,7 +811,16 @@
    "lat": 32.0443395,
    "lon": 34.7509908,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "פלאפל עספור",
+    "address": "רחוב יהודה מרגוזה 37, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeaAwD1rSCs2hH1VWpuaOfiMPkxvsKmWUGqNFK5h0HevjGJxrJwNwr3NAbHLKk6-PbRS2t8BycRaM5DeYAgsFGeM0NI-Yq7CQN1oqJPhEHApCSh6eaWFk9FEml-3HQ2WRQfVlM=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-11-03",
+    "v": 3
+   },
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/%d7%a9%d7%99%d7%9e%d7%95-%d7%9c%d7%91-%d7%91%d7%a8/#שימו לב",
@@ -49969,63 +50516,63 @@
    "lon": 34.757486,
    "geo_precision": "address",
    "enrichment": {
-    "google_name": "Yaffa Knafeh - يافا كنافة - יאפא כנאפה",
-    "address": "עולי ציון 24, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl45O59sZyx4xLjM3pGk0MCbyFeY4gG2K-Mh-VKsLe4BAF-MBE-FUkqpYE4__3wUJH4tnwOueUYrbq90A-S9nffmbeEFKsgUHxpCbbqszmlnSeolWrbYYbpk1xQDwUwPNjbAONr0A=w800-h500-k-no",
-    "hours": "ג' 10:00-24:30, ד' 10:00-24:30, ה' 10:00-01:00, ו' 10:00-01:00, ש' 10:00-24:30, א' 10:00-24:30, ב' 10:00-24:30",
+    "google_name": "יאפה כנאפה",
+    "address": "דיזנגוף 175, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfq4oFidM1d4JRzYqn1Jq_1z3ft1j2E9H9Rpr7sTIGxYN-y2hkfmkNlmdhdggzuvKd5L9DTy8frGk_vi77_J6V6jfx57cGrqPnbiyY9hjmBvKw9BmTMDuXvz0kZWi8qbB_2xBlp=w800-h500-k-no",
+    "hours": "ג' 08:00-01:30, ד' 08:00-01:30, ה' 08:00-03:00, ו' 08:00-03:00, ש' 08:00-01:30, א' 08:00-01:30, ב' 08:00-01:30",
     "schedule": [
      {
       "days": [
        2
       ],
-      "from": "10:00",
-      "to": "24:30"
+      "from": "08:00",
+      "to": "01:30"
      },
      {
       "days": [
        3
       ],
-      "from": "10:00",
-      "to": "24:30"
+      "from": "08:00",
+      "to": "01:30"
      },
      {
       "days": [
        4
       ],
-      "from": "10:00",
-      "to": "01:00"
+      "from": "08:00",
+      "to": "03:00"
      },
      {
       "days": [
        5
       ],
-      "from": "10:00",
-      "to": "01:00"
+      "from": "08:00",
+      "to": "03:00"
      },
      {
       "days": [
        6
       ],
-      "from": "10:00",
-      "to": "24:30"
+      "from": "08:00",
+      "to": "01:30"
      },
      {
       "days": [
        0
       ],
-      "from": "10:00",
-      "to": "24:30"
+      "from": "08:00",
+      "to": "01:30"
      },
      {
       "days": [
        1
       ],
-      "from": "10:00",
-      "to": "24:30"
+      "from": "08:00",
+      "to": "01:30"
      }
     ],
     "source": "גוגל",
-    "date": "2026-09-01",
+    "date": "2026-11-03",
     "v": 3
    },
    "closed_permanently": false
@@ -166541,7 +167088,14 @@
   "דרך נמיר 170, תל אביב, ישראל": [
    32.104824,
    34.792871
-  ]
+  ],
+  "רחוב יהודה מרגוזה 37, תל אביב-יפו, ישראל, ישראל": null,
+  "קדם 63, תל אביב-יפו, ישראל, ישראל": null,
+  "נחלת בנימין 75, תל אביב-יפו, 6515417, ישראל, ישראל": null,
+  "עזה 55, תל אביב-יפו, ישראל, ישראל": null,
+  "דיזנגוף 175, תל אביב-יפו, ישראל, ישראל": null,
+  "‫דרך נמיר מרדכי 170, תל אביב-יפו, ישראל, ישראל": null,
+  "אבא אחימאיר 33, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-10-31T00:29:58.324487+02:00"
+ "last_google_run": "2026-11-03T21:39:35.991427+02:00"
 }
