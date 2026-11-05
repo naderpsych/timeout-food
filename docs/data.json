@@ -1,6 +1,31 @@
 {
  "cards": [
   {
+   "id": "https://timeout.co.il/%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%9e%d7%a8%d7%99%d7%a7%d7%90%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#אם נגמר הסיוע",
+   "name": "אם נגמר הסיוע",
+   "type": "בית קפה",
+   "what_to_eat": "פיצה, המבורגר, צלעות, אסאדו, קפה, בירה",
+   "owner": null,
+   "hours": "לא צוין",
+   "schedule": null,
+   "city": "תל אביב",
+   "location": "רציף הרברט סמואל 90, תל אביב, דיזנגוף",
+   "region": "tlv",
+   "is_new": false,
+   "closing_soon": false,
+   "is_popup": false,
+   "opening_info": null,
+   "article_title": "דיס איז אמריקה: אם נגמר הסיוע האמריקאי, נאלץ להסתדר לבדנו",
+   "article_url": "https://timeout.co.il/%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%9e%d7%a8%d7%99%d7%a7%d7%90%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/",
+   "article_image": "https://medias.timeout.co.il/www/uploads/2024/12/frises-1140x641.jpg",
+   "published": "2026-11-04T12:01:37+02:00",
+   "details_url": null,
+   "lat": null,
+   "lon": null,
+   "geo_precision": null,
+   "is_sponsored": false
+  },
+  {
    "id": "https://timeout.co.il/%d7%a7%d7%a4%d7%94-%d7%a0%d7%90%d7%95%d7%aa/#בית קפה קטן",
    "name": "בית קפה קטן",
    "type": "בית קפה",
@@ -161476,6 +161501,7 @@
   "https://timeout.co.il/אוזריה-מתחדשת/",
   "https://timeout.co.il/אוטו-יין-ירקון-מזרח/",
   "https://timeout.co.il/אוטוטו/",
+  "https://timeout.co.il/אוכל-אמריקאי-בתל-אביב/",
   "https://timeout.co.il/אוכל-לזכרם-7-באוקטובר/",
   "https://timeout.co.il/אוכל-רחוב-חדש-180226/",
   "https://timeout.co.il/אוכל-רחוב-מלחמה/",
@@ -162005,7 +162031,7 @@
   "https://timeout.co.il/תריסר-שנתיים-טור/",
   "https://timeout.co.il/תשעה-באב-2025-מסעדות/"
  ],
- "last_run": "2026-11-04T13:19:07.248744+02:00",
+ "last_run": "2026-11-05T13:16:51.999322+02:00",
  "geocache": {
   "רוטשילד, תל אביב, ישראל": [
    32.0622106,
@@ -167141,7 +167167,8 @@
   "עזה 55, תל אביב-יפו, ישראל, ישראל": null,
   "דיזנגוף 175, תל אביב-יפו, ישראל, ישראל": null,
   "‫דרך נמיר מרדכי 170, תל אביב-יפו, ישראל, ישראל": null,
-  "אבא אחימאיר 33, תל אביב-יפו, ישראל, ישראל": null
+  "אבא אחימאיר 33, תל אביב-יפו, ישראל, ישראל": null,
+  "רציף הרברט סמואל 90, תל אביב, דיזנגוף, תל אביב, ישראל": null
  },
  "last_google_run": "2026-11-04T08:41:32.458878+02:00"
 }
