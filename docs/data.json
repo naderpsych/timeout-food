@@ -23,7 +23,11 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-11-05T22:06:19.299332+02:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%a7%d7%a4%d7%94-%d7%a0%d7%90%d7%95%d7%aa/#בית קפה קטן",
@@ -167170,5 +167174,5 @@
   "אבא אחימאיר 33, תל אביב-יפו, ישראל, ישראל": null,
   "רציף הרברט סמואל 90, תל אביב, דיזנגוף, תל אביב, ישראל": null
  },
- "last_google_run": "2026-11-04T08:41:32.458878+02:00"
+ "last_google_run": "2026-11-05T22:06:52.050460+02:00"
 }
