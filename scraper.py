@@ -471,6 +471,10 @@ NAME_STOPWORDS = {"היא", "הוא", "הם", "מציע", "מציעה", "מצי�
                   "נפתח", "נפתחה", "משיק", "משיקה", "מאיר", "מאירה", "עושה"}
 
 
+DASH_ITEM_LIST = True     # פריטי מקף עם שם מודגש ושורת פרטים — כל פריט הוא מקום
+# שורת פרטים מודגשת: "אלנבי 121, 17:00-11:00" / "דה פיג'וטו 23" / "מ-12:00".
+# שם כמו D298 או 223 לא נתפס — צריך מילה, רווח ומספר, או שעה.
+DASH_DETAILS_RE = re.compile(r"[א-תA-Za-z'״]\s+\d{1,3}\b|\d{1,2}:\d{2}")
 BARE_HEADING_LIST = True  # כותרות חשופות כרשימת מקומות, גם בלי "N מקומות" בכותרת
 
 
@@ -537,10 +541,24 @@ def parse_article(url, html):
     # (כלל BARE_HEADING_LIST — ראו למטה)
     bare_sections = []
     bare_current = None
+    # פריטי מקף: "– שם מודגש ... שורת פרטים מודגשת" (כתבות מבצעים/אירועים לפי אזור)
+    dash_items = []
     for el in body.find_all(["h2", "h3", "p"]):
         text = el.get_text(" ", strip=True)
         if not text:
             continue
+        if el.name == "p" and text[:1] in ("–", "-"):
+            bolds = [b.get_text(" ", strip=True) for b in el.find_all(["strong", "b"])]
+            bolds = [t for t in bolds if t]
+            details = [t for t in bolds if DASH_DETAILS_RE.search(t)]
+            # "גילה וננסי, התדר, פורט סעיד וסוף" — כמה מקומות בהדגשה אחת, מופרדים בפסיק
+            names = [n.strip() for t in bolds if t not in details for n in t.split(",")]
+            names = [n for n in names if n and len(n) <= 40]
+            if names:
+                link = next((a["href"] for a in el.find_all("a", href=True)
+                             if "timeout.co.il" in a["href"]), None)
+                dash_items.append({"names": names, "text": text,
+                                   "has_details": bool(details), "link": link})
         if el.name in ("h2", "h3"):
             if "underline" in (el.get("class") or []):
                 current = None
@@ -602,6 +620,17 @@ def parse_article(url, html):
     # נבדק מול 1,067 כתבות ישנות (8.11.26): תפס 6 כתבות רשימה שפוספסו,
     # ופספס/פסל שגוי רק כתבות שאין בהן כתובות (מסעדות חוף, גרסאות אנגלית).
     bare_sections = [s for s in bare_sections if s["texts"]]
+
+    # כלל DASH_ITEM_LIST: כתבה שבה כל מקום הוא פסקה שמתחילה במקף, עם שם מודגש
+    # ושורת פרטים מודגשת (כתובת/שעות) בלפחות חצי מהפריטים (רשתות כמו "בסניפי
+    # ברגר קינג" באות בלי כתובת). הכותרות בכתבה כזו הן אזורים ("מרכז העיר"),
+    # לא מקומות — ולכן הכלל הזה קודם ל-BARE_HEADING_LIST.
+    if (DASH_ITEM_LIST and not sections and not ad_single_place and len(dash_items) >= 3
+            and sum(1 for it in dash_items if it["has_details"]) * 2 >= len(dash_items)):
+        sections = [{"name": clean_name(n), "dish": None, "texts": [it["text"]], "link": it["link"]}
+                    for it in dash_items for n in it["names"]]
+        bare_sections = []
+
     if BARE_HEADING_LIST and not sections and not ad_single_place and len(bare_sections) >= 3:
         trial = [build_card(s["name"], " ".join(s["texts"]), article_title, url, published_iso, None)
                  for s in bare_sections]
