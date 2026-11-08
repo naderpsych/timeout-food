@@ -471,6 +471,9 @@ NAME_STOPWORDS = {"היא", "הוא", "הם", "מציע", "מציעה", "מצי�
                   "נפתח", "נפתחה", "משיק", "משיקה", "מאיר", "מאירה", "עושה"}
 
 
+BARE_HEADING_LIST = True  # כותרות חשופות כרשימת מקומות, גם בלי "N מקומות" בכותרת
+
+
 def clean_name(raw):
     name = raw.strip()
     name = re.sub(r"\s*[-–|].{20,}$", "", name)  # חיתוך תת-כותרת ארוכה
@@ -530,6 +533,10 @@ def parse_article(url, html):
     # כותרת המשנה של הכתבה מסומנת class="underline" ולכן מוחרגת.
     sections = []
     current = None
+    # מקטעים לפי כותרות חשופות — נאספים תמיד, ומשמשים רק אם לא נמצא שום מקום אחר
+    # (כלל BARE_HEADING_LIST — ראו למטה)
+    bare_sections = []
+    bare_current = None
     for el in body.find_all(["h2", "h3", "p"]):
         text = el.get_text(" ", strip=True)
         if not text:
@@ -537,7 +544,15 @@ def parse_article(url, html):
         if el.name in ("h2", "h3"):
             if "underline" in (el.get("class") or []):
                 current = None
+                bare_current = None
                 continue
+            if (len(text) <= 45 and not re.search(r"[?!:,]", text)
+                    and len(text.split()) <= 4):
+                bare_name = re.sub(r"^\s*\d{1,2}(\s*\+\s*\d{1,2})?\s*[.\)]\s*", "", text)
+                bare_current = {"name": clean_name(bare_name), "dish": None, "texts": [], "link": None}
+                bare_sections.append(bare_current)
+            else:
+                bare_current = None
             name, dish = None, None
             m = NUMBERED_HEADING.match(text)
             if m and (is_list_article or ad_single_place):
@@ -567,8 +582,10 @@ def parse_article(url, html):
                 sections.extend(current)
             else:
                 current = None
-        elif current is not None:
-            for sec in current:
+        elif current is not None or bare_current is not None:
+            if bare_current is not None:
+                bare_current["texts"].append(text)
+            for sec in current or []:
                 sec["texts"].append(text)
                 for a in el.find_all("a", href=True):
                     if "timeout.co.il" in a["href"] and sec["link"] is None:
@@ -576,6 +593,22 @@ def parse_article(url, html):
 
     # מקטע בלי טקסט בכלל = כנראה כותרת שאינה מקום
     sections = [s for s in sections if s["texts"]]
+
+    # כלל BARE_HEADING_LIST: כתבת רשימה שהכותרת שלה לא מכריזה על רשימה
+    # ("דיס איז אמריקה: ...") — 3 כותרות קצרות ומעלה, כל אחת עם טקסט משלה,
+    # הן מקומות. חל רק כשלא נמצא שום מקום בדרך הרגילה.
+    # תנאי: לרוב ברור (2/3 ומעלה) מהמקטעים יש כתובת או שעות — כמו מקום אמיתי.
+    # כך כותרות נושא ("האוכל", "האווירה", "קצת רקע") ומנות לא נחשבות מקומות.
+    # נבדק מול 1,067 כתבות ישנות (8.11.26): תפס 6 כתבות רשימה שפוספסו,
+    # ופספס/פסל שגוי רק כתבות שאין בהן כתובות (מסעדות חוף, גרסאות אנגלית).
+    bare_sections = [s for s in bare_sections if s["texts"]]
+    if BARE_HEADING_LIST and not sections and not ad_single_place and len(bare_sections) >= 3:
+        trial = [build_card(s["name"], " ".join(s["texts"]), article_title, url, published_iso, None)
+                 for s in bare_sections]
+        with_details = sum(1 for c in trial
+                           if c["location"] != NOT_SPECIFIED or c["hours"] != NOT_SPECIFIED)
+        if with_details * 3 >= len(trial) * 2:
+            sections = bare_sections
 
     closure_article = bool(CLOSURE_TITLE_RE.search(article_title))
 

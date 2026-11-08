@@ -262,10 +262,27 @@ def _retry_due(card):
     return (datetime.now(TZ) - last).days >= wait
 
 
+# רענון: מקום שכבר הועשר נבדק שוב בגוגל פעם בחודש — שעות משתנות ומקומות נסגרים
+REFRESH_DAYS = 30
+
+
+def _days_since(iso_date):
+    try:
+        return (datetime.now(TZ).date() - datetime.fromisoformat(iso_date[:10]).date()).days
+    except Exception:
+        return 10_000
+
+
+def is_refresh(card):
+    return (card.get("enrichment") or {}).get("source") == "גוגל"
+
+
 def needs_enrichment(card):
     enr = card.get("enrichment") or {}
     if enr.get("source") == "גוגל":
-        return enr.get("v", 1) < ENRICH_VERSION
+        if enr.get("v", 1) < ENRICH_VERSION:
+            return True
+        return _days_since(enr.get("checked") or enr.get("date", "")) >= REFRESH_DAYS
     if card.get("hours") != NOT_SPECIFIED and card.get("location") != NOT_SPECIFIED:
         return False
     return _retry_due(card)
@@ -344,10 +361,16 @@ def main():
         if needs_enrichment(card):
             groups.setdefault(place_key(card), []).append(card)
     # עדיפות: מקומות חדשים קודם, ואז מהחדש לישן
-    ordered = sorted(groups.values(),
-                     key=lambda g: (not any(c.get("is_new") for c in g),
-                                    -max(c["published"] for c in g).__hash__()))
-    ordered = sorted(ordered, key=lambda g: not any(c.get("is_new") for c in g))
+    # עדיפות: מקומות שעוד לא הועשרו (חדשים קודם, מהחדש לישן), ורק אחריהם רענונים —
+    # מהבדיקה הישנה ביותר לחדשה
+    def _rank(g):
+        lead = g[0]
+        if is_refresh(lead):
+            enr = lead["enrichment"]
+            return (2, -_days_since(enr.get("checked") or enr.get("date", "")))
+        return (0 if any(c.get("is_new") for c in g) else 1, 0)
+    ordered = sorted(groups.values(), key=lambda g: max(c["published"] for c in g), reverse=True)
+    ordered = sorted(ordered, key=_rank)  # מיון יציב: בתוך כל דרגה נשאר מהחדש לישן
     todo = ordered[:BATCH]
     print(f"unique places: {len(groups)} | this batch: {len(todo)} "
           f"(covering {sum(len(g) for g in todo)} cards)")
@@ -359,6 +382,7 @@ def main():
     # גם אם מישהו אחר עדכן אותה בינתיים (מונע התנגשויות git)
     patch = {}
     misses = {}
+    checked = {}  # רענון שלא החזיר תוצאה — רק מעדכנים תאריך בדיקה, לא מוחקים מידע
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
@@ -384,6 +408,14 @@ def main():
 
             # כלל "שם חוזר": גוגל הראתה סניפים בשם שחיפשנו — המקום אמיתי,
             # גם אם לא הצלחנו לשלוף ממנו כתובת. לא מסמנים ככישלון.
+            if is_refresh(lead) and not found.get("address") and not found.get("hours"):
+                # רענון שנכשל (גוגל לא הגיבה טוב / עיר אחרת) — שומרים את המידע הקודם
+                for card in group:
+                    card["enrichment"]["checked"] = today
+                checked[f"{lead['name'].strip().lower()}|{lead['city']}"] = today
+                print(f"  =   {lead['name'][:20]} (רענון בלי תוצאה — נשאר המידע הקודם)")
+                continue
+
             if found.get("name_echo") and not found.get("address") and not found.get("hours"):
                 for card in group:
                     card.pop("google_miss", None)
@@ -407,7 +439,14 @@ def main():
             enr = {k: v for k, v in found.items() if k != "closed_permanently"}
             enr["source"] = "גוגל"
             enr["date"] = today
+            enr["checked"] = today
             enr["v"] = ENRICH_VERSION
+            if is_refresh(lead):
+                # אם הפעם לא נטענו שעות/שם — לא מוחקים את מה שהיה
+                old = lead["enrichment"]
+                for k in ("hours", "schedule", "fixed_name", "photo"):
+                    if not enr.get(k) and old.get(k):
+                        enr[k] = old[k]
 
             # תיקון שם שבור: אם השם שלנו נראה כמו שבר משפט מהכותרת,
             # ורחוב הכתובת שלנו מופיע בכתובת שגוגל החזירה — זה בוודאות אותו מקום,
@@ -439,7 +478,8 @@ def main():
     data["last_google_run"] = datetime.now(TZ).isoformat()
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA_PATH.parent.parent / "enrich_patch.json").write_text(
-        json.dumps({"geocache": geocache, "places": patch, "misses": misses},
+        json.dumps({"geocache": geocache, "places": patch, "misses": misses,
+                    "checked": checked},
                    ensure_ascii=False, indent=1),
         encoding="utf-8")
     remaining = sum(1 for c in data["cards"] if needs_enrichment(c))

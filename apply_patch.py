@@ -25,7 +25,8 @@ def main():
     places = patch.get("places", {})
     misses = {tuple(k.split("|", 1)) if isinstance(k, str) else k: v
               for k, v in (patch.get("misses") or {}).items()}
-    if not places and not misses:
+    checked = patch.get("checked") or {}
+    if not places and not misses and not checked:
         print("הטלאי ריק")
         return
 
@@ -52,6 +53,13 @@ def main():
         if k in misses and not (card.get("enrichment") or {}).get("source"):
             card["google_miss"] = misses[k]
             applied_miss += 1
+
+    # רענונים שלא החזירו תוצאה — רק תאריך בדיקה, כדי לא לנסות שוב כל ריצה
+    for card in data["cards"]:
+        k = f"{card['name'].strip().lower()}|{card['city']}"
+        enr = card.get("enrichment") or {}
+        if k in checked and enr.get("source") == "גוגל":
+            enr["checked"] = checked[k]
 
     cache = data.setdefault("geocache", {})
     cache.update(patch.get("geocache", {}))
