@@ -23,7 +23,26 @@
    "lat": 32.0683357,
    "lon": 34.7700335,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "סופרים רום Supreme Room",
+     "Mr. Carmel - By TLV2GO",
+     "Mr. Katinsky - By TLV2GO",
+     "ורמוטריה",
+     "Mr. Rothschild - By TLV2GO",
+     "הנסיך",
+     "Mr. Juice"
+    ],
+    "name_echo": true,
+    "address": "נחלת בנימין 9, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTl_I9ZQmjsSBOrdedeLkMWE_9e3emvrNFWysDYQ0rlAbxVyuUdWtVX-XMjWpJc1W69upKyaPB2ofPk-UUZgBxNdXgtT5x947dP1x8WXFzVJVrDLZXYyirr1VCySswrCeMVy9G=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-11-10",
+    "checked": "2026-11-10",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%90%d7%95%d7%9b%d7%9c-%d7%90%d7%9e%d7%a8%d7%99%d7%a7%d7%90%d7%99-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91/#מייקס פלייס",
@@ -181106,7 +181125,8 @@
   "דיזנגוף 107, תל אביב-יפו, ישראל, ישראל": null,
   "פארק גן הפעמון, זאב ז'בוטינסקי 3, ירושלים, ישראל, ישראל": null,
   "מיכ\"ל 1, חיפה, ישראל, ישראל": null,
-  "הנחושת 1, תל אביב-יפו, 6971066, ישראל, ישראל": null
+  "הנחושת 1, תל אביב-יפו, 6971066, ישראל, ישראל": null,
+  "נחלת בנימין 9, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-11-10T00:53:02.092992+02:00"
+ "last_google_run": "2026-11-10T21:52:37.989037+02:00"
 }
