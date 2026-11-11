@@ -6809,8 +6809,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-10-12T18:45:09.197687+03:00"
+    "tries": 4,
+    "last": "2026-11-11T21:43:51.033926+02:00"
    }
   },
   {
@@ -7017,8 +7017,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-10-12T18:45:12.782974+03:00"
+    "tries": 4,
+    "last": "2026-11-11T21:43:54.452021+02:00"
    }
   },
   {
@@ -7046,8 +7046,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-10-12T18:45:17.445697+03:00"
+    "tries": 4,
+    "last": "2026-11-11T21:43:58.672867+02:00"
    }
   },
   {
@@ -7075,8 +7075,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-10-12T18:45:21.844585+03:00"
+    "tries": 4,
+    "last": "2026-11-11T21:44:02.869377+02:00"
    }
   },
   {
@@ -7104,8 +7104,8 @@
    "geo_precision": null,
    "is_sponsored": false,
    "google_miss": {
-    "tries": 3,
-    "last": "2026-10-12T18:43:58.030130+03:00"
+    "tries": 4,
+    "last": "2026-11-11T21:43:15.429723+02:00"
    }
   },
   {
@@ -181162,5 +181162,5 @@
    34.9420675
   ]
  },
- "last_google_run": "2026-11-11T08:46:44.999145+02:00"
+ "last_google_run": "2026-11-11T21:44:33.679578+02:00"
 }
