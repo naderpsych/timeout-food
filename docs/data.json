@@ -23,7 +23,62 @@
    "lat": 32.056115,
    "lon": 34.768009,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "Love Story",
+    "address": "פלורנטין 10, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd1iw-AXb1d1JJwjGdfNeRMbGzK32rfIXsm1R5jgeHbCmETvbms-ahIjR1CEXg_wJI1bblZYKIeldP_huKoopKmf8smNFM0v_EVEeIaGlUUO73bT2vlQpGgykgahUF_DBE36o6Waca0mxrW=w800-h500-k-no",
+    "hours": "ו' 12:00-23:00, ש' 12:00-23:00, א' סגור, ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-111/#קפה שילה",
@@ -48,7 +103,104 @@
    "lat": 32.064891,
    "lon": 34.769965,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "שילה",
+    "address": "מונטיפיורי 9, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3GXJBzFSpd5QmnK_BqLWA3klpIF46fmY967rVoEjygm8Ad_X24qcGpH3yHxDLGMoJ2zvPtsyg9uXTg5430ChF-tS1STrY1VkMsz_zTspohZjF8MgF3Xdc_g_kvdzcZT6MQmGI=w800-h500-k-no",
+    "hours": "ו' 12:00-16:00, 17:30-23:00, ש' 12:00-23:00, א' 18:00-23:00, ב' 12:30-16:00, 18:00-23:00, ג' 12:30-16:00, 18:00-23:00, ד' 12:30-16:00, 18:00-23:00, ה' 12:30-16:00, 18:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "17:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-111/#מנזר",
@@ -73,7 +225,59 @@
    "lat": 32.0695655,
    "lon": 34.7692939,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "Minzar",
+     "מנזר אנטוניוס הקדוש (מרוני)"
+    ],
+    "name_echo": true,
+    "address": "Allenby 60, גדרה 28, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqiVwUKR253PWawdmO0vRquURmEDj0SsFSXqg31AKDaP_SRznSoSk8pnhzGOJN96ufyGITFl4Mk8d7Y-r_8b6d2eF1Q3FKfj1xKYakmnRu1OaJZDTcasJtyEE6Pyl-w0jev2I=w800-h500-k-no",
+    "hours": "ש' 08:00-04:00, א' 08:00-04:00, ב' 08:00-04:00, ג' 08:00-04:00, ד' 08:00-24:00, ו' סגור, ש' סגור",
+    "schedule": [
+     {
+      "days": [
+       6
+      ],
+      "from": "08:00",
+      "to": "04:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:00",
+      "to": "04:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "08:00",
+      "to": "04:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:00",
+      "to": "04:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "08:00",
+      "to": "24:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-111/#יפו",
@@ -136,7 +340,11 @@
    "lat": 32.0700073,
    "lon": 34.7941937,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-11-13T21:52:29.549364+02:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-111/#דיזינגוף סנטר",
@@ -200,7 +408,17 @@
    "lat": 32.0443395,
    "lon": 34.7509908,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "Soho House",
+    "address": "יפת 27, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcKL48J7YoeeWbJqfCMPOYEmENWa2MVJNGLXVirE6gfMArczXFka2Fegoh1aGkjGuRz1Ncpo_m3zq2NyeakVBhA2Ik2i4ou9NJARdZzX-YYvvboiqSyzoGE4A2c2bVIa_p7Yap2=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-111/#השקת סאקה",
@@ -225,7 +443,74 @@
    "lat": null,
    "lon": null,
    "geo_precision": null,
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "Saka Ba",
+     "ASA Izakaya",
+     "A.K.A"
+    ],
+    "name_echo": true,
+    "address": "נחלת בנימין 44, תל אביב-יפו, 6516304, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeHn-dVhmYy2w9aBxLWy_2TfeMvg6Rvc_roswJkiemxc95UyCmCsZfs29h3-8maSUI4_T485cER5wxdfjIgi-qEzXLBnncKWwo3mwXja1bJ5CB_H4YHu95s6XpdcbmBSl5zXwsj=w800-h500-k-no",
+    "hours": "ו' 12:00-24:30, ש' 13:00-24:30, א' 17:00-24:30, ב' 17:00-24:30, ג' 17:00-24:30, ד' 17:00-24:30, ה' 17:00-01:00",
+    "schedule": [
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "13:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "17:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "17:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "17:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "17:00",
+      "to": "24:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "17:00",
+      "to": "01:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-111/#בית פנורמה",
@@ -119039,22 +119324,15 @@
    "lon": 34.7702784,
    "geo_precision": "address",
    "enrichment": {
-    "google_name": "Minzar",
+    "result_names": [
+     "Minzar",
+     "מנזר אנטוניוס הקדוש (מרוני)"
+    ],
+    "name_echo": true,
     "address": "Allenby 60, גדרה 28, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezHGu0rZNEyk45_DPbN79py3E-B_yiuidVfP_ATI0-c3gr-UDcQKbFx-nJ884_TonX14gx8ZjmMLkpjnbGH7K_ZM3XBpM7nLFAW0GITM5lCJet5UEXtWDIieOKdEAS-IF2Wyw=w800-h500-k-no",
-    "source": "גוגל",
-    "date": "2026-11-09",
-    "checked": "2026-11-09",
-    "v": 3,
-    "hours": "ד' 08:00-24:00, ש' 08:00-04:00, א' 08:00-04:00, ב' 08:00-04:00, ג' 08:00-04:00, ד' 12:00-17:00, ה' 12:00-17:00",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqiVwUKR253PWawdmO0vRquURmEDj0SsFSXqg31AKDaP_SRznSoSk8pnhzGOJN96ufyGITFl4Mk8d7Y-r_8b6d2eF1Q3FKfj1xKYakmnRu1OaJZDTcasJtyEE6Pyl-w0jev2I=w800-h500-k-no",
+    "hours": "ש' 08:00-04:00, א' 08:00-04:00, ב' 08:00-04:00, ג' 08:00-04:00, ד' 08:00-24:00, ו' סגור, ש' סגור",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "24:00"
-     },
      {
       "days": [
        6
@@ -119087,17 +119365,14 @@
       "days": [
        3
       ],
-      "from": "12:00",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "17:00"
+      "from": "08:00",
+      "to": "24:00"
      }
-    ]
+    ],
+    "source": "גוגל",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -135623,22 +135898,15 @@
    "lon": 34.7702784,
    "geo_precision": "address",
    "enrichment": {
-    "google_name": "Minzar",
+    "result_names": [
+     "Minzar",
+     "מנזר אנטוניוס הקדוש (מרוני)"
+    ],
+    "name_echo": true,
     "address": "Allenby 60, גדרה 28, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezHGu0rZNEyk45_DPbN79py3E-B_yiuidVfP_ATI0-c3gr-UDcQKbFx-nJ884_TonX14gx8ZjmMLkpjnbGH7K_ZM3XBpM7nLFAW0GITM5lCJet5UEXtWDIieOKdEAS-IF2Wyw=w800-h500-k-no",
-    "source": "גוגל",
-    "date": "2026-11-09",
-    "checked": "2026-11-09",
-    "v": 3,
-    "hours": "ד' 08:00-24:00, ש' 08:00-04:00, א' 08:00-04:00, ב' 08:00-04:00, ג' 08:00-04:00, ד' 12:00-17:00, ה' 12:00-17:00",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqiVwUKR253PWawdmO0vRquURmEDj0SsFSXqg31AKDaP_SRznSoSk8pnhzGOJN96ufyGITFl4Mk8d7Y-r_8b6d2eF1Q3FKfj1xKYakmnRu1OaJZDTcasJtyEE6Pyl-w0jev2I=w800-h500-k-no",
+    "hours": "ש' 08:00-04:00, א' 08:00-04:00, ב' 08:00-04:00, ג' 08:00-04:00, ד' 08:00-24:00, ו' סגור, ש' סגור",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "24:00"
-     },
      {
       "days": [
        6
@@ -135671,17 +135939,14 @@
       "days": [
        3
       ],
-      "from": "12:00",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "17:00"
+      "from": "08:00",
+      "to": "24:00"
      }
-    ]
+    ],
+    "source": "גוגל",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -139705,22 +139970,15 @@
    "lon": 34.7702784,
    "geo_precision": "address",
    "enrichment": {
-    "google_name": "Minzar",
+    "result_names": [
+     "Minzar",
+     "מנזר אנטוניוס הקדוש (מרוני)"
+    ],
+    "name_echo": true,
     "address": "Allenby 60, גדרה 28, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezHGu0rZNEyk45_DPbN79py3E-B_yiuidVfP_ATI0-c3gr-UDcQKbFx-nJ884_TonX14gx8ZjmMLkpjnbGH7K_ZM3XBpM7nLFAW0GITM5lCJet5UEXtWDIieOKdEAS-IF2Wyw=w800-h500-k-no",
-    "source": "גוגל",
-    "date": "2026-11-09",
-    "checked": "2026-11-09",
-    "v": 3,
-    "hours": "ד' 08:00-24:00, ש' 08:00-04:00, א' 08:00-04:00, ב' 08:00-04:00, ג' 08:00-04:00, ד' 12:00-17:00, ה' 12:00-17:00",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqiVwUKR253PWawdmO0vRquURmEDj0SsFSXqg31AKDaP_SRznSoSk8pnhzGOJN96ufyGITFl4Mk8d7Y-r_8b6d2eF1Q3FKfj1xKYakmnRu1OaJZDTcasJtyEE6Pyl-w0jev2I=w800-h500-k-no",
+    "hours": "ש' 08:00-04:00, א' 08:00-04:00, ב' 08:00-04:00, ג' 08:00-04:00, ד' 08:00-24:00, ו' סגור, ש' סגור",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "24:00"
-     },
      {
       "days": [
        6
@@ -139753,17 +140011,14 @@
       "days": [
        3
       ],
-      "from": "12:00",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "17:00"
+      "from": "08:00",
+      "to": "24:00"
      }
-    ]
+    ],
+    "source": "גוגל",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -144472,65 +144727,9 @@
    "enrichment": {
     "google_name": "שילה",
     "address": "מונטיפיורי 9, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcuvKxhgfVMGVKUXZfOy6wSug5H7IUAfWpa2uHLN9BsBOvj5s4nOH_LnUzNxUIERnepDDXDRMVKZp5iad_fh16D03c27c5MOZWW8LLZz3iqxZ89YQPZ2u49bIv_-QWLfCbaYLsr=w800-h500-k-no",
-    "hours": "ב' 12:30-16:00, 18:00-23:00, ג' 12:30-16:00, 18:00-23:00, ד' 12:30-16:00, 18:00-23:00, ה' 12:30-16:00, 18:00-23:00, ו' 12:00-16:00, 17:30-23:00, ש' 12:00-23:00, א' 18:00-23:00",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3GXJBzFSpd5QmnK_BqLWA3klpIF46fmY967rVoEjygm8Ad_X24qcGpH3yHxDLGMoJ2zvPtsyg9uXTg5430ChF-tS1STrY1VkMsz_zTspohZjF8MgF3Xdc_g_kvdzcZT6MQmGI=w800-h500-k-no",
+    "hours": "ו' 12:00-16:00, 17:30-23:00, ש' 12:00-23:00, א' 18:00-23:00, ב' 12:30-16:00, 18:00-23:00, ג' 12:30-16:00, 18:00-23:00, ד' 12:30-16:00, 18:00-23:00, ה' 12:30-16:00, 18:00-23:00",
     "schedule": [
-     {
-      "days": [
-       1
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
      {
       "days": [
        5
@@ -144558,11 +144757,67 @@
       ],
       "from": "18:00",
       "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-11-08",
-    "checked": "2026-11-08",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
     "v": 3
    },
    "closed_permanently": false
@@ -153487,65 +153742,9 @@
    "enrichment": {
     "google_name": "שילה",
     "address": "מונטיפיורי 9, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcuvKxhgfVMGVKUXZfOy6wSug5H7IUAfWpa2uHLN9BsBOvj5s4nOH_LnUzNxUIERnepDDXDRMVKZp5iad_fh16D03c27c5MOZWW8LLZz3iqxZ89YQPZ2u49bIv_-QWLfCbaYLsr=w800-h500-k-no",
-    "hours": "ב' 12:30-16:00, 18:00-23:00, ג' 12:30-16:00, 18:00-23:00, ד' 12:30-16:00, 18:00-23:00, ה' 12:30-16:00, 18:00-23:00, ו' 12:00-16:00, 17:30-23:00, ש' 12:00-23:00, א' 18:00-23:00",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3GXJBzFSpd5QmnK_BqLWA3klpIF46fmY967rVoEjygm8Ad_X24qcGpH3yHxDLGMoJ2zvPtsyg9uXTg5430ChF-tS1STrY1VkMsz_zTspohZjF8MgF3Xdc_g_kvdzcZT6MQmGI=w800-h500-k-no",
+    "hours": "ו' 12:00-16:00, 17:30-23:00, ש' 12:00-23:00, א' 18:00-23:00, ב' 12:30-16:00, 18:00-23:00, ג' 12:30-16:00, 18:00-23:00, ד' 12:30-16:00, 18:00-23:00, ה' 12:30-16:00, 18:00-23:00",
     "schedule": [
-     {
-      "days": [
-       1
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       1
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       3
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:30",
-      "to": "16:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "18:00",
-      "to": "23:00"
-     },
      {
       "days": [
        5
@@ -153573,11 +153772,67 @@
       ],
       "from": "18:00",
       "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "18:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:30",
+      "to": "16:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "18:00",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-11-08",
-    "checked": "2026-11-08",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
     "v": 3
    },
    "closed_permanently": false
@@ -157650,22 +157905,15 @@
    "lon": 34.7702784,
    "geo_precision": "address",
    "enrichment": {
-    "google_name": "Minzar",
+    "result_names": [
+     "Minzar",
+     "מנזר אנטוניוס הקדוש (מרוני)"
+    ],
+    "name_echo": true,
     "address": "Allenby 60, גדרה 28, תל אביב-יפו, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLezHGu0rZNEyk45_DPbN79py3E-B_yiuidVfP_ATI0-c3gr-UDcQKbFx-nJ884_TonX14gx8ZjmMLkpjnbGH7K_ZM3XBpM7nLFAW0GITM5lCJet5UEXtWDIieOKdEAS-IF2Wyw=w800-h500-k-no",
-    "source": "גוגל",
-    "date": "2026-11-09",
-    "checked": "2026-11-09",
-    "v": 3,
-    "hours": "ד' 08:00-24:00, ש' 08:00-04:00, א' 08:00-04:00, ב' 08:00-04:00, ג' 08:00-04:00, ד' 12:00-17:00, ה' 12:00-17:00",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqiVwUKR253PWawdmO0vRquURmEDj0SsFSXqg31AKDaP_SRznSoSk8pnhzGOJN96ufyGITFl4Mk8d7Y-r_8b6d2eF1Q3FKfj1xKYakmnRu1OaJZDTcasJtyEE6Pyl-w0jev2I=w800-h500-k-no",
+    "hours": "ש' 08:00-04:00, א' 08:00-04:00, ב' 08:00-04:00, ג' 08:00-04:00, ד' 08:00-24:00, ו' סגור, ש' סגור",
     "schedule": [
-     {
-      "days": [
-       3
-      ],
-      "from": "08:00",
-      "to": "24:00"
-     },
      {
       "days": [
        6
@@ -157698,17 +157946,14 @@
       "days": [
        3
       ],
-      "from": "12:00",
-      "to": "17:00"
-     },
-     {
-      "days": [
-       4
-      ],
-      "from": "12:00",
-      "to": "17:00"
+      "from": "08:00",
+      "to": "24:00"
      }
-    ]
+    ],
+    "source": "גוגל",
+    "date": "2026-11-13",
+    "checked": "2026-11-13",
+    "v": 3
    },
    "closed_permanently": false
   },
@@ -181444,7 +181689,9 @@
   "דיזנגוף 50, תל אביב, תל אביב, ישראל": [
    32.075508,
    34.7755361
-  ]
+  ],
+  "פלורנטין 10, תל אביב-יפו, ישראל, ישראל": null,
+  "יפת 27, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-11-11T21:44:33.679578+02:00"
+ "last_google_run": "2026-11-13T21:53:46.886104+02:00"
 }
