@@ -36432,9 +36432,23 @@
    "enrichment": {
     "google_name": "House of Mix and Matcha",
     "address": "נחלת בנימין 5, תל אביב-יפו, 6516105, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeaoRfu4eIg6qkVYNydH5ncGU3u5iLU9iMZqax--gdXbVYjvCw7Qonob9OCevaLnQKDq-NYg35paoJQLdYf33lSP4toYAS6Qm5jZBiTfqvHXz0AfTPhFICaLq0eyPmiYEFbhepjXhGHo9QA=w800-h500-k-no",
-    "hours": "ה' 09:00-17:00, ו' 09:00-15:00, ש' סגור, א' סגור, ב' סגור, ג' סגור, ד' סגור",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdg33ZjSjMs1cDpPyB_65UdzfGr5cyjyyQiO334GDgiMUVYUIlXek-oRzCzAdAZYntzHFB40MwdD0zpJeF8nZ8oujvGnTKan2i5ePajTGg7pe_zbTpzswJX1RIDL_q6evGdWIM1r_vOfovy=w800-h500-k-no",
+    "hours": "ש' סגור, א' סגור, ב' סגור, ג' 09:00-17:00, ד' 09:00-17:00, ה' 09:00-17:00, ו' 09:00-15:00",
     "schedule": [
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "17:00"
+     },
      {
       "days": [
        4
@@ -36451,7 +36465,8 @@
      }
     ],
     "source": "גוגל",
-    "date": "2026-10-15",
+    "date": "2026-11-14",
+    "checked": "2026-11-14",
     "v": 3
    },
    "closed_permanently": false
@@ -181693,5 +181708,5 @@
   "פלורנטין 10, תל אביב-יפו, ישראל, ישראל": null,
   "יפת 27, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-11-13T21:53:46.886104+02:00"
+ "last_google_run": "2026-11-14T08:44:04.586392+02:00"
 }
