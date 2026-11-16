@@ -381,8 +381,8 @@
    "geo_precision": "address",
    "is_sponsored": false,
    "google_miss": {
-    "tries": 1,
-    "last": "2026-11-13T21:52:29.549364+02:00"
+    "tries": 2,
+    "last": "2026-11-17T00:18:38.032106+02:00"
    }
   },
   {
@@ -12327,10 +12327,21 @@
    "lon": 34.769327,
    "geo_precision": "address",
    "is_sponsored": false,
-   "google_miss": {
-    "tries": 4,
-    "last": "2026-10-17T13:56:25.806205+03:00"
-   }
+   "enrichment": {
+    "result_names": [
+     "carmel market apartment דירות שוק הכרמל",
+     "The Elliot Hotel Tel Aviv- מלון בוטיק אליוט תל-אביב",
+     "מלון דה נורמן"
+    ],
+    "name_echo": true,
+    "address": "אלשיך 16, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfrPjzGsNt0YiJqhla7L3ktK-D4BJVmTf7OMcBx6jLLY76EXyQmTyue3vzxbSROJiZLjAe6be0auP4WO9Ao7_LP98ibqRpukTfBInh-GF0gZrhyxgIsm42S5Gtdjz16j5vhqPIK=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-11-17",
+    "checked": "2026-11-17",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%90%d7%93%d7%90%d7%9d-%d7%91%d7%9c%d7%94/#צלעות טלה ב-338",
@@ -156121,7 +156132,8 @@
     "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfH6-xO7e9h6Yly9Ij7TKo8IsN7MjPQxg1MCluE6Nq-0h-Upq_5GuzvIcETEtnkbs2dtYvl1XBDwgGAgjKd2yYXE16xg31m9aavpf_uAbDUjPTAIxaS9ea2vsz6evf55XGW4H7yA=w800-h500-k-no",
     "source": "גוגל",
     "date": "2026-10-18",
-    "v": 3
+    "v": 3,
+    "checked": "2026-11-17"
    },
    "closed_permanently": false
   },
@@ -181955,7 +181967,8 @@
   "מגדל נצבא, המסגר 39, תל אביב-יפו, ישראל, ישראל": null,
   "דרך יותם 1, אילת, ישראל, ישראל": null,
   "לבונטין 13, תל אביב-יפו, 6511202, ישראל, ישראל": null,
-  "שער פלמר 3, חיפה, 3303141, ישראל, ישראל": null
+  "שער פלמר 3, חיפה, 3303141, ישראל, ישראל": null,
+  "אלשיך 16, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-11-15T00:43:13.815846+02:00"
+ "last_google_run": "2026-11-17T00:19:59.237605+02:00"
 }
