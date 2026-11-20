@@ -8719,14 +8719,23 @@
    "article_image": "https://medias.timeout.co.il/www/uploads/2026/09/hag-7-1140x641.jpg",
    "published": "2026-09-10T13:31:14+03:00",
    "details_url": null,
-   "lat": null,
-   "lon": null,
-   "geo_precision": null,
+   "lat": 32.1696829,
+   "lon": 34.9111803,
+   "geo_precision": "address",
    "is_sponsored": false,
-   "google_miss": {
-    "tries": 1,
-    "last": "2026-10-14T01:56:02.748731+03:00"
-   }
+   "enrichment": {
+    "result_names": [
+     "אילת"
+    ],
+    "name_echo": true,
+    "google_name": "אילת",
+    "address": "תל אביב-יפו, ישראל",
+    "source": "גוגל",
+    "date": "2026-11-20",
+    "checked": "2026-11-20",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%9e%d7%aa%d7%9b%d7%95%d7%a0%d7%99%d7%9d-%d7%91%d7%95%d7%90%d7%95-%d7%9c%d7%90%d7%9b%d7%95%d7%9c-%d7%90%d7%99%d7%aa%d7%99/#מרכז, חלק ג (פרק 23)",
@@ -181971,5 +181980,5 @@
   "שער פלמר 3, חיפה, 3303141, ישראל, ישראל": null,
   "אלשיך 16, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-11-19T22:48:50.692418+02:00"
+ "last_google_run": "2026-11-20T09:31:10.415079+02:00"
 }
