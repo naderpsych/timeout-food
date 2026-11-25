@@ -62,7 +62,69 @@
    "lat": 32.1300287,
    "lon": 34.7924983,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "גרקו טברנה צפון תל אביב",
+    "address": "אורי צבי גרינברג 25, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfEUl_o1Au2-XT4K74cEo1aRMxWk62MSyxY3n41dGu1BmTEpvzIhI7fT1SVI3HUtB36dRc0ZL96HmuCSEJYa8O8AvFqm4c7EBYjz445TizPvQj1BkW6IbSzo0vac76BPEMibHnN6w=w800-h500-k-no",
+    "hours": "ד' 12:00-23:00, ה' 12:00-23:00, ו' 10:00-23:00, ש' 10:00-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "10:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "10:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-25",
+    "checked": "2026-11-25",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-112/#גאי טוד",
@@ -87,7 +149,11 @@
    "lat": 32.059802,
    "lon": 34.772385,
    "geo_precision": "address",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-11-25T23:49:55.069501+02:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-112/#סלין פרייטאג",
@@ -112,7 +178,55 @@
    "lat": 32.0683357,
    "lon": 34.7700335,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "סלין פרייטאג salen freitag",
+    "address": "שינקין 16, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe7wMU1JbMLf_HnhXRGJL6rvhJik8s3nW93zennVkx-scDw3OmcEMaB3no7EoHh1HUztYn4jqpLQwkM8wCWOPf5Jdc273hquoPlGbcSstYdYxg3ptNiRu9bFuQMiiP6qiIvfrqt=w800-h500-k-no",
+    "hours": "ד' 09:00-12:30, ה' 09:00-12:30, ו' 09:00-12:30, ש' סגור, א' סגור, ב' 09:00-12:30, ג' 09:00-12:30",
+    "schedule": [
+     {
+      "days": [
+       3
+      ],
+      "from": "09:00",
+      "to": "12:30"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "09:00",
+      "to": "12:30"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "09:00",
+      "to": "12:30"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "09:00",
+      "to": "12:30"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "09:00",
+      "to": "12:30"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-25",
+    "checked": "2026-11-25",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-112/#אייל שני X לנדוור",
@@ -137,7 +251,81 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "Landwer Coffee Ramat Aviv Mall",
+     "לנדוור עזריאלי תל אביב",
+     "קפה לנדוור",
+     "לנדוור רוטשילד תל אביב",
+     "לנדוור",
+     "לנדוור",
+     "קפה לנדוור",
+     "לנדוור",
+     "קפה לנדוור",
+     "לנדוור"
+    ],
+    "name_echo": true,
+    "address": "מגדלי עזריאלי, דרך מנחם בגין 132, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfSb_xRna3WGVUnhOhDwv5HoxkI2FLr8MCRk4B1kqk_3VSuiqmjgr9WnBY_DtKghZ5CsSm9baXvDgE3vQOGMKDLbRi_hMfLZXQkGPnYXyukN2S3_z2t9GqU0kcen_b428mU4TfLFQ=w800-h500-k-no",
+    "hours": "ד' 08:30-22:00, ה' 08:30-22:00, ו' 08:30-15:00, ש' 19:30-23:00, א' 08:30-22:00, ב' 08:30-22:00, ג' 08:30-22:00",
+    "schedule": [
+     {
+      "days": [
+       3
+      ],
+      "from": "08:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "08:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "08:30",
+      "to": "15:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "19:30",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "08:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "08:30",
+      "to": "22:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "08:30",
+      "to": "22:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-25",
+    "checked": "2026-11-25",
+    "v": 3
+   },
+   "closed_permanently": true
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-112/#מחניודה X רובי מיכאל",
@@ -162,7 +350,11 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-11-25T23:50:21.188016+02:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-112/#אגאדיר",
@@ -187,7 +379,69 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "google_name": "אגאדיר נמל תל אביב",
+    "address": "Yekutieli 4, תל אביב-יפו, 6350903, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6QqnqJee8DpydKWQ0JvCFw5whJjJ2bVFAaN8QSL5GCe1OpX-8Cv7_23WKN2JBlU8asj1LUhps7L5ALpFHIwktbGEvmWlmGFYmQADvuX5ocEBB_FbPxc3-P6t9AfwRif94XBcL=w800-h500-k-no",
+    "hours": "ד' 12:00-23:00, ה' 12:00-23:00, ו' 12:00-24:00, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00",
+    "schedule": [
+     {
+      "days": [
+       3
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       4
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       5
+      ],
+      "from": "12:00",
+      "to": "24:00"
+     },
+     {
+      "days": [
+       6
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       0
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     }
+    ],
+    "source": "גוגל",
+    "date": "2026-11-25",
+    "checked": "2026-11-25",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-112/#קאב קם",
@@ -276,7 +530,11 @@
    "lat": 32.0852997,
    "lon": 34.7818064,
    "geo_precision": "city",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "google_miss": {
+    "tries": 1,
+    "last": "2026-11-25T23:50:30.663212+02:00"
+   }
   },
   {
    "id": "https://timeout.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-%d7%94%d7%90%d7%95%d7%9b%d7%9c-112/#נמל תל אביב",
@@ -301,7 +559,25 @@
    "lat": 32.063251,
    "lon": 34.7641288,
    "geo_precision": "area",
-   "is_sponsored": false
+   "is_sponsored": false,
+   "enrichment": {
+    "result_names": [
+     "נמל תל אביב",
+     "נמל יפו",
+     "נמל תל אביב",
+     "שוק הנמל",
+     "נווה צדק",
+     "נמל אירועים"
+    ],
+    "name_echo": true,
+    "address": "נמל תל אביב, תל אביב-יפו, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLftGMrOYNiZ4eL3XXDXVefbUCSmK8KsqQCSweoxfdNnsLCi6VHIj5utPNaxqXCO46VybzjnoIiEoWCMux-d-HH9Ki1kVE77VpFZTKkPld_47qYamtn7WKYoYhyoiimKDliH4UtNBw=w800-h500-k-no",
+    "source": "גוגל",
+    "date": "2026-11-25",
+    "checked": "2026-11-25",
+    "v": 3
+   },
+   "closed_permanently": false
   },
   {
    "id": "https://timeout.co.il/theframe/#מסעדת פריים עברה מתיחת פנים יפנית לקראת העתיד של רמת החייל",
@@ -17026,25 +17302,11 @@
    "lon": 34.7509908,
    "geo_precision": "area",
    "enrichment": {
-    "google_name": "אגאדיר בורגר נחלת בינימין",
-    "address": "נחלת בנימין 2, תל אביב-יפו, 6516104, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfOQRUivMJ_lBfQmQ-p-CdTUjJNf8cubnM1Vgi5dYj8J_MGuIiEi5xv0H2MKCkarO2Mj-mvvAnzVNbbIx9nMepe-ToYdADjH1ZNSY3_NLcTaDfJevSmjcw8mdSQrBprFENLslLmow=w800-h500-k-no",
-    "hours": "ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-24:00, ו' 12:00-24:00, ש' 12:00-24:00, א' 12:00-23:00",
+    "google_name": "אגאדיר נמל תל אביב",
+    "address": "Yekutieli 4, תל אביב-יפו, 6350903, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6QqnqJee8DpydKWQ0JvCFw5whJjJ2bVFAaN8QSL5GCe1OpX-8Cv7_23WKN2JBlU8asj1LUhps7L5ALpFHIwktbGEvmWlmGFYmQADvuX5ocEBB_FbPxc3-P6t9AfwRif94XBcL=w800-h500-k-no",
+    "hours": "ד' 12:00-23:00, ה' 12:00-23:00, ו' 12:00-24:00, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00",
     "schedule": [
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
      {
       "days": [
        3
@@ -17057,7 +17319,7 @@
        4
       ],
       "from": "12:00",
-      "to": "24:00"
+      "to": "23:00"
      },
      {
       "days": [
@@ -17071,7 +17333,7 @@
        6
       ],
       "from": "12:00",
-      "to": "24:00"
+      "to": "23:00"
      },
      {
       "days": [
@@ -17079,11 +17341,25 @@
       ],
       "from": "12:00",
       "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-11-09",
-    "checked": "2026-11-09",
+    "date": "2026-11-25",
+    "checked": "2026-11-25",
     "v": 3
    },
    "closed_permanently": false
@@ -40519,25 +40795,11 @@
    "lon": 34.7509908,
    "geo_precision": "area",
    "enrichment": {
-    "google_name": "אגאדיר בורגר נחלת בינימין",
-    "address": "נחלת בנימין 2, תל אביב-יפו, 6516104, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfOQRUivMJ_lBfQmQ-p-CdTUjJNf8cubnM1Vgi5dYj8J_MGuIiEi5xv0H2MKCkarO2Mj-mvvAnzVNbbIx9nMepe-ToYdADjH1ZNSY3_NLcTaDfJevSmjcw8mdSQrBprFENLslLmow=w800-h500-k-no",
-    "hours": "ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-24:00, ו' 12:00-24:00, ש' 12:00-24:00, א' 12:00-23:00",
+    "google_name": "אגאדיר נמל תל אביב",
+    "address": "Yekutieli 4, תל אביב-יפו, 6350903, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6QqnqJee8DpydKWQ0JvCFw5whJjJ2bVFAaN8QSL5GCe1OpX-8Cv7_23WKN2JBlU8asj1LUhps7L5ALpFHIwktbGEvmWlmGFYmQADvuX5ocEBB_FbPxc3-P6t9AfwRif94XBcL=w800-h500-k-no",
+    "hours": "ד' 12:00-23:00, ה' 12:00-23:00, ו' 12:00-24:00, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00",
     "schedule": [
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
      {
       "days": [
        3
@@ -40550,7 +40812,7 @@
        4
       ],
       "from": "12:00",
-      "to": "24:00"
+      "to": "23:00"
      },
      {
       "days": [
@@ -40564,7 +40826,7 @@
        6
       ],
       "from": "12:00",
-      "to": "24:00"
+      "to": "23:00"
      },
      {
       "days": [
@@ -40572,11 +40834,25 @@
       ],
       "from": "12:00",
       "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-11-09",
-    "checked": "2026-11-09",
+    "date": "2026-11-25",
+    "checked": "2026-11-25",
     "v": 3
    },
    "closed_permanently": false
@@ -106201,25 +106477,11 @@
    "lon": 34.7509908,
    "geo_precision": "area",
    "enrichment": {
-    "google_name": "אגאדיר בורגר נחלת בינימין",
-    "address": "נחלת בנימין 2, תל אביב-יפו, 6516104, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfOQRUivMJ_lBfQmQ-p-CdTUjJNf8cubnM1Vgi5dYj8J_MGuIiEi5xv0H2MKCkarO2Mj-mvvAnzVNbbIx9nMepe-ToYdADjH1ZNSY3_NLcTaDfJevSmjcw8mdSQrBprFENLslLmow=w800-h500-k-no",
-    "hours": "ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-24:00, ו' 12:00-24:00, ש' 12:00-24:00, א' 12:00-23:00",
+    "google_name": "אגאדיר נמל תל אביב",
+    "address": "Yekutieli 4, תל אביב-יפו, 6350903, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6QqnqJee8DpydKWQ0JvCFw5whJjJ2bVFAaN8QSL5GCe1OpX-8Cv7_23WKN2JBlU8asj1LUhps7L5ALpFHIwktbGEvmWlmGFYmQADvuX5ocEBB_FbPxc3-P6t9AfwRif94XBcL=w800-h500-k-no",
+    "hours": "ד' 12:00-23:00, ה' 12:00-23:00, ו' 12:00-24:00, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00",
     "schedule": [
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
      {
       "days": [
        3
@@ -106232,7 +106494,7 @@
        4
       ],
       "from": "12:00",
-      "to": "24:00"
+      "to": "23:00"
      },
      {
       "days": [
@@ -106246,7 +106508,7 @@
        6
       ],
       "from": "12:00",
-      "to": "24:00"
+      "to": "23:00"
      },
      {
       "days": [
@@ -106254,11 +106516,25 @@
       ],
       "from": "12:00",
       "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-11-09",
-    "checked": "2026-11-09",
+    "date": "2026-11-25",
+    "checked": "2026-11-25",
     "v": 3
    },
    "closed_permanently": false
@@ -171974,25 +172250,11 @@
    "lon": 34.7509908,
    "geo_precision": "area",
    "enrichment": {
-    "google_name": "אגאדיר בורגר נחלת בינימין",
-    "address": "נחלת בנימין 2, תל אביב-יפו, 6516104, ישראל",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfOQRUivMJ_lBfQmQ-p-CdTUjJNf8cubnM1Vgi5dYj8J_MGuIiEi5xv0H2MKCkarO2Mj-mvvAnzVNbbIx9nMepe-ToYdADjH1ZNSY3_NLcTaDfJevSmjcw8mdSQrBprFENLslLmow=w800-h500-k-no",
-    "hours": "ב' 12:00-23:00, ג' 12:00-23:00, ד' 12:00-23:00, ה' 12:00-24:00, ו' 12:00-24:00, ש' 12:00-24:00, א' 12:00-23:00",
+    "google_name": "אגאדיר נמל תל אביב",
+    "address": "Yekutieli 4, תל אביב-יפו, 6350903, ישראל",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6QqnqJee8DpydKWQ0JvCFw5whJjJ2bVFAaN8QSL5GCe1OpX-8Cv7_23WKN2JBlU8asj1LUhps7L5ALpFHIwktbGEvmWlmGFYmQADvuX5ocEBB_FbPxc3-P6t9AfwRif94XBcL=w800-h500-k-no",
+    "hours": "ד' 12:00-23:00, ה' 12:00-23:00, ו' 12:00-24:00, ש' 12:00-23:00, א' 12:00-23:00, ב' 12:00-23:00, ג' 12:00-23:00",
     "schedule": [
-     {
-      "days": [
-       1
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
-     {
-      "days": [
-       2
-      ],
-      "from": "12:00",
-      "to": "23:00"
-     },
      {
       "days": [
        3
@@ -172005,7 +172267,7 @@
        4
       ],
       "from": "12:00",
-      "to": "24:00"
+      "to": "23:00"
      },
      {
       "days": [
@@ -172019,7 +172281,7 @@
        6
       ],
       "from": "12:00",
-      "to": "24:00"
+      "to": "23:00"
      },
      {
       "days": [
@@ -172027,11 +172289,25 @@
       ],
       "from": "12:00",
       "to": "23:00"
+     },
+     {
+      "days": [
+       1
+      ],
+      "from": "12:00",
+      "to": "23:00"
+     },
+     {
+      "days": [
+       2
+      ],
+      "from": "12:00",
+      "to": "23:00"
      }
     ],
     "source": "גוגל",
-    "date": "2026-11-09",
-    "checked": "2026-11-09",
+    "date": "2026-11-25",
+    "checked": "2026-11-25",
     "v": 3
    },
    "closed_permanently": false
@@ -182429,7 +182705,10 @@
   "נחלת בנימין 84, תל אביב, תל אביב, ישראל": [
    32.059802,
    34.772385
-  ]
+  ],
+  "שינקין 16, תל אביב-יפו, ישראל, ישראל": null,
+  "מגדלי עזריאלי, דרך מנחם בגין 132, תל אביב-יפו, ישראל, ישראל": null,
+  "נמל תל אביב, תל אביב-יפו, ישראל, ישראל": null
  },
- "last_google_run": "2026-11-25T00:37:35.140691+02:00"
+ "last_google_run": "2026-11-25T23:51:34.103488+02:00"
 }
